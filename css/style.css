@@ -564,3 +564,12 @@ ul#images li {
   height: 300px;
   list-style: none;
 }
+/* Custom Code */
+.homepageimg {
+  width: 800px;
+  margin: auto;
+}
+.homepageimg img{
+  width: 80%;
+  margin: auto;
+}
