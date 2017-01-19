@@ -261,7 +261,7 @@ nav {
 }
 
 .content { 
-  text-align: left;
+  text-align: justify;
   width: 670px;
   margin: 25px 0 0 0;
   float: left;
@@ -572,4 +572,35 @@ ul#images li {
 .homepageimg img{
   width: 80%;
   margin: auto;
+}
+
+/* Codes for People page */
+#peopleArea{
+
+}
+#pAreaBody{}
+
+.person{
+
+}
+
+.personImg{}
+
+.personInfo{}
+
+.shortInfo{
+  text-align: justify;
+}
+.shortInfo p{
+  text-align: justify;
+}
+.personLinks{}
+
+.personLinks img{
+  margin: 0;
+}
+
+.personBorder{
+    border-bottom: 1px solid #999;
+    margin-bottom: 30px;
 }
