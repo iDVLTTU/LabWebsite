@@ -604,3 +604,29 @@ ul#images li {
     border-bottom: 1px solid #999;
     margin-bottom: 30px;
 }
+
+.peopleImg div{
+  display: inline-block;
+  margin: 0;
+}
+
+#imagesNEWADD li{
+  list-style: none;
+  display: inline-block;
+}
+li{
+  display: inline-block;
+}
+#hovertext {
+    display: block;
+}
+
+#tommyImg:hover  #peopleArea {
+    display: none;
+}
+
+img:hover{
+  -moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 10px #ccc; 
+}
