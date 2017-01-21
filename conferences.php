@@ -536,7 +536,7 @@
    &nbsp;&nbsp; &nbsp; &nbsp;For more Visualization conferences, click <a href="http://www.wikicfp.com/cfp/call?conference=visualization">here</a>
 
     </div>
-    <footer>
+
 
 
 <?php include 'footer.php'; ?>

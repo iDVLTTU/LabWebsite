@@ -27,7 +27,7 @@
           <li><a href="publication.php">Publications</a></li>
           <li><a href="researchProjects.php">Research Projects</a></li>
           <li><a href="activities.php">Activities</a></li>
-          <li><a href="conferences.html">Conferences</a></li>
+          <li><a href="conferences.php">Conferences</a></li>
           <li><a href="http://www.myweb.ttu.edu/tnhondan/">Tommy Homepage</a></li>
          
         </ul>
