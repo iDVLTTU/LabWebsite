@@ -1,40 +1,6 @@
-<!DOCTYPE HTML>
-<html>
+<?php include 'header.php'; ?>
 
-<head>
-  <title>iDVL: interactive Data Visualization Lab</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <!-- modernizr enables HTML5 elements and feature detects -->
-  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
-  <script type="text/javascript" src="js/jquery-1.8.3.js"></script>
-</head>
-
-<body>
-  <div id="main">
-    <header>
-      <div id="logo">
-        <div id="logo_text">
-           <h1><a href="index.html">iDVL<span class="logo_colour"> interactive Data Visualization Lab</span> <img height="48px" src="images/TTUlogo.png" alt="logo" title="logo"></a>
-           </h1>
-        </div>
-      </div>
-      <nav>
-        <ul class="sf-menu" id="nav">
-          <li><a href="index.html">Home</a></li>
-          <li class="selected"><a href="People.html">People</a></li>
-          <li><a href="Publications.html">Publications</a></li>
-          <li><a href="ResearchProjects.html">Research Projects</a></li>
-          <li><a href="Activities.html">Activities</a></li>
-          <li><a href="conferences.html">Conferences</a></li>
-          <li><a href="http://www.myweb.ttu.edu/tnhondan/">Tommy Homepage</a></li>
-         
-        </ul>
-      </nav>
-    </header>
-    <div id="site_content">
+<div id="site_content">
     <div id="top_border"></div>
             <h1 style="font-size: 40px;">iDVL Team</h1>
         <div class="peopleImg">
@@ -48,17 +14,7 @@
         <div id="amitImg"><img src="pic/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi" /></div>
       </div>
 
-     <div id="sidebar_container">
-      <img class="paperclip" src="images/paperclip.png" alt="paperclip" />
-        <div class="sidebar">
-          <h3>Latest News</h3>
-          <h4>Website Launched</h4>
-          <h5>January 20th, 2017</h5>
-          <p>The website for the iDVL is lunched.<br /><a href="#">Read more</a></p>
-        </div>
-      </div>
-
-      <div class="content">
+      <div class="content fullPage">
         <div id="peopleArea">
 
             <div id="pAreaBody">
@@ -206,21 +162,5 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
     </div>
 
   </div>
-      <footer>
-      <p>Last revised: Jan 1, 2017 | Copyright &copy; iDVL, TTU</p>
-    </footer>
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
-  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
-  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#images').kwicks({
-        max : 600,
-        spacing : 2
-      });
-      $('ul.sf-menu').sooperfish();
-    });
-  </script>
-</body>
-</html>
+
+<?php include 'footer.php'; ?>

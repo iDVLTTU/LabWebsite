@@ -262,7 +262,7 @@ nav {
 
 .content { 
   text-align: justify;
-  width: 670px;
+  width: 775px;
   margin: 25px 0 0 0;
   float: left;
   font-size: 120%;
@@ -566,15 +566,19 @@ ul#images li {
 }
 /* Custom Code */
 .homepageimg {
-  width: 800px;
-  margin: auto;
+  width: 775px;
+
 }
 .homepageimg img{
-  width: 80%;
+  width: 98%;
   margin: auto;
+}
+.fullPage{
+  width: 100%;
 }
 
 /* Codes for People page */
+
 #peopleArea{
 
 }
