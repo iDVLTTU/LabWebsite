@@ -169,11 +169,11 @@ header {
 }
 
 #logo_text h1 a .logo_colour { 
-  color: #4D7C1B;
+  color: #EB0405;
 }
 
 #logo_text a:hover .logo_colour { 
-  color: #4D7C1B;
+  color: #EB0405;
 }
 
 #logo_text h2 { 
