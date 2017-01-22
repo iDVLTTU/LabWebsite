@@ -513,9 +513,9 @@ ul#nav li a {
 
 ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected a, ul#nav li.selected a:hover, ul#nav li.selected a:focus { 
   background: #000;
-  background: -moz-linear-gradient(#82AC10, #3F861B);
-  background: -o-linear-gradient(#82AC10, #3F861B);
-  background: -webkit-linear-gradient(#82AC10, #3F861B);
+  background: -moz-linear-gradient(#eb0405, #EB0405);
+  background: -o-linear-gradient(#eb0405, #EB0405);
+  background: -webkit-linear-gradient(#eb0405, #EB0405);
   border-radius: 6px 6px 6px 6px;
   -moz-border-radius: 6px 6px 6px 6px;
   -webkit-border: 6px 6px 6px 6px;
