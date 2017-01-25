@@ -39,14 +39,14 @@ include 'menu.php';
                 <h3>Amitsingh</h3>
             </div>
         </div>
-        <div class="personImgBorder"></div> 
+        <div class="personImgBorder" style="clear:both; margin-top: 250px;"></div> 
 
         <div class="infoArea content fullPage">
+         
             <div id="infOne"> 
                 <div  id="tommy" class="person">
                     <div class="personImg"></div>
-                    <div class="personInfo">
-                       
+                    <div class="personInfo">                       
                       <h3>Tommy Dang, <span class="designation">Assistant Professor</span></h3>
                       <p class="shortInfo">
                         Tommy Dang leads the interactive Data Visualization Lab (iDVL). He is currently an Assistant Professor in the Computer Science Department at Texas Tech University. His research on interactive visual analytics has appeared in Computer Graphics Forum and IEEE Transactions on Visualization and Computer Graphics and has been presented at VIS, EuroVis, BioVis, and PacificVis, among others. 
