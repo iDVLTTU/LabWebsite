@@ -16,21 +16,21 @@ include 'menu.php'; ?>
                   <?php
                         $xmls=simplexml_load_file("activities.xml") or die("Error: Cannot create object");
                         foreach ($xmls as $xml) { ?>
-                          <div class="activityBorder"></div>
+                          <div class="activityBorder top_border"></div>
                           <?php 
-                          echo "<h4>" . $xml->date . "</h4>";
+                          echo "<h4>" . $xml->date->asXml() . "</h4>";
                           if($xml->vinh != "")
-                          echo "<li>" . $xml->vinh . "</li>";
+                          echo "<li>" . $xml->vinh->asXml() . "</li>";
                           if($xml->long != "")
-                          echo "<li>" . $xml->long. "</li>";
+                          echo "<li>" . $xml->long->asXml() . "</li>";
                           if($xml->yasin != "")
-                          echo "<li>" . $xml->yasin . "</li>";
+                          echo "<li>" . $xml->yasin->asXml() . "</li>";
                           if($xml->amit != "")
-                          echo "<li>" . $xml->amit . "</li>";
+                          echo "<li>" . $xml->amit->asXml() . "</li>";
                           if($xml->work5 != "")
-                          echo "<li>" . $xml->work5 . "</li>";
+                          echo "<li>" . $xml->work5->asXml() . "</li>";
                           if($xml->work5 != "")
-                          echo "<li>" . $xml->work6 . "</li>";
+                          echo "<li>" . $xml->work6->asXml() . "</li>";
                         }
                   ?> 
 
