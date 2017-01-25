@@ -795,3 +795,8 @@ img:hover{
       border-bottom: 1px solid #fff;
       margin-top: 10px;
 }
+
+.myclass {
+    float: left;
+    display: block;
+}
