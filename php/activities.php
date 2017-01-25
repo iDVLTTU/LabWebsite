@@ -6,7 +6,7 @@ include 'menu.php'; ?>
     <div id="top_border"></div>
       <div class="content fullPage">
         <div id="activities">
-          Design lab Logo. Lab T-shirt?
+ 
 
           <h3>iDVL is a newly established lab in Texas Tech University. This lab is moving forward several activities and will adopt more soon. </h3>
 
