@@ -521,7 +521,10 @@ ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected a, ul#nav li.selected a
   -webkit-border: 6px 6px 6px 6px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;  }
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; 
+  color: #fff;
+    text-shadow: 1px 1px #000;
+   }
 }
 
 
@@ -755,7 +758,7 @@ img:hover{
 .activityList h4{
   color: #9e1f1f;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 .activityList h5{
   color: #000;
@@ -763,10 +766,16 @@ img:hover{
   margin-bottom: -5px;
 }
 .activityList ul li{
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   display: block;
 
 }
+.activityList ul li{
+  margin-bottom: -8px;
+  margin-top: -8px;
+  display: block;
+}
 .activityBorder{
       border-bottom: 2px solid #999;
+      margin-top: 10px;
 }
