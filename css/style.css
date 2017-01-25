@@ -568,6 +568,10 @@ ul#images li {
   list-style: none;
 }
 /* Custom Code */
+.contentBox{
+  text-align: justify;
+  width: 755px;
+}
 .homepageimg {
   width: 775px;
 
@@ -749,6 +753,7 @@ img:hover{
   -webkit-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
+
 }
 
 .hovereffect:hover h2 {
@@ -795,8 +800,123 @@ img:hover{
       border-bottom: 1px solid #fff;
       margin-top: 10px;
 }
-
+.Border{
+      border-top: 1px solid #AFABAB;
+      border-bottom: 1px solid #fff;
+  
+}
+#Border{
+      border-top: 1px solid #AFABAB;
+      border-bottom: 1px solid #fff;
+      margin-top: 10px;
+}
 .myclass {
     float: left;
     display: block;
 }
+/* Sidebar */ 
+.sidebar a{
+  float: right;
+}
+.sidebar h4{
+  line-height: 20px;
+}
+.sidebar h5{
+  margin-bottom: -10px;
+}
+.sidebar p{
+  line-height: 15px;
+  text-align: justify;
+}
+.newsBox{
+  text-align: justify;
+  width: 760px;
+}
+/* Publication Page */
+.publicationPage h4{
+  font-size: 20px;
+}
+.publicationPage ul li{
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+
+
+
+.screenshot {
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.screenshot h3{
+  color: #fff;
+}
+
+.screenshot-caption {
+  position: absolute;
+  width: 100%;
+  background: rgba(44,62,80,.4);
+  color: #ffffff;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+  }
+
+.screenshot-caption > * {
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+}
+
+.screenshot-caption_top {
+  top: -100%;
+  left: 0;
+}
+.screenshot-caption_topRight {
+  top: -100%;
+  left: 100%;
+}
+.screenshot-caption_right {
+  top: 0;
+  left: 100%;
+}
+.screenshot-caption_bottomRight {
+  top: 100%;
+  left: 100%;
+}
+.screenshot-caption_bottom {
+  top: 100%;
+  left: 0;
+}
+.screenshot-caption_bottomLeft {
+  top: 100%;
+  left: -100%;
+}
+.screenshot-caption_left {
+  top: 0;
+  left: -100%;
+}
+.screenshot-caption_topLeft {
+  top: -100%;
+  left: -100%;
+}
+
+.screenshot:hover .screenshot-caption {
+  top: 0;
+  left: 0;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+
+.screenshot:hover .screenshot-caption > * {
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  opacity: 1;
+ 
+}
+
