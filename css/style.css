@@ -957,3 +957,7 @@ p{
 h3{
   line-height: 5px;
 }
+.personInfo p { 
+  padding: 0 0 2px 0;
+  line-height: 1.7em;
+}
