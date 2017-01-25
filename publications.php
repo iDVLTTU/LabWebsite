@@ -27,5 +27,4 @@ include 'menu.php';
             <p>For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.</p>
       </div>
 </div>
-
 <?php include 'footer.php'; ?>

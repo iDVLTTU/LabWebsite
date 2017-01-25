@@ -9,33 +9,33 @@ include 'menu.php';
 
        <h1 style="font-size: 40px;">iDVL Team</h1>
       
-        <div class="images imgOne tommy hovereffect">
+        <div class="images imgOne tommy hovereffect screenshot">
             <img src="pic/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
-            <div class="overlay">
+            <div class="screenshot-caption screenshot-caption_bottom">
                 <h3>Tommy Dang</h3>
             </div>
         </div>
-        <div class="images imgTwo vinh hovereffect">
+        <div class="images imgTwo vinh hovereffect screenshot">
             <img src="pic/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen">
-            <div class="overlay">
+            <div class="screenshot-caption screenshot-caption_bottom">
                 <h3>Vinh Nguyen</h3>
             </div>
         </div>
-        <div class="images imgThree long hovereffect">
+        <div class="images imgThree long hovereffect screenshot">
             <img src="pic/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
-            <div class="overlay">
+            <div class="screenshot-caption screenshot-caption_bottom">
                 <h3>Long Hoang</h3>
             </div>
         </div>
-        <div class="images imgFour yasin hovereffect">
+        <div class="images imgFour yasin hovereffect screenshot">
             <img src="pic/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
-            <div class="overlay">
+            <div class="screenshot-caption screenshot-caption_bottom">
                 <h3>Yasin Kabir</h3>
             </div>
         </div>
-        <div class="images imgFive amit hovereffect">
+        <div class="images imgFive amit hovereffect screenshot">
             <img src="pic/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi">
-            <div class="overlay">
+            <div class="screenshot-caption screenshot-caption_bottom">
                 <h3>Amitsingh</h3>
             </div>
         </div>
