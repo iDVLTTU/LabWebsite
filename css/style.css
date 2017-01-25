@@ -568,6 +568,10 @@ ul#images li {
   list-style: none;
 }
 /* Custom Code */
+.contentBox{
+  text-align: justify;
+  width: 755px;
+}
 .homepageimg {
   width: 775px;
 
@@ -795,8 +799,44 @@ img:hover{
       border-bottom: 1px solid #fff;
       margin-top: 10px;
 }
-
+.Border{
+      border-top: 1px solid #AFABAB;
+      border-bottom: 1px solid #fff;
+  
+}
+#Border{
+      border-top: 1px solid #AFABAB;
+      border-bottom: 1px solid #fff;
+      margin-top: 10px;
+}
 .myclass {
     float: left;
     display: block;
+}
+/* Sidebar */ 
+.sidebar a{
+  float: right;
+}
+.sidebar h4{
+  line-height: 20px;
+}
+.sidebar h5{
+  margin-bottom: -10px;
+}
+.sidebar p{
+  line-height: 15px;
+  text-align: justify;
+}
+.newsBox{
+  text-align: justify;
+  width: 760px;
+}
+/* Publication Page */
+.publicationPage h4{
+  font-size: 20px;
+}
+.publicationPage ul li{
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
 }
