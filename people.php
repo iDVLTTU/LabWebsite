@@ -53,22 +53,22 @@ include 'menu.php';
                       </p>
                       <p class="personLinks">
 
-                        <a href="file/TommyDang-2016-CV.pdf"> <img src="img/cv.gif" height="35" padding="0" alt="TuanDang CV"/></a> &nbsp; 
+                        <a href="file/TommyDang-2016-CV.pdf"> <img src="images/icons/cv.gif" height="35" padding="0" alt="TuanDang CV"/></a> &nbsp; 
 
-                        <a href="http://www.myweb.ttu.edu/tnhondan/"> <img src="img/webico.png" height="28" padding="0" alt="Website of Tommy Dang"/></a> &nbsp; 
+                        <a href="http://www.myweb.ttu.edu/tnhondan/"> <img src="images/icons/webico.png" height="28" padding="0" alt="Website of Tommy Dang"/></a> &nbsp; 
   
-                        <a href="http://www.linkedin.com/in/tuan-dang-ab6221a"> <img src="img/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+                        <a href="http://www.linkedin.com/in/tuan-dang-ab6221a"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
-                        <a href="http://github.com/Tommy-Dang"> <img src="img/github.png" height="22" alt="Github" /></a> &nbsp; 
+                        <a href="http://github.com/Tommy-Dang"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <a href="http://scholar.google.com/citations?user=jobGGfEAAAAJ"> <img src="img/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+                        <a href="http://scholar.google.com/citations?user=jobGGfEAAAAJ"> <img src="images/icons/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
 
-                        <a href="img/orcid_qrcode.png"> <img src="img/orcid_qrcode_tommy.png" height="22"  padding="0" alt="orcid_qrcode"/></a> 
+                        <a href="images/icons/orcid_qrcode.png"> <img src="images/icons/orcid_qrcode_tommy.png" height="22"  padding="0" alt="orcid_qrcode"/></a> 
 
-                        <a href="http://orcid.org/0000-0001-8322-0014"> <img src="img/ORCID.png" height="22"  padding="0" alt="ORCid"/></a>
+                        <a href="http://orcid.org/0000-0001-8322-0014"> <img src="images/icons/ORCID.png" height="22"  padding="0" alt="ORCid"/></a>
                          &nbsp; 
   
-                        <a href="http://www.researcherid.com/rid/P-9915-2016"> <img src="img/researcherID.png" height="23"  padding="0" alt="researcherID"/></a>  
+                        <a href="http://www.researcherid.com/rid/P-9915-2016"> <img src="images/icons/researcherID.png" height="23"  padding="0" alt="researcherID"/></a>  
                       </p> 
                     </div>   
                     <div class="personBorder"></div>                 
@@ -87,16 +87,16 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                       </p>
                       <p class="personLinks">
 
-                          <a href="file/vinh.pdf"> <img src="img/cv.gif" height="35" padding="0" alt="Vinh Nguyen CV"/></a> &nbsp; 
+                          <a href="file/vinh.pdf"> <img src="images/icons/cv.gif" height="35" padding="0" alt="Vinh Nguyen CV"/></a> &nbsp; 
 
             
-                        <a href="http://myweb.ttu.edu/vinhtngu"> <img src="img/webico.png" height="28" padding="0" alt="Website of Vinh Nguyen"/></a> &nbsp; 
+                        <a href="http://myweb.ttu.edu/vinhtngu"> <img src="images/icons/webico.png" height="28" padding="0" alt="Website of Vinh Nguyen"/></a> &nbsp; 
   
-                        <a href="https://www.linkedin.com/in/vinh-nguyen-the-74242187"> <img src="img/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+                        <a href="https://www.linkedin.com/in/vinh-nguyen-the-74242187"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
-                        <a href="https://github.com/Alex-Nguyen"> <img src="img/github.png" height="22" alt="Github" /></a> &nbsp; 
+                        <a href="https://github.com/Alex-Nguyen"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <a href="https://scholar.google.com/citations?hl=en&user=6rZWCbcAAAAJ"> <img src="img/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+                        <a href="https://scholar.google.com/citations?hl=en&user=6rZWCbcAAAAJ"> <img src="images/icons/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
                     </div>   
                     <div class="personBorder"></div>                 
@@ -113,16 +113,16 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                       </p>
                       <p class="personLinks">
 
-                        <a href="http://cse.tlu.edu.vn/Portals/0/Longnh_CV_en_tlu.pdf"> <img src="img/cv.gif" height="35" padding="0" alt="Long Hoang CV"/></a> &nbsp; 
+                        <a href="http://cse.tlu.edu.vn/Portals/0/Longnh_CV_en_tlu.pdf"> <img src="images/icons/cv.gif" height="35" padding="0" alt="Long Hoang CV"/></a> &nbsp; 
           
 
-                        <a href="http://myweb.ttu.edu/vinhtngu"> <img src="img/webico.png" height="28" padding="0" alt="Website of Long Hoang Nguyen"/></a> &nbsp; 
+                        <a href="http://myweb.ttu.edu/vinhtngu"> <img src="images/icons/webico.png" height="28" padding="0" alt="Website of Long Hoang Nguyen"/></a> &nbsp; 
   
-                        <a href="https://www.linkedin.com/in/hoang-long-nguyen-9713676"> <img src="img/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+                        <a href="https://www.linkedin.com/in/hoang-long-nguyen-9713676"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
-                        <a href="https://github.com/litpuvn"> <img src="img/github.png" height="22" alt="Github" /></a> &nbsp; 
+                        <a href="https://github.com/litpuvn"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <a href="https://scholar.google.com.vn/citations?hl=en&user=H_BL5agAAAAJ"> <img src="img/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+                        <a href="https://scholar.google.com.vn/citations?hl=en&user=H_BL5agAAAAJ"> <img src="images/icons/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
                     </div>   
                     <div class="personBorder"></div>                 
@@ -144,16 +144,16 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                       </p>
                       <p class="personLinks">
 
-                        <a href="http://www.mykabir.info/cv/Resume_Yasin_kabir.pdf"> <img src="img/cv.gif" height="35" padding="0" alt="Yasin Kabir CV"/></a> &nbsp; 
+                        <a href="http://www.mykabir.info/cv/Resume_Yasin_kabir.pdf"> <img src="images/icons/cv.gif" height="35" padding="0" alt="Yasin Kabir CV"/></a> &nbsp; 
 
 
-                        <a href="http://www.myweb.ttu.edu/mdykabir"> <img src="img/webico.png" height="28" padding="0" alt="Website of Md. Yasin Kabir"/></a> &nbsp; 
+                        <a href="http://www.myweb.ttu.edu/mdykabir"> <img src="images/icons/webico.png" height="28" padding="0" alt="Website of Md. Yasin Kabir"/></a> &nbsp; 
   
-                        <a href="https://www.linkedin.com/in/yasin-kabir-b1879184"> <img src="img/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+                        <a href="https://www.linkedin.com/in/yasin-kabir-b1879184"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
-                        <a href="https://github.com/mykabir/"> <img src="img/github.png" height="22" alt="Github" /></a> &nbsp; 
+                        <a href="https://github.com/mykabir/"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <a href="https://scholar.google.com/citations?user=nm9qB7kAAAAJ"> <img src="img/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+                        <a href="https://scholar.google.com/citations?user=nm9qB7kAAAAJ"> <img src="images/icons/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
                     </div>
                      <div class="personBorder"></div>
@@ -172,16 +172,16 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                       </p>
                       <p class="personLinks">
 
-                         <a href="file/Amit_resume.pdf"> <img src="img/cv.gif" height="35" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
+                         <a href="file/Amit_resume.pdf"> <img src="images/icons/cv.gif" height="35" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
 
 
-                        <a href="http://www.myweb.ttu.edu/"> <img src="img/webico.png" height="28" padding="0" alt="Website of Amitsingh Pardeshi"/></a> &nbsp; 
+                        <a href="http://www.myweb.ttu.edu/"> <img src="images/icons/webico.png" height="28" padding="0" alt="Website of Amitsingh Pardeshi"/></a> &nbsp; 
   
-                        <a href="https://www.linkedin.com/in/amit-pardesi-95340277"> <img src="img/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+                        <a href="https://www.linkedin.com/in/amit-pardesi-95340277"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
-                        <a href="https://github.com/pardeshiamitsingh"> <img src="img/github.png" height="22" alt="Github" /></a> &nbsp; 
+                        <a href="https://github.com/pardeshiamitsingh"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <a href="https://scholar.google.com/citations?user=jWJAhKoAAAAJ&hl=en"> <img src="img/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+                        <a href="https://scholar.google.com/citations?user=jWJAhKoAAAAJ&hl=en"> <img src="images/icons/GoogleScholar.png" height="28"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
                     </div>                    
                 </div>
