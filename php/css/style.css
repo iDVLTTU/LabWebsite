@@ -758,7 +758,7 @@ img:hover{
 .activityList h4{
   color: #9e1f1f;
   font-size: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 .activityList h5{
   color: #000;
@@ -771,10 +771,11 @@ img:hover{
 
 }
 .activityList ul li{
-  margin-bottom: 0px;
+  margin-bottom: -8px;
+  margin-top: -8px;
   display: block;
-
 }
 .activityBorder{
       border-bottom: 2px solid #999;
+      margin-top: 10px;
 }
