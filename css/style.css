@@ -63,7 +63,7 @@ h3 {
 }
 
 h4, h6 { 
-  color: #4D7C1B;
+  color: #9e1f1f;
   padding: 0 0 5px 0;
   font: normal 160% 'News Cycle', arial, sans-serif;
 }
@@ -625,18 +625,28 @@ ul#images li {
 }
 .personImgBorder{
 
-    border-bottom: 1px solid #999;
+    border-top: 1px solid #AFABAB;
+    border-bottom: 1px solid #fff;
     margin-top: 30px;
 }
 
 .personBorder{
-    border-bottom: 1px solid #999;
+    border-top: 1px solid #AFABAB;
+    border-bottom: 1px solid #fff;
     margin-bottom: 30px;
 }
 
 .peopleImg div{
   display: inline-block;
   margin: 0;
+}
+.personOverlay img{
+  float: left;
+  height: 25px;
+  margin-right: 8px;
+  margin-left: 5px;
+
+
 }
 
 #imagesNEWADD li{
@@ -680,6 +690,11 @@ img:hover{
   -webkit-transition: all 0.2s 0.4s ease-in-out;
   transition: all 0.2s 0.4s ease-in-out;
   width: 150px;
+}
+.hovereffect .overlayBottom {
+  
+  top: 175px;
+  height: 26px;
 }
 .overlay h3{
   text-align: center;
@@ -776,6 +791,7 @@ img:hover{
   display: block;
 }
 .activityBorder{
-      border-bottom: 2px solid #999;
+      border-top: 1px solid #AFABAB;
+      border-bottom: 1px solid #fff;
       margin-top: 10px;
 }

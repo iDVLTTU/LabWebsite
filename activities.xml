@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<activities>
+
+<activity category="Team">
+<date>Date: January 23, 2017</date>
+<vinh><b>Vinh Nguyen</b> working on a cancer network visualization application.</vinh>
+<long><b>Long Hoang Nguyen</b> working on android application.</long>
+<yasin><b>Md. Yasin Kabir</b> working on Lab website.</yasin>
+<amit><b>Amitsingh Pardeshi</b> working with Mongo DB for cancer network.</amit>
+<work5></work5>
+<work6></work6>
+</activity>
+
+<activity category="Team">
+<date>Date: January 15, 2017</date>
+<vinh><b>Vinh Nguyen</b> working on a cancer network visualization application.</vinh>
+<long><b>Long Hoang Nguyen</b> and <b>Amitsingh Pardeshi</b> working on Virtual Reality project.</long>
+<yasin><b>Md. Yasin Kabir</b> working on Lab website.</yasin>
+<amit></amit>
+<work5></work5>
+<work6></work6>
+</activity>
+
+</activities>
