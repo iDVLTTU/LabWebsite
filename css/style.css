@@ -919,4 +919,24 @@ img:hover{
   opacity: 1;
  
 }
+.button {
+    background-color: #a55;
+    border: 1px #666;
+    border-radius: 4px;
+    color: white;
+    padding: 0px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    cursor: pointer;
+    position:relative;
+    bottom:3px;
+}
+
+.button:hover { 
+  outline: none;
+  color: #000;
+}
+
 
