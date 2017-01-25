@@ -7,39 +7,39 @@ include 'menu.php';
  <div id="site_content" class= "fullPage">
        <div id="top_border"></div>
 
-       <h1 style="font-size: 40px;">iDVL Team</h1>
+       <h1 style="font-size: 30px;">iDVL Team</h1>
       
-        <div class="images imgOne tommy hovereffect screenshot">
+        <div class="images imgOne tommy hovereffect">
             <img src="pic/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
-            <div class="screenshot-caption screenshot-caption_bottom">
+            <div class="overlay">
                 <h3>Tommy Dang</h3>
             </div>
         </div>
-        <div class="images imgTwo vinh hovereffect screenshot">
+        <div class="images imgTwo vinh hovereffect">
             <img src="pic/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen">
-            <div class="screenshot-caption screenshot-caption_bottom">
+            <div class="overlay">
                 <h3>Vinh Nguyen</h3>
             </div>
         </div>
-        <div class="images imgThree long hovereffect screenshot">
+        <div class="images imgThree long hovereffect">
             <img src="pic/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
-            <div class="screenshot-caption screenshot-caption_bottom">
+            <div class="overlay">
                 <h3>Long Hoang</h3>
             </div>
         </div>
-        <div class="images imgFour yasin hovereffect screenshot">
+        <div class="images imgFour yasin hovereffect">
             <img src="pic/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
-            <div class="screenshot-caption screenshot-caption_bottom">
+            <div class="overlay">
                 <h3>Yasin Kabir</h3>
             </div>
         </div>
-        <div class="images imgFive amit hovereffect screenshot">
+        <div class="images imgFive amit hovereffect">
             <img src="pic/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi">
-            <div class="screenshot-caption screenshot-caption_bottom">
+            <div class="overlay">
                 <h3>Amitsingh</h3>
             </div>
         </div>
-        <div class="personImgBorder" style="clear:both; margin-top: 250px;"></div> 
+        <div class="personImgBorder" style="margin-bottom: 5px;"></div> 
 
         <div class="infoArea content fullPage">
          
@@ -175,7 +175,7 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                          <a href="file/Amit_resume.pdf"> <img src="images/icons/cv.gif" height="35" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
 
 
-                        <a href="http://www.myweb.ttu.edu/"> <img src="images/icons/webico.png" height="28" padding="0" alt="Website of Amitsingh Pardeshi"/></a> &nbsp; 
+                        <a href="http://myweb.ttu.edu/apardesh/"> <img src="images/icons/webico.png" height="28" padding="0" alt="Website of Amitsingh Pardeshi"/></a> &nbsp; 
   
                         <a href="https://www.linkedin.com/in/amit-pardesi-95340277"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
