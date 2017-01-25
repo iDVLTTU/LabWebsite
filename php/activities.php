@@ -1,18 +1,29 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php';
+$activePage = 'activities.php';
+include 'menu.php'; ?>
 
 <div id="site_content">
-	  <div id="top_border"></div>
-    
-      <h3>IN SUBMISSION</h3>
-          <li>Tommy Dang. Submit to IEEE Transactions on Visualization and Computer Graphics.</li><br>
-          <li>Tommy Dang. Submit to EuroVis 2017. </li>
-        
-      <h3>PAPERS</h3>
-        <li> <FONT COLOR="#e78ac3">[WS4]</FONT> <FONT COLOR="#982">Tommy Dang</FONT> and Angus Forbes. <i> CactusTree: A Tree Drawing Approach for Hierarchical Edge Bundling</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. </li>
+    <div id="top_border"></div>
+      <div class="content fullPage">
+        <div id="activities">
+          Design lab Logo. Lab T-shirt?
 
-        <li> <FONT COLOR="#e78ac3">[WS3]</FONT> <FONT COLOR="#982">Tommy Dang</FONT>, Paul Murray, and Angus Forbes. <i> BioLinker: Bottom-up exploration of protein interaction network</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. </li>
-        <br><br>
-        For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.
+          <h3>iDVL is a newly established lab in Texas Tech University. This lab is moving forward several activities and will adopt more soon. </h3>
+
+          <div class="activityBorder"></div>   
+          <div class="activityList">
+              <ul>
+                  <?php
+                        $xmls=simplexml_load_file("activities.xml") or die("Error: Cannot create object");
+                        foreach ($xmls as $xml) {
+                          echo $xml->date . "<br>";
+                        }
+                  ?> 
+
+              </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
 <?php include 'footer.php'; ?>

@@ -77,7 +77,7 @@ h5, h6 {
 
 a, a:hover { 
   outline: none;
-  color: #4D7C1B;
+  color: #9e1f1f;
 }
 
 a:hover { 
@@ -169,11 +169,11 @@ header {
 }
 
 #logo_text h1 a .logo_colour { 
-  color: #EB0405;
+  color: #9e1f1f;
 }
 
 #logo_text a:hover .logo_colour { 
-  color: #EB0405;
+  color: #9e1f1f;
 }
 
 #logo_text h2 { 
@@ -513,15 +513,18 @@ ul#nav li a {
 
 ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected a, ul#nav li.selected a:hover, ul#nav li.selected a:focus { 
   background: #000;
-  background: -moz-linear-gradient(#eb0405, #EB0405);
-  background: -o-linear-gradient(#eb0405, #EB0405);
-  background: -webkit-linear-gradient(#eb0405, #EB0405);
+  background: -moz-linear-gradient(#EB0405, #9e1f1f);
+  background: -o-linear-gradient(#EB0405, #9e1f1f);
+  background: -webkit-linear-gradient(#EB0405, #9e1f1f);
   border-radius: 6px 6px 6px 6px;
   -moz-border-radius: 6px 6px 6px 6px;
   -webkit-border: 6px 6px 6px 6px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;  }
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; 
+  color: #fff;
+    text-shadow: 1px 1px #000;
+   }
 }
 
 
@@ -750,4 +753,28 @@ img:hover{
 }
 .designation{
   font-size: 16px;
+}
+/* Acitivties Page */
+.activityList h4{
+  color: #9e1f1f;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.activityList h5{
+  color: #000;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+.activityList ul li{
+  margin-bottom: 20px;
+  display: block;
+
+}
+.activityList ul li{
+  margin-bottom: 0px;
+  display: block;
+
+}
+.activityBorder{
+      border-bottom: 2px solid #999;
 }

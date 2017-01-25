@@ -1,3 +1,4 @@
+<?php $thisPage="News"; ?>
       <div id="sidebar_container">
       <img class="paperclip" src="images/paperclip.png" alt="paperclip" />
         <div class="sidebar">

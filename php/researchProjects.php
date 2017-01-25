@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php';
+$activePage = 'researchProjects.php';
+include 'menu.php'; ?>
+
+
 
 <div id="site_content">
 	  <hr style="width: 100%; height: 0.2px;" color="black">

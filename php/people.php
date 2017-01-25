@@ -1,27 +1,53 @@
-<?php include 'header.php'; ?>
+<?php 
+include 'header.php';
+$activePage = 'people.php';
+include 'menu.php';
+ ?>
 
-<div id="site_content">
-    <div id="top_border"></div>
-            <h1 style="font-size: 40px;">iDVL Team</h1>
-        <div class="peopleImg">
+ <div id="site_content" class= "fullPage">
+       <div id="top_border"></div>
 
-         <div id="tommyImg"><img src="pic/tommy.jpg" width="auto" height="auto" alt="Tommy Dang"/></div>
-       
-         <div  id="vinhImg"><img src="pic/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen" /></div>
-        <div id="longImg"><img src="pic/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen" /></div>
-       
-        <div id="yasinImg"><img src="pic/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir" /></div>
-        <div id="amitImg"><img src="pic/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi" /></div>
-      </div>
+       <h1 style="font-size: 40px;">iDVL Team</h1>
+      
+        <div class="images imgOne tommy hovereffect">
+            <img src="pic/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
+            <div class="overlay">
+                <h3>Tommy Dang</h3>
+            </div>
+        </div>
+        <div class="images imgTwo vinh hovereffect">
+            <img src="pic/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen">
+            <div class="overlay">
+                <h3>Vinh Nguyen</h3>
+            </div>
+        </div>
+        <div class="images imgThree long hovereffect">
+            <img src="pic/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
+            <div class="overlay">
+                <h3>Long Hoang</h3>
+            </div>
+        </div>
+        <div class="images imgFour yasin hovereffect">
+            <img src="pic/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
+            <div class="overlay">
+                <h3>Yasin Kabir</h3>
+            </div>
+        </div>
+        <div class="images imgFive amit hovereffect">
+            <img src="pic/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi">
+            <div class="overlay">
+                <h3>Amitsingh</h3>
+            </div>
+        </div>
+        <div class="personImgBorder"></div> 
 
-      <div class="content fullPage">
-        <div id="peopleArea">
-
-            <div id="pAreaBody">
+        <div class="infoArea content fullPage">
+            <div id="infOne"> 
                 <div  id="tommy" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
-                      <h3>Tommy Dang</h3>
+                       
+                      <h3>Tommy Dang, <span class="designation">Assistant Professor</span></h3>
                       <p class="shortInfo">
                         Tommy Dang leads the interactive Data Visualization Lab (iDVL). He is currently an Assistant Professor in the Computer Science Department at Texas Tech University. His research on interactive visual analytics has appeared in Computer Graphics Forum and IEEE Transactions on Visualization and Computer Graphics and has been presented at VIS, EuroVis, BioVis, and PacificVis, among others. 
                       </p>
@@ -47,12 +73,13 @@
                     </div>   
                     <div class="personBorder"></div>                 
                 </div>
-                
+            </div>
 
-                <div  id="vinh" class="person">
+            <div id="infTwo">
+                 <div  id="vinh" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
-                      <h3>Vinh Nguyen</h3>
+                      <h3>Vinh Nguyen, <span class="designation">Ph.D. Student</span></h3>
                       <p class="shortInfo">
                         
 Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tech University He got his Master’s degree in Oklahoma State University, Stillwater, OK in 2013 in the field of Management Information System. More information about Vinh Nguyen can be found on his personal website.
@@ -60,7 +87,7 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                       </p>
                       <p class="personLinks">
 
-                          <a href="file/"> <img src="img/cv.gif" height="35" padding="0" alt="Vinh Nguyen CV"/></a> &nbsp; 
+                          <a href="file/vinh.pdf"> <img src="img/cv.gif" height="35" padding="0" alt="Vinh Nguyen CV"/></a> &nbsp; 
 
             
                         <a href="http://myweb.ttu.edu/vinhtngu"> <img src="img/webico.png" height="28" padding="0" alt="Website of Vinh Nguyen"/></a> &nbsp; 
@@ -74,12 +101,13 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                     </div>   
                     <div class="personBorder"></div>                 
                 </div>
-                
+            </div>
 
-                  <div  id="long" class="person">
+            <div id="infThree">
+                 <div  id="long" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
-                      <h3>Long Hoang Nguyen</h3>
+                      <h3>Long Hoang Nguyen, <span class="designation">Ph.D. Student</span></h3>
                       <p class="shortInfo">
                        Long Nguyen got master degree in Computer Science as well, issued by Politecnico di Milano, Italia in 2009. He found himself a deep interest in data visualization and visual analytics as its vital role for non-technical persons to read and understand data easily. Therefore, he continues his academic life with PhD program specialized in visual analytics.
                       </p>
@@ -99,12 +127,13 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                     </div>   
                     <div class="personBorder"></div>                 
                 </div>
-              
+            </div>
 
-                  <div  id="yasin" class="person">
+            <div id="infFour">
+                <div  id="yasin" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
-                      <h3>Md. Yasin Kabir</h3>
+                      <h3>Md. Yasin Kabir, <span class="designation">Ph.D. Student</span></h3>
                       <p class="shortInfo">
                         
                       
@@ -130,18 +159,20 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                      <div class="personBorder"></div>
                     
                 </div>
-               
-                  <div  id="amit" class="person">
+            </div>
+
+            <div id="infFive">
+                <div  id="amit" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
-                      <h3>Amitsingh Pardeshi</h3>
+                      <h3>Amitsingh Pardeshi, <span class="designation">MS Student</span></h3>
                       <p class="shortInfo">
                         Amit completed Bachelor degree in Computer Engineering. After the bachelors he has been working for few software firm in India as a software Engineer. He has interest in learning Big data and big data processing related technologies.
 
                       </p>
                       <p class="personLinks">
 
-                         <a href="file/"> <img src="img/cv.gif" height="35" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
+                         <a href="file/Amit_resume.pdf"> <img src="img/cv.gif" height="35" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
 
 
                         <a href="http://www.myweb.ttu.edu/"> <img src="img/webico.png" height="28" padding="0" alt="Website of Amitsingh Pardeshi"/></a> &nbsp; 
@@ -154,13 +185,10 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                       </p> 
                     </div>                    
                 </div>
+            </div>
 
-
-            </div
         </div>
-      </div>
     </div>
 
-  </div>
 
 <?php include 'footer.php'; ?>

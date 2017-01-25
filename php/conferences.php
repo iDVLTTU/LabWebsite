@@ -1,4 +1,8 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php';
+$activePage = 'conferences.php';
+include 'menu.php'; ?>
+
+
 
 <div id="site_content">
 	  <div id="top_border"></div>

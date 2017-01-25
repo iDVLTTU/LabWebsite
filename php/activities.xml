@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<activities>
+
+<activity category="Team">
+<date><h4>Date: January 15, 2017</h4></date>
+<work> 
+	<li><b>MR X</b> working on X</li>
+    <li><b>MR Y</b> working on Y</li></li>
+    <li><b>MR Z</b> working on Z</li></li>
+</work>
+</activity>
+
+</activities>
