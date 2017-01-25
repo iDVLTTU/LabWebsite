@@ -32,7 +32,7 @@ include 'menu.php'; ?>
   <left> <b>Visualizing UFO sightings on a 2D map:</b> This project uses data from the National UFO Reporting Center available <a href="http://www.nuforc.org/webreports/ndxloc.html">here</a>. 
 The goal here is to give the user a higher level view of where different types of sightings occur, and to detect patterns/trends of these sightings over time.</left>
   <div  align="middle" style="margin-top: 10px"> <img src="images/projectFigures/lyme.png"  width=75%></div>
-  <left>Visualizing the distribution of Lyme diseases in 3D, reported in
+  <left><b>Visualizing the distribution of Lyme diseases in 3D</b> reported in
 the U.S. in 2005, 2006, and 2007 by the <a href="https://www.cdc.gov/">CDC</a>. One might argue that a county-level choropleth map would
 be a suitable presentation. Nevertheless, it would be hard to argue that a county-level choropleth map using hue
 or brightness could reveal the threefold increase in Lyme disease cases centered around New England vs. the Midwest.
@@ -48,24 +48,48 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
     <div style="margin-top: 5px">
     <left> Related publications: <br>
     <ul>
-    <li> <b>Tuan Dang</b>, Leland Wilkinson, and Anushka Anand. <i>Stacking Graphic Elements to Avoid Over-Plotting</i>. IEEE Transactions on Visualization AndComputer Graphics 16(6), InfoVis 2010.  <a href="file/Stacking.pdf"> <img src="img/pdf.png" height="16"></a> <a href="https://www.cs.uic.edu/~tdang/media/Stacking.mp4"> <img src="img/movie.png" height="16"></a> <a href="BibTeX/Dang2010Stacking.txt"> <img src="img/bibtex.png" height="16"></a> 
-<a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5613442" class="button">DOI</a>
-</li>
+        <li><b>Tommy Dang</b>, Paul Murray, Ronak Etemadpour, and Angus Forbes. <i> Visualizing Structure and Connectivity in Complex Hierarchical Datasets</i>. IEEE Transactions on Visualization and Computer Graphics. (<i>in submission</i>)</li>
+        <li> <b>Tommy Dang</b> and Angus Forbes. <i> CactusTree: A Tree Drawing Approach for Hierarchical Edge Bundling</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. </li>         
+        <li><b>Tommy Dang</b>,  Paul Murray, Jillian Aurisano, and Angus Forbes. <i> ReactionFlow: An Interactive Visualization Tool for Causality Analysis in Biological Pathways</i>. BMC Proceedings 9(6), BioVis 2015. 
+          <a href="ReactionFlow/ReactionFlow_BioVis_2015.pdf"> <img src="img/pdf.png" height="16"></a>
+          <a href="ReactionFlow/video.mp4"> <img src="img/movie.png" height="16"></a>
+          <a href="https://github.com/CreativeCodingLab/ReactionFlow"> <img src="img/github2.png" height="16"></a>
+          <a href="BibTeX/Dang2015ReactionFlow.txt"> <img src="img/bibtex.png" height="16"></a> 
+          <a href="http://www.ncbi.nlm.nih.gov/pubmed/26361502" class="button">DOI</a>
+          </li>
+        
     </ul>
     </left>
-  </div>
-      
+   </div>
+          
 
-    <div  align="middle"> <img src="images/projectFigures/HCL.png"  width=100%></div>
-  <center>Hierarchical structures and prey-predator relationships of mammals (left) and birds (right)</center>
+    <div  align="middle" style="margin-top: -35px"> <img src="images/projectFigures/HCL.png"  width=100%></div>
+  <left><b>Visualizing hierarchical structures and prey-predator relationships </b> of mammals (left) and birds (right). Each animal is presented as a green leaf node. Red links are prey-predator relationships between them.</left>
   
-  <div  align="middle" style="margin-top: 30px"> <img src="images/projectFigures/HCLdiseases.png"  width=70%></div>
-  <center>Causal relationships of 20 diseases</center>
+  <div  align="middle" style="margin-top: 20px"> <img src="images/projectFigures/HCLdiseases.png"  width=90%></div>
+  <left><b>Visualizing causal relationships</b> of 20 popular diseases (left) from <a href="http://www.reactome.org/">reactome</a> and HIV life cycle (right): Gradient links indicate causalities between biochemical reactions.</left>
   
-  <hr style="width: 100%; height: 0.2px;" color="black">
+    <div id="site_content"></div> 
+    <div id="top_border"></div> 
     <div align="left"><font style="font-family:
         Helvetica,Arial,sans-serif;" color="black" size="4">Dynamic network visualization</font></div>
-    <div  align="middle"> <img src="images/projectFigures/PoliticalBlogs.png"  width=100%></div>
+
+    <div style="margin-top: 5px">
+    <left> Related publications: <br>
+    <ul>
+        <li><b>Tommy Dang</b>,  Nick Pendar, and Angus Forbes. <i> TimeArcs: Visualizing Fluctuations in Dynamic Networks</i>. Computer Graphics Forum 35(3), EuroVis 2016. 
+        <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.pdf"> <img src="img/pdf.png" height="16"></a>
+        <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.mp4"> <img src="img/movie.png" height="16"></a>
+        <a href="https://github.com/CreativeCodingLab/TimeArcs"> <img src="img/github2.png" height="16"></a>
+        <a href="BibTeX/Dang2016TimeArcs.txt"> <img src="img/bibtex.png" height="16"></a> 
+        <a href="http://diglib.eg.org/handle/10.1111/cgf12882" class="button">DOI</a>
+        </li>
+        
+    </ul>
+    </left>
+   </div>    
+
+    <div align="middle" style="margin-top: -30px"> <img src="images/projectFigures/PoliticalBlogs.png"  width=100%></div>
   <center>Major events from political blogs were automatically detected in my visualization.</center>
   
 
