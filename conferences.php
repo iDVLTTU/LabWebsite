@@ -4,13 +4,12 @@ include 'menu.php'; ?>
 
 
 
-<div id="site_content">
+<div id="site_content" class="conferences">
 	  <div id="top_border"></div>
 
-    
-    The Visualization conferences are ordered by paper submission deadline.
-    
-    <table cellpadding="1" cellspacing="1" align="center" width="100%"> <br>
+    <p>The Visualization conferences are ordered by paper submission deadline.</p>
+  
+    <table cellpadding="1" cellspacing="1" align="center" width="100%">
         
     <tr align="center" bgcolor="#999">
       <td style="padding:5px;"> Conference </td>
@@ -537,7 +536,7 @@ include 'menu.php'; ?>
     </tr>
     </table>
 
-   &nbsp;&nbsp; &nbsp; &nbsp;For more Visualization conferences, click <a href="http://www.wikicfp.com/cfp/call?conference=visualization">here</a>
+  <p>For more Visualization conferences, click <a href="http://www.wikicfp.com/cfp/call?conference=visualization">here</a></p>
 
     </div>
 

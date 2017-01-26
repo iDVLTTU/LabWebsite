@@ -79,6 +79,15 @@ a, a:hover {
   outline: none;
   color: #9e1f1f;
 }
+li{
+  font-size: 13px;
+}
+p{
+  font-size: 13px;
+}
+h3{
+  line-height: 5px;
+}
 
 a:hover { 
   text-decoration: none;
@@ -265,7 +274,7 @@ nav {
   width: 775px;
   margin: 5px 0 0 0;
   float: left;
-  font-size: 120%;
+  font-size: 13px;
 }
   
 .content ul { 
@@ -276,7 +285,14 @@ nav {
   list-style-type: none;
   background: url(../images/bullet.png) no-repeat;
   margin: 0 0 0 0; 
-  padding: 0 0 4px 28px;
+  padding: 0 0 4px 15px;
+  line-height: 1.5em;
+}
+.content li { 
+  list-style-type: none;
+  background: url(../images/bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 15px;
   line-height: 1.5em;
 }
 
@@ -943,16 +959,31 @@ img:hover{
   color: #000;
 }
 /* Codes for table and reducing spaces */
-li{
-  font-size: 14px;
-}
-p{
-  font-size: 14px;
-}
-h3{
-  line-height: 5px;
-}
+
 .personInfo p { 
   padding: 0 0 2px 0;
   line-height: 1.7em;
+}
+.supportedResearch li{
+  font-size: 15px;
+}
+.supportedResearch p{
+  font-size: 15px;
+  padding: 0;
+}
+.contentBox p{
+  font-size: 14px;
+}
+.infoArea p{
+  font-size: 14px;
+}
+.newsBox p{
+  font-size: 14px;
+}
+.newsBox{
+  width: 755px;
+}
+.conferences p{
+  font-size: 16px;
+  padding: 0;
 }

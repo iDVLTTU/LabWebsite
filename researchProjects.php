@@ -3,14 +3,16 @@ $activePage = 'researchProjects.php';
 include 'menu.php'; ?>
 
 
-<div id="site_content">
+<div id="site_content" class="content">
    <div id="top_border"></div> 
-   The works on this page were supported by:.<br>
-  <li style="margin-left: 20px"> 1) NSF DMS/<a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=501081">FODAVA</a> Grant  <a href="https://www.nsf.gov/cise/funding/2008_FODAVA_awards.xls"> No. 0808860</a>:
-   <i>Visually-Motivated Characterizations of Point Sets Embedded in High-Dimensional Geometric Spaces</i>  <br>
-</li><br>
-  <li style="margin-left: 20px"> 2) DARPA Big Mechanism Program under ARO contract <a href="https://www.evl.uic.edu/entry.php?id=2043"> WF911NF-14-1-0395</a>: <i>Reading and Assembling Contextual and Holistic Big Mechanisms</i> <br>
-</li><br>
+    <div class="supportedResearch">
+       <p>The works on this page were supported by:</p>
+      <li style="margin-left: 20px"> NSF DMS/<a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=501081">FODAVA</a> Grant  <a href="https://www.nsf.gov/cise/funding/2008_FODAVA_awards.xls"> No. 0808860</a>:
+         <i>Visually-Motivated Characterizations of Point Sets Embedded in High-Dimensional Geometric Spaces</i>  <br>
+      </li><br>
+      <li style="margin-left: 20px"> DARPA Big Mechanism Program under ARO contract <a href="https://www.evl.uic.edu/entry.php?id=2043"> WF911NF-14-1-0395</a>: <i>Reading and Assembling Contextual and Holistic Big Mechanisms</i> <br>
+      </li><br>
+    </div>
    
 <div id="site_content"></div> 
 	 <div id="top_border"></div> 
@@ -96,7 +98,7 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
     <div id="top_border"></div> 
       <div align="left"><font style="font-family:
         Helvetica,Arial,sans-serif;" color="black" size="4">Matrix visualization</font></div>
-  <div style="margin-top: 5px">
+  <div class="content" style="margin-top: 5px">
     <left> Related publications: <br>
     <ul>
         <li> <b>Tommy Dang</b>, Hong Cui, and Angus Forbes. <i> MultiLayerMatrix: Visualizing Large Taxonomic Datasets</i>. The seventh international EuroVis workshop on Visual Analytics, EuroVA 2016.  
