@@ -7,7 +7,7 @@ include 'menu.php';
  <div id="site_content" class= "fullPage">
        <div id="top_border"></div>
 
-       <h1 style="font-size: 30px;">iDVL Team</h1>
+       <h1 style="font-size: 26px;">iDVL Team</h1>
       
         <div class="images imgOne tommy hovereffect">
             <img src="pic/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
