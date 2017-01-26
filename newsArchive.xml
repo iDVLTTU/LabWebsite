@@ -9,26 +9,4 @@
 <fullNews>The website for iDVL: interactive Data Visualization Lab has beed lunched.From now the information about lab can be found in the website.</fullNews>
 </news>
 
-<news category="website">
-<headline>This is Second Demo news for the website</headline>
-<date>January 23th, 2017</date>
-<sortNews>This is a Demo news for the website. The website for the iDVL is launched.</sortNews>
-<fullNews>This is a Demo news for the website. The website for the iDVL is launched.
-	This is a Demo news for the website. The website for the iDVL is launched.
-	This is a Demo news for the website. The website for the iDVL is launched.This is details news: The website for the iDVL is launched. <b>This is details news:</b> The website for the iDVL is launched. This is second news <b>This is details news:</b> The website for the iDVL is launched. This is second news
-<b>This is details news:</b> The website for the iDVL is launched. This is second news
-</fullNews>
-</news>
-
-<news category="website">
-<headline>This is Third Demo news for the website</headline>
-<date>January 20th, 2017</date>
-<sortNews>The website for the iDVL is launched.</sortNews>
-<fullNews>This is a Demo news for the website. The website for the iDVL is launched.
-	This is a Demo news for the website. The website for the iDVL is launched.
-	This is a Demo news for the website. The website for the iDVL is launched.This is details news: The website for the iDVL is launched. <b>This is details news:</b> The website for the iDVL is launched. This is second news <b>This is details news:</b> The website for the iDVL is launched. This is second news
-<b>This is details news:</b> The website for the iDVL is launched. This is second news
-</fullNews>
-</news>
-
 </newsArchive>

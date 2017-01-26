@@ -10,7 +10,7 @@ include 'menu.php'; ?>
     
     The Visualization conferences are ordered by paper submission deadline.
     
-    <table cellpadding="0" cellspacing="0" align="center" width="100%"> <br>
+    <table cellpadding="1" cellspacing="1" align="center" width="100%"> <br>
         
     <tr align="center" bgcolor="#999">
       <td style="padding:5px;"> Conference </td>
