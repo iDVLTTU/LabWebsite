@@ -134,7 +134,7 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
     </left>
    </div>  
          
-    <div  align="middle" style="margin-top: -30px"> <img src="images/projectFigures/Matrix1.png"  width=90%></div>
+    <div style="margin-top: -30px"> <img src="images/projectFigures/Matrix1.png"  width=90%></div>
    <left>Visualizing the alignment of <a href="http://taxonbytes.org/pathwaymatrix-visualization-software-shows-eulerx-taxonomy-alignment-products-and-ambiguities/"> taxonomic classifications</a>: Gymnospermae sec. Weakley (2010) vs. RAB (1968)</left>
     <div  align="middle" style="margin-top: 20px"> <img src="images/projectFigures/Matrix2.png"  width=100%></div>
   <left> High-dimensional data are represented by a small subset of variables in the US unemployment rates (left) from  <a href="https://www.bls.gov/"> BLS</a> and in the Asteraceae taxonomy (right) of 2,048 characters.</left>
