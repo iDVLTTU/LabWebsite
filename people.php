@@ -79,10 +79,13 @@ include 'menu.php';
                  <div  id="vinh" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
-                      <h3>Vinh Nguyen, <span class="designation">Ph.D. Student</span></h3>
+                      <h3>Vinh The Nguyen, <span class="designation">Ph.D. Student</span></h3>
                       <p class="shortInfo">
-                        
-Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tech University He got his Master’s degree in Oklahoma State University, Stillwater, OK in 2013 in the field of Management Information System. More information about Vinh Nguyen can be found on his personal website.
+                     
+                     Vinh got his Bachelor of Science at College of Information Technology, Vietnam National University Hanoi in 2007. 
+                     After several years working in software industry (such as FPT), he dicided to pursue and finished his Master degree in Management Information System at Oklahoma State University, Stillwater, OK in 2013.
+                     Since then, he had worked as a lecturer in programming and E-commerce at Thai Nguyen University. 
+                     In 2016, he received the Vietnam International Education Development (VIED) - Ministry of Education and Training scholarship to pursue his PhD at Texas Tech University.
 
                       </p>
                       <p class="personLinks">
@@ -109,7 +112,10 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                     <div class="personInfo">
                       <h3>Long Hoang Nguyen, <span class="designation">Ph.D. Student</span></h3>
                       <p class="shortInfo">
-                       Long Nguyen got master degree in Computer Science as well, issued by Politecnico di Milano, Italia in 2009. He found himself a deep interest in data visualization and visual analytics as its vital role for non-technical persons to read and understand data easily. Therefore, he continues his academic life with PhD program specialized in visual analytics.
+                       Long received his Bachelor degree in Information Technology at the President Univeristy (Indonesia) in 2005 
+                       and then his Master degree in Computer Science at Politecnico di Milano, Italy in 2009. 
+                       He had worked over 10 years in software industry in different countries (such as Singapore, Vietname, and Italy) before decided to join iDVL in Jan 2017 for his PhD degree.
+                       He had a great interest in data visualization and visual analytics since it helps non-technical people to read and understand insights of large data easily.
                       </p>
                       <p class="personLinks">
 
@@ -136,11 +142,9 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                       <h3>Md. Yasin Kabir, <span class="designation">Ph.D. Student</span></h3>
                       <p class="shortInfo">
                         
-                      
-                          Yasin completed his Bachelor degree in Computer Science and Telecommunication engineering. After that he was working as a Lecture in Noakhali Science and Technology University which is in Bangladesh.
-                          He has a passion for visualization work and big data and to pursue his PhD degree on that he joined at iDVL.  
-
-
+                          Yasin completed his Bachelor degree in Computer Science and Telecommunication engineering (Bangladesh) in 2014. 
+                          After that, he had worked as a lecturer and assistant director at Cyber Center in Noakhali Science and Technology University.
+                          He has a great passion in big data visualization and so in 2017, decided to join iDVL and  pursue his PhD degree at Texas Tech University.  
                       </p>
                       <p class="personLinks">
 
@@ -167,7 +171,9 @@ Vinh Nguyen is currently a PhD student at Computer Science Department, Texas Tec
                     <div class="personInfo">
                       <h3>Amitsingh Pardeshi, <span class="designation">MS Student</span></h3>
                       <p class="shortInfo">
-                        Amit completed Bachelor degree in Computer Engineering. After the bachelors he has been working for few software firm in India as a software Engineer. He has interest in learning Big data and big data processing related technologies.
+                        Amit completed Bachelor degree in Computer Engineering at Mumbai University in 2009. 
+                        After the bachelors, he had been working for a few software firms (such as Mastek PVT. LTD and Ignitiv Technologies PVT. LTD) in India as a software engineer before joining iDVL as a Master student. 
+                        He has interests in learning data visualization and big data processing related technologies.
 
                       </p>
                       <p class="personLinks">

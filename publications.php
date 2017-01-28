@@ -10,8 +10,8 @@ include 'menu.php';
       
       <h4>IN SUBMISSION</h4>
         <ul>
-          <li>Tommy Dang. Submit to IEEE Transactions on Visualization and Computer Graphics.</li><br>
-          <li>Tommy Dang. Submit to EuroVis 2017. </li>
+          <li>Tommy Dang. Submitted to IEEE Transactions on Visualization and Computer Graphics.</li><br>
+          <li>Tommy Dang. Submitted to EuroVis 2017. </li>
         </ul>
       
       

@@ -57,7 +57,7 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
         <li><b>Tommy Dang</b>,  Paul Murray, Jillian Aurisano, and Angus Forbes. <i> ReactionFlow: An Interactive Visualization Tool for Causality Analysis in Biological Pathways</i>. BMC Proceedings 9(6), BioVis 2015. 
           <a href="ReactionFlow/ReactionFlow_BioVis_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
           <a href="ReactionFlow/video.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="https://github.com/CreativeCodingLab/ReactionFlow"> <img src="images/icons2/github.png" height="16"></a>
+          <a href="https://github.com/CreativeCodingLab/ReactionFlow"> <img src="images/icons/github.png" height="16"></a>
           <a href="BibTeX/Dang2015ReactionFlow.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
           <a href="http://www.ncbi.nlm.nih.gov/pubmed/26361502" class="button">DOI</a>
           </li>
@@ -84,7 +84,7 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
         <li><b>Tommy Dang</b>,  Nick Pendar, and Angus Forbes. <i> TimeArcs: Visualizing Fluctuations in Dynamic Networks</i>. Computer Graphics Forum 35(3), EuroVis 2016. 
         <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
         <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-        <a href="https://github.com/CreativeCodingLab/TimeArcs"> <img src="images/icons2/github.png" height="16"></a>
+        <a href="https://github.com/CreativeCodingLab/TimeArcs"> <img src="images/icons/github.png" height="16"></a>
         <a href="BibTeX/Dang2016TimeArcs.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
         <a href="http://diglib.eg.org/handle/10.1111/cgf12882" class="button">DOI</a>
         </li>   
@@ -92,7 +92,7 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
     </left>
    </div>    
 
-    <div align="middle" style="margin-top: -30px"> <img src="images/projectFigures/PoliticalBlogs.png"  width=100%></div>
+    <div align="middle" style="margin-top: -30px"> <img src="images/projectFigures/PoliticalBlogs.png"  width=95%></div>
   <left>Major events from nearly 100,000 political blogs in last 10 years were automatically detected in our visualization: Links connect popular terms appeared in the same blogs.</left>
   
 
@@ -106,21 +106,21 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
         <li> <b>Tommy Dang</b>, Hong Cui, and Angus Forbes. <i> MultiLayerMatrix: Visualizing Large Taxonomic Datasets</i>. The seventh international EuroVis workshop on Visual Analytics, EuroVA 2016.  
           <a href="https://www.cs.uic.edu/~tdang/MultiLayerMatrix/MultiLayerMatrix_EuroVA_2016.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
           <a href="MultiLayerMatrix/video.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="https://github.com/CreativeCodingLab/MultiLayerMatrix"> <img src="images/icons2/github.png" height="16"></a>
+          <a href="https://github.com/CreativeCodingLab/MultiLayerMatrix"> <img src="images/icons/github.png" height="16"></a>
           <a href="BibTeX/Dang2016MultiLayerMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
           <a href="https://diglib.eg.org/handle/10.2312/eurova20161125" class="button">DOI</a>
         </li>
         <li> <b>Tommy Dang</b>, Nico Franz, Bertram Lud&#228;scher and Angus Forbes. <i> ProvenanceMatrix: A Visualization Tool for Multi-Taxonomy Alignments</i>. International Workshop on Visualizations and User Interfaces for Ontologies and Linked Data, VOILA 2015. 
           <a href="ProvenanceMatrix/ProvenanceMatrix_VOILA_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
           <a href="ProvenanceMatrix/video.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="https://github.com/CreativeCodingLab/ProvenanceMatrix"> <img src="images/icons2/github.png" height="16"></a>
+          <a href="https://github.com/CreativeCodingLab/ProvenanceMatrix"> <img src="images/icons/github.png" height="16"></a>
           <a href="BibTeX/Dang2015ProvenanceMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
           <a href="http://www.bibsonomy.org/bibtex/23a2e7eda5e8580c2bdfdefca6d152a0f/dblp" class="button">DOI</a>
         </li> 
         <li> <b>Tommy Dang</b>,  Paul Murray, and Angus Forbes. <i> PathwayMatrix: Visualizing Binary Relationships between Proteins in Biological Pathways</i>. BMC Proceedings 9(6), BioVis 2015. 
           <a href="PathwayMatrix/PathwayMatrix_BioVis_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
           <a href="PathwayMatrix/PathwayMatrixBioVis960x540.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="https://github.com/CreativeCodingLab/PathwayMatrix"> <img src="images/icons2/github.png" height="16"></a>
+          <a href="https://github.com/CreativeCodingLab/PathwayMatrix"> <img src="images/icons/github.png" height="16"></a>
           <a href="BibTeX/Dang2015PathwayMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
           <a href="http://www.ncbi.nlm.nih.gov/pubmed/26361499" class="button">DOI</a>
         </li>
@@ -134,7 +134,7 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
     </left>
    </div>  
          
-    <div> <img src="images/projectFigures/Matrix1.png"  width=90%></div>
+    <div align="middle" style="margin-top: -20px"> <img src="images/projectFigures/Matrix1.png"  width=90%></div>
    <left>Visualizing the alignment of <a href="http://taxonbytes.org/pathwaymatrix-visualization-software-shows-eulerx-taxonomy-alignment-products-and-ambiguities/"> taxonomic classifications</a>: Gymnospermae sec. Weakley (2010) vs. RAB (1968)</left>
     <div  align="middle" style="margin-top: 20px"> <img src="images/projectFigures/Matrix2.png"  width=100%></div>
   <left> High-dimensional data are represented by a small subset of variables in the US unemployment rates (left) from  <a href="https://www.bls.gov/"> BLS</a> and in the Asteraceae taxonomy (right) of 2,048 characters.</left>
