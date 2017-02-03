@@ -42,7 +42,7 @@ include 'menu.php'; ?>
 
 
     <tr bgcolor="#bbd">
-      <td align="left" style="padding:5px;"><a href="https://www.google.com/search?q=EnvirVis+2017&rlz=1C5CHFA_enUS721US721&oq=EnvirVis+2017&aqs=chrome..69i57.238j0j7&sourceid=chrome&ie=UTF-8">EnvirVis 2017</a></td>
+      <td align="left" style="padding:5px;"><a href="http://www.informatik.uni-leipzig.de/~envirvis2017/">EnvirVis 2017</a></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">Jun 12-13</td>
       <td align="left" style="padding:5px;">Barcelona, Spain</td>
