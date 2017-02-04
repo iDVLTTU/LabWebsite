@@ -285,7 +285,7 @@ nav {
   list-style-type: none;
   background: url(../images/bullet.png) no-repeat;
   margin: 0 0 0 0; 
-  padding: 0 0 4px 15px;
+  padding: 0 0 4px 17px;
   line-height: 1.5em;
 }
 .content li { 
@@ -633,12 +633,15 @@ ul#images li {
 .personInfo{}
 
 .shortInfo{
+  margin-left: 30px;
   text-align: justify;
 }
 .shortInfo p{
   text-align: justify;
 }
-.personLinks{}
+.personLinks{
+  margin-left: 30px;
+}
 
 .personLinks img{
   margin: 0;
@@ -811,8 +814,9 @@ img:hover{
 
 }
 .activityList ul li{
-  margin-bottom: -8px;
-  margin-top: -8px;
+  margin-left: 20px;
+  margin-bottom: -6px;
+  margin-top: -6px;
   display: block;
 }
 .activityBorder{
@@ -857,7 +861,7 @@ img:hover{
   font-size: 20px;
 }
 .publicationPage ul li{
-  margin: 0;
+  margin-left: 20px;
   font-size: 14px;
   line-height: 20px;
 }
