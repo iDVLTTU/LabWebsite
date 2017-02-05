@@ -13,8 +13,7 @@ include 'menu.php'; ?>
               <ul>
                   <?php
                         $xmls=simplexml_load_file("activities.xml") or die("Error: Cannot create object");
-                        foreach ($xmls as $xml) { ?>
-                          
+                        foreach ($xmls as $xml) { ?>              
                           <?php 
                           echo "<h4>" . $xml->date->asXml() . "</h4>";
                           if($xml->vinh != "")
@@ -32,11 +31,9 @@ include 'menu.php'; ?>
                          ?>
                         <div class="activityBorder top_border"></div>
                   <?php } ?>
-
               </ul>
           </div>
         </div>
       </div>
     </div>
-
 <?php include 'footer.php'; ?>

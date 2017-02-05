@@ -16,14 +16,15 @@
 
 
         <b>Adress:</b>
-        <table cellpadding="1" cellspacing="1" align="center" width="100%"> <br>   
+        <table cellpadding="1" cellspacing="1" align="center" width="75%"> <br>   
           <tr align="center">
             <td> Room EC 305 in Department of Computer Science <br/>
           Whitacre College of Engineering, Texas Tech University <br/>
           Box 43104, Lubbock, TX 79409-3104. 
           </td>
-            <td> Phone: (+1) 806-319-3156.  <br>
-              Fax:  &nbsp; &nbsp; &nbsp;(+1) 806-742-3519</td>
+            <td> Lab phone: &nbsp; (+1) 806-742-2477  <br>
+                 Cell phone: &nbsp; (+1) 806-319-3156  <br> 
+              Fax number: (+1) 806-742-3519</td>
           </tr>
          </table>
         

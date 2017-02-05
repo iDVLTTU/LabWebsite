@@ -2,10 +2,21 @@
 
 <activities>
 
+
+<activity category="Team">
+<date>Date: Feb 17</date>
+<vinh><b>Vinh+Tommy</b> submit short EuroVis paper on community detection. Deadline: Feb 17</vinh>
+<long><b>Tommy+Long+Karim+ a CE Prof</b> submit a EnvirVis paper. Deadline: Feb 17</long>
+<yasin><b>Tommy+Yasin+ a CS Prof</b> submit short EuroVis paper on text data. Deadline: Feb 17.</yasin>
+<amit><b>Tommy+Amit+Vinh</b> submit short EuroVis paper on geospaotial temporal visualization. Deadline: Feb 17.</amit>
+<work5></work5>
+<work6></work6>
+</activity>
+
 <activity category="Team">
 <date>Date: Feb 3</date>
-<vinh><b>Vinh Nguyen</b> research on comunity detection.</vinh>
-<long><b>Long Nguyen</b> works on saturated thichness project.</long>
+<vinh><b>Vinh Nguyen</b> researchs on community detection.</vinh>
+<long><b>Long Nguyen</b> works on saturated thickness project.</long>
 <yasin><b>Yasin Kabir</b> works on rumor data.</yasin>
 <amit><b>Amitsingh Pardeshi</b> integrates rumor database.</amit>
 <work5></work5>

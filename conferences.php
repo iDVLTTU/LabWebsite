@@ -25,8 +25,8 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">Oct 1-6</td>
       <td align="left" style="padding:5px;">Phoenix, Arizona, USA</td>
-      <td align="left" style="padding:5px;">Mar 21, 2017</td>
-      <td align="left" style="padding:5px;">Jun 6, 2017<br></td>
+      <td align="left" style="padding:5px;">Mar 21</td>
+      <td align="left" style="padding:5px;">Jun 6<br></td>
       <td align="left" style="padding:5px;"></td>
     </tr>
 
@@ -35,19 +35,29 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">May 15 </td>
       <td align="left" style="padding:5px;">Chicago </td>
-      <td align="left" style="padding:5px;">Mar 13, 2017</td>
+      <td align="left" style="padding:5px;">Mar 13</td>
       <td align="left" style="padding:5px;"><br></td>
       <td align="left" style="padding:5px;">Mar 13</td>
     </tr>
 
 
     <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://www.informatik.uni-leipzig.de/~envirvis2017/">EuroVA 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Jun 12-13</td>
+      <td align="left" style="padding:5px;">Barcelona, Spain</td>
+      <td align="left" style="padding:5px;">Feb 27</td>
+      <td align="left" style="padding:5px;">Mar 27</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+
+     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://www.informatik.uni-leipzig.de/~envirvis2017/">EnvirVis 2017</a></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">Jun 12-13</td>
       <td align="left" style="padding:5px;">Barcelona, Spain</td>
-      <td align="left" style="padding:5px;">Feb 17, 2017</td>
-      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Feb 17</td>
+      <td align="left" style="padding:5px;">Mar 17</td>
       <td align="left" style="padding:5px;"></td>
     </tr>
 
@@ -58,7 +68,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">Feb 15 , 2017</td>
-      <td align="left" style="padding:5px;"><br></td>
+      <td align="left" style="padding:5px;">April</td>
       <td align="left" style="padding:5px;"></td>
     </tr>
 
