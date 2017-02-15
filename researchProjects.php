@@ -13,9 +13,10 @@ include 'menu.php'; ?>
       </li><br>
       <li> DARPA Big Mechanism Program under ARO contract <a href="https://www.evl.uic.edu/entry.php?id=2043"> WF911NF-14-1-0395</a>: <i>Reading and Assembling Contextual and Holistic Big Mechanisms</i> <br>
       </li><br>
+      <li> US. Department of Education (IES)<a href="https://ies.ed.gov/funding/grantsearch/details.asp?ID=1014"> R305A100992</a>: <i>The Connected Chemistry Curriculum</i>. <a href="http://www.connchem.org/"> Project page</a> <a href="https://books.google.com/books?id=OD9-CwAAQBAJ&pg=PA112&lpg=PA112&dq=R305A100992&source=bl&ots=LbTfmoMd3l&sig=gBpdhvp8GbrUIBaXFGj8q3imSTY&hl=en&sa=X&ved=0ahUKEwieraz0ifrRAhXIMGMKHZhJDSIQ6AEIHzAB#v=onepage&q=R305A100992&f=false"> Book chapter</a> <br>
+      </li>
     </ul>
-    </div>
-   
+</div>
 <div id="site_content"></div> 
 	 <div id="top_border"></div> 
 

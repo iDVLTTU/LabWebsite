@@ -179,6 +179,8 @@ header {
 
 #logo_text h1 a .logo_colour { 
   color: #9e1f1f;
+  position: relative;
+  bottom: 3px;
 }
 
 #logo_text a:hover .logo_colour { 

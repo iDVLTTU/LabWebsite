@@ -168,8 +168,8 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">Jun 12-13</td>
       <td align="left" style="padding:5px;">Barcelona, Spain</td>
-      <td align="left" style="padding:5px;">Feb 17</td>
-      <td align="left" style="padding:5px;">Mar 17</td>
+      <td align="left" style="padding:5px;">Feb 27</td>
+      <td align="left" style="padding:5px;">Mar 27</td>
       <td align="left" style="padding:5px;"></td>
     </tr>
 
@@ -220,7 +220,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">Barcelona </td>
       <td align="left" style="padding:5px;">Dec 5 (Dec 12)</td>
       <td align="left" style="padding:5px;">Fed 15 <br></td>
-      <td align="left" style="padding:5px;">Fed 17 (Short)</td>
+      <td align="left" style="padding:5px;">Fed 27 (Short)</td>
     </tr>
 
     <tr bgcolor="#bdb">
