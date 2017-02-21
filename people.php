@@ -9,31 +9,31 @@ include 'menu.php';
 
        
         <div class="images imgOne tommy hovereffect">
-            <img src="pic/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
+            <img src="images/people/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
             <div class="overlay">
                 <h3>Tommy Dang</h3>
             </div>
         </div>
         <div class="images imgTwo vinh hovereffect">
-            <img src="pic/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen">
+            <img src="images/people/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen">
             <div class="overlay">
                 <h3>Vinh Nguyen</h3>
             </div>
         </div>
         <div class="images imgThree long hovereffect">
-            <img src="pic/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
+            <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
             <div class="overlay">
                 <h3>Long Hoang</h3>
             </div>
         </div>
         <div class="images imgFour yasin hovereffect">
-            <img src="pic/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
+            <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
             <div class="overlay">
                 <h3>Yasin Kabir</h3>
             </div>
         </div>
         <div class="images imgFive amit hovereffect">
-            <img src="pic/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi">
+            <img src="images/people/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi">
             <div class="overlay">
                 <h3>Amitsingh</h3>
             </div>
@@ -122,7 +122,7 @@ include 'menu.php';
                         <a href="http://cse.tlu.edu.vn/Portals/0/Longnh_CV_en_tlu.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Long Hoang CV"/></a> &nbsp; 
           
 
-                        <a href="http://myweb.ttu.edu/vinhtngu"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Long Hoang Nguyen"/></a> &nbsp; 
+                        <a href="http://myweb.ttu.edu/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Long Hoang Nguyen"/></a> &nbsp; 
   
                         <a href="https://www.linkedin.com/in/hoang-long-nguyen-9713676"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
