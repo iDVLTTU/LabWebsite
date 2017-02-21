@@ -83,7 +83,7 @@
                     <i class="fa fa-caret-up"></i>
                 </a>
                 <div class="collapse list-group-submenu list-group-submenu-1" id="SubMenu1">
-                  <a href="#" class="list-group-item" data-parent="#SubMenu1">Spear phishing</a>
+                  <a href="#" id="spearPhishingLink" class="list-group-item" data-parent="#SubMenu1">Spear phishing</a>
                   <a href="#" class="list-group-item" data-parent="#SubMenu1">Clone phishing</a>
                   <a href="#" class="list-group-item" data-parent="#SubMenu1">Whaling</a>
                   <a href="#" class="list-group-item" data-parent="#SubMenu1">SMS phishing</a>
@@ -105,22 +105,28 @@
         </div>
 
 
-        <div class="col-md-2 examplesDiv">
-            <a href="" class="exampleOne"><div class="exampleBox"> Example One</div></a>
-            <a href="" class="exampleTwo"><div class="exampleBox"> Example Two</div></a>
-            <a href="" class="exampleThree"><div class="exampleBox"> Example Three</div></a>
-            <a href="" class="exampleFour"><div class="exampleBox"> Example Four</div></a>
-            <a href="" class="exampleFive"><div class="exampleBox"> Example Five</div></a>   
+        <div class="col-md-2 examplesDiv" id="spearPhishing">
+            <div id="spearLinkOne"><a href="#" class="exampleOne"><div class="exampleBox"> Example One</div></a></div>
+            <div id="spearLinkTwo"><a href="#" class="exampleTwo"><div class="exampleBox"> Example Two</div></a></div>
+            <a href="#" class="exampleThree"><div class="exampleBox"> Example Three</div></a>
+            <a href="#" class="exampleFour"><div class="exampleBox"> Example Four</div></a>
+            <a href="#" class="exampleFive"><div class="exampleBox"> Example Five</div></a>   
         </div>
 
         <div class="col-md-7">
          
            <iframe src="http://lo-th.github.io/olympe/index_diana.html"></iframe> 
-          <div id="containerData">
+          <div class="containerData" id="spearExOne">
                 What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummspearLinkTwoy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </div>
         </div>
+
+         
+          <div class="containerData" id="spearExTwo">
+                What is Lorem Ipsum? 2
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </div>
 
       </div>
      </div>
@@ -136,7 +142,27 @@
         <!-- JavaScript jQuery code from Bootply.com editor  -->
         
         <script type='text/javascript'>
-                 
+                 $(document).on("click", function(e){
+                    if($(e.target).is("#spearPhishingLink")){
+                      $("#spearPhishing").show();
+                    }
+                });
+
+                  $(document).ready(function(){
+                    $("#spearLinkOne").click(function(){
+                        $("#spearPhishing").show();
+                        $("#spearExOne").show();
+                        $("#spearExTwo").hide();
+                    });
+                });
+
+                  $(document).ready(function(){
+                    $("#spearLinkTwo").click(function(){
+                        $("#spearPhishing").show();
+                        $("#spearExOne").hide();
+                        $("#spearExTwo").show();
+                    });
+                });
         </script>   
 
 </body>
