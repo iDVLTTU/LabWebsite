@@ -67,7 +67,7 @@ a.list-group-item-success, button.list-group-item-success{
 .leftMenu{
 	background: #ddd;
 	height: 900px;
-	/*background: url("./img/sidemenu.jpg");*/
+	/*background: url("./img/bg.jpg");*/
 	/*background-repeat: none;*/
 }
 #courseMenu{
@@ -168,5 +168,8 @@ a[aria-expanded=true] .fa-caret-up {
 	display: none;
 }
 #spearExTwo{
+	display: none;
+}
+#hubs{
 	display: none;
 }
