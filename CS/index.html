@@ -36,7 +36,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact"> Contact</a></li>
 
             <!--- for dropdown if needed in future
             <li class="dropdown">
@@ -64,16 +64,24 @@
       
       <div class="row">
        <div class="col-md-12">
-        <div class="col-md-2 leftMenu">
+        <div class="col-md-3 leftMenu">
           
           <!-- menu -->
           <div id="courseMenu">
             <div class="list-group panel">
               <a href="#" class="list-group-item list-group-item-success" data-parent="#courseMenu">Introduction</a>
               <a href="#" class="list-group-item list-group-item-success" data-parent="#courseMenu"> Medium to breach Security</a>
-              <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu">Methods to breach Security <i class="fa fa-caret-down"></i></a>
+              <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu" aria-expanded="false">
+                  Methods to breach Security
+                   <i class="fa fa-caret-down"></i>
+                   <i class="fa fa-caret-up"></i>
+               </a>
               <div class="collapse list-group-submenu" id="demo3">
-                <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1">Phishing<i class="fa fa-caret-down"></i></a>
+                <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1" aria-expanded="false">
+                    Phishing
+                    <i class="fa fa-caret-down"></i>
+                    <i class="fa fa-caret-up"></i>
+                </a>
                 <div class="collapse list-group-submenu list-group-submenu-1" id="SubMenu1">
                   <a href="#" class="list-group-item" data-parent="#SubMenu1">Spear phishing</a>
                   <a href="#" class="list-group-item" data-parent="#SubMenu1">Clone phishing</a>
@@ -83,7 +91,11 @@
                 <a href="javascript:;" class="list-group-item">Spoofing</a>
                 <a href="javascript:;" class="list-group-item">Malwares</a>
               </div>
-              <a href="#demo4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu">Safety Measurements<i class="fa fa-caret-down"></i></a>
+              <a href="#demo4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu" aria-expanded="false">
+                   Safety Measurements
+                  <i class="fa fa-caret-down"></i>
+                  <i class="fa fa-caret-up"></i>
+              </a>
               <div class="collapse list-group-submenu" id="demo4">
                 <a href="" class="list-group-item">Anti-Virus</a>
                 <a href="" class="list-group-item">Multi-factor authentication</a>
@@ -108,8 +120,13 @@
             </div>
         </div>
 
-        <div class="col-md-2">
-          <p>Test textTest textTest textTest textTest textTest textTest text</p>
+        <div class="col-md-7">
+         
+          <iframe src="http://lo-th.github.io/olympe/index_diana.html"></iframe>
+          <div id="containerData">
+                What is Lorem Ipsum?
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </div>
         </div>
 
       </div>
@@ -126,10 +143,7 @@
         <!-- JavaScript jQuery code from Bootply.com editor  -->
         
         <script type='text/javascript'>
-          $(document).ready(function() {         
-              
-          
-          });        
+                 
         </script>   
 
 </body>

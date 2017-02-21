@@ -1,5 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Chicle&subset=latin-ext');
-
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+.accordion-toggle:after {
+    font-family: 'FontAwesome';
+    content: "\f078";    
+    float: right;
+}
+.accordion-opened .accordion-toggle:after {    
+    content: "\f054";    
+}
 #bg{
 	position: fixed;
     top: 0;
@@ -61,13 +69,10 @@ a.list-group-item-success, button.list-group-item-success{
 	height: 900px;
 }
 #courseMenu{
-	font-family: 'Chicle', cursive;
-	width: 97%;
 	margin: auto;
 	margin-top: 20px;
-	font-family: 
-	font-size: 22x;
-
+	font-size: 13px;
+	font-family: 'Black Ops One', cursive;
 }
 
 .examplesDiv{
@@ -82,4 +87,31 @@ a.list-group-item-success, button.list-group-item-success{
 .exampleImg img{
 	width: 80%;
 	margin: auto;
+}
+iframe {
+     position: absolute;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 500px;
+}
+#containerData {
+     position: absolute;
+     z-index: 2;
+     top: 0;
+     left: 0;
+     width: 100%;
+     overflow: auto;
+     color: #ffffff;
+}
+
+a[aria-expanded=false] .fa-caret-down {
+   display: none;
+}
+a[aria-expanded=true] .fa-caret-up {
+   display: none;
+}
+.fa{
+	float: right;
 }
