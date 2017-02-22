@@ -237,6 +237,9 @@ margin-bottom: 10px;
     border-color: #79e238;
     background: #14b120;
 }
+.bg-white{
+	background: #fff;
+}
 .tile-box:hover{
 	background: #69736a;
 	box-shadow: 0px 5px 20px 4px #888888;
