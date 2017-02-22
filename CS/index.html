@@ -12,6 +12,18 @@
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
+
+    <SCRIPT TYPE="text/javascript"> 
+        function popup(mylink, windowname) { 
+          if (! window.focus)
+            return true; var href; 
+          if (typeof(mylink) == 'string') 
+            href=mylink; else href=mylink.href; 
+          window.open(href, windowname, 'width=900,height=700,scrollbars=yes'); 
+          return false; 
+          } 
+    </SCRIPT>
+
   </head>
 
   <body data-gr-c-s-loaded="true">
@@ -69,6 +81,7 @@
           <!-- menu -->
           <div id="courseMenu">
             <div class="list-group panel">
+           
               <a href="#" class="list-group-item list-group-item-success" data-parent="#courseMenu">Introduction</a>
               <a href="#" class="list-group-item list-group-item-success" data-parent="#courseMenu"> Medium to breach Security</a>
               <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu" aria-expanded="false">
@@ -106,7 +119,7 @@
 
 
         <div class="col-md-2 examplesDiv" id="spearPhishing">
-            <div id="spearLinkOne"><a href="#" class="exampleOne"><div class="exampleBox"> Example One</div></a></div>
+            <div id="spearLinkOne"><a href="./phishingEmail.html" onClick="return popup(this, 'notes')" class="exampleOne"><div class="exampleBox"> Example One</div></a></div>
             <div id="spearLinkTwo"><a href="#" class="exampleTwo"><div class="exampleBox"> Example Two</div></a></div>
             <a href="#" class="exampleThree"><div class="exampleBox"> Example Three</div></a>
             <a href="#" class="exampleFour"><div class="exampleBox"> Example Four</div></a>

@@ -140,8 +140,8 @@ a[aria-expanded=true] .fa-caret-up {
 .exampleBox{
 	margin: auto;
 }
-.exampleOne{
-	background: rgba(211, 78, 2, .9);
+.exampleOne{ 
+	background: rgba(221, 62, 24, .9);
 	display: block;
 }
 .exampleTwo{
@@ -172,4 +172,38 @@ a[aria-expanded=true] .fa-caret-up {
 }
 #hubs{
 	display: none;
+}
+
+/*Phishing Email template*/
+.topArea{
+	height: 50px;
+}
+
+.emailArea{
+	
+}
+.emailArea img{
+	width: 90%;
+	border: 8px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0px 5px 20px 4px #888888;
+}
+.messageBody{
+	background: #fff;
+}
+.subject{
+	clear: both;
+	margin-bottom: 30px;
+}
+.senderReceiver{
+	width: 82%;
+
+}
+.from{
+	width: 40%;
+	float: left;
+}
+.receiver{
+	width: 40%;
+	float: right;
 }
