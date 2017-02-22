@@ -90,17 +90,18 @@
                    <i class="fa fa-caret-up"></i>
                </a>
               <div class="collapse list-group-submenu" id="demo3">
-                <a href="#SubMenu1" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1" aria-expanded="false">
-                    Phishing
+                <a href="#SubMenu1"  id="phishingLink" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1" aria-expanded="false">Phishing</a>
+
+                    <!-- 
                     <i class="fa fa-caret-down"></i>
-                    <i class="fa fa-caret-up"></i>
-                </a>
-                <div class="collapse list-group-submenu list-group-submenu-1" id="SubMenu1">
-                  <a href="#" id="spearPhishingLink" class="list-group-item" data-parent="#SubMenu1">Spear phishing</a>
+                    <i class="fa fa-caret-up"></i> -->
+                
+                <!-- <div class="collapse list-group-submenu list-group-submenu-1" id="SubMenu1">
+                  <a href="#" class="list-group-item" data-parent="#SubMenu1">Spear phishing</a>
                   <a href="#" class="list-group-item" data-parent="#SubMenu1">Clone phishing</a>
                   <a href="#" class="list-group-item" data-parent="#SubMenu1">Whaling</a>
                   <a href="#" class="list-group-item" data-parent="#SubMenu1">SMS phishing</a>
-                </div>
+                </div> -->
                 <a href="javascript:;" class="list-group-item">Spoofing</a>
                 <a href="javascript:;" class="list-group-item">Malwares</a>
               </div>
@@ -118,7 +119,7 @@
         </div>
 
 
-        <div class="col-md-2 examplesDiv" id="spearPhishing">
+        <div class="col-md-2 examplesDiv" id="phishing">
             <div id="spearLinkOne"><a href="./phishingEmail.html" onClick="return popup(this, 'notes')" class="exampleOne"><div class="exampleBox"> Example One</div></a></div>
             <div id="spearLinkTwo"><a href="#" class="exampleTwo"><div class="exampleBox"> Example Two</div></a></div>
             <a href="#" class="exampleThree"><div class="exampleBox"> Example Three</div></a>
@@ -128,7 +129,7 @@
 
         <div class="col-md-7">
          
-           <iframe src="http://lo-th.github.io/olympe/index_diana.html"></iframe> 
+           <!-- <iframe src="http://lo-th.github.io/olympe/index_diana.html"></iframe>  -->
           <div class="containerData" id="spearExOne">
                 What is Lorem Ipsum?
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummspearLinkTwoy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -156,8 +157,8 @@
         
         <script type='text/javascript'>
                  $(document).on("click", function(e){
-                    if($(e.target).is("#spearPhishingLink")){
-                      $("#spearPhishing").show();
+                    if($(e.target).is("#phishingLink")){
+                      $("#phishing").show();
                     }
                 });
 

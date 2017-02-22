@@ -119,6 +119,9 @@ a[aria-expanded=true] .fa-caret-up {
 #spearPhishing{
 	display: none;
 }
+#phishing{
+	display: none;
+}
 .examplesDiv{
 	margin-top: 20px;
 	border-right: 1px dashed #333;
