@@ -61,7 +61,9 @@ include 'menu.php';
   
                         <a href="http://github.com/Tommy-Dang"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <a href="http://scholar.google.com/citations?user=jobGGfEAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+                        <a href="http://scholar.google.com/citations?user=jobGGfEAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; &nbsp; 
+
+                        <a href="https://www.researchgate.net/profile/Tommy_Dang2"> <img src="images/icons/RG.png" height="23"  padding="0" alt="Research Gate"/></a> &nbsp; &nbsp; 
 
                         <a href="images/icons/orcid_qrcode.png"> <img src="images/icons/orcid_qrcode_tommy.png" height="21"  padding="0" alt="orcid_qrcode"/></a> 
 
