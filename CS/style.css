@@ -179,17 +179,19 @@ a[aria-expanded=true] .fa-caret-up {
 
 /*Phishing Email template*/
 .topArea{
-	height: 50px;
+	height: 10px;
 }
 
 .emailArea{
-	
+	width: 90%
+	margin: auto;
 }
 .emailArea img{
 	width: 90%;
 	border: 8px solid #ddd;
 	border-radius: 10px;
 	box-shadow: 0px 5px 20px 4px #888888;
+	margin: auto
 }
 .messageBody{
 	background: #fff;
@@ -197,16 +199,34 @@ a[aria-expanded=true] .fa-caret-up {
 .subject{
 	clear: both;
 	margin-bottom: 30px;
+	border-bottom: 1px solid #eee;
+	padding-top: 5px;
+	font-weight: bold;
+
 }
 .senderReceiver{
-	width: 82%;
+	font-weight: bold;
 
 }
 .from{
-	width: 40%;
-	float: left;
+	border-bottom: 1px solid #eee;
+	padding-top: 5px;
 }
 .receiver{
-	width: 40%;
-	float: right;
+	border-bottom: 1px solid #eee;
+	padding-top: 5px;
+}
+.messageBody h3{
+	text-align: center;
+}
+.emailArea span{
+	display: block;
+	float: left;
+	width: 70px;
+}
+.emailFooter{
+	margin-top: 20px;
+	text-align: center;
+	line-height: 12px;
+	margin-bottom: 40px;
 }
