@@ -359,8 +359,11 @@ margin-bottom: 10px;
 	font-family: 'georgia';
 }
 .questionArea{
-	max-width: 512px;
+	max-width: 600px;
 	margin: auto;
+}
+.questioneEach{
+	max-width: 512px;
 }
 .questionArea p {
 	margin: -5px;
@@ -395,14 +398,22 @@ margin-bottom: 10px;
 }
 .questionFive{
 	background: url(./img/questions/5.png);
-	height: 160px;
+	height: 140px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-left: 0px;
+
+}
+.questionSix{
+	background: url(./img/questions/6.png);
+	height: 140px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 60px;
+
 
 }
 .questionMargin{
-	margin-bottom: -25px;
+	margin-bottom: -15px;
 }
 .questionNo{
 
@@ -419,7 +430,7 @@ margin-bottom: 10px;
 
 }
 .question h4{
-	font-size: 15px;
+	font-size: 17px;
     text-shadow: 1px 1px 2px #f7f4f4;
     color: #000;
     font-weight: bold;
@@ -540,9 +551,6 @@ margin-bottom: 10px;
   -webkit-font-smoothing: antialiased;
 }
 .finalQuestionArea{
-	width: 325px;
-	float: left;
-	line-height: 160px;
 	vertical-align: middle;
 }
 .finalQuestionDiv{
@@ -551,28 +559,41 @@ margin-bottom: 10px;
     margin-top: 20px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #446;
+    max-width: 512px;
+    margin-bottom: 12px;
 }
 .finalQuestionArea h3{
-	font-size: 25px;
-	width: 270px;
-	text-align: center;
-	float: left;
-	margin-top: 34px;
-
-	vertical-align: middle;
+	font-size: 36px;
+    width: 396px;
+    text-align: center;
+    float: left;
+    margin-top: 34px;
+    vertical-align: middle;
+    margin-left: 20px;
 }
 .finalQuestionArea .fa{
 	font-size: 60px;
+	line-height: 145px;
 }
 .finalQuestionBtn{
-	width: 100px;
-	float: right;
-	margin-right: 20px;
-	margin-top: 10px;
+	width: 405px;
+	margin: auto;
 }
 .finalQuestionBtn .btn{
-	display: block;
 	line-height: 40px;
 	vertical-align: middle;
 	margin-bottom: 10px;
+	padding: 25px;
+	width: 200px;
+}
+.showResultBtn .btn-primary.active, .showResultBtn .btn-primary:active{
+	background: #ddd;
+}
+
+/*Diagram Page*/
+.diagram{
+	max-width: 800px;
+}
+.diagram img{
+	width: 100%;
 }
