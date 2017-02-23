@@ -355,7 +355,7 @@ margin-bottom: 10px;
 
 /*Question Template*/
 .questionBody{
-	width: 80%;
+	width: 800px;
 	font-family: 'georgia';
 }
 .questionArea{
@@ -464,7 +464,7 @@ margin-bottom: 10px;
 
 }
 .showResult {
-  background-color: hsl(210, 95%, 9%) !important;
+  background: #ddd;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0568cb", endColorstr="#01162c");
   background-image: -khtml-gradient(linear, left top, left bottom, from(#0568cb), to(#01162c));
@@ -563,7 +563,7 @@ margin-bottom: 10px;
     margin-bottom: 12px;
 }
 .finalQuestionArea h3{
-	font-size: 36px;
+	font-size: 30px;
     width: 396px;
     text-align: center;
     float: left;
@@ -572,22 +572,24 @@ margin-bottom: 10px;
     margin-left: 20px;
 }
 .finalQuestionArea .fa{
-	font-size: 60px;
-	line-height: 145px;
+    font-size: 60px;
+    line-height: 130px;
+    margin-left: -28px;
 }
 .finalQuestionBtn{
-	width: 405px;
+	width: 425px;
 	margin: auto;
 }
 .finalQuestionBtn .btn{
-	line-height: 40px;
 	vertical-align: middle;
 	margin-bottom: 10px;
 	padding: 25px;
 	width: 200px;
+	font-size: 25px;
+	margin-right: 10px;
 }
 .showResultBtn .btn-primary.active, .showResultBtn .btn-primary:active{
-	background: #ddd;
+	background: #777;
 }
 
 /*Diagram Page*/
