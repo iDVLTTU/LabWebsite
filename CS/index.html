@@ -19,9 +19,17 @@
             return true; var href; 
           if (typeof(mylink) == 'string') 
             href=mylink; else href=mylink.href; 
-          window.open(href, windowname, 'width=900,height=700,scrollbars=yes'); 
+          window.open(href, windowname, 'width=750,height=750,scrollbars=yes'); 
           return false; 
           } 
+          function popup2(mylink, windowname) { 
+          if (! window.focus)
+            return true; var href; 
+          if (typeof(mylink) == 'string') 
+            href=mylink; else href=mylink.href; 
+          window.open(href, windowname, 'width=520,height=800,scrollbars=yes'); 
+          return false; 
+          }
     </SCRIPT>
 
   </head>
@@ -127,7 +135,7 @@
                 <div class="exampleBox"> 
                     <div class="tile-box tile-box-alt bg-purple" title="">
                         <div class="tile-header"></div>
-                        <div class="tile-content-wrapper"><i class="fa fa-link"></i> Example One </div>
+                        <div class="tile-content-wrapper"><i class="fa fa-link"></i> Example 1 </div>
 
                         <div class="tile-footer"></div>
                     </div>
@@ -140,7 +148,7 @@
                   <div class="exampleBox"> 
                       <div class="tile-box tile-box-alt bg-red" title="">
                           <div class="tile-header"></div>
-                          <div class="tile-content-wrapper"><i class="fa fa-link"></i> Example Two</div>
+                          <div class="tile-content-wrapper"><i class="fa fa-link"></i> Example 2</div>
                           <div class="tile-footer"></div>
                       </div>
                   </div>
@@ -150,7 +158,7 @@
                   <div class="exampleBox"> 
                       <div class="tile-box tile-box-alt bg-darkblue" title="">
                           <div class="tile-header"></div>
-                          <div class="tile-content-wrapper"><i class="fa fa-link"></i> Example Three</div>
+                          <div class="tile-content-wrapper"><i class="fa fa-link"></i> Example 3</div>
                           <div class="tile-footer"></div>
                       </div>
                   </div>
@@ -159,7 +167,7 @@
                   <div class="exampleBox"> 
                       <div class="tile-box tile-box-alt bg-darkred" title="">
                           <div class="tile-header"></div>
-                          <div class="tile-content-wrapper"><i class="fa fa-link"></i> Example Four</div>
+                          <div class="tile-content-wrapper"><i class="fa fa-link"></i> User Example 1</div>
                           <div class="tile-footer"></div>
                       </div>
                   </div>
@@ -168,12 +176,12 @@
                   <div class="exampleBox"> 
                       <div class="tile-box tile-box-alt bg-green" title="">
                           <div class="tile-header"></div>
-                          <div class="tile-content-wrapper"><i class="fa fa-link"></i> Example Five</div>
+                          <div class="tile-content-wrapper"><i class="fa fa-link"></i> User Example 2</div>
                           <div class="tile-footer"></div>
                       </div>
                   </div>
             </a>  
-            <a href="./questions.html" onClick="return popup(this, 'notes')" class="exampleSix">
+            <a href="./questions.html" onClick="return popup2(this, 'example')" class="exampleSix">
                   <div class="exampleBox"> 
                       <div class="tile-box tile-box-alt bg-white" title="">
                           <div class="tile-header"></div>

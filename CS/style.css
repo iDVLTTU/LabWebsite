@@ -274,7 +274,7 @@ margin-bottom: 10px;
 }
 
 .emailArea{
-	width: 78%;
+	width: 100%;
     margin: auto;
     border: 3px solid #a8a8a9;
     padding: 10px;
@@ -359,7 +359,7 @@ margin-bottom: 10px;
 	font-family: 'georgia';
 }
 .questionArea{
-	max-width: 600px;
+	max-width: 90%;
 	margin: auto;
 }
 .questioneEach{
@@ -408,9 +408,12 @@ margin-bottom: 10px;
 	height: 140px;
 	background-size: contain;
 	background-repeat: no-repeat;
+}
+.subQuestion{
 	margin-left: 60px;
-
-
+}
+.subQuestionLTwo{
+	margin-left: 120px;
 }
 .questionMargin{
 	margin-bottom: -15px;
@@ -452,6 +455,8 @@ margin-bottom: 10px;
 .showResultBtn{
 	width: 205px;
 	margin: auto;
+	float: left;
+    margin-right: 60px;
 }
 .showResult{
 	width: 200px;
@@ -559,8 +564,10 @@ margin-bottom: 10px;
     margin-top: 20px;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #446;
-    max-width: 512px;
-    margin-bottom: 12px;
+    max-width: 540px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-top: 50px;
 }
 .finalQuestionArea h3{
 	font-size: 30px;
@@ -572,8 +579,8 @@ margin-bottom: 10px;
     margin-left: 20px;
 }
 .finalQuestionArea .fa{
-    font-size: 60px;
-    line-height: 130px;
+    font-size: 75px;
+    line-height: 135px;
     margin-left: -28px;
 }
 .finalQuestionBtn{
@@ -590,8 +597,21 @@ margin-bottom: 10px;
 }
 .showResultBtn .btn-primary.active, .showResultBtn .btn-primary:active{
 	background: #777;
+	width: 250px;
+}
+.customizeQuestion{
+	clear: both;
+	margin-right: 120px;
+}
+.footBtn{
+	clear: both;
+	width: 600px;
+
 }
 
+.customizeQuestion .btn-primary.active, .showResultBtn .btn-primary:active{
+	width: 315px;
+}
 /*Diagram Page*/
 .diagram{
 	max-width: 800px;
