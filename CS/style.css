@@ -82,6 +82,7 @@ a.list-group-item-success, button.list-group-item-success{
 	height: 900px;
 	/*background: url("./img/bg.jpg");*/
 	/*background-repeat: none;*/
+	width: 20%;
 }
 #courseMenu{
 	margin: auto;
