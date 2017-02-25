@@ -250,15 +250,15 @@ margin-bottom: 10px;
 .bg-lighblue{
 	color: #000;
     border-color: #673AB7;
-    background: #73c2ed;
+    background: #27abf3;
     box-shadow: 0px 1px 5px 1px #000;
 }
 
 .bg-lighblue .tile-header{
-	    background: rgba(0,0,0,0.1);
+	    background: rgba(0,0,0,0.2);
 }
 .bg-lighblue .tile-footer{
-	    background: rgba(0,0,0,0.2);
+	    background: rgba(0,0,0,0.3);
 }
 .bg-purple{
 	color: #fff;
