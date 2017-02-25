@@ -78,11 +78,11 @@ a.list-group-item-success, button.list-group-item-success{
 	width: 100%;
 }
 .leftMenu{
-	background: #ddd;
+	background: #2967b1;
 	height: 900px;
 	/*background: url("./img/bg.jpg");*/
 	/*background-repeat: none;*/
-	width: 20%;
+	width: 17%;
 	box-shadow: 0px 5px 10px 0px #444;
 }
 #courseMenu{
@@ -114,7 +114,7 @@ iframe {
      height: 500px;
 }
 .iframe-diana{
-	width: 62%;
+	width: 70%;
 }
 .containerData {
      position: absolute;
@@ -150,7 +150,7 @@ a[aria-expanded=true] .fa-caret-up {
 }
 .examplesDiv{
 	margin-left: 5px;
-    background: #736c6c;
+    background: #2967b1;
     box-shadow: 0px 5px 5px 5px #444;
     margin-right: 10px;
 }
@@ -224,7 +224,7 @@ margin-bottom: 10px;
     text-transform: uppercase;
     border: 0!important;
     background: rgba(255,255,255,.1);
-    min-height: 15px;
+    min-height: 0px;
 }
 .tile-content-wrapper {
     position: relative;
@@ -239,7 +239,7 @@ margin-bottom: 10px;
     text-align: left;
     color: inherit;
     background: rgba(0,0,0,.1);
-    min-height: 15px;
+    min-height: 0px;
 }
 
 .bg-darkblue{
@@ -298,13 +298,13 @@ margin-bottom: 10px;
 	padding-right: 5px;
 }
 .examplesDiv{
-	width: 13%;
+	width: 11%;
 }
 #spearLinkOne{
 	margin-top: 20px;
 }
 .quizImg img{
-	width: 70%;
+	width: 55%;
 	margin: auto;
 }
 /*Phishing Email template*/
@@ -316,7 +316,7 @@ margin-bottom: 10px;
 }
 
 .emailArea{
-	width: 100%;
+	width: 95%;
     margin: auto;
     border: 3px solid #a8a8a9;
     padding: 10px;
@@ -332,8 +332,8 @@ margin-bottom: 10px;
 	border-radius: 10px;
 	box-shadow: 0px 5px 20px 4px #888888;
 	margin: auto;
-	width: 95%;
-	margin-left: 15px;
+	width: 90%;
+	margin-left: 30px;
 }
 .messageBody{
 	background: #fff;
@@ -401,7 +401,6 @@ margin-bottom: 10px;
 	font-family: 'georgia';
 }
 .questionArea{
-	max-width: 90%;
 	margin: auto;
 }
 .questioneEach{
