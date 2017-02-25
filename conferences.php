@@ -659,6 +659,7 @@ include 'menu.php'; ?>
     </table>
 
   <p>For more Visualization conferences, click <a href="http://www.wikicfp.com/cfp/call?conference=visualization">here</a></p>
+  <div class="grantsLink">For Research grants, click <a href="./grants.php">here</a></div>
 
     </div>
 
