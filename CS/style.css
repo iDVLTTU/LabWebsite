@@ -148,7 +148,10 @@ a[aria-expanded=true] .fa-caret-up {
 	display: none;
 }
 .examplesDiv{
-	border-right: 1px dashed #333;
+	margin-left: 5px;
+    background: #736c6c;
+    box-shadow: 0px 5px 5px 5px #444;
+    margin-right: 10px;
 }
 .examplesDiv a{
 	width: 100%;
@@ -191,6 +194,11 @@ margin-bottom: 10px;
 	background: rgba(155, 0, 23, .9);
 	display: block;
 }
+.exampleQuiz{
+    display: block;
+    border: 1px solid #666;
+    box-shadow: 0px 2px 5px 2px #222;
+}
 #spearExOne{
 	display: none;
 }
@@ -214,7 +222,7 @@ margin-bottom: 10px;
     text-align: left;
     text-transform: uppercase;
     border: 0!important;
-    background: rgba(255,255,255,.2);
+    background: rgba(255,255,255,.1);
     min-height: 15px;
 }
 .tile-content-wrapper {
@@ -236,7 +244,21 @@ margin-bottom: 10px;
 .bg-darkblue{
 	color: #fff;
     border-color: #673AB7;
-    background: #213b9a;
+    background: #285fa5;
+    box-shadow: 0px 1px 5px 1px #000;
+}
+.bg-lighblue{
+	color: #000;
+    border-color: #673AB7;
+    background: #73c2ed;
+    box-shadow: 0px 1px 5px 1px #000;
+}
+
+.bg-lighblue .tile-header{
+	    background: rgba(0,0,0,0.1);
+}
+.bg-lighblue .tile-footer{
+	    background: rgba(0,0,0,0.2);
 }
 .bg-purple{
 	color: #fff;
@@ -258,8 +280,8 @@ margin-bottom: 10px;
 	background: #fff;
 }
 .tile-box:hover{
-	background: #69736a;
-	box-shadow: 0px 5px 20px 4px #888888;
+	background: #292f2a;
+	box-shadow: 0px 2px 5px 3px #928a8a;
 }
 .examplesDiv .fa{
 	font-size: 18px;
@@ -271,6 +293,10 @@ margin-bottom: 10px;
 }
 #spearLinkOne{
 	margin-top: 20px;
+}
+.quizImg img{
+	width: 70%;
+	margin: auto;
 }
 /*Phishing Email template*/
 .emailBody{
