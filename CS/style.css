@@ -256,11 +256,13 @@ margin-bottom: 10px;
 }
 
 .bg-lighblue .tile-header{
-	    background: rgba(0,0,0,0.2);
+	    background: rgba(255,255,255,0.2);
 }
 .bg-lighblue .tile-footer{
 	    background: rgba(0,0,0,0.3);
 }
+
+
 .bg-purple{
 	color: #fff;
     border-color: #923ab7;
@@ -283,6 +285,7 @@ margin-bottom: 10px;
 .tile-box:hover{
 	background: #292f2a;
 	box-shadow: 0px 2px 5px 3px #928a8a;
+	color: #fff;
 }
 .examplesDiv .fa{
 	font-size: 18px;
