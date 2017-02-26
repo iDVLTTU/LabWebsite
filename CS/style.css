@@ -304,8 +304,10 @@ margin-bottom: 10px;
 	margin-top: 20px;
 }
 .quizImg img{
-	width: 55%;
-	margin: auto;
+    width: 45%;
+    margin: auto;
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 /*Phishing Email template*/
 .emailBody{
