@@ -330,9 +330,7 @@ margin-bottom: 10px;
 }
 
 .emailArea img{
-	border: 8px solid #ddd;
 	border-radius: 10px;
-	box-shadow: 0px 5px 20px 4px #888888;
 	margin: auto;
 	width: 90%;
 	margin-left: 30px;
@@ -341,7 +339,6 @@ margin-bottom: 10px;
 	background: #fff;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 0px 1px 8px 0px #111;
 }
 .subject{
 	margin-bottom: 20px;
@@ -420,7 +417,7 @@ margin-bottom: 10px;
 }
 .questionTwo{
 	background: url(./img/questions/2.png);
-	height: 80px;
+	height: 90px;
 	background-size: contain;
 	background-repeat: no-repeat;
 
@@ -441,7 +438,7 @@ margin-bottom: 10px;
 }
 .questionFive{
 	background: url(./img/questions/5.png);
-	height: 80px;
+	height: 90px;
 	background-size: contain;
 	background-repeat: no-repeat;
 
@@ -465,7 +462,7 @@ margin-bottom: 10px;
 
 }
 .question{
-	width: 260px;
+	width: 280px;
 	float: right;
 	margin-top: 10px;
 	text-align: center;
@@ -480,8 +477,8 @@ margin-bottom: 10px;
     text-shadow: 1px 1px 2px #f7f4f4;
     color: #000;
     font-weight: bold;
-    margin-top: 4px;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
+    margin-top: 7px;
 }
 
 .btn-lg{
@@ -682,18 +679,16 @@ margin-bottom: 10px;
 
 /*Customize heigh*/
 .questionTwo{
-	margin-bottom: -5px;
 }
 .questionTwo .question{
-    width: 300px;
-    margin-top: 15px;
+    width: 290px;
+    margin-top: 18px;
 }
 .questionFive{
-	margin-bottom: -5px;
 }
 .questionFive .question{
-    width: 320px;
-    margin-top: 15px;
+    width: 300px;
+    margin-top: 18px;
 }
 .questionFive .question h4{
 	margin-bottom: 4px;
