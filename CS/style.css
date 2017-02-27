@@ -116,6 +116,13 @@ iframe {
 .iframe-diana{
 	width: 70%;
 }
+.avatar{
+	background: url('./img/avatar.png');
+	min-height: 800px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
 .containerData {
      position: absolute;
      z-index: 2;
