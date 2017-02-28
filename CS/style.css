@@ -706,3 +706,9 @@ margin-bottom: 10px;
 .questionFive .question h4{
 	margin-bottom: 4px;
 }
+
+.list-group a.list-group-item-success.active{
+    color: #000;
+    background-color: #ccc;
+    border-color: #ddd;
+}

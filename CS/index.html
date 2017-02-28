@@ -92,7 +92,7 @@
           <div id="courseMenu">
             <div class="list-group panel">
            
-              <a href="#" id="phishingLink" class="list-group-item list-group-item-success" data-parent="#SubMenu1"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i> Phishing</a>
+              <a href="javascript:;" id="phishingLink" class="list-group-item list-group-item-success" data-parent="#SubMenu1"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i> Phishing</a>
               <a href="#" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu"  aria-expanded="false"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i> User Authentication
               </a>
 
@@ -247,6 +247,13 @@
       <script>
         $(".list-group-submenu a").on("click", function() {
           $(".list-group-submenu a").removeClass("active");
+          $(this).addClass("active");
+        });
+      </script>
+
+      <script>
+        $(".list-group a").on("click", function() {
+          $(".list-group a").removeClass("active");
           $(this).addClass("active");
         });
       </script>
