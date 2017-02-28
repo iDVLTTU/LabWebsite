@@ -27,7 +27,7 @@
             return true; var href; 
           if (typeof(mylink) == 'string') 
             href=mylink; else href=mylink.href; 
-          window.open(href, windowname, 'width=600,height=750,scrollbars=yes'); 
+          window.open(href, windowname, 'width=600,height=800,scrollbars=yes'); 
           return false; 
           }
     </SCRIPT>
@@ -92,38 +92,42 @@
           <div id="courseMenu">
             <div class="list-group panel">
            
-              <a href="#" class="list-group-item list-group-item-success" data-parent="#courseMenu"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>Introduction</a>
-              <a href="#" class="list-group-item list-group-item-success" data-parent="#courseMenu"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i> Medium to breach Security</a>
-              <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu" aria-expanded="false"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
-                  Methods to breach Security
+              <a href="#" id="phishingLink" class="list-group-item list-group-item-success" data-parent="#SubMenu1"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>Phishing</a>
+              <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu"  aria-expanded="false"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i> User Authentication
+                   <i class="fa fa-caret-down"></i>
+                   <i class="fa fa-caret-up"></i>
+              </a>
+               <div class="collapse list-group-submenu" id="demo3">
+                <a href="#" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1" aria-expanded="false">Importance of user authentication</a>
+                <a href="javascript:;" class="list-group-item">Approaches to user authentication</a>
+                <a href="javascript:;" class="list-group-item">Attacks on user authentication</a>
+              </div>
+
+              <a href="" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu" aria-expanded="false"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
+                  Encyption Basics
                    <i class="fa fa-caret-down"></i>
                    <i class="fa fa-caret-up"></i>
                </a>
-              <div class="collapse list-group-submenu" id="demo3">
-                <a href="#SubMenu1"  id="phishingLink" class="list-group-item" data-toggle="collapse" data-parent="#SubMenu1" aria-expanded="false">Phishing</a>
-
-                    <!-- 
-                    <i class="fa fa-caret-down"></i>
-                    <i class="fa fa-caret-up"></i> -->
-                
-                <!-- <div class="collapse list-group-submenu list-group-submenu-1" id="SubMenu1">
-                  <a href="#" class="list-group-item" data-parent="#SubMenu1">Spear phishing</a>
-                  <a href="#" class="list-group-item" data-parent="#SubMenu1">Clone phishing</a>
-                  <a href="#" class="list-group-item" data-parent="#SubMenu1">Whaling</a>
-                  <a href="#" class="list-group-item" data-parent="#SubMenu1">SMS phishing</a>
-                </div> -->
-                <a href="javascript:;" class="list-group-item">Spoofing</a>
-                <a href="javascript:;" class="list-group-item">Malwares</a>
-              </div>
+            
               <a href="#demo4" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu" aria-expanded="false"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
-                   Safety Measurements
-                  <i class="fa fa-caret-down"></i>
+                   Social Media and Privacy
+                  <!-- <i class="fa fa-caret-down"></i>
                   <i class="fa fa-caret-up"></i>
               </a>
-              <div class="collapse list-group-submenu" id="demo4">
+              <!-- <div class="collapse list-group-submenu" id="demo4">
                 <a href="" class="list-group-item">Anti-Virus</a>
-                <a href="" class="list-group-item">Multi-factor authentication</a>
-              </div>
+                <a href="" class="list-group-item">Malware</a>
+              </div> -->
+
+              <a href="#" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu" aria-expanded="false"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
+                   Malware
+                   <i class="fa fa-caret-down"></i>
+                   <i class="fa fa-caret-up"></i>
+              </a>
+
+              <a href="#" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#courseMenu" aria-expanded="false"><i class="fa fa-cog fa-spin fa-3x fa-fw margin-bottom"></i>
+                   Wi-Fi Security
+              </a>
             </div>
           </div>
         </div>
