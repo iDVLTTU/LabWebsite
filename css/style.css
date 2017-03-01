@@ -855,6 +855,13 @@ img:hover{
 .sidebar p{
   line-height: 15px;
   text-align: justify;
+  margin-bottom: -10px;
+}
+.sidebarNewsBorder{
+
+    border-top: 1px solid #AFABAB;
+    border-bottom: 1px solid #fff;
+    margin-top: 10px;
 }
 .newsBox{
   text-align: justify;

@@ -11,9 +11,11 @@
                           echo "<h4>" . $xml->headline->asXml() . "</h4>";
                           echo "<h5>" . $xml->date->asXml() . "</h5>";
                           echo "<p>" . $xml->sortNews->asXml() . "</p>"; 
+                          if($i!=count($xmls)-1)
                           echo '<a href="news.php?id=' .$i.'">Read More</a>';
                           $i++; ?>
-                          <div class="personImgBorder"></div> 
+                          <div style="clear:both;"></div>
+                          <div class="sidebarNewsBorder"></div> 
                           <?php 
                         }
                   ?>
