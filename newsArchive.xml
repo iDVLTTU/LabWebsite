@@ -3,6 +3,77 @@
 <newsArchive>
 
 <news category="website">
+<headline>Congratulations!</headline>
+<date>March 1st, 2017</date>
+<sortNews>Congratulation to <b>Vinh</b> and <b>Long</b> for getting acceptance and invitation to present their posters.</sortNews>
+<fullNews>
+	16th Annual Graduate Student Research Poster Competition, accepted and invited <b>Vinh The Nguyen</b> and <b>Long Hoang Nguyen</b> to present their posters.
+	Congratulation to <b>Vinh</b> and <b>Long</b> for getting acceptance and invitation to present their posters. The title and Abstract of the posters are as following:
+	<br/>
+	<br/>
+
+	<h3>CancerMapper: Overview Explorations<br/><br/>of Cancer Study Interaction Network</h3>
+
+	<h6>Vinh The Nguyen and Tommy Dang<br/>
+	Computer Science Department, Texas Tech University, Texas, USA</h6>
+
+	<b>ABSTRACT</b>
+	<br/>
+	Understanding the complicated many-to-many relationships between cancers and mutated genes is challenging. For example, what common proteins are highly mutated in both prostate cancer and breast cancer or what cancers are driven by a selected subset of proteins. In this paper, we present CancerMapper, a novel exploration tool, that allows users to uncover the correlations among cancer studies as well as cancer studies and genes. CancerMapper also helps biologists to filter the cancer network based on the common mutated proteins and their frequencies. Bubble graph is constructed to visualize common protein based on its frequency and biological assemblies. Parallel coordinates highlight patterns of patient profiles (obtained from cBioportal by WebAPI services) on different attributes for a specified cancer study. Data retrieved from cBioportal.org as a Comma Separated Value file including protein name, frequency, cancer study and study type fields as well as Tab Separated Value through WebAPI service provided by cBioPortal. Protein’s images pulled from Protein Data Bank (http://www.rcsb.org/)
+	<br/><br/>
+	<div class="img-area">
+		<div class="img-middle">
+			<img src="./images/posters/vinh/poster.png"></img> 
+		</div>
+		<div style="clear:both;"></div>
+		<br/>
+	</div>
+	For more information about the project please visit <a href="https://github.com/iDataVisualizationLab/CancerNetwork">Project github repository</a>
+
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+
+	<h3>Ogallala Aquifer Monitoring Visualization</h3>
+
+	<h6>Long Hoang Nuyen and Tommy Dang<br/>
+	Computer Science Department, Texas Tech University, Texas, USA</h6>
+
+	<b>ABSTRACT</b>
+	<br/>
+		Water is the basic element that humanity is reliant upon for everyday and production
+	activities. According to the National Ground Water Association report in 2016 [Facts about global
+	groundwater usage], we extract almost 982km3/year from the ground. This number serves as a
+	good indicator of need of water in our daily life. Therefore, monitoring ground water, sustaining
+	aquifer supply capability, and analyzing its changes are highly desirable by decision makers. In
+	facts, a lot of wells that have integrated sensors to monitor water level information are established.
+	As the number of wells increases, it becomes more and more challenging for specialists to
+	visualize and analyze such large amount of data which come in realtime. The traditional processing
+	method like Excel becomes out of capability. Thus, this becomes a burden to analysts.
+	<br/><br/>
+	The result and main contribution of this poster is a visual analytics tool that can handle such
+	big sensor data and features various important dimensions for ground water analyst to quickly
+	capture interesting water behavior such as its saturated thickness contour, time series data
+	visualization. This tool also stretches out unusual pattern of water level such as sudden increase,
+	sudden decrease points over time. It also compares water capability across different locations,
+	regions and overall average along Ogallala aquifer. 
+	<br/><br/>
+	<div class="img-area">
+		<div class="img-left">
+			<img src="./images/posters/long/contour-map.png"></img> 
+		</div>
+		<div class="img-right">
+			<img src="./images/posters/long/horizon.png"></img>
+		</div>
+		<div style="clear:both;"></div>
+		<br/>
+	</div>
+	For more information about the project please visit <a href="https://github.com/iDataVisualizationLab/SaturatedThickness">Project github repository</a>
+</fullNews>
+</news>
+
+<news category="website">
 <headline>iDVL website lunched</headline>
 <date>January 25th, 2017</date>
 <sortNews>The website for the iDVL has beed launched.</sortNews>
