@@ -27,7 +27,11 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">
+        <div class="tooltip">
+            <span class="tooltiptext"></span>
+        </div>
+      </td>
       <td align="left" style="padding:5px;"></td>
     </tr>
 
