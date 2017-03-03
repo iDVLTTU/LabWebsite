@@ -93,3 +93,10 @@ nav ul:after {
     }
         
 
+font{
+    font-family: Helvetica,Arial,sans-serif;
+    color: #000;
+}
+td{
+    vertical-align: top;
+}
