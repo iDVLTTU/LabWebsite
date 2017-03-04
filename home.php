@@ -1,7 +1,7 @@
      <div id="site_content">
     <div id="top_border"></div>
 
-<?php include 'newsSidebar.php'?>
+<?php include 'newsSidebar.php' ?>
       
           <div class="content contentBox">        
         <img src="./images/pics/people2017Jan.png" width="100%">

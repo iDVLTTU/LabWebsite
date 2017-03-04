@@ -26,7 +26,11 @@ include 'menu.php';
           ?>
 
       </div>
+   
+      </div> 
     </div>
+  </div>
+
 
 
 

@@ -242,10 +242,12 @@ nav {
 
 .sidebar h3 { 
   color: #444;
-  font: 250% 'News Cycle', arial, sans-serif;
+  font: 200% 'News Cycle', arial, sans-serif;
   padding: 0 15px 5px 0;  
 }
-
+.sidebar h4{
+  font-size: 17px;
+}
 .sidebar ul { 
   margin: 0 0 15px 0;
 } 
@@ -853,10 +855,42 @@ img:hover{
 .sidebar p{
   line-height: 15px;
   text-align: justify;
+  margin-bottom: -10px;
+}
+.sidebarNewsBorder{
+
+    border-top: 1px solid #AFABAB;
+    border-bottom: 1px solid #fff;
+    margin-top: 10px;
 }
 .newsBox{
   text-align: justify;
   width: 760px;
+}
+.newsBox h3{
+  line-height: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.newsBox h6{
+  text-align: center;
+}
+.newsBox .img-left img{
+  width: 48%;
+  float: left;
+}
+.newsBox .img-right img{
+  width: 48%;
+  float: left;
+  margin-left: 30px;
+}
+.newsBox .img-middle img{
+  width: 100%;
+  margin: auto;
+}
+.newsBox .img-area{
+  width: 100%;
+  margin: auto;
 }
 /* Publication Page */
 .publicationPage h4{
@@ -985,6 +1019,7 @@ img:hover{
 }
 .newsBox p{
   font-size: 14px;
+  line-height: 16px;
 }
 .newsBox{
   width: 755px;
@@ -996,3 +1031,8 @@ img:hover{
 .researchPage ul li{
   margin-left: 20px;
 }
+.grantsLink{
+  font-size: 16px;
+}
+
+/*Abstract Tooltip*/
