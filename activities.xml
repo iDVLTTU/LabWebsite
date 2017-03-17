@@ -3,25 +3,18 @@
 <activities>
 
 <activity category="Team">
-<date>Date: Feb 22</date>
+<date>Date: March 1</date>
 <long><b>Long</b> needs to submit his work to <a href="https://techannounce.ttu.edu/Client/ViewMessage.aspx?MsgId=206458">GLEAM poster contest</a>. Deadline: <b>5pm, April 1</b>
 </long>
+    <yasin><b>Tommy+Yasin</b> submit a paper on network visualization. Deadline: March 15.</yasin>
 <work5/>
 <work6/>
-</activity>
-
-<activity category="Team">
-<date>Date: Feb 22</date>
-<long><b>Long</b> needs to submit his work to <a href="https://techannounce.ttu.edu/Client/ViewMessage.aspx?MsgId=206458"> GLEAM poster contest</a>. Deadline: <b> 5pm, April 1</b> </long>
-<work5></work5>
-<work6></work6>
 </activity>
 
 <activity category="Team">
 <date>Date: Feb 17</date>
 <vinh><b>Vinh+Tommy</b> submit short EuroVis paper on community detection. Deadline: Feb 17</vinh>
 <long><b>Tommy+Long+Karim+ a CE Prof</b> submit a EnvirVis paper. Deadline: Feb 17</long>
-<yasin><b>Tommy+Yasin+ a CS Prof</b> submit short EuroVis paper on text data. Deadline: Feb 17.</yasin>
 <amit><b>Tommy+Amit+Vinh</b> submit short EuroVis paper on geospaotial temporal visualization. Deadline: Feb 17.</amit>
 <work5></work5>
 <work6></work6>
