@@ -8,14 +8,6 @@
 
     <title>Dashboard watershed</title>
 
-    <!-- include the jQuery and jQuery UI scripts -->
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="prism/prism.css">
-    <link rel="stylesheet" href="http://nitinhayaran.github.io/jRange/jquery.range.css">
-    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
@@ -38,7 +30,7 @@
             <span class="icon-bar"></span>
           </button>
           <div class="logo">
-              <a class="logo" href="#"></a>
+              <a class="logo" href="#"><img src=""></a>
           </div>
           <a class="navbar-brand" href="#"></a>
         </div>
@@ -49,7 +41,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact"> Contact</a></li>
           </ul>
-          <div class="ttulogo"></div>
+          <div class="ttulogo"><img src=""></div>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -59,42 +51,44 @@
       
       <div class="row">
        <div class="col-md-12">
-           <div class="col-md-3">
-               <div class="controlsliders">
-                   <h3>Climate</h3>
-                   <p>Temperature:</p>
-                   <div class="demo-output">
-                       <input class="single-slider" type="hidden" value="0.0"/>
-                   </div>
-                   <img src="./img/pichart.png">
-               </div>
-
-               <div class="landuse">
-                   <h3>Land Use</h3>
-                   <img src="./img/pichart.png">
-               </div>
-           </div>
-           <div class="col-md-6">
-               <div class="gameico">
-                  <img src="./img/gameico.png">
-               </div>
-               <img src="./img/farm.jpg">
-               <div class="col-sm-12">
-                   <div class="col-sm-6">
-                            <img src="./img/barchart.png">
-                   </div>
-                   <div class="col-sm-6">
-                       <img src="./img/DOmodel.png">
-                   </div>
-               </div>
-           </div>
-           <div class="col-md-3">
-               <img src="./img/coloredmap.png">
-               <img src="./img/map.png">
-           </div>
+        <div class="col-md-12 watershed">
+                    <!-- <iframe src=""></iframe>  -->
+            <div class="color-legend">
+              <ul>
+               
+                 <li><div id="greensquare" class="left"></div><div class="right legend-text">Trees</div></li>
+                 <li><div id="yellowsquare" class="left"></div><div class="right legend-text">Dry Land</div></li>
+                 <li><div id="bluesquare" class="left"></div><div class="right legend-text">River</div></li>
+               
+              </ul>
+            </div>
+            <img src="./img/farm.jpg">
+            <img src="./img/watershed.png">
+        </div>
       </div>
      </div>
 
+     <div class="row">
+       <div class="col-md-12">
+        <div class="col-md-9 watershed">
+                    <!-- <iframe src=""></iframe>  -->
+
+            <img src="./img/timechart.png">
+        </div>
+      <div class="col-md-3">
+        <div class="properties">
+          <ul>
+            <li>Properties 1:</li>
+            <li>Properties 2:</li>
+            <li>Properties 3:</li>
+            <li>Properties 4:</li>
+            <li>Properties 5:</li>
+            <li>Properties 6:</li>
+          </ul>
+        </div>
+      </div>
+      </div>
+     </div>
 
     </div> <!-- /container -->
 
@@ -103,25 +97,7 @@
     ================================================== -->
         <script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
         <script type='text/javascript' src="./js/bootstrap.min.js"></script>
-
-  <script src="prism/prism.js"></script>
-
-  <script src="http://nitinhayaran.github.io/jRange/jquery.range.js"></script>
-  <script type="text/javascript">
-      $(document).ready(function(){
-          $('.single-slider').jRange({
-              from: 14,
-              to: 24,
-              step: 1,
-              scale: [14,16,18,20,22,24],
-              format: '%s °C',
-              width: 300,
-              showLabels: true,
-              snap: true,
-              theme: 'theme-blue'
-          });
-      });
-  </script>
+   
         <!-- JavaScript jQuery code from Bootply.com editor  -->  
       <script>
         $(".list-group-submenu a").on("click", function() {
@@ -136,7 +112,6 @@
           $(this).addClass("active");
         });
       </script>
-
 
 </body>
 

@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+@media (min-width: 1200px){
+	.container {
+		width: 100%;
+	}
+}
+img{
+	width: 100%;
+}
 .accordion-toggle:after {
     font-family: 'FontAwesome';
     content: "\f078";    
@@ -73,4 +81,23 @@
 .clearDiv{
 	clear: both;
 	margin-top: 5px;
+}
+.gameico img{
+	width:30%;
+	margin-bottom: 10px;
+}
+.demo-output{
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.theme-blue .scale ins {
+	/* color: #31708f; */
+	font-size: 12px;
+	margin-left: 5px;
+	left: -3px;
+}
+.theme-blue .back-bar .pointer-label {
+	color: #999;
+	font-size: 12px;
 }
