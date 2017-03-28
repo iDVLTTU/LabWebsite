@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38ea79b2-f089-469b-9026-f4c5f8bdda80" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS_Seminar/schedule.html" afterPath="$PROJECT_DIR$/CS_Seminar/schedule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conferences.php" afterPath="$PROJECT_DIR$/conferences.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newsArchive.xml" afterPath="$PROJECT_DIR$/newsArchive.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +43,8 @@
       <file leaf-file-name="newsArchive.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newsArchive.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+            <state relative-caret-position="375">
+              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -325,12 +322,12 @@
       <workItem from="1490542351499" duration="4411000" />
       <workItem from="1490634654133" duration="4081000" />
       <workItem from="1490643148014" duration="6197000" />
-      <workItem from="1490716700936" duration="4142000" />
+      <workItem from="1490716700936" duration="4902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23267000" />
+    <option name="totallyTimeSpent" value="24027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="246" width="1400" height="981" extended-state="0" />
@@ -636,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newsArchive.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="61" lean-forward="false" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
+        <state relative-caret-position="375">
+          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
           <folding />
         </state>
       </provider>
