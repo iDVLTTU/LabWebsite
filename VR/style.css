@@ -82,10 +82,11 @@ img{
 	clear: both;
 	margin-top: 5px;
 }
-.gameico img{
+/*.gameico img{
 	width:30%;
 	margin-bottom: 10px;
-}
+}*/
+
 .demo-output{
 	margin-top: 25px;
 	margin-bottom: 30px;
@@ -96,8 +97,9 @@ img{
 	/* color: #31708f; */
 	font-size: 10px;
 	margin-left: 5px;
-	left: -3px;
-	color: #888;
+    left: -1px;
+    color: #888;
+    top: 8px;
 }
 .theme-blue .back-bar .pointer-label {
 	color: #777;
@@ -122,18 +124,21 @@ img{
 
 }
 .landuse{
-min-width: 315px;
+	width: 315px;
 
 }
-.landuse img{
-	width: 70%;
+.landuseImg{
+	width: 230px;
 	margin: auto;
+}
+.landuse img{
+	width: 100%;
+
 }
 .controlBoard {
 	background: #eee;
 	font-weight: bold;
 	padding: 10px;
-	margin-top: 10px;
 	margin-bottom: 20px;
 	border: groove 2px ThreeDFace;
 	padding: 0.35em 0.625em 0.75em;
@@ -190,5 +195,53 @@ legend {
 	margin-bottom: 70px;
 }
 .rightDiv img{
-	margin-top: 8px;
+	margin-top: 10px;
+}
+.slider-container .back-bar .pointer-label{
+	background: #eeeeee;
+}
+.theme-blue .back-bar {
+    height: 5px;
+    border-radius: 2px;
+    /* background-color: #e2e2e2; */
+    /* background-color: #e2e2e2; */
+    background-image: -moz-linear-gradient(top, #e2e2e2, #b3b0b0);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e2e2e2), to(#b3b0b0));
+    /* background-image: -webkit-linear-gradient(top, #eeeeee, #dddddd); */
+    background-image: -o-linear-gradient(top, #e2e2e2, #b3b0b0);
+     background-image: linear-gradient(to bottom, #e2e2e2, #b3b0b0); 
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2e2e2', endColorstr='#b3b0b0', GradientType=0);
+}
+.theme-blue .scale span {
+    border-left: 1px solid #928f8f;
+}
+.ttulogo{
+	float: right;
+	width: 600px;
+
+}
+.ttulogo img{
+	width: 100%;
+	float: right;
+}
+.logottu{
+	float: right;
+	width: 205px;
+}
+.gameico{
+margin-right: 100px;
+float: left;
+width: 175px;
+}
+.navbar-default {
+    background-color: #eeeeee;
+    border-color: #e7e7e7;
+}
+.gameplay{
+	margin-top: 10px;
+}
+.middlearea{
+	margin-left: 15px;
+	margin-right: -5px;
 }
