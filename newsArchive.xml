@@ -2,6 +2,50 @@
 
 <newsArchive>
 
+	<news category="website">
+		<headline>Paper accepted!</headline>
+		<date>March 28th, 2017</date>
+		<sortNews>Congratulations to <b>Long</b> and <b>Tommy</b> for their accepted paper.</sortNews>
+		<fullNews>
+			The <a href="http://www.informatik.uni-leipzig.de/~envirvis2017/">"Visualization in Environmental Sciences 2017" (EnvirVis 2017)</a>, accepted the paper of <b>Long Hoang Nguyen</b> and <b>Tommy Dang</b> and approved it to present at the conference on June 12-13, 2017 in Barcelona, Spain.
+
+			The title and abstract of the paper is as following:
+			<br/>
+			<br/>
+
+			<h3>STOAViz: Visualizing Saturated Thickness of Ogallala Aquifer</h3>
+
+			<h6>Long Hoang Nuyen and Tommy Dang<br/>
+				Computer Science Department, Texas Tech University, Texas, USA</h6>
+
+			<b>ABSTRACT</b>
+			<br/>
+			In this paper, we introduce STOAViz, a visual analytics tool for analyzing the saturated thickness of the Ogallala aquifer.The saturated thicknesses are monitored by sensors integrated on wells distributed on a vast geographic area. Our analytics application also captures the trends and patterns (such as average/standard deviation over time, sudden increase/decrease of saturated thicknesses) of water on individual well and group of wells based on their geographic locations. To highlight the usefulness and effectiveness of STOAViz, we demonstrate it on the Southern High Plains Aquifer of Texas. The work was developed using feedback from experts at the water resource center at a university. Moreover, our technique can be applied on any geographic areas where wells and their measurements are available.
+			<br/>
+			<br/>
+			For more information about the project please visit <a href="https://github.com/iDataVisualizationLab/SaturatedThickness">Project github repository</a><br/><br/>
+
+			<div class="img-area">
+				<div class="img-left">
+					<img src="./images/papers/long/STOAViz/contour-map.png"></img>
+				</div>
+				<div class="img-right">
+					<img src="./images/papers/long/STOAViz/horizon.png"></img>
+				</div>
+				<div style="clear:both;"></div>
+				<br/>
+			</div>
+
+			<div class="img-area">
+				<div class="img-middle">
+					<img src="./images/papers/long/STOAViz/stages.png"></img>
+				</div>
+				<div style="clear:both;"></div>
+				<br/>
+			</div>
+		</fullNews>
+	</news>
+
 <news category="website">
 <headline>Two posters accepted!</headline>
 <date>March 1st, 2017</date>

@@ -116,6 +116,16 @@ include 'menu.php'; ?>
     </tr>
 
     <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="http://vinci-conf.org/index.html">VINCI 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Aug 14-16</td>
+      <td align="left" style="padding:5px;">Bangkok, Thailand</td>
+      <td align="left" style="padding:5px;">April 9</td>
+      <td align="left" style="padding:5px;">May 1<br></td>
+      <td align="left" style="padding:5px;">Mar 15</td>
+    </tr>
+
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://www.iaria.org/conferences2017/CfPVISUAL17.html">VISUAL 2017</a></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">July 23-27</td>
@@ -133,17 +143,6 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">Mar 21</td>
       <td align="left" style="padding:5px;">Jun 6</td>
       <td align="left" style="padding:5px;"></td>
-    </tr>
-
-
-     <tr bgcolor="#bdb">
-      <td align="left" style="padding:5px;"><a href="http://vinci-conf.org/index.html">VINCI 2017</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Aug 14-16</td>
-      <td align="left" style="padding:5px;">Bangkok, Thailand</td>
-      <td align="left" style="padding:5px;">Mar 15</td>
-      <td align="left" style="padding:5px;">May 1<br></td>
-      <td align="left" style="padding:5px;">Mar 15</td>
     </tr>
 
 
