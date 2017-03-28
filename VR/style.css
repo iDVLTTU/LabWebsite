@@ -121,10 +121,11 @@ img{
 	min-width: 315px;
 }
 .controlsliders-inner{
-
+	margin:auto;
+	width:290px;
 }
 .landuse{
-	width: 315px;
+	min-width: 315px;
 
 }
 .landuseImg{
@@ -170,6 +171,7 @@ fieldset p{
 fieldset h4{
 	font-size: 14px;
 	border-bottom: 1px solid #777;
+	max-width: 290px;
 }
 legend {
 	display: block;
@@ -242,6 +244,4 @@ width: 175px;
 	margin-top: 10px;
 }
 .middlearea{
-	margin-left: 15px;
-	margin-right: -5px;
 }
