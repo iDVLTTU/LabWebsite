@@ -61,17 +61,36 @@
        <div class="col-md-12">
            <div class="col-md-3">
                <div class="controlsliders">
-                   <h3>Climate</h3>
-                   <p>Temperature:</p>
-                   <div class="demo-output">
-                       <input class="single-slider" type="hidden" value="0.0"/>
+                   <div class="controlsliders-inner">
+                       <fieldset id="myControlPanel" class="controlBoard standardFont" style="cursor: default;">
+                           <legend>Climate</legend>
+                       <p>Temperature:</p>
+                       <div class="demo-output temperature">
+                           <input class="single-slider-temperature" type="hidden" value="0.0"/>
+                       </div>
+                       <p>Urbanization:</p>
+                       <div class="demo-output urbanization">
+                           <input class="single-slider-urbanization" type="hidden" value="0.0"/>
+                       </div>
+                       <div class="spacing"></div>
+                       <h4>Technological Improvements</h4>
+                       <p>Treatment Efficiency (Point Source):</p>
+                       <div class="demo-output treatment">
+                           <input class="single-slider-treatment" type="hidden" value="0.0"/>
+                       </div>
+                       <p>Best Management Practices:</p>
+                       <div class="demo-output management">
+                           <input class="single-slider-management" type="hidden" value="0.0"/>
+                       </div>
+                       </fieldset>
                    </div>
-                   <img src="./img/pichart.png">
                </div>
 
                <div class="landuse">
-                   <h3>Land Use</h3>
+                   <fieldset id="myControlPanel" class="controlBoard standardFont" style="cursor: default;">
+                    <legend>Land Use</legend>
                    <img src="./img/pichart.png">
+                   </fieldset>
                </div>
            </div>
            <div class="col-md-6">
@@ -88,7 +107,8 @@
                    </div>
                </div>
            </div>
-           <div class="col-md-3">
+           <div class="col-md-3 rightDiv">
+               <img src="./img/icons.png">
                <img src="./img/coloredmap.png">
                <img src="./img/map.png">
            </div>
@@ -108,19 +128,68 @@
 
   <script src="http://nitinhayaran.github.io/jRange/jquery.range.js"></script>
   <script type="text/javascript">
+
       $(document).ready(function(){
-          $('.single-slider').jRange({
+          $('.single-slider-temperature').jRange({
               from: 14,
               to: 24,
               step: 1,
               scale: [14,16,18,20,22,24],
-              format: '%s °C',
-              width: 300,
+              format: '%s°C',
+              width: 275,
               showLabels: true,
               snap: true,
               theme: 'theme-blue'
           });
       });
+
+      $(document).ready(function(){
+          $('.single-slider-urbanization').jRange({
+              from: 0,
+              to: 100,
+              step: 1,
+              scale: [0,10,20,30,40,50,60,70,80,90,100],
+              format: '%s%',
+              width: 275,
+              showLabels: true,
+              snap: true,
+              theme: 'theme-blue'
+          });
+      });
+
+      $(document).ready(function(){
+          $('.single-slider-treatment').jRange({
+              from: 50,
+              to: 99,
+              step: 1,
+              scale: [50,55,60,65,70,75,80,85,90,95,99],
+              format: '%s%',
+              width: 275,
+              showLabels: true,
+              snap: true,
+              theme: 'theme-blue'
+          });
+
+          $('.single-slider-treatment').jRange('setValue', '85');
+      });
+
+      $(document).ready(function(){
+          $('.single-slider-management').jRange({
+              from: 30,
+              to: 90,
+              step: 1,
+              scale: [30,35,40,45,50,55,60,65,70,75,80,85,90],
+              format: '%s%',
+              width: 275,
+              showLabels: true,
+              snap: true,
+              theme: 'theme-blue'
+          });
+          $('.single-slider-management').jRange('setValue', '50');
+      });
+
+
+
   </script>
         <!-- JavaScript jQuery code from Bootply.com editor  -->  
       <script>
