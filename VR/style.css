@@ -84,9 +84,9 @@ img{
 }
 
 
-.demo-output{
-	margin-top: 25px;
-	margin-bottom: 30px;
+.demo-output {
+	margin-top: 30px;
+	margin-bottom: 33px;
 	margin-left: 10px;
 }
 
@@ -128,14 +128,19 @@ img{
 }
 .landuse{
 	min-width: 315px;
+	margin-top: -2px;
 
 }
 .landuseImg{
-	width: 280px;
+	width: 290px;
 	margin: auto;
+	height: 272px;
 }
 .landuse img{
 	width: 100%;
+	display: block;
+	vertical-align: middle;
+	margin-top: 20px;
 
 }
 .controlBoard {
@@ -172,6 +177,7 @@ fieldset h4{
 	font-size: 14px;
 	border-bottom: 1px solid #777;
 	max-width: 290px;
+	margin-bottom:15px;
 }
 legend {
 	display: block;
