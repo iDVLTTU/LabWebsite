@@ -43,8 +43,8 @@
       <file leaf-file-name="newsArchive.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newsArchive.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -322,12 +322,12 @@
       <workItem from="1490542351499" duration="4411000" />
       <workItem from="1490634654133" duration="4081000" />
       <workItem from="1490643148014" duration="6197000" />
-      <workItem from="1490716700936" duration="4941000" />
+      <workItem from="1490716700936" duration="5139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24066000" />
+    <option name="totallyTimeSpent" value="24264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="72" y="246" width="1400" height="981" extended-state="0" />
@@ -633,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newsArchive.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
           <folding />
         </state>
       </provider>
