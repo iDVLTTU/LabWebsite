@@ -22,8 +22,46 @@ include 'menu.php'; ?>
     </tr>
 
 
+    <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
+      <td align="left" style="padding:5px;"><a href="">DOD</a></td>
+      <td align="left" style="padding:5px;">Upper  $3,000,000</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+      <td align="left" style="padding:5px;">United States</td>
+      <td align="left" style="padding:5px;"
+          title="Humanity is reliant upon the physical resources and natural systems of the Earth for the provision of food, energy, and water. It is becoming imperative that humanity determines how society can best integrate across the natural and built environments to provide for a growing demand for food, water and energy while maintaining appropriate ecosystem services.
+          Key Area No. 1: Automated methods for generating content and/or behaviors for use augmented and mixed reality technologies (with an emphasis on AR).
+          Key Area No. 2: Valid, reliable, and objective measures of presence and immersion.
+          Key Area No. 3: A human-factors based taxonomy of visualization and interaction in AR.">Hover to see abstract
+      </td>
+      <td align="left" style="padding:5px;">09 Mar 2018</td>
+    </tr>
 
-     <tr bgcolor="#bdb">
+    <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
+      <td align="left" style="padding:5px;">Upper  $3,000,000</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+      <td align="left" style="padding:5px;">United States</td>
+      <td align="left" style="padding:5px;"
+          title="The Office of Naval Research, Expeditionary Maneuver Warfare and Combating Terrorism S&T Department (Code 30) is soliciting white papers and proposals for basic research in immersive sciences. The Navy and Marine Corps seeks to use augmented reality (AR) and mixed reality technologies to improve training and operations for infantry combat personnel; with a specific focus on small unit leaders (e.g. Squad Leader).
+          The NSF INFEWS initiative is designed specifically to attain the following goals:
+          1. Significantly advance the understanding of the food-energy-water system through quantitative and computational modeling, including support for relevant cyberinfrastructure;
+          2. Develop real-time, cyber-enabled interfaces that improve understanding of the behavior of FEW systems and increase decision support capability;
+          3. Enable research that will lead to innovative system and technological solutions to critical FEW problems; and
+          4. Grow the scientific workforce capable of studying and managing the FEW system, through education and other professional development opportunities.
+          INFEWS Tracks
+          This solicitation outlines four tracks of research:
+          (1) FEW System Modeling;
+          (2) Visualization and Decision support for Cyber-Human-Physical Systems at the FEW Nexus;
+          (3) Research to Enable Innovative Solutions; and
+          (4) Education and Workforce Development.">Hover to see abstract
+      </td>
+      <td align="left" style="padding:5px;">06 Mar 2018</td>
+    </tr>
+
+
+     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/68670">Advances in Biological Informatics</a></td>
       <td align="left" style="padding:5px;"><a href="">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -33,7 +71,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">08 Sep 2017</td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292128">Fiscal Year 2018 Defense University <br/>Research Instrumentation Program (DURIP)</a></td>
       <td align="left" style="padding:5px;"><a href="http://www.wpafb.af.mil/Welcome/Fact-Sheets/Display/Article/842050">AFOSR</a></td>
       <td align="left" style="padding:5px;">Upper  $1,500,000  <br/> Lower  $50,000</td>
@@ -45,7 +83,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">07 July 2017</td>
     </tr>
     
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/159865">Harnessing Big Data to Halt HIV</a></td>
       <td align="left" style="padding:5px;"><a href="https://grants.nih.gov/grants/guide/pa-files/PA-15-273.html">HHS,NIH</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -62,6 +100,18 @@ include 'menu.php'; ?>
       </td>
       <td align="left" style="padding:5px;">07 May 2017</td>
     </tr>
+
+    <tr bgcolor="#bdb">
+          <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">3D Visualization</a></td>
+          <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">DOD</a></td>
+          <td align="left" style="padding:5px;">Upper $40,000</td>
+          <td align="left" style="padding:5px;">Academic Institution</td>
+          <td align="left" style="padding:5px;">United States</td>
+          <td align="left" style="padding:5px;"
+              title="NSWC Crane is interested in funding research of advanced 3D Visualization renderings from dynamic (moving) platforms. This proposed research is to assess techniques currently utilized in a static environment and determine approaches to utilize several moving platforms in creating the 3D visualization of the scene.">Hover to see abstract
+          </td>
+          <td align="left" style="padding:5px;">19 Apr 2017</td>
+        </tr>
 
 
     <tr bgcolor="#bbd">
