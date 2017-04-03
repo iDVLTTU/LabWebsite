@@ -220,16 +220,18 @@ nav {
   width: 224px;
   margin: 20px 0 0 0;
 }
-.sidebar { 
+.sidebar {
   float: right;
   width: 200px;
-  margin: 0 0 17px 0;
-  background: #EFF8FB;
+  margin: 0 9px 17px 0px;
+  background: #ffffff;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;
   padding: 0 15px 5px 13px;
+  box-shadow: 4px 9px 10px #888888;
 }
+
   
 .sidebar h3, .content h1 { 
   padding: 0 15px 20px 0;
@@ -239,10 +241,11 @@ nav {
   color: #444;
 }
 
-.sidebar h3 { 
+.sidebar h3 {
   color: #444;
   font: 200% 'News Cycle', arial, sans-serif;
-  padding: 0 15px 5px 0;  
+  padding: 0 15px 0px 0px;
+  margin-bottom: 0px;
 }
 .sidebar h4{
   font-size: 17px;
@@ -264,12 +267,13 @@ nav {
   padding: 15px 0;
 }
 
-.paperclip { 
+.paperclip {
   float: left;
-  position: relative; 
+  position: relative;
   z-index: 0;
-  vertical-align: middle; 
-  margin: -15px 0 -60px -40px;
+  vertical-align: middle;
+  margin: -27px 0 -60px -35px;
+  width: 30%;
 }
 
 .content { 
@@ -589,7 +593,7 @@ ul#images li {
 /* Custom Code */
 .contentBox{
   text-align: justify;
-  width: 755px;
+  width: 750px;
 }
 .homepageimg {
   width: 775px;
@@ -859,10 +863,10 @@ img:hover{
   margin-bottom: -10px;
 }
 .sidebarNewsBorder{
-
-    border-top: 1px solid #AFABAB;
-    border-bottom: 1px solid #fff;
-    margin-top: 10px;
+  border-top: 1px solid #AFABAB;
+  border-bottom: 1px solid #fff;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
 .newsBox{
   text-align: justify;
