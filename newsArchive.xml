@@ -6,23 +6,28 @@
 		<headline>Research proposal awarded!</headline>
 		<date>April 3rd, 2017</date>
 		<sortNews>SGIR awarded the proposal of <b>Dr. Tommy Dang</b>.</sortNews>
-		<fullNews><a target="_blank" href="https://www.depts.ttu.edu/vpr/funding/sgir.php">The Seed Grants for Interdisciplinary Research (SGIR)</a>
-			program announced the awarded proposal names for round 2. In the round 2 SGIR awarded 6 proposals of $669,000 in total. <br/><br/>
+		<fullNews>
+		<div class="news">
+			 <b>Dr. Tommy Dang</b> has been awarded for round 2 of SGIR for the proposal: <i>Teaching Foreign Language Pronunciation through Educational Avatars</i> with the colaboration with:
+			<ul>
+				<li><a href="https://www.depts.ttu.edu/provost/facultybios/2013/kim_nakatsukasa.php">Kimi Nakatsukasa</a>, Department of Classical and Modern Languages, College of Arts and Sciences.</li>
+				<li><a href="http://www.aaronbraver.com/">Aaron Braver</a>, Department of English, College of Arts and Sciences.</li>
+				<li><a href="http://www.depts.ttu.edu/psy/people/mscolari/">Miranda Scolari</a>, Department of Psychological Sciences, College of Arts and Science.</li>
+			</ul>
+			Gestures—hand movements that are directly tied to speech—play a crucial role in interaction and communication. In a recent pilot study, we investigated the effective use of gestures for teaching the difference between short and long vowels in Japanese (Iizuka, Nakatsukasa, Braver, and Farley, 2016).  The goal of this project is to determine the role instructional gesturing plays in second language acquisition.
 
-			 <b>Dr. Tommy Dang</b> has been awarded for round 2 of SGIR for the proposal: <b>Teaching Foreign Language Pronunciation through Educational Avatars</b> with the colaboration of
-			<a href="https://www.depts.ttu.edu/provost/facultybios/2013/kim_nakatsukasa.php">Kimi Nakatsukasa</a>, Department of Classical and Modern Languages, College of Arts and Sciences;
-			<a href="http://www.aaronbraver.com/">Aaron Braver</a>, Department of English, College of Arts and Sciences; and <a href="http://www.depts.ttu.edu/psy/people/mscolari/">Miranda Scolari</a>, Department of Psychological Sciences, College of Arts and Science.
-
-				<div class="img-area">
+			<br/><br/>
+			<div class="img-area">
 					<div class="img-middle">
 						<img src="./images/projects/eduAvatar.png"></img>
 					</div>
 					<div style="clear:both;"></div>
-					<br/>
 				</div>
 
 
-			<br/> More information is available on the Seed Grants <a target="_blank" href="https://www.depts.ttu.edu/vpr/funding/sgir-round-one-awardees.php">webpage.</a>
+			<a target="_blank" href="https://www.depts.ttu.edu/vpr/funding/sgir.php">The Seed Grants for Interdisciplinary Research (SGIR)</a>
+			program announced the awarded proposal names for round 2. In the round 2 SGIR awarded 6 proposals of $669,000 in total.More information is available on the Seed Grants <a target="_blank" href="https://www.depts.ttu.edu/vpr/funding/sgir-round-one-awardees.php">webpage.</a>
+		</div>
 		</fullNews>
 	</news>
 
@@ -30,7 +35,7 @@
 		<headline>EnvirVis paper accepted!</headline>
 		<date>March 28th, 2017</date>
 		<sortNews><b>Long</b> get his first paper accepted.</sortNews>
-		<fullNews>
+		<fullNews><div class="news">
 			The <a target="_blank" href="http://www.informatik.uni-leipzig.de/~envirvis2017/">Visualization in Environmental Sciences 2017 (EnvirVis 2017)</a> accepted the paper of <b>Tommy Dang</b> and <b>Long Hoang Nguyen</b>  to present at the conference on June 12-13, 2017 in Barcelona, Spain.
 
 			The title and abstract of the paper is as following:
@@ -57,7 +62,7 @@
 				</div>
 				<div style="clear:both;"></div>
 				<br/>
-			</div>
+			</div></div>
 		</fullNews>
 	</news>
 
@@ -65,7 +70,7 @@
 <headline>Two posters accepted!</headline>
 <date>March 1st, 2017</date>
 <sortNews>Congratulations to <b>Vinh</b> and <b>Long</b> for their two accepted posters.</sortNews>
-<fullNews>
+<fullNews><div class="news">
 	The <a target="_blank" href="http://www.depts.ttu.edu/gradschool/current/PosterCompetition2017.php">16th Annual Graduate Student Research Poster Competition</a> accepted and invited <b>Vinh The Nguyen</b> and <b>Long Hoang Nguyen</b> to present their posters.
 	The title and abstract of the posters are as following:
 	<br/>
@@ -130,7 +135,7 @@
 		<div style="clear:both;"></div>
 		<br/>
 	</div>
-	
+</div>
 </fullNews>
 </news>
 

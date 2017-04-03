@@ -896,6 +896,7 @@ img:hover{
 .newsBox .img-area{
   width: 100%;
   margin: auto;
+  margin-top: 5px;
 }
 /* Publication Page */
 .publicationPage h4{
@@ -1045,4 +1046,13 @@ img:hover{
 .sidebar h4 a{
   float: none;
   margin-bottom: 2px;
+}
+.news{
+  margin: 0;
+  margin-top:-20px;
+}
+
+.news ul{
+  margin-top: 0;
+  margin-bottom: 0;
 }
