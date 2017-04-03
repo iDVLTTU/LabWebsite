@@ -6,7 +6,7 @@
 		<headline>Research proposal awarded!</headline>
 		<date>April 3rd, 2017</date>
 		<sortNews>Congratulation to <b>Dr. Tommy Dang</b> for receiving SGIR Seed Grants.</sortNews>
-		<fullNews><a href="https://www.depts.ttu.edu/vpr/funding/sgir.php">The Seed Grants for Interdisciplinary Research (SGIR)</a>
+		<fullNews><a target="_blank" href="https://www.depts.ttu.edu/vpr/funding/sgir.php">The Seed Grants for Interdisciplinary Research (SGIR)</a>
 			program announced the awarded proposal names for round 2. In the round 2 SGIR awarded 6 proposals nearly $669,000. <br/><br/>
 
 			 <b>Dr. Tommy Dang</b> has been awarded for round 2 of SGIR for the proposal: <b>Teaching Foreign Language Pronunciation through Educational Avatars</b>.
@@ -19,7 +19,7 @@
 				</div>
 
 
-			<br/> More information is available on the Seed Grants <a href="https://www.depts.ttu.edu/vpr/funding/sgir-round-one-awardees.php">webpage.</a>
+			<br/> More information is available on the Seed Grants <a target="_blank" href="https://www.depts.ttu.edu/vpr/funding/sgir-round-one-awardees.php">webpage.</a>
 		</fullNews>
 	</news>
 
@@ -28,7 +28,7 @@
 		<date>March 28th, 2017</date>
 		<sortNews>Congratulations to <b>Long</b> for his first accepted paper.</sortNews>
 		<fullNews>
-			The <a href="http://www.informatik.uni-leipzig.de/~envirvis2017/">Visualization in Environmental Sciences 2017 (EnvirVis 2017)</a> accepted the paper of <b>Tommy Dang</b> and <b>Long Hoang Nguyen</b>  to present at the conference on June 12-13, 2017 in Barcelona, Spain.
+			The <a target="_blank" href="http://www.informatik.uni-leipzig.de/~envirvis2017/">Visualization in Environmental Sciences 2017 (EnvirVis 2017)</a> accepted the paper of <b>Tommy Dang</b> and <b>Long Hoang Nguyen</b>  to present at the conference on June 12-13, 2017 in Barcelona, Spain.
 
 			The title and abstract of the paper is as following:
 			<br/>
@@ -46,7 +46,7 @@
 			<br/>
 			Click here to read the paper: <a href="./images/papers/long/STOAViz/Saturated_EnvirVis2017.pdf">STOAViz</a>
 			<br/>
-			For more information about the project please visit <a href="https://github.com/iDataVisualizationLab/SaturatedThickness">Project github repository</a><br/><br/>
+			For more information about the project please visit <a target="_blank" href="https://github.com/iDataVisualizationLab/SaturatedThickness">Project github repository</a><br/><br/>
 
 			<div class="img-area">
 				<div class="img-middle">
@@ -63,7 +63,7 @@
 <date>March 1st, 2017</date>
 <sortNews>Congratulations to <b>Vinh</b> and <b>Long</b> for their two accepted posters.</sortNews>
 <fullNews>
-	The <a href="http://www.depts.ttu.edu/gradschool/current/PosterCompetition2017.php">16th Annual Graduate Student Research Poster Competition</a> accepted and invited <b>Vinh The Nguyen</b> and <b>Long Hoang Nguyen</b> to present their posters.
+	The <a target="_blank" href="http://www.depts.ttu.edu/gradschool/current/PosterCompetition2017.php">16th Annual Graduate Student Research Poster Competition</a> accepted and invited <b>Vinh The Nguyen</b> and <b>Long Hoang Nguyen</b> to present their posters.
 	The title and abstract of the posters are as following:
 	<br/>
 	<br/>
@@ -77,7 +77,7 @@
 	<br/>
 	Understanding the complicated many-to-many relationships between cancers and mutated genes is challenging. For example, what common proteins are highly mutated in both prostate cancer and breast cancer or what cancers are driven by a selected subset of proteins. In this paper, we present CancerMapper, a novel exploration tool, that allows users to uncover the correlations among cancer studies as well as cancer studies and genes. CancerMapper also helps biologists to filter the cancer network based on the common mutated proteins and their frequencies. Bubble graph is constructed to visualize common protein based on its frequency and biological assemblies. Parallel coordinates highlight patterns of patient profiles (obtained from cBioportal by WebAPI services) on different attributes for a specified cancer study. Data retrieved from cBioportal.org as a Comma Separated Value file including protein name, frequency, cancer study and study type fields as well as Tab Separated Value through WebAPI service provided by cBioPortal. Protein’s images pulled from Protein Data Bank (http://www.rcsb.org/)
 	<br/><br/>
-	For more information about the project please visit <a href="https://github.com/iDataVisualizationLab/CancerNetwork">Project github repository</a><br/><br/>
+	For more information about the project please visit <a target="_blank" href="https://github.com/iDataVisualizationLab/CancerNetwork">Project github repository</a><br/><br/>
 	<div class="img-area">
 		<div class="img-middle">
 			<img src="./images/posters/vinh/poster.png"></img> 
@@ -116,7 +116,7 @@
 	sudden decrease points over time. It also compares water capability across different locations,
 	regions and overall average along Ogallala aquifer. 
 	<br/><br/>
-	For more information about the project please visit <a href="https://github.com/iDataVisualizationLab/SaturatedThickness">Project github repository</a><br/><br/>
+	For more information about the project please visit <a target="_blank" href="https://github.com/iDataVisualizationLab/SaturatedThickness">Project github repository</a><br/><br/>
 	<div class="img-area">
 		<div class="img-left">
 			<img src="./images/posters/long/contour-map.png"></img> 
