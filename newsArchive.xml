@@ -3,6 +3,19 @@
 <newsArchive>
 
 	<news category="website">
+		<headline>Research proposal awarded!</headline>
+		<date>April 3rd, 2017</date>
+		<sortNews>Congratulation to <b>Dr. Tommy Dang</b> for receiving SGIR Seed Grants.</sortNews>
+		<fullNews><a href="https://www.depts.ttu.edu/vpr/funding/sgir-round-one-awardees.php">The Seed Grants for Interdisciplinary Research (SGIR)</a>
+			program announced the awarded proposal names for round 2. In the round 2 SGIR awarded 6 proposals nearly $669,000. <br/><br/>
+
+			 <b>Dr. Tommy Dang</b>, is awarded for round 2 of SGIR for the proposal: <b>Teaching Foreign Language Pronunciation through Educational Avatars</b>.
+
+			<br/> More information is available on the Seed Grants <a href="https://www.depts.ttu.edu/vpr/funding/sgir-round-one-awardees.php">webpage.</a>
+		</fullNews>
+	</news>
+
+	<news category="website">
 		<headline>EnvirVis paper accepted!</headline>
 		<date>March 28th, 2017</date>
 		<sortNews>Congratulations to <b>Long</b> for his first accepted paper.</sortNews>

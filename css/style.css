@@ -1036,3 +1036,8 @@ img:hover{
 }
 
 /*Abstract Tooltip*/
+
+.sidebar h4 a{
+  float: none;
+  margin-bottom: 2px;
+}
