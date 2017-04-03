@@ -22,7 +22,7 @@ include 'menu.php'; ?>
     </tr>
 
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -37,7 +37,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">09 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -61,7 +61,7 @@ include 'menu.php'; ?>
     </tr>
 
 
-     <tr bgcolor="#bbd">
+     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/68670">Advances in Biological Informatics</a></td>
       <td align="left" style="padding:5px;"><a href="">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -71,7 +71,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">08 Sep 2017</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292128">Fiscal Year 2018 Defense University <br/>Research Instrumentation Program (DURIP)</a></td>
       <td align="left" style="padding:5px;"><a href="http://www.wpafb.af.mil/Welcome/Fact-Sheets/Display/Article/842050">AFOSR</a></td>
       <td align="left" style="padding:5px;">Upper  $1,500,000  <br/> Lower  $50,000</td>
@@ -83,7 +83,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">07 July 2017</td>
     </tr>
     
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/159865">Harnessing Big Data to Halt HIV</a></td>
       <td align="left" style="padding:5px;"><a href="https://grants.nih.gov/grants/guide/pa-files/PA-15-273.html">HHS,NIH</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -101,7 +101,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">07 May 2017</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
           <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">3D Visualization</a></td>
           <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">DOD</a></td>
           <td align="left" style="padding:5px;">Upper $40,000</td>
@@ -113,6 +113,17 @@ include 'menu.php'; ?>
           <td align="left" style="padding:5px;">19 Apr 2017</td>
         </tr>
 
+      <tr bgcolor="#bdb">
+          <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/images/uploads/rfa_r-181-iiracb_v3.pdf">Individual Investigator Research Awards for Computational Biology</a></td>
+          <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/funding-opportunities#research">CPRIT</a></td>
+          <td align="left" style="padding:5px;">Upper $300,000</td>
+          <td align="left" style="padding:5px;">Academic Institution <br/>New Faculty/New Investigator</td>
+          <td align="left" style="padding:5px;"></td>
+          <td align="left" style="padding:5px;"
+              title="Supports applications for innovative mathematical or computational research projects addressing questions that will advance our knowledge in any aspect of cancer. Areas of interest include data analysis of cellular pathways, microarrays, cellular imaging, cancer imaging or genomic, proteomic, and metabolomic databases; descriptive mathematical models of cancer, as well as mechanistic models of cellular processes and interactions and use of artificial intelligence approaches to build new tools for mining cancer research and treatment databases.">Hover to see abstract
+          </td>
+          <td align="left" style="padding:5px;">Mar 15 - Jun 8, 2017</td>
+      </tr>
 
     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/169222">Ford-Mozilla Open Web Fellow Program</a></td>
