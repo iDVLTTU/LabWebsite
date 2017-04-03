@@ -896,7 +896,7 @@ img:hover{
 .newsBox .img-area{
   width: 100%;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 /* Publication Page */
 .publicationPage h4{
@@ -1050,9 +1050,17 @@ img:hover{
 .news{
   margin: 0;
   margin-top:-20px;
+  font-size: 14px;
+}
+.news p{
+  line-height: 1.6em;
+  margin-bottom: -5px;
 }
 
 .news ul{
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -10px;
+  margin-bottom: 2px;
+  margin-left: 15px;
+  font-size: 14px;
+  line-height: 1.4em;
 }
