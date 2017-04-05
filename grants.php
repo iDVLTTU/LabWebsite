@@ -22,7 +22,7 @@ include 'menu.php'; ?>
     </tr>
 
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -37,7 +37,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">09 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -61,7 +61,7 @@ include 'menu.php'; ?>
     </tr>
 
 
-     <tr bgcolor="#bdb">
+     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/68670">Advances in Biological Informatics</a></td>
       <td align="left" style="padding:5px;"><a href="">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -69,6 +69,16 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">United States</td>
       <td align="left" style="padding:5px;" title="The Advances in Biological Informatics (ABI) program seeks to encourage new approaches to the analysis and dissemination of biological knowledge for the benefit of both the scientific community and the broader public. The ABI program is especially interested in the development of informatics tools and resources that have the potential to advance- or transform- research in biology supported by the Directorate for Biological Sciences at the National Science Foundation.  The ABI program accepts three major types of proposals: Innovation awards that seek to pioneer new approaches to the application of informatics to biological problems, Development awards that seek to provide robust cyberinfrastructure that will enable transformative biological research, and Sustaining awards that seek to support ongoing operations and maintenance of existing cyberinfrastructure that is critical for continued advancement of priority biological research.">Hover to see abstract</td>
       <td align="left" style="padding:5px;">08 Sep 2017</td>
+    </tr>
+
+    <tr bgcolor="#bdb">
+          <td align="left" style="padding:5px;"><a href="https://nifa.usda.gov/funding-opportunity/agriculture-and-food-research-initiative-water-food-production-systems-challenge">Agriculture and Food Research Initiative</a></td>
+          <td align="left" style="padding:5px;"><a href="https://nifa.usda.gov/">NIFA</a></td>
+          <td align="left" style="padding:5px;">Total $34,000,000</td>
+          <td align="left" style="padding:5px;">Land-Grant Institutions,<br/> Private Institutions of Higher Ed</td>
+          <td align="left" style="padding:5px;">United States</td>
+          <td align="left" style="padding:5px;" title="This AFRI Challenge Area focuses on multidisciplinary systems approaches, which integrate new technologies and strategic management that solve water availability and quality challenges in food production systems. The long-term goal of this program is to sustainably increase agricultural productivity and availability of safe and nutritious food while significantly reducing water use and preserving water quality. The projects are expected to transform how abundant, safe, and nutritious food is produced, processed, distributed, and consumed within the limits of available water from traditional and non-traditional sources. Applications are invited from eligible entities to submit integrated Research, Education and/or Extension projects in two specific grant types: Coordinated Agricultural Projects (CAP) and Strengthening (Food and Agricultural Science Enhancement) CAP grants — see Water for Food Production Systems RFA for details.">Hover to see abstract</td>
+          <td align="left" style="padding:5px;">02 Aug 2017</td>
     </tr>
 
     <tr bgcolor="#bbd">
@@ -118,7 +128,7 @@ include 'menu.php'; ?>
           <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/funding-opportunities#research">CPRIT</a></td>
           <td align="left" style="padding:5px;">Upper $300,000</td>
           <td align="left" style="padding:5px;">Academic Institution <br/>New Faculty/New Investigator</td>
-          <td align="left" style="padding:5px;"></td>
+          <td align="left" style="padding:5px;">Texas, United States</td>
           <td align="left" style="padding:5px;"
               title="Supports applications for innovative mathematical or computational research projects addressing questions that will advance our knowledge in any aspect of cancer. Areas of interest include data analysis of cellular pathways, microarrays, cellular imaging, cancer imaging or genomic, proteomic, and metabolomic databases; descriptive mathematical models of cancer, as well as mechanistic models of cellular processes and interactions and use of artificial intelligence approaches to build new tools for mining cancer research and treatment databases.">Hover to see abstract
           </td>
