@@ -22,7 +22,7 @@ include 'menu.php'; ?>
     </tr>
 
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -37,7 +37,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">09 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -60,6 +60,18 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">06 Mar 2018</td>
     </tr>
 
+    <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505264">Big Data Regional Innovation Hubs: Establishing <br/>Spokes to Advance Big Data Applications (BD Spokes)</a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505264">NSF</a></td>
+      <td align="left" style="padding:5px;">Upper  $1,000,000</td>
+      <td align="left" style="padding:5px;">Academic Institution</td>
+      <td align="left" style="padding:5px;">United States</td>
+      <td align="left" style="padding:5px;"
+          title="NSF's Directorate for Computer and Information Science and Engineering (CISE) initiated the National Network of Big Data Regional Innovation Hubs (BD Hubs) program in FY 2015.  Four BD Hubs – Midwest, Northeast, South, and West – were established to foster multi-sector collaborations among academia, industry, and government, both nationally and internationally.  These BD Hubs are serving a convening and coordinating role by bringing together a wide range of Big Data stakeholders in order to connect solution seekers with solution providers.
+                ">Hover to see abstract
+      </td>
+      <td align="left" style="padding:5px;">18 Sep 2017</td>
+    </tr>
 
      <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/68670">Advances in Biological Informatics</a></td>

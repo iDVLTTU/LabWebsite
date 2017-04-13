@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38ea79b2-f089-469b-9026-f4c5f8bdda80" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS_Seminar/main.html" afterPath="$PROJECT_DIR$/CS_Seminar/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CS_Seminar/schedule.html" afterPath="$PROJECT_DIR$/CS_Seminar/schedule.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grants.php" afterPath="$PROJECT_DIR$/grants.php" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/CS_Seminar/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -35,7 +34,7 @@
       <file leaf-file-name="schedule.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CS_Seminar/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="390">
               <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -44,11 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CS_Seminar/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="59" column="141" lean-forward="false" selection-start-line="59" selection-start-column="141" selection-end-line="59" selection-end-column="141" />
+            <state relative-caret-position="93">
+              <caret line="48" column="108" lean-forward="true" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grants.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grants.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -92,10 +103,10 @@
         <option value="$PROJECT_DIR$/news.php" />
         <option value="$PROJECT_DIR$/newsArchive.xml" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/grants.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/CS_Seminar/schedule.html" />
         <option value="$PROJECT_DIR$/CS_Seminar/main.html" />
+        <option value="$PROJECT_DIR$/grants.php" />
       </list>
     </option>
   </component>
@@ -106,8 +117,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="685" />
-    <option name="y" value="312" />
+    <option name="x" value="965" />
+    <option name="y" value="336" />
     <option name="width" value="1395" />
     <option name="height" value="887" />
   </component>
@@ -129,7 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -142,23 +153,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LabWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CS_Seminar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,15 +258,16 @@
       <workItem from="1490979806494" duration="250000" />
       <workItem from="1491250883501" duration="8299000" />
       <workItem from="1491402116549" duration="2253000" />
-      <workItem from="1491930072135" duration="605000" />
+      <workItem from="1491930072135" duration="1359000" />
+      <workItem from="1492102015109" duration="447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48558000" />
+    <option name="totallyTimeSpent" value="49759000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="312" width="1395" height="887" extended-state="0" />
+    <frame x="965" y="336" width="1395" height="887" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1985663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -308,7 +306,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
           <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="36" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -632,33 +632,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grants.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CS_Seminar/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CS_Seminar/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="390">
           <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
           <folding>
             <element signature="n#style#0;n#img#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -668,8 +659,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CS_Seminar/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="59" column="141" lean-forward="false" selection-start-line="59" selection-start-column="141" selection-end-line="59" selection-end-column="141" />
+        <state relative-caret-position="93">
+          <caret line="48" column="108" lean-forward="true" selection-start-line="48" selection-start-column="108" selection-end-line="48" selection-end-column="108" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding />
         </state>
       </provider>
