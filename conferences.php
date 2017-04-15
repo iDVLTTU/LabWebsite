@@ -14,13 +14,13 @@ include 'menu.php'; ?>
     <tr align="center" bgcolor="#777">
       <td style="padding:5px;"> <b>Conference</b> </td>
       <td> <b>Acceptance rate</td>
-      <td> <b>When</b> </td><td> Where</b> </td>
+      <td> <b>When</b> </td>
+      <td> Where</b> </td>
       <td> <b>Deadline</b></td>
       <td> <b>Notification</b></td>
       <td> <b>Poster</b></td>
     </tr>
 
-    
     
     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://www.ivapp.visigrapp.org/?y=2018">IVAPP 2018</a></td>
@@ -94,6 +94,17 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"> </td>
     </tr>
 
+
+      <tr bgcolor="#bdb">
+        <td align="left" style="padding:5px;"><a href="http://www.siggraph.org.tw/pg2017/for-author.html">PG 2017</a></td>
+        <td align="left" style="padding:5px;"></td>
+        <td align="left" style="padding:5px;">Oct 16-19, 2017</td>
+        <td align="left" style="padding:5px;">Taipei, Taiwan</td>
+        <td align="left" style="padding:5px;">Apr 30</td>
+        <td align="left" style="padding:5px;">Jun 28</td>
+        <td align="left" style="padding:5px;"></td>
+      </tr>
+
      <tr bgcolor="#caa">
       <td align="left" style="padding:5px;"><a href="http://biovis.net/2017/index.html">BioVis 2017</a></td>
       <td align="left" style="padding:5px;">BioVis@ISMB<br>BioVis@VIS</td>
@@ -105,6 +116,16 @@ include 'menu.php'; ?>
     </tr>
 
     <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="http://vinci-conf.org/index.html">VINCI 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Aug 14-16</td>
+      <td align="left" style="padding:5px;">Bangkok, Thailand</td>
+      <td align="left" style="padding:5px;">April 9</td>
+      <td align="left" style="padding:5px;">May 1<br></td>
+      <td align="left" style="padding:5px;">Mar 15</td>
+    </tr>
+
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://www.iaria.org/conferences2017/CfPVISUAL17.html">VISUAL 2017</a></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">July 23-27</td>
@@ -122,17 +143,6 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">Mar 21</td>
       <td align="left" style="padding:5px;">Jun 6</td>
       <td align="left" style="padding:5px;"></td>
-    </tr>
-
-
-     <tr bgcolor="#bdb">
-      <td align="left" style="padding:5px;"><a href="http://vinci-conf.org/index.html">VINCI 2017</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Aug 14-16</td>
-      <td align="left" style="padding:5px;">Bangkok, Thailand</td>
-      <td align="left" style="padding:5px;">Mar 15</td>
-      <td align="left" style="padding:5px;">May 1<br></td>
-      <td align="left" style="padding:5px;">Mar 15</td>
     </tr>
 
 
