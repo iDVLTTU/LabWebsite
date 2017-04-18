@@ -22,7 +22,7 @@ include 'menu.php'; ?>
     </tr>
 
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -37,7 +37,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">09 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -60,7 +60,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">06 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505264">Big Data Regional Innovation Hubs: Establishing <br/>Spokes to Advance Big Data Applications (BD Spokes)</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505264">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $1,000,000</td>
@@ -73,7 +73,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">18 Sep 2017</td>
     </tr>
 
-     <tr bgcolor="#bbd">
+     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/68670">Advances in Biological Informatics</a></td>
       <td align="left" style="padding:5px;"><a href="">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -81,6 +81,15 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">United States</td>
       <td align="left" style="padding:5px;" title="The Advances in Biological Informatics (ABI) program seeks to encourage new approaches to the analysis and dissemination of biological knowledge for the benefit of both the scientific community and the broader public. The ABI program is especially interested in the development of informatics tools and resources that have the potential to advance- or transform- research in biology supported by the Directorate for Biological Sciences at the National Science Foundation.  The ABI program accepts three major types of proposals: Innovation awards that seek to pioneer new approaches to the application of informatics to biological problems, Development awards that seek to provide robust cyberinfrastructure that will enable transformative biological research, and Sustaining awards that seek to support ongoing operations and maintenance of existing cyberinfrastructure that is critical for continued advancement of priority biological research.">Hover to see abstract</td>
       <td align="left" style="padding:5px;">08 Sep 2017</td>
+    </tr>
+     <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5467&org=NSF&sel_org=NSF&from=fund">Innovative Technology Experiences for <br/>Students and Teachers  (ITEST)</a></td>
+      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5467&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">United States</td>
+      <td align="left" style="padding:5px;" title="ITEST is a program that promotes PreK-12 student interests and capacities to participate in the science, technology, engineering, and mathematics (STEM) and information and communications technology (ICT) workforce of the future. To achieve this objective, ITEST supports the development, implementation, and selective spread of innovative strategies for engaging students in experiences that: (1) increase student awareness of STEM and ICT careers; (2) motivate students to pursue the education necessary to participate in those careers; and/or (3) provide students with technology-rich experiences that develop their knowledge of related content and skills (including critical thinking skills) needed for entering the STEM workforce. ITEST projects may adopt an interdisciplinary focus on multiple STEM domains, focus on a single domain, or focus on one or more sub-disciplines within a domain. ITEST projects must involve students, and may also include teachers. The ITEST program is especially interested in broadening participation of students from traditionally underrepresented groups in STEM fields and related education and workforce domains. Projects that actively engage business and industry partners to better ensure that PreK-12 experiences foster the knowledge and skill-sets needed for emerging STEM-related occupations are strongly encouraged. ITEST supports two project types: Strategies projects and SPrEaD (Successful Project Expansion and Dissemination) projects. Strategies projects support the design, implementation, and testing of innovative educational experiences that support the objectives of the ITEST program. SPrEaD projects support the wider and broader testing and dissemination of promising strategies to generate evidence and greater understanding of contextual factors that operate to enhance, moderate, or constrain anticipated project impacts. All ITEST projects may include activities designed to inform judgments regarding the feasibility of implementing strategies in typical learning environments associated with formal classrooms, out-of-school settings, or combinations of such environments. The ITEST program also invites proposals for an ITEST Resource Center to provide technical assistance to projects and provide assistance with the outreach activities of the ITEST program.">Hover to see abstract</td>
+      <td align="left" style="padding:5px;">09 Aug 2017</td>
     </tr>
 
     <tr bgcolor="#bdb">
