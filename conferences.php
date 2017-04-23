@@ -68,53 +68,96 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">Adelaide, Australia</td>
       <td align="left" style="padding:5px;">Jun 16</td>
       <td align="left" style="padding:5px;">Aug 11</td>
-      <td align="left" style="padding:5px;"></td>
-    </tr>
-
-    <tr bgcolor="#bdb">
-      <td align="left" style="padding:5px;"><a href="https://gd2017.ccis.northeastern.edu/">GD 2017</a></td>
-      <td align="left" style="padding:5px;">Graph Drawing</td>
-      <td align="left" style="padding:5px;">Sep 25-27</td>
-      <td align="left" style="padding:5px;">Boston, MA, USA</td>
-      <td align="left" style="padding:5px;">Jun 11</td>
-      <td align="left" style="padding:5px;">Jul 28<br></td>
-      <td align="left" style="padding:5px;">Aug 17</td>
+      <td align="left" style="padding:5px;">Aug 18 (demo paper)</td>
     </tr>
 
 
     <tr bgcolor="#caa">
-      <td align="left" style="padding:5px;"><a href="http://www.ldav.org/">LDAV 2017</a></td>
+      <td align="left" style="padding:5px;"><a href="http://vizsec.org/vizsec2017/#cfp">VizSe</a></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Phoenix, Phoenix </td>
-      <td align="left" style="padding:5px;">Jun </td>
-      <td align="left" style="padding:5px;">Aug <br></td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">Aug 8</td>
+      <td align="left" style="padding:5px;">Sep 5 <br></td>
+      <td align="left" style="padding:5px;">Sep 19 </td>
+    </tr>
+
+    <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="https://www.dkrz.de/SciVis/">SciVis Challenge</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">Jul 31</td>
+      <td align="left" style="padding:5px;">Aug 31 <br></td>
+      <td align="left" style="padding:5px;"> </td>
+    </tr>
+    <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="http://www.vacommunity.org/VAST+Challenge+2017">VAST Challenge</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">Jul 16</td>
+      <td align="left" style="padding:5px;">Aug 11 <br></td>
       <td align="left" style="padding:5px;"> </td>
     </tr>
 
-
-    <tr bgcolor="#bbd">
-      <td align="left" style="padding:5px;"><a href="http://www.wst.univie.ac.at/topics/taproviz17/">TAProViz 2017</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Sep 11</td>
-      <td align="left" style="padding:5px;">Barcelona, Spain</td>
-      <td align="left" style="padding:5px;">May 26</td>
-      <td align="left" style="padding:5px;">Jun 26<br></td>
+   
+    <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="http://www.visualdatascience.org/2017/index.html">VDS 2017</a></td>
+      <td align="left" style="padding:5px;">Data Science</td>
+      <td align="left" style="padding:5px;">Oct 1</td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">Jul 14</td>
+      <td align="left" style="padding:5px;">Aug 11 <br></td>
       <td align="left" style="padding:5px;"> </td>
     </tr>
-
-
-      <tr bgcolor="#bdb">
-        <td align="left" style="padding:5px;"><a href="http://www.siggraph.org.tw/pg2017/for-author.html">PG 2017</a></td>
-        <td align="left" style="padding:5px;"></td>
-        <td align="left" style="padding:5px;">Oct 16-19, 2017</td>
-        <td align="left" style="padding:5px;">Taipei, Taiwan</td>
-        <td align="left" style="padding:5px;">Apr 30</td>
-        <td align="left" style="padding:5px;">Jun 28</td>
-        <td align="left" style="padding:5px;"></td>
-      </tr>
 
      <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="http://visap.uic.edu/2017/importantDates.html">VIS Art</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">Jun 23</td>
+      <td align="left" style="padding:5px;">Aug 4 <br></td>
+      <td align="left" style="padding:5px;"> </td>
+    </tr>
+
+     <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="http://visinpractice.org/">VIP</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">Jun 16 </td>
+      <td align="left" style="padding:5px;">Jul 14 <br></td>
+      <td align="left" style="padding:5px;"> </td>
+    </tr>
+
+     <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="http://www.ldav.org/">LDAV</a></td>
+      <td align="left" style="padding:5px;">15/42 in 2015</td>
+      <td align="left" style="padding:5px;">Oct 2</td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">Jun 9</td>
+      <td align="left" style="padding:5px;">Aug 4 <br></td>
+      <td align="left" style="padding:5px;"> </td>
+    </tr>
+
+
+    <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="http://www.visualanalyticshealthcare.org/">VAHC</a></td>
+      <td align="left" style="padding:5px;">Healthcare</td>
+      <td align="left" style="padding:5px;">Oct 1-2</td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">May 1</td>
+      <td align="left" style="padding:5px;">Jun 19 <br></td>
+      <td align="left" style="padding:5px;"> </td>
+    </tr>
+
+   
+
+
+
+    <tr bgcolor="#caa">
       <td align="left" style="padding:5px;"><a href="http://biovis.net/2017/index.html">BioVis 2017</a></td>
       <td align="left" style="padding:5px;">BioVis@ISMB<br>BioVis@VIS</td>
       <td align="left" style="padding:5px;">July 21-25<br>Oct 1-6</td>
@@ -124,14 +167,48 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">May 15<br>TDB</td>
     </tr>
 
+    <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="https://gd2017.ccis.northeastern.edu/">GD 2017</a></td>
+      <td align="left" style="padding:5px;">Graph Drawing</td>
+      <td align="left" style="padding:5px;">Sep 25-27</td>
+      <td align="left" style="padding:5px;">Boston, MA, USA</td>
+      <td align="left" style="padding:5px;">Jun 11</td>
+      <td align="left" style="padding:5px;">Jul 28<br></td>
+      <td align="left" style="padding:5px;">Aug 17</td>
+    </tr>
+   
+
+
+    <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="http://www.wst.univie.ac.at/topics/taproviz17/">TAProViz 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Sep 11</td>
+      <td align="left" style="padding:5px;">Barcelona, Spain</td>
+      <td align="left" style="padding:5px;">May 26</td>
+      <td align="left" style="padding:5px;">Jun 26<br></td>
+      <td align="left" style="padding:5px;"> </td>
+    </tr>
+
+     
+      <tr bgcolor="#bbd">
+        <td align="left" style="padding:5px;"><a href="http://www.siggraph.org.tw/pg2017/">PG 2017</a></td>
+        <td align="left" style="padding:5px;"></td>
+        <td align="left" style="padding:5px;">Oct 16-19, 2017</td>
+        <td align="left" style="padding:5px;">Taipei, Taiwan</td>
+        <td align="left" style="padding:5px;">Apr 30</td>
+        <td align="left" style="padding:5px;">Jun 28</td>
+        <td align="left" style="padding:5px;"></td>
+      </tr>
+
+     
     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://vinci-conf.org/index.html">VINCI 2017</a></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">Aug 14-16</td>
       <td align="left" style="padding:5px;">Bangkok, Thailand</td>
-      <td align="left" style="padding:5px;">April 9</td>
-      <td align="left" style="padding:5px;">May 1<br></td>
-      <td align="left" style="padding:5px;">Mar 15</td>
+      <td align="left" style="padding:5px;">April 28</td>
+      <td align="left" style="padding:5px;">May 19<br></td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
     <tr bgcolor="#bbd">
