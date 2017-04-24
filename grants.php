@@ -113,8 +113,24 @@ include 'menu.php'; ?>
       </td>
       <td align="left" style="padding:5px;">07 July 2017</td>
     </tr>
-    
+
     <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://www.neh.gov/grants/odh/digital-humanities-advancement-grants">Digital Humanities Advancement Grants</a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.neh.gov/grants/odh/digital-humanities-advancement-grants">NEH</a></td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+      <td align="left" style="padding:5px;">Unrestricted</td>
+      <td align="left" style="padding:5px;" 
+          title="Digital Humanities Advancement Grants (DHAG) support digital projects throughout their lifecycles, from early start-up phases through implementation and long-term sustainability. Experimentation, reuse, and extensibility are hallmarks of this grant category, leading to innovative work that can scale to enhance research, teaching, and public programming in the humanities.
+
+          This program combines the former Digital Humanities Start-Up Grants and Digital Humanities Implementation Grants programs; the combined program is offered twice per year. Proposals are welcome for digital initiatives in any area of the humanities.
+
+          Through a special partnership, the Institute of Museum and Library Services (IMLS) anticipates providing additional funding to this program to encourage innovative collaborations between museum or library professionals and humanities professionals to advance preservation of, access to, use of, and engagement with digital collections and services. Through this partnership, IMLS and NEH may jointly fund some DHAG projects that involve collaborations with museums and/or libraries.">Hover to see abstract      
+          </td>
+          <td align="left" style="padding:5px;">06 June 2017</td>
+        </tr>
+    
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/159865">Harnessing Big Data to Halt HIV</a></td>
       <td align="left" style="padding:5px;"><a href="https://grants.nih.gov/grants/guide/pa-files/PA-15-273.html">HHS,NIH</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -132,7 +148,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">07 May 2017</td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
           <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">3D Visualization</a></td>
           <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">DOD</a></td>
           <td align="left" style="padding:5px;">Upper $40,000</td>
@@ -144,7 +160,7 @@ include 'menu.php'; ?>
           <td align="left" style="padding:5px;">19 Apr 2017</td>
         </tr>
 
-      <tr bgcolor="#bdb">
+      <tr bgcolor="#bbd">
           <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/images/uploads/rfa_r-181-iiracb_v3.pdf">Individual Investigator Research Awards for Computational Biology</a></td>
           <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/funding-opportunities#research">CPRIT</a></td>
           <td align="left" style="padding:5px;">Upper $300,000</td>
@@ -156,7 +172,7 @@ include 'menu.php'; ?>
           <td align="left" style="padding:5px;">Mar 15 - Jun 8, 2017</td>
       </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/169222">Ford-Mozilla Open Web Fellow Program</a></td>
       <td align="left" style="padding:5px;"><a href="https://advocacy.mozilla.org/en-US/open-web-fellows/overview">Mozilla</a></td>
       <td align="left" style="padding:5px;">Upper  $60,000<br/> Lower  $60,000</td>
