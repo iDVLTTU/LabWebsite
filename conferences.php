@@ -21,16 +21,6 @@ include 'menu.php'; ?>
       <td> <b>Poster</b></td>
     </tr>
 
-    <tr bgcolor="#bbd">
-      <td align="left" style="padding:5px;"><a href="http://cvpr2017.thecvf.com/">CVPR 2018</a></td>
-      <td align="left" style="padding:5px;">TBA</td>
-      <td align="left" style="padding:5px;">July 2018</td>
-      <td align="left" style="padding:5px;">TBA</td>
-      <td align="left" style="padding:5px;">July 2018</td>
-      <td align="left" style="padding:5px;">TBA</td>
-      <td align="left" style="padding:5px;">TBA</td>
-    </tr>
-
     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://www.ivapp.visigrapp.org/?y=2018">IVAPP 2018</a></td>
       <td align="left" style="padding:5px;"></td>
@@ -141,7 +131,26 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">Aug 4 <br></td>
       <td align="left" style="padding:5px;"> </td>
     </tr>
+    
+    <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://www.vision.ee.ethz.ch/webvision/workshop.html">Webvision</a></td>
+      <td align="left" style="padding:5px;">CVPR Workshop</td>
+      <td align="left" style="padding:5px;">July 26, 2017</td>
+      <td align="left" style="padding:5px;">Hawaii </td>
+      <td align="left" style="padding:5px;">NA</td>
+      <td align="left" style="padding:5px;">NA<br></td>
+      <td align="left" style="padding:5px;"> </td>
+    </tr>
 
+    <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://languageandvision.com/">Language and vision</a></td>
+      <td align="left" style="padding:5px;">CVPR Workshop</td>
+      <td align="left" style="padding:5px;">July 21, 2017</td>
+      <td align="left" style="padding:5px;">Hawaii </td>
+      <td align="left" style="padding:5px;">May 31st</td>
+      <td align="left" style="padding:5px;">Jun 15th <br></td>
+      <td align="left" style="padding:5px;"> </td>
+    </tr>
 
     <tr bgcolor="#caa">
       <td align="left" style="padding:5px;"><a href="http://www.visualanalyticshealthcare.org/">VAHC</a></td>
