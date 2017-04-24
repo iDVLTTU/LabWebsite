@@ -129,8 +129,22 @@ include 'menu.php'; ?>
           </td>
           <td align="left" style="padding:5px;">06 June 2017</td>
         </tr>
+
+  <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">Research Experiences for Undergraduates  (REU)</a></td>
+      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+      <td align="left" style="padding:5px;">Unrestricted</td>
+      <td align="left" style="padding:5px;" 
+          title="The Research Experiences for Undergraduates (REU) program supports active research participation by undergraduate students in any of the areas of research funded by the National Science Foundation. REU projects involve students in meaningful ways in ongoing research programs or in research projects specifically designed for the REU program. This solicitation features two mechanisms for support of student research: (1) REU Sites are based on independent proposals to initiate and conduct projects that engage a number of students in research. REU Sites may be based in a single discipline or academic department or may offer interdisciplinary or multi-department research opportunities with a coherent intellectual theme. Proposals with an international dimension are welcome. (2) REU Supplements may be included as a component of proposals for new or renewal NSF grants or cooperative agreements or may be requested for ongoing NSF-funded research projects.
+
+            ">Hover to see abstract      
+      </td>
+      <td align="left" style="padding:5px;">26 May 2017</td>
+    </tr>
     
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/159865">Harnessing Big Data to Halt HIV</a></td>
       <td align="left" style="padding:5px;"><a href="https://grants.nih.gov/grants/guide/pa-files/PA-15-273.html">HHS,NIH</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -148,7 +162,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">07 May 2017</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
           <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">3D Visualization</a></td>
           <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">DOD</a></td>
           <td align="left" style="padding:5px;">Upper $40,000</td>
@@ -160,7 +174,7 @@ include 'menu.php'; ?>
           <td align="left" style="padding:5px;">19 Apr 2017</td>
         </tr>
 
-      <tr bgcolor="#bbd">
+      <tr bgcolor="#bdb">
           <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/images/uploads/rfa_r-181-iiracb_v3.pdf">Individual Investigator Research Awards for Computational Biology</a></td>
           <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/funding-opportunities#research">CPRIT</a></td>
           <td align="left" style="padding:5px;">Upper $300,000</td>
@@ -172,7 +186,7 @@ include 'menu.php'; ?>
           <td align="left" style="padding:5px;">Mar 15 - Jun 8, 2017</td>
       </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/169222">Ford-Mozilla Open Web Fellow Program</a></td>
       <td align="left" style="padding:5px;"><a href="https://advocacy.mozilla.org/en-US/open-web-fellows/overview">Mozilla</a></td>
       <td align="left" style="padding:5px;">Upper  $60,000<br/> Lower  $60,000</td>
