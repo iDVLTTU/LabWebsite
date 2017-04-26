@@ -157,8 +157,22 @@ The efforts supported by this solicitation do not overlap with, but are compleme
       </td>
       <td align="left" style="padding:5px;">26 May 2017</td>
     </tr>
-    
+
     <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://www.depts.ttu.edu/vpr/award-ops/collaborative-research.php">Presidents' Collaborative Research Initiative</a></td>
+      <td align="left" style="padding:5px;"><a href="http://www.depts.ttu.edu/vpr/award-ops/collaborative-research.php">TTU</a></td>
+      <td align="left" style="padding:5px;">$50,000</td>
+      <td align="left" style="padding:5px;">Faculty memebers</td>
+      <td align="left" style="padding:5px;">Unrestricted</td>
+      <td align="left" style="padding:5px;" 
+          title="The Chancellor and Presidents of TTU, TTUHSC, and TTUHSC El Paso, are sponsoring an initiative designed to stimulate the expansion of collaborative sponsored federal research across the System. Many exciting opportunities for research programs are now found in interdisciplinary areas that require close interactions among scientists with different types of scientific expertise.
+
+The Presidents' Collaborative Research Initiative provides up to $50,000 per award to develop collaborative projects involving faculty from at least two of the three participating TTUS institutions. Up to 4 awards will be made. The goal and expectation is that the institutional support for each collaborative research grant will lead to submission of a competitive proposal to a major federal funding agency within 18 months.">Hover to see abstract      
+      </td>
+      <td align="left" style="padding:5px;">LOI: 15 May 2017 <br/> Application: 16 June 2017 </td>
+    </tr>
+    
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/159865">Harnessing Big Data to Halt HIV</a></td>
       <td align="left" style="padding:5px;"><a href="https://grants.nih.gov/grants/guide/pa-files/PA-15-273.html">HHS,NIH</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -176,7 +190,7 @@ The efforts supported by this solicitation do not overlap with, but are compleme
       <td align="left" style="padding:5px;">07 May 2017</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
           <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">3D Visualization</a></td>
           <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292623">DOD</a></td>
           <td align="left" style="padding:5px;">Upper $40,000</td>
@@ -188,7 +202,7 @@ The efforts supported by this solicitation do not overlap with, but are compleme
           <td align="left" style="padding:5px;">19 Apr 2017</td>
         </tr>
 
-      <tr bgcolor="#bbd">
+      <tr bgcolor="#bdb">
           <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/images/uploads/rfa_r-181-iiracb_v3.pdf">Individual Investigator Research Awards for Computational Biology</a></td>
           <td align="left" style="padding:5px;"><a href="http://www.cprit.state.tx.us/funding-opportunities#research">CPRIT</a></td>
           <td align="left" style="padding:5px;">Upper $300,000</td>
@@ -200,7 +214,7 @@ The efforts supported by this solicitation do not overlap with, but are compleme
           <td align="left" style="padding:5px;">Mar 15 - Jun 8, 2017</td>
       </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/169222">Ford-Mozilla Open Web Fellow Program</a></td>
       <td align="left" style="padding:5px;"><a href="https://advocacy.mozilla.org/en-US/open-web-fellows/overview">Mozilla</a></td>
       <td align="left" style="padding:5px;">Upper  $60,000<br/> Lower  $60,000</td>
