@@ -4,7 +4,6 @@ include 'menu.php'; ?>
 
 
 <div id="site_content" class="content researchPage">
-   <div id="top_border"></div> 
     <div class="supportedResearch">
        <p>The works on this page were supported by:</p>
        <ul>
@@ -17,7 +16,15 @@ include 'menu.php'; ?>
       </li>
     </ul>
 </div>
-<div id="site_content"></div> 
+<div id="site_content" style="width: 1250px; margin: auto;"></div> 
+   <div id="top_border" style="width: 1250px; margin: auto;"></div> 
+    <div class="">
+      <iframe src="./projectsIframe.html"></iframe>
+</div>
+
+
+
+<!-- <div id="site_content"></div> 
 	 <div id="top_border"></div> 
 
     <div align="left"><font style="font-family:
@@ -139,5 +146,27 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
    <left>Visualizing the alignment of <a href="http://taxonbytes.org/pathwaymatrix-visualization-software-shows-eulerx-taxonomy-alignment-products-and-ambiguities/"> taxonomic classifications</a>: Gymnospermae sec. Weakley (2010) vs. RAB (1968)</left>
     <div  align="middle" style="margin-top: 20px"> <img src="images/projectFigures/Matrix2.png"  width=100%></div>
   <left> High-dimensional data are represented by a small subset of variables in the US unemployment rates (left) from  <a href="https://www.bls.gov/"> BLS</a> and in the Asteraceae taxonomy (right) of 2,048 characters.</left>
-      </div>
+      </div> -->
+
+</div>
+<style>
+#main{
+  width: 100%;
+}
+header{
+  width: 1000px;
+  margin: auto;
+}
+.supportedResearch{
+  width: 1000px;
+  margin: auto;
+}
+#site_content{
+  width: 100%;
+}
+.content ul {
+    margin: 5px 0 0 0px;
+}
+</style>
+
 <?php include 'footer.php'; ?>

@@ -1064,3 +1064,13 @@ img:hover{
   font-size: 14px;
   line-height: 1.4em;
 }
+iframe {
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    width: 100%;
+    /*min-height: 1200px;*/
+    height: 73vh;
+}
+
