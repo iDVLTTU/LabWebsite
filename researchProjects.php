@@ -20,7 +20,7 @@ include 'menu.php'; ?>
    <div id="top_border" style="width: 1250px; margin: auto;"></div> 
     <div class="">
       <iframe src="./projectsIframe.html"></iframe>
-</div>
+    </div>
 
 
 
