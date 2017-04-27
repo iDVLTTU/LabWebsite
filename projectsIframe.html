@@ -51,6 +51,18 @@
         margin-bottom: 20px;
         font-size: 14px;
     }
+
+    .section ul li{
+        list-style-type: none;
+        background: url(./images/bullet.png) no-repeat;
+        margin: 0 0 0 0;
+        padding: 0 0 4px 17px;
+        line-height: 1.5em;
+    }
+
+
+
+
     .section p{
         width: 1250px;
         margin: auto;
@@ -327,6 +339,9 @@
         height: 80vh;
         width: auto;
     }
+    .section{
+        margin-top: 5px;
+    }
 
     </style>
 
@@ -378,11 +393,12 @@
 
 <div id="fullpage">
 
-    <div class="section " id="section0" >
+    <div class="section" id="section0">
+     <div class="wrap">
                     <div><font style="font-family:
-                Helvetica,Arial,sans-serif;" color="black" size="4"><p>Geospatial-temporal visualizations</p></font></div>
+                Helvetica,Arial,sans-serif;"><p><b>Geospatial-temporal visualizations</b></p></font></div>
            <div style="margin-top: 5px">
-            <left> <p>Related publications: <p><br>
+            <left> <p>Related publications: </p>
             <ul>
             <li> <b>Tuan Dang</b>, Leland Wilkinson, and Anushka Anand. <i>Stacking Graphic Elements to Avoid Over-Plotting</i>. IEEE Transactions on Visualization AndComputer Graphics 16(6), InfoVis 2010.  <a href="file/Stacking.pdf"> <img src="images/icons2/pdf.png" height="16"></a> <a href="https://www.cs.uic.edu/~tdang/media/Stacking.mp4"> <img src="images/icons2/movie.png" height="16"></a> <a href="BibTeX/Dang2010Stacking.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
         <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5613442" class="button">DOI</a>
@@ -395,8 +411,10 @@
           <div class="projectImg" align="middle" style="margin-top: -20px"> <img src="./images/projectFigures/UFO2.png" style="height: 56vh; width: auto;"  width=75%></div>
           <left> <p><b>Visualizing UFO sightings on a 2D map:</b> This project uses data from the National UFO Reporting Center available <a href="http://www.nuforc.org/webreports/ndxloc.html">here</a>. 
         The goal here is to give the user a higher level view of where different types of sightings occur, and to detect patterns/trends of these sightings over time.</p></left>
+        </div>
     </div>
-    <div class="section" id="section1">
+
+    <div class="section moveDown" id="section1">
         <div class="wrap">
         <br/><br/>
                       <div class="projectImg" align="middle" style="margin-top: 10px"> <img src="./images/projectFigures/lyme.png"  width=50%></div>
@@ -411,10 +429,10 @@
     <div class="section moveDown" id="section2">
         <div class="wrap">
          <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="4"><p>Networks and structures</p></font></div>
+        Helvetica,Arial,sans-serif;"><p><b>Networks and structures</b></p></font></div>
 
     <div style="margin-top: 5px">
-    <left> <p>Related publications: </p><br>
+    <left> <p>Related publications: </p>
     <ul>
         <li><b>Tommy Dang</b>, Paul Murray, Ronak Etemadpour, and Angus Forbes. <i> Visualizing Structure and Connectivity in Complex Hierarchical Datasets</i>. IEEE Transactions on Visualization and Computer Graphics. (<i>in submission</i>)</li>
         <li> <b>Tommy Dang</b> and Angus Forbes. <i> CactusTree: A Tree Drawing Approach for Hierarchical Edge Bundling</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. </li>         
@@ -448,10 +466,10 @@
     <div class="section moveDown" id="section4">
         <div class="wrap">
                 <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="4"><p>Dynamic network visualization</p></font></div>
+        Helvetica,Arial,sans-serif;"><p><b>Dynamic network visualization</b></p></font></div>
 
     <div style="margin-top: 5px">
-    <left> <p>Related publications: </p><br>
+    <left> <p>Related publications: </p>
     <ul>
         <li><b>Tommy Dang</b>,  Nick Pendar, and Angus Forbes. <i> TimeArcs: Visualizing Fluctuations in Dynamic Networks</i>. Computer Graphics Forum 35(3), EuroVis 2016. 
         <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
@@ -463,8 +481,8 @@
     </ul>
     </left>
    </div>    
-
-    <div  align="middle" style="margin-top: -30px"> <img src="images/projectFigures/PoliticalBlogs.png" style="height: 70vh; width: auto;" width=95%></div>
+   <br/><br/>
+    <div  align="middle" style="margin-top: -30px"> <img src="images/projectFigures/PoliticalBlogs.png" style="height: 70vh; width: auto;" width=95%></div> <br/>
   <left><p>Major events from nearly 100,000 political blogs in last 10 years were automatically detected in our visualization: Links connect popular terms appeared in the same blogs.</p></left>
         </div>
     </div>
@@ -472,9 +490,9 @@
     <div class="section moveDown" id="section5">
         <div class="wrap">
              <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;" color="black" size="4"><p>Matrix visualization</p></font></div>
+        Helvetica,Arial,sans-serif;"><p><b>Matrix visualization</b></p></font></div>
   <div class="content fullPage" style="margin-top: 5px">
-    <left> <p>Related publications: </p><br>
+    <left> <p>Related publications: </p>
     <ul>
         <li> <b>Tommy Dang</b>, Hong Cui, and Angus Forbes. <i> MultiLayerMatrix: Visualizing Large Taxonomic Datasets</i>. The seventh international EuroVis workshop on Visual Analytics, EuroVA 2016.  
           <a href="https://www.cs.uic.edu/~tdang/MultiLayerMatrix/MultiLayerMatrix_EuroVA_2016.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
