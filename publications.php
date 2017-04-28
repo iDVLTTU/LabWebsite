@@ -36,6 +36,15 @@ include 'menu.php';
 
             <br/>
             <p>For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.</p>
+
+            <?php
+                        $xmls=simplexml_load_file("publications.xml") or die("Error: Cannot create object");
+                        foreach ($xmls as $xml) { 
+                          echo "<li>" . $xml->paperInfo->asXml() . "</li>";
+                          // echo "<p>" . $xml->description->asXml() . "</p>";
+                          // echo "<p>" . $xml->gitRepo->asXml() . "</p>";
+                          }
+          ?>
       </div>
 </div>
 <?php include 'footer.php'; ?>

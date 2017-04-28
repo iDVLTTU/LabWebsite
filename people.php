@@ -191,10 +191,10 @@ include 'menu.php';
 
                         <a href="https://scholar.google.com/citations?user=jWJAhKoAAAAJ&hl=en"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
-                    </div>                    
+                    </div>    
+                    <div class="personBorder"></div>                
                 </div>
             </div>
-
         </div>
     </div>
 

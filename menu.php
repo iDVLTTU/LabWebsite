@@ -6,6 +6,7 @@
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="css/w3.css">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link rel="shortcut icon" href="images/iDVLlogo/V2.png">
 <!-- modernizr enables HTML5 elements and feature detects -->
@@ -25,6 +26,8 @@
         });
     });        
 </script>
+
+
 </head>
 
 <body>
