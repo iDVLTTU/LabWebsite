@@ -1,5 +1,5 @@
     <footer>
-      <p>Last revised: Apr 05, 2017 | Copyright &copy; iDVL, TTU</p>
+      <p>Last revised: Apr 29, 2017 | Copyright &copy; iDVL, TTU</p>
     </footer>
   </div>
   
