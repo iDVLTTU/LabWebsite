@@ -195,6 +195,29 @@ include 'menu.php';
                     <div class="personBorder"></div>                
                 </div>
             </div>
+
+     <div class="w3-content w3-display-container">
+
+          <div class="w3-display-container mySlides">
+            <img src="./images/pics/people2017Jan.png" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+              iDVL Team.
+            </div>
+          </div>
+
+          <!-- <div class="w3-display-container mySlides">
+            <img src="./images/pics/people2017Jan.png" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+              2nd Image
+            </div>
+          </div> -->
+
+          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+          </div>
+
+
         </div>
     </div>
 
