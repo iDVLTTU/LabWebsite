@@ -5,7 +5,7 @@
           <h3>Latest News</h3>
 <div class="sidebarNewsBorder"></div>
                  <?php
-                        $xmls=simplexml_load_file("newsArchive.xml") or die("Error: Cannot create object");
+                        $xmls=simplexml_load_file("./xml/newsArchive.xml") or die("Error: Cannot create object");
                         $i = 0;
                         foreach ($xmls as $xml) {
                           if($i!=count($xmls)-1)

@@ -1,6 +1,6 @@
-<?php include 'header.php'; 
+<?php 
 $activePage = 'publications.php';
-include 'menu.php';
+include 'header.php'; 
 ?>
 
 
@@ -38,7 +38,7 @@ include 'menu.php';
             <p>For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.</p>
 
             <!-- <?php
-                        $xmls=simplexml_load_file("publications.xml") or die("Error: Cannot create object");
+                        $xmls=simplexml_load_file("./xml/publications.xml") or die("Error: Cannot create object");
                         foreach ($xmls as $xml) { 
                           echo "<li>" . $xml->paperInfo->asXml() . "</li>";
                           // echo "<p>" . $xml->description->asXml() . "</p>";

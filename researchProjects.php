@@ -1,6 +1,7 @@
-<?php include 'header.php';
+<?php 
 $activePage = 'researchProjects.php';
-include 'menu.php'; ?>
+include 'header.php';
+?>
 
 
 <div id="site_content" class="content researchPage">
