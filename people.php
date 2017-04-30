@@ -1,8 +1,7 @@
 <?php 
-include 'header.php';
 $activePage = 'people.php';
-include 'menu.php';
- ?>
+include 'header.php';
+?>
 
  <div id="site_content" class= "fullPage">
        <div id="top_border"></div>

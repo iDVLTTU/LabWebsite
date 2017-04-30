@@ -1,6 +1,7 @@
-<?php include 'header.php';
+<?php 
 $activePage = 'activities.php';
-include 'menu.php'; ?>
+include 'header.php';
+?>
 
 <div id="site_content">
     <div id="top_border"></div>
@@ -12,7 +13,7 @@ include 'menu.php'; ?>
           <div class="activityList">
               <ul>
                   <?php
-                        $xmls=simplexml_load_file("activities.xml") or die("Error: Cannot create object");
+                        $xmls=simplexml_load_file("./xml/activities.xml") or die("Error: Cannot create object");
                         foreach ($xmls as $xml) { ?>              
                           <?php 
                           echo "<h4>" . $xml->date->asXml() . "</h4>";

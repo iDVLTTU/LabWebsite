@@ -1,9 +1,6 @@
 <?php
-include 'header.php';
-
 $activePage = 'index.php';
-
-include 'menu.php';
+include 'header.php';
 
 include 'home.php';
 

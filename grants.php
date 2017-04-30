@@ -1,6 +1,7 @@
-<?php include 'header.php';
+<?php
 $activePage = 'grants.php';
-include 'menu.php'; ?>
+include 'header.php';
+?>
 
 <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 
@@ -22,7 +23,7 @@ include 'menu.php'; ?>
     </tr>
 
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -37,7 +38,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">09 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -58,6 +59,19 @@ include 'menu.php'; ?>
           (4) Education and Workforce Development.">Hover to see abstract
       </td>
       <td align="left" style="padding:5px;">06 Mar 2018</td>
+    </tr>
+
+    <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://research.googleblog.com/2017/02/google-research-awards-2016.html">Google Research Awards</a></td>
+      <td align="left" style="padding:5px;"><a href="https://research.google.com/research-outreach.html#/research-outreach/faculty-engagement/faculty-research-awards">Google</a></td>
+      <td align="left" style="padding:5px;">Upper $150,000</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> Faculty</td>
+      <td align="left" style="padding:5px;">United States</td>
+      <td align="left" style="padding:5px;"
+          title="At Google, we are committed to developing new technologies to help our users find and use information. While we do significant in-house research and engineering, we also maintain strong ties with academic institutions worldwide pursuing innovative research in core areas relevant to our products and services. As part of that vision, the Google Faculty Research Awards Program aims to recognize and support world-class, permanent faculty pursuing cutting-edge research in areas of mutual interest.
+Our goal is to identify and strengthen long-term collaborative relationships with faculty working on problems that will impact how future generations use technology. Google Faculty Research Awards are structured as seed funding (up to $150,000 USD) to support one graduate student for one year and are awarded as an unrestricted gift. The award is highly competitive - only 15% of applicants receive funding - and each proposal goes through a rigorous Google-wide review process.">Hover to see abstract
+      </td>
+      <td align="left" style="padding:5px;">30 Sep 2017</td>
     </tr>
 
     <tr bgcolor="#bbd">

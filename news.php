@@ -1,7 +1,6 @@
 <?php 
-include 'header.php';
 $activePage = 'news.php';
-include 'menu.php';
+include 'header.php';
  ?>
 <?php $thisPage="News"; ?>
 
@@ -14,7 +13,7 @@ include 'menu.php';
          <?php
           $id =  urldecode($_GET["id"]);
                         $counter = 0;
-                        $xmls=simplexml_load_file("newsArchive.xml") or die("Error: Cannot create object");
+                        $xmls=simplexml_load_file("./xml/newsArchive.xml") or die("Error: Cannot create object");
                         foreach ($xmls as $xml) { 
                           if($counter == $id){
                           echo "<h4>" . $xml->headline->asXml() . "</h4>";
