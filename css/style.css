@@ -1064,7 +1064,7 @@ img:hover{
   font-size: 14px;
   line-height: 1.4em;
 }
-iframe {
+.projectSlider iframe {
     border-width: 0;
     border-style: none;
     border-color: none;

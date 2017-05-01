@@ -19,7 +19,7 @@ include 'header.php';
 </div>
 <div id="site_content" style="width: 1250px; margin: auto;"></div> 
    <div id="top_border" style="width: 1250px; margin: auto;"></div> 
-    <div class="">
+    <div class="projectSlider">
       <iframe src="./projectsIframe.html"></iframe>
     </div>
 
