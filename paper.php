@@ -14,7 +14,7 @@ include 'header.php';
                         $xmls=simplexml_load_file("./xml/publications.xml") or die("Error: Cannot create object");
                         foreach ($xmls as $xml) { 
                           if($counter == $id){
-                          echo "<li>" . $xml->paperInfo->asXml() ."</li>";
+                          echo "<li>" . $xml->paperInfo->asXml() ."</li><br/><br/>";
                           echo '<div class="paperDes">' . $xml->description->asXml() . "</div>";
                           }
                           $counter++;

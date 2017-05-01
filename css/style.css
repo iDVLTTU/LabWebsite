@@ -1077,3 +1077,10 @@ img:hover{
   width: 100%;
   margin: auto;
 }
+.paperInfo h3{
+  text-align: center;
+}
+.paperInfo h6{
+  text-align: center;
+}
+
