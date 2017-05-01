@@ -4,24 +4,52 @@
 
 <paper category="lab">
 <paperInfo><b>Tommy Dang</b>, <b>Long Hoang Nguyen</b>, Abdullahn Karim, and Venki Uddameri. <i> STOAViz: Visualizing Saturated Thickness of Ogallala Aquifer</i>. The Visualization in Environmental Sciences, <a href="http://www.informatik.uni-leipzig.de/~envirvis2017/">EnvirVis 2017</a>. </paperInfo>
-<description>ds</description>
-<gitRepo>ds</gitRepo>
+<description>
+	<h4>Abstract:</h4>
+	<p></p>
+	<div class="img-area">
+					<div class="img-middle">
+						<img src=""></img>
+					</div>
+					<div style="clear:both;"></div>
+	</div>
+</description>
+<gitRepo></gitRepo>
 </paper>
 
 <paper category="lab">
 <paperInfo>
 	<b>Tommy Dang</b> and Angus Forbes. <i> CactusTree: A Tree Drawing Approach for Hierarchical Edge Bundling</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017.
 </paperInfo>
-<description>ds</description>
-<gitRepo>ds</gitRepo>
+<description>
+	<h4>Abstract:</h4>
+	<p></p>
+	<div class="img-area">
+					<div class="img-middle">
+						<img src=""></img>
+					</div>
+					<div style="clear:both;"></div>
+	</div>
+</description>
+<gitRepo>https://github.com/iDataVisualizationLab/BioLinker</gitRepo>
 </paper>
 
 <paper category="lab">
 <paperInfo>
 	<b>Tommy Dang</b>, Paul Murray, and Angus Forbes. <i> BioLinker: Bottom-up exploration of protein interaction network</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. 
 </paperInfo>
-<description>ds</description>
-<gitRepo>ds</gitRepo>
+<description>
+	<h4>Abstract:</h4>
+	<p>BioLinker is an interactive visualization system that helps users to perform bottom-up exploration of complex protein interaction networks. Five interconnected views provide the user with a range of ways to explore pathway data: Overview/ protein selector, context view, main view, publication view, and conflict matrix.</p>
+	<div class="img-area">
+					<div class="img-middle">
+						<img src="https://raw.githubusercontent.com/CreativeCodingLab/BioLinker/master/figures/Figure1.png"></img>
+					</div>
+					<div style="clear:both;"></div>
+	</div>
+	<a href="https://github.com/iDataVisualizationLab/BioLinker">Github Repository</a>
+</description>
+<gitRepo></gitRepo>
 </paper>
 
 

@@ -1073,4 +1073,7 @@ img:hover{
     /*min-height: 1200px;*/
     height: 73vh;
 }
-
+.paperDes img{
+  width: 100%;
+  margin: auto;
+}

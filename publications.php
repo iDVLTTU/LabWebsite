@@ -27,24 +27,23 @@ include 'header.php';
           <h4>PAPERS</h4>
            <ul>
 
-            <li> <b>Tommy Dang</b>, <b>Long Hoang Nguyen</b>, Abdullahn Karim, and Venki Uddameri. <i> STOAViz: Visualizing Saturated Thickness of Ogallala Aquifer</i>. The Visualization in Environmental Sciences, <a href="http://www.informatik.uni-leipzig.de/~envirvis2017/">EnvirVis 2017</a> . </li>
-
-             <li> <b>Tommy Dang</b> and Angus Forbes. <i> CactusTree: A Tree Drawing Approach for Hierarchical Edge Bundling</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. </li>
-
-             <li> <b>Tommy Dang</b>, Paul Murray, and Angus Forbes. <i> BioLinker: Bottom-up exploration of protein interaction network</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. </li>
+                <?php
+                        $xmls=simplexml_load_file("./xml/publications.xml") or die("Error: Cannot create object");
+                        $i = 0;
+                        foreach ($xmls as $xml) { 
+                          echo "<li>" . $xml->paperInfo->asXml();
+                          // echo "<p>" . $xml->description->asXml() . "</p>";
+                          // echo "<p>" . $xml->gitRepo->asXml() . "</p>";
+                           echo '<a href="paper.php?id=' .$i.'">' . 'View more</a>' . "</li>";
+                           $i++;
+                          }
+                ?> 
            <ul>
 
             <br/>
             <p>For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.</p>
 
-            <!-- <?php
-                        $xmls=simplexml_load_file("./xml/publications.xml") or die("Error: Cannot create object");
-                        foreach ($xmls as $xml) { 
-                          echo "<li>" . $xml->paperInfo->asXml() . "</li>";
-                          // echo "<p>" . $xml->description->asXml() . "</p>";
-                          // echo "<p>" . $xml->gitRepo->asXml() . "</p>";
-                          }
-          ?> -->
+           
       </div>
 </div>
 <?php include 'footer.php'; ?>
