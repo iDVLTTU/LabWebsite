@@ -1,6 +1,7 @@
-<?php include 'header.php';
+<?php 
 $activePage = 'conferences.php';
-include 'menu.php'; ?>
+include 'header.php';
+?>
 
 
 
@@ -19,16 +20,6 @@ include 'menu.php'; ?>
       <td> <b>Deadline</b></td>
       <td> <b>Notification</b></td>
       <td> <b>Poster</b></td>
-    </tr>
-
-    <tr bgcolor="#bbd">
-      <td align="left" style="padding:5px;"><a href="http://cvpr2017.thecvf.com/">CVPR 2018</a></td>
-      <td align="left" style="padding:5px;">TBA</td>
-      <td align="left" style="padding:5px;">July 2018</td>
-      <td align="left" style="padding:5px;">TBA</td>
-      <td align="left" style="padding:5px;">July 2018</td>
-      <td align="left" style="padding:5px;">TBA</td>
-      <td align="left" style="padding:5px;">TBA</td>
     </tr>
 
     <tr bgcolor="#bdb">
@@ -51,29 +42,11 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#bdb">
-      <td align="left" style="padding:5px;"><a href="https://sa2017.siggraph.org/submitters">SIGGRAPH Asia 2017</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Nov 27-30</td>
-      <td align="left" style="padding:5px;">Bangkok, Thailand</td>
-      <td align="left" style="padding:5px;">Jun 29</td>
-      <td align="left" style="padding:5px;"> <br></td>
-      <td align="left" style="padding:5px;">Aug 15</td>
-    </tr>
 
-    <tr bgcolor="#bbd">
-      <td align="left" style="padding:5px;"><a href="http://www.bdva.net/">BDVA 2017</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Nov 7-10</td>
-      <td align="left" style="padding:5px;">Adelaide, Australia</td>
-      <td align="left" style="padding:5px;">Jun 16</td>
-      <td align="left" style="padding:5px;">Aug 11</td>
-      <td align="left" style="padding:5px;">Aug 18 (demo paper)</td>
-    </tr>
 
 
     <tr bgcolor="#caa">
-      <td align="left" style="padding:5px;"><a href="http://vizsec.org/vizsec2017/#cfp">VizSe</a></td>
+      <td align="left" style="padding:5px;"><a href="http://vizsec.org/vizsec2017/#cfp">VizSec</a></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;"></td>
       <td align="left" style="padding:5px;">VIS </td>
@@ -143,18 +116,18 @@ include 'menu.php'; ?>
     </tr>
 
 
+    
+
+
     <tr bgcolor="#caa">
       <td align="left" style="padding:5px;"><a href="http://www.visualanalyticshealthcare.org/">VAHC</a></td>
       <td align="left" style="padding:5px;">Healthcare</td>
       <td align="left" style="padding:5px;">Oct 1-2</td>
       <td align="left" style="padding:5px;">VIS </td>
-      <td align="left" style="padding:5px;">May 1</td>
+      <td align="left" style="padding:5px;">May 15</td>
       <td align="left" style="padding:5px;">Jun 19 <br></td>
       <td align="left" style="padding:5px;"> </td>
     </tr>
-
-   
-
 
 
     <tr bgcolor="#caa">
@@ -166,17 +139,81 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"> </td>
       <td align="left" style="padding:5px;">May 15<br>TDB</td>
     </tr>
+    <tr bgcolor="#caa">
+          <td align="left" style="padding:5px;"><a href="http://ieeevis.org/year/2017/info/call-participation/call-for-participation">IEEE VIS 2017</a></td>
+          <td align="left" style="padding:5px;"></td>
+          <td align="left" style="padding:5px;">Oct 1-6</td>
+          <td align="left" style="padding:5px;">Phoenix, Arizona</td>
+          <td align="left" style="padding:5px;">Mar 21</td>
+          <td align="left" style="padding:5px;">Jun 6</td>
+          <td align="left" style="padding:5px;"></td>
+        </tr>
+
+
+     <tr bgcolor="#bbd">
+          <td align="left" style="padding:5px;"><a href="https://sa2017.siggraph.org/submitters">SIGGRAPH Asia 2017</a></td>
+          <td align="left" style="padding:5px;"></td>
+          <td align="left" style="padding:5px;">Nov 27-30</td>
+          <td align="left" style="padding:5px;">Bangkok, Thailand</td>
+          <td align="left" style="padding:5px;">Jun 29</td>
+          <td align="left" style="padding:5px;"> <br></td>
+          <td align="left" style="padding:5px;">Aug 15</td>
+        </tr>
+
+        <tr bgcolor="#bdb">
+          <td align="left" style="padding:5px;"><a href="http://www.bdva.net/">BDVA 2017</a></td>
+          <td align="left" style="padding:5px;"></td>
+          <td align="left" style="padding:5px;">Nov 7-10</td>
+          <td align="left" style="padding:5px;">Adelaide, Australia</td>
+          <td align="left" style="padding:5px;">Jun 16</td>
+          <td align="left" style="padding:5px;">Aug 11</td>
+          <td align="left" style="padding:5px;">Aug 18 (demo paper)</td>
+        </tr>
+
 
     <tr bgcolor="#bbd">
-      <td align="left" style="padding:5px;"><a href="https://gd2017.ccis.northeastern.edu/">GD 2017</a></td>
-      <td align="left" style="padding:5px;">Graph Drawing</td>
-      <td align="left" style="padding:5px;">Sep 25-27</td>
-      <td align="left" style="padding:5px;">Boston, MA, USA</td>
-      <td align="left" style="padding:5px;">Jun 11</td>
-      <td align="left" style="padding:5px;">Jul 28<br></td>
-      <td align="left" style="padding:5px;">Aug 17</td>
-    </tr>
-   
+          <td align="left" style="padding:5px;"><a href="https://gd2017.ccis.northeastern.edu/">GD 2017</a></td>
+          <td align="left" style="padding:5px;">Graph Drawing</td>
+          <td align="left" style="padding:5px;">Sep 25-27</td>
+          <td align="left" style="padding:5px;">Boston, MA, USA</td>
+          <td align="left" style="padding:5px;">Jun 11</td>
+          <td align="left" style="padding:5px;">Jul 28<br></td>
+          <td align="left" style="padding:5px;">Aug 17</td>
+        </tr>
+
+     <tr bgcolor="#bdb">
+          <td align="left" style="padding:5px;"><a href="http://poloclub.gatech.edu/idea2017/">KDD 2017 Workshop</a></td>
+          <td align="left" style="padding:5px;"></td>
+          <td align="left" style="padding:5px;">Aug 2, 2017</td>
+          <td align="left" style="padding:5px;">Halifax, Canada</td>
+          <td align="left" style="padding:5px;">Jun 2, 2017</td>
+          <td align="left" style="padding:5px;">Jun 23, 2017<br></td>
+          <td align="left" style="padding:5px;"> </td>
+        </tr>
+
+    <tr bgcolor="#bbd">
+          <td align="left" style="padding:5px;"><a href="http://www.vision.ee.ethz.ch/webvision/workshop.html">Webvision</a></td>
+          <td align="left" style="padding:5px;">CVPR Workshop</td>
+          <td align="left" style="padding:5px;">July 26, 2017</td>
+          <td align="left" style="padding:5px;">Hawaii </td>
+          <td align="left" style="padding:5px;">NA</td>
+          <td align="left" style="padding:5px;">NA<br></td>
+          <td align="left" style="padding:5px;"> </td>
+        </tr>
+
+        <tr bgcolor="#bbd">
+          <td align="left" style="padding:5px;"><a href="http://languageandvision.com/">Language and vision</a></td>
+          <td align="left" style="padding:5px;">CVPR Workshop</td>
+          <td align="left" style="padding:5px;">July 21, 2017</td>
+          <td align="left" style="padding:5px;">Hawaii </td>
+          <td align="left" style="padding:5px;">May 31st</td>
+          <td align="left" style="padding:5px;">Jun 15th <br></td>
+          <td align="left" style="padding:5px;"> </td>
+        </tr>
+
+
+
+
 
 
     <tr bgcolor="#bdb">
@@ -189,7 +226,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"> </td>
     </tr>
 
-     
+
       <tr bgcolor="#bbd">
         <td align="left" style="padding:5px;"><a href="http://www.siggraph.org.tw/pg2017/">PG 2017</a></td>
         <td align="left" style="padding:5px;"></td>
@@ -221,18 +258,10 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#caa">
-      <td align="left" style="padding:5px;"><a href="http://ieeevis.org/year/2017/info/call-participation/call-for-participation">IEEE VIS 2017</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Oct 1-6</td>
-      <td align="left" style="padding:5px;">Phoenix, Arizona</td>
-      <td align="left" style="padding:5px;">Mar 21</td>
-      <td align="left" style="padding:5px;">Jun 6</td>
-      <td align="left" style="padding:5px;"></td>
-    </tr>
 
 
-    <tr bgcolor="#bbd">
+
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://creativecoding.evl.uic.edu/glbio-wbdv/">GLBIO 2017</a></td>
       <td align="left" style="padding:5px;">About Bio Viz</td>
       <td align="left" style="padding:5px;">May 15 </td>

@@ -1,6 +1,7 @@
-<?php include 'header.php';
+<?php
 $activePage = 'grants.php';
-include 'menu.php'; ?>
+include 'header.php';
+?>
 
 <script data-require="jquery@*" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 
@@ -22,7 +23,7 @@ include 'menu.php'; ?>
     </tr>
 
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -37,7 +38,7 @@ include 'menu.php'; ?>
       <td align="left" style="padding:5px;">09 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -58,6 +59,19 @@ include 'menu.php'; ?>
           (4) Education and Workforce Development.">Hover to see abstract
       </td>
       <td align="left" style="padding:5px;">06 Mar 2018</td>
+    </tr>
+
+    <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://research.googleblog.com/2017/02/google-research-awards-2016.html">Google Research Awards</a></td>
+      <td align="left" style="padding:5px;"><a href="https://research.google.com/research-outreach.html#/research-outreach/faculty-engagement/faculty-research-awards">Google</a></td>
+      <td align="left" style="padding:5px;">Upper $150,000</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> Faculty</td>
+      <td align="left" style="padding:5px;">United States</td>
+      <td align="left" style="padding:5px;"
+          title="At Google, we are committed to developing new technologies to help our users find and use information. While we do significant in-house research and engineering, we also maintain strong ties with academic institutions worldwide pursuing innovative research in core areas relevant to our products and services. As part of that vision, the Google Faculty Research Awards Program aims to recognize and support world-class, permanent faculty pursuing cutting-edge research in areas of mutual interest.
+Our goal is to identify and strengthen long-term collaborative relationships with faculty working on problems that will impact how future generations use technology. Google Faculty Research Awards are structured as seed funding (up to $150,000 USD) to support one graduate student for one year and are awarded as an unrestricted gift. The award is highly competitive - only 15% of applicants receive funding - and each proposal goes through a rigorous Google-wide review process.">Hover to see abstract
+      </td>
+      <td align="left" style="padding:5px;">30 Sep 2017</td>
     </tr>
 
     <tr bgcolor="#bbd">
@@ -112,6 +126,64 @@ include 'menu.php'; ?>
           title="The Department of Defense (DoD) announces the Fiscal Year 2018 Defense University Research Instrumentation Program (DURIP). DURIP is designed to improve the capabilities of accredited United States (U.S.) institutions of higher education to conduct research and to educate scientists and engineers in areas important to national defense, by providing funds for the acquisition of research equipment or instrumentation. For-profit organizations are not eligible for DURIP funding. We refer to eligible institutions of higher education as universities in the rest of this announcement. DURIP is part of the University Research Initiative (URI).">Hover to see abstract      
       </td>
       <td align="left" style="padding:5px;">07 July 2017</td>
+    </tr>
+
+ <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503447&org=NSF&sel_org=NSF&from=fund">Geoinformatics  (GI)</a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503447&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+      <td align="left" style="padding:5px;">Unrestricted</td>
+      <td align="left" style="padding:5px;" 
+          title="The Division of Earth Sciences (EAR) will consider proposals for the development of cyberinfrastructure for the geosciences (Geoinformatics).  EAR seeks the development and implementation of enabling information technology with impacts that extend beyond an individual investigator or small group of investigators and that facilitates the next generation of geosciences research.  Proposals to this solicitation may seek support for community-driven development and implementation of databases; tools for data integration, interoperability, and visualization; software development and code hardening; and data-intensive/new computing methodologies that support the enhancement of geosciences research and education activities. Collaboration with computational scientists and the development of public/private partnerships are strongly encouraged.
+
+The efforts supported by this solicitation do not overlap with, but are complementary to, EarthCube, a partnership between the Geosciences Directorate (GEO) and the Office of Cyberinfrasrtructure (OCI) to build an integrated geosciences-wide cyberinfrastructure (http://www.nsf.gov/pubs/2011/nsf11065/nsf11065.jsp).  The goal of EarthCube is to transform the conduct of research in the geosciences by supporting community-created cyberinfrastructure that integrates knowledge management across the geosciences.  The Geoinformatics solicitation will support efforts to create the underlying knowledge base and utilities that will be integrated, over time, through EarthCube.  Projects submitted to the Geoinformatics solicitation should be proposed using modern software techniques and standards that facilitate eventual integration into a geoscience-wide knowledge system.">Hover to see abstract      
+          </td>
+          <td align="left" style="padding:5px;">03 July 2017</td>
+  </tr>
+
+    <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="https://www.neh.gov/grants/odh/digital-humanities-advancement-grants">Digital Humanities Advancement Grants</a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.neh.gov/grants/odh/digital-humanities-advancement-grants">NEH</a></td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+      <td align="left" style="padding:5px;">Unrestricted</td>
+      <td align="left" style="padding:5px;" 
+          title="Digital Humanities Advancement Grants (DHAG) support digital projects throughout their lifecycles, from early start-up phases through implementation and long-term sustainability. Experimentation, reuse, and extensibility are hallmarks of this grant category, leading to innovative work that can scale to enhance research, teaching, and public programming in the humanities.
+
+          This program combines the former Digital Humanities Start-Up Grants and Digital Humanities Implementation Grants programs; the combined program is offered twice per year. Proposals are welcome for digital initiatives in any area of the humanities.
+
+          Through a special partnership, the Institute of Museum and Library Services (IMLS) anticipates providing additional funding to this program to encourage innovative collaborations between museum or library professionals and humanities professionals to advance preservation of, access to, use of, and engagement with digital collections and services. Through this partnership, IMLS and NEH may jointly fund some DHAG projects that involve collaborations with museums and/or libraries.">Hover to see abstract      
+          </td>
+          <td align="left" style="padding:5px;">06 June 2017</td>
+        </tr>
+
+  <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">Research Experiences for Undergraduates  (REU)</a></td>
+      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+      <td align="left" style="padding:5px;">Unrestricted</td>
+      <td align="left" style="padding:5px;" 
+          title="The Research Experiences for Undergraduates (REU) program supports active research participation by undergraduate students in any of the areas of research funded by the National Science Foundation. REU projects involve students in meaningful ways in ongoing research programs or in research projects specifically designed for the REU program. This solicitation features two mechanisms for support of student research: (1) REU Sites are based on independent proposals to initiate and conduct projects that engage a number of students in research. REU Sites may be based in a single discipline or academic department or may offer interdisciplinary or multi-department research opportunities with a coherent intellectual theme. Proposals with an international dimension are welcome. (2) REU Supplements may be included as a component of proposals for new or renewal NSF grants or cooperative agreements or may be requested for ongoing NSF-funded research projects.
+
+            ">Hover to see abstract      
+      </td>
+      <td align="left" style="padding:5px;">26 May 2017</td>
+    </tr>
+
+    <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://www.depts.ttu.edu/vpr/award-ops/collaborative-research.php">Presidents' Collaborative Research Initiative</a></td>
+      <td align="left" style="padding:5px;"><a href="http://www.depts.ttu.edu/vpr/award-ops/collaborative-research.php">TTU</a></td>
+      <td align="left" style="padding:5px;">$50,000</td>
+      <td align="left" style="padding:5px;">Faculty memebers</td>
+      <td align="left" style="padding:5px;">Unrestricted</td>
+      <td align="left" style="padding:5px;" 
+          title="The Chancellor and Presidents of TTU, TTUHSC, and TTUHSC El Paso, are sponsoring an initiative designed to stimulate the expansion of collaborative sponsored federal research across the System. Many exciting opportunities for research programs are now found in interdisciplinary areas that require close interactions among scientists with different types of scientific expertise.
+
+The Presidents' Collaborative Research Initiative provides up to $50,000 per award to develop collaborative projects involving faculty from at least two of the three participating TTUS institutions. Up to 4 awards will be made. The goal and expectation is that the institutional support for each collaborative research grant will lead to submission of a competitive proposal to a major federal funding agency within 18 months.">Hover to see abstract      
+      </td>
+      <td align="left" style="padding:5px;">LOI: 15 May 2017 <br/> Application: 16 June 2017 </td>
     </tr>
     
     <tr bgcolor="#bdb">

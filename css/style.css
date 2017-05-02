@@ -1064,3 +1064,23 @@ img:hover{
   font-size: 14px;
   line-height: 1.4em;
 }
+.projectSlider iframe {
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    width: 100%;
+    /*min-height: 1200px;*/
+    height: 73vh;
+}
+.paperDes img{
+  width: 100%;
+  margin: auto;
+}
+.paperInfo h3{
+  text-align: center;
+}
+.paperInfo h6{
+  text-align: center;
+}
+
