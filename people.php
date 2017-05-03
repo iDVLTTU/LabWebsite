@@ -196,11 +196,24 @@ include 'header.php';
             </div>
 
      <div class="w3-content w3-display-container">
+          <div class="w3-display-container mySlides">
+            <img src="./images/pics/people2017May.JPG" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+              iDVL team on May 2017.
+            </div>
+          </div>
 
           <div class="w3-display-container mySlides">
             <img src="./images/pics/people2017Jan.png" style="width:100%">
             <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-              iDVL Team.
+              Team members of iDVL on January 2017.
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img src="./images/pics/beforeiDVL.jpg" style="width:100%">
+            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+              The iDVL lab on October 2016.
             </div>
           </div>
 
