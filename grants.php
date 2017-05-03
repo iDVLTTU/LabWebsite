@@ -23,7 +23,7 @@ include 'header.php';
     </tr>
 
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -38,7 +38,7 @@ include 'header.php';
       <td align="left" style="padding:5px;">09 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -61,7 +61,7 @@ include 'header.php';
       <td align="left" style="padding:5px;">06 Mar 2018</td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://research.googleblog.com/2017/02/google-research-awards-2016.html">Google Research Awards</a></td>
       <td align="left" style="padding:5px;"><a href="https://research.google.com/research-outreach.html#/research-outreach/faculty-engagement/faculty-research-awards">Google</a></td>
       <td align="left" style="padding:5px;">Upper $150,000</td>
@@ -74,7 +74,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;">30 Sep 2017</td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505264">Big Data Regional Innovation Hubs: Establishing <br/>Spokes to Advance Big Data Applications (BD Spokes)</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505264">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $1,000,000</td>
@@ -87,7 +87,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;">18 Sep 2017</td>
     </tr>
 
-     <tr bgcolor="#bdb">
+     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/68670">Advances in Biological Informatics</a></td>
       <td align="left" style="padding:5px;"><a href="">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -96,6 +96,16 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;" title="The Advances in Biological Informatics (ABI) program seeks to encourage new approaches to the analysis and dissemination of biological knowledge for the benefit of both the scientific community and the broader public. The ABI program is especially interested in the development of informatics tools and resources that have the potential to advance- or transform- research in biology supported by the Directorate for Biological Sciences at the National Science Foundation.  The ABI program accepts three major types of proposals: Innovation awards that seek to pioneer new approaches to the application of informatics to biological problems, Development awards that seek to provide robust cyberinfrastructure that will enable transformative biological research, and Sustaining awards that seek to support ongoing operations and maintenance of existing cyberinfrastructure that is critical for continued advancement of priority biological research.">Hover to see abstract</td>
       <td align="left" style="padding:5px;">08 Sep 2017</td>
     </tr>
+    <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504952">CISE Research Initiation Initiative  (CRII)</a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504952">NSF</a></td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">United States</td>
+      <td align="left" style="padding:5px;" title="With the goal of encouraging research independence immediately upon obtaining one's first academic position after receipt of the PhD, the Directorate for Computer and Information Science and Engineering (CISE) will award grants to initiate the course of one's independent research. Understanding the critical role of establishing that independence early in one's career, it is expected that funds will be used to support untenured faculty or research scientists (or equivalent) in their first three years in a primary academic position after the PhD, but not more than a total of five years after completion of their PhD. One may not yet have received any other grants or contracts in the Principal Investigator (PI) role from any department, agency, or institution of the federal government, including from the CAREER program or any other program, post-PhD, regardless of the size of the grant or contract, with certain exceptions noted below. Serving as co-PI, Senior Personnel, Postdoctoral Fellow, or other Fellow does not count against this eligibility rule. Grants, contracts, or gifts from private companies or foundations; state, local, or tribal governments; or universities do not count against this eligibility rule.">Hover to see abstract</td>
+      <td align="left" style="padding:5px;">09 Aug 2017</td>
+    </tr>
+
      <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5467&org=NSF&sel_org=NSF&from=fund">Innovative Technology Experiences for <br/>Students and Teachers  (ITEST)</a></td>
       <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5467&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
