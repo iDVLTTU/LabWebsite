@@ -43,7 +43,44 @@ include 'header.php';
             <br/>
             <p>For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.</p>
 
-           
+          
+
+            <?PHP
+              function readCSV($csvFile){
+                  $file_handle = fopen($csvFile, 'r');
+                  while (!feof($file_handle) ) {
+                      $line_of_text[] = fgetcsv($file_handle);
+                  }
+                  fclose($file_handle);
+                  return $line_of_text;
+              }
+
+
+              // Set path to CSV file
+              $csvFile = './xml/publications.csv';
+
+              $csv = readCSV($csvFile);
+              $len1 = count($csv);
+              $len2 = count($csv[0]);
+              for($i=1;$i<$len1;$i++){
+            ?>
+            
+            <li>
+                <font color="#e78ac3">[<?php echo $csv[$i][0] ?>] </font><?php echo $csv[$i][1] ?> 
+                <i> <?php echo $csv[$i][2] ?></i>. <?php echo $csv[$i][3] ?>
+                <?php echo '<a href="' .$csv[$i][4].'">.'?> <img src="images/pdf.png" height="16"></a>
+                <?php echo '<a href="' .$csv[$i][5].'">.'?> <img src="images/movie.png" height="16"></a>
+                <?php echo '<a href="' .$csv[$i][6].'">.'?> <img src="images/github2.png" height="16"></a>
+                <?php echo '<a href="' .$csv[$i][7].'">.'?> <img src="images/bibtex.png" height="16"></a> 
+                <?php echo '<a href="' .$csv[$i][8].'".'?>  class="button">DOI</a>
+            </li>
+            <div align="middle"> 
+              <?php echo '<img src="' .$csv[$i][9].'".'?> width="660"><br/><br/>
+            </div>
+
+            <?php                
+              }
+            ?>              
       </div>
 </div>
 <?php include 'footer.php'; ?>
