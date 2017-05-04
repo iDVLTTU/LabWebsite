@@ -45,7 +45,7 @@ include 'header.php';
 
           
 
-            <?PHP
+         <!--    <?PHP
               function readCSV($csvFile){
                   $file_handle = fopen($csvFile, 'r');
                   while (!feof($file_handle) ) {
@@ -80,7 +80,7 @@ include 'header.php';
 
             <?php                
               }
-            ?>              
+            ?>  -->             
       </div>
 </div>
 <?php include 'footer.php'; ?>
