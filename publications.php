@@ -68,14 +68,14 @@ include 'header.php';
             <li>
                 <font color="#e78ac3">[<?php echo $csv[$i][0] ?>] </font><?php echo $csv[$i][1] ?> 
                 <i> <?php echo $csv[$i][2] ?></i>. <?php echo $csv[$i][3] ?>
-                <?php echo '<a href="' .$csv[$i][4].'">.'?> <img src="images/pdf.png" height="16"></a>
-                <?php echo '<a href="' .$csv[$i][5].'">.'?> <img src="images/movie.png" height="16"></a>
-                <?php echo '<a href="' .$csv[$i][6].'">.'?> <img src="images/github2.png" height="16"></a>
-                <?php echo '<a href="' .$csv[$i][7].'">.'?> <img src="images/bibtex.png" height="16"></a> 
-                <?php echo '<a href="' .$csv[$i][8].'".'?>  class="button">DOI</a>
+                <?php echo '<a href="' .$csv[$i][4].'">'?> <img src="images/pdf.png" height="16"></a>
+                <?php echo '<a href="' .$csv[$i][5].'">'?> <img src="images/movie.png" height="16"></a>
+                <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/github2.png" height="16"></a>
+                <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/bibtex.png" height="16"></a> 
+                <?php echo '<a href="' .$csv[$i][8].'"'?>  class="button">DOI</a>
             </li>
             <div align="middle"> 
-              <?php echo '<img src="' .$csv[$i][9].'".'?> width="660"><br/><br/>
+              <?php echo '<img src="' .$csv[$i][9].'"'?> width="660"><br/><br/>
             </div>
 
             <?php                
