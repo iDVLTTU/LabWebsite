@@ -25,7 +25,7 @@ include 'header.php';
 
           <div class="Border"></div> 
           <h4>PAPERS</h4>
-           <ul>
+           <!-- <ul>
 
                 <?php
                         $xmls=simplexml_load_file("./xml/publications.xml") or die("Error: Cannot create object");
@@ -38,14 +38,13 @@ include 'header.php';
                            $i++;
                           }
                 ?> 
-           <ul>
-
-            <br/>
-            <p>For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.</p>
+           <ul> -->
 
           
 
-         <!--    <?PHP
+          
+
+            <?PHP
               function readCSV($csvFile){
                   $file_handle = fopen($csvFile, 'r');
                   while (!feof($file_handle) ) {
@@ -64,23 +63,31 @@ include 'header.php';
               $len2 = count($csv[0]);
               for($i=1;$i<$len1;$i++){
             ?>
-            
-            <li>
-                <font color="#e78ac3">[<?php echo $csv[$i][0] ?>] </font><?php echo $csv[$i][1] ?> 
-                <i> <?php echo $csv[$i][2] ?></i>. <?php echo $csv[$i][3] ?>
-                <?php echo '<a href="' .$csv[$i][4].'">'?> <img src="images/pdf.png" height="16"></a>
-                <?php echo '<a href="' .$csv[$i][5].'">'?> <img src="images/movie.png" height="16"></a>
-                <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/github2.png" height="16"></a>
-                <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/bibtex.png" height="16"></a> 
-                <?php echo '<a href="' .$csv[$i][8].'"'?>  class="button">DOI</a>
-            </li>
-            <div align="middle"> 
-              <?php echo '<img src="' .$csv[$i][9].'"'?> width="660"><br/><br/>
+            <div class="publicationArea">
+            <table style="width:100%; margin-left: 20px;">
+            <tr>
+                <th class="paperThumb" width="15%">
+                    <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                </th>
+                <th width="85%" style="padding-left: 25px;"> 
+                    <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                    <i><?php echo $csv[$i][1] ?></i><br/>
+                    <?php echo $csv[$i][2] ?><br/>
+                    <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                    <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/pdf.png" height="18"></a>
+                    <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/movieIco.png" height="19"></a>
+                    <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/github2.png" height="18"></a>
+                    <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/bibtex.png" height="18"></a> 
+                    <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                </th>
+            </tr>
+            </table>
             </div>
-
             <?php                
               }
-            ?>  -->             
+            ?>  
+              <br/>
+            <p>For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.</p>        
       </div>
 </div>
 <?php include 'footer.php'; ?>

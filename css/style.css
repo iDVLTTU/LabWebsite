@@ -807,7 +807,7 @@ img:hover{
 /* Acitivties Page */
 .activityList h4{
   color: #9e1f1f;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 2px;
 }
 .activityList h5{
@@ -900,7 +900,7 @@ img:hover{
 }
 /* Publication Page */
 .publicationPage h4{
-  font-size: 20px;
+  font-size: 16px;
 }
 .publicationPage ul li{
   margin-left: 20px;
@@ -1083,4 +1083,33 @@ img:hover{
 .paperInfo h6{
   text-align: center;
 }
+.publicationArea table tr th, table tr td {
+    color: #444;
+    padding: 4px 4px;
+    /* text-align: left; */
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.paperThumb img{
+  border: 1px solid #444;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px -2px #000; 
+}
+.publicationArea .button {
+    background-color: #555;
+    border: 1px #666;
+    border-radius: 3px;
+    color: white;
+    padding: 0px 5px 0 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    position: relative;
+    bottom: 4px;
+    line-height: 18px;
+}
+
 
