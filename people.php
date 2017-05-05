@@ -71,7 +71,7 @@ include 'header.php';
   
                         <a href="http://www.researcherid.com/rid/P-9915-2016"> <img src="images/icons/researcherID.png" height="22"  padding="0" alt="researcherID"/></a>  
                       </p> 
-                      <div class="personPub">
+                      <div class="personPub" id="tommyPub">
                           <?PHP
                             function readCSV($csvFile){
                                 $file_handle = fopen($csvFile, 'r');
@@ -160,7 +160,7 @@ include 'header.php';
 
                         <a href="https://scholar.google.com/citations?hl=en&user=6rZWCbcAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
-                      <div class="personPub">
+                      <div class="personPub" id="vinhPub">
                           <?PHP
                             
                             $hasPub = 0;
@@ -233,7 +233,7 @@ include 'header.php';
 
                         <a href="https://scholar.google.com.vn/citations?hl=en&user=H_BL5agAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
-                      <div class="personPub">
+                      <div class="personPub" id="longPub">
                           <?PHP
                             
                             $hasPub = 0;
@@ -306,7 +306,7 @@ include 'header.php';
 
                         <a href="https://scholar.google.com/citations?user=nm9qB7kAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
-                      <div class="personPub">
+                      <div class="personPub" id="yasinPub">
                          <?PHP
                             
                             $hasPub = 0;
@@ -379,7 +379,7 @@ include 'header.php';
 
                         <a href="https://scholar.google.com/citations?user=jWJAhKoAAAAJ&hl=en"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
-                      <div class="personPub">
+                      <div class="personPub" id="amitPub">
                           <?PHP
                             
                             $hasPub = 0;

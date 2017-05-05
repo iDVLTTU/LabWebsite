@@ -615,16 +615,46 @@ ul#images li {
 .images:hover{
 
 }
+#tommyPub{
+  display: none;
+}
+#vinhPub{
+  display: none;
+}
+#longPub{
+  display: none;
+}
+#yasinPub{
+  display: none;
+}
+#amitPub{
+  display: none;
+}
 .images:hover ~ .infoArea > div {
   display: none;
 }
 .images.imgOne:hover ~ .infoArea #infOne,
+.images.imgOne:hover ~ .infoArea #tommyPub,
+.images.imgTwo:hover ~ .infoArea #infTwo,
+.images.imgTwo:hover ~ .infoArea #vinhPub,
+.images.imgThree:hover ~ .infoArea #infThree,
+.images.imgThree:hover ~ .infoArea #longPub,
+.images.imgFour:hover ~ .infoArea #infFour,
+.images.imgFour:hover ~ .infoArea #yasinPub,
+.images.imgFive:hover ~ .infoArea #infFive,
+.images.imgFive:hover ~ .infoArea #amitPub{
+  display: block;
+}
+
+
+/*.images.imgOne:hover ~ .infoArea #infOne,
+.images.imgOne:hover ~ .infoArea #tommyPub,
 .images.imgTwo:hover ~ .infoArea #infTwo,
 .images.imgThree:hover ~ .infoArea #infThree,
 .images.imgFour:hover ~ .infoArea #infFour,
 .images.imgFive:hover ~ .infoArea #infFive {
   display: block;
-}
+}*/
 
 #peopleArea{
 
@@ -691,9 +721,9 @@ li{
     display: block;
 }
 
-#tommyImg:hover  #peopleArea {
+/*#tommyImg:hover  #peopleArea {
     display: none;
-}
+}*/
 
 img:hover{
   -moz-box-shadow: 0 0 10px #ccc; 
