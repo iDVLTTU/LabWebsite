@@ -71,6 +71,64 @@ include 'header.php';
   
                         <a href="http://www.researcherid.com/rid/P-9915-2016"> <img src="images/icons/researcherID.png" height="22"  padding="0" alt="researcherID"/></a>  
                       </p> 
+                      <div class="personPub">
+                          <?PHP
+                            function readCSV($csvFile){
+                                $file_handle = fopen($csvFile, 'r');
+                                while (!feof($file_handle) ) {
+                                    $line_of_text[] = fgetcsv($file_handle);
+                                }
+                                fclose($file_handle);
+                                return $line_of_text;
+                            }
+
+                           
+                            // Set path to CSV file
+                            $csvFile = './xml/publications.csv';
+
+                            $csv = readCSV($csvFile);
+                            $len1 = count($csv);
+                            $len2 = count($csv[0]);
+                            $hasPub = 0;
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][12]==1){
+                                $hasPub = 1;
+                                break;
+                              }
+                            }
+
+                            if($hasPub==1){ ?>
+                              <h4>Recent Publications:</h4>
+                          <?php 
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][12]==1){
+                          ?>
+                          <div class="publicationArea">
+                          <table style="width:100%; margin-left: 25px;">
+                          <tr>
+                              <th class="paperThumb" width="15%">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                              </th>
+                              <th width="85%" style="padding-left: 25px;"> 
+                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                                  <i><?php echo $csv[$i][1] ?></i><br/>
+                                  <?php echo $csv[$i][2] ?><br/>
+                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/pdf.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/movieIco.png" height="19"></a>
+                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/github2.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                              </th>
+                          </tr>
+                          </table>
+                          </div>
+                          <?php
+                              }                
+                            }
+                          }
+                          ?> 
+                      </div>
                     </div>   
                     <div class="personBorder"></div>                 
                 </div>
@@ -102,7 +160,51 @@ include 'header.php';
 
                         <a href="https://scholar.google.com/citations?hl=en&user=6rZWCbcAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
-                    </div>   
+                      <div class="personPub">
+                          <?PHP
+                            
+                            $hasPub = 0;
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][13]==1){
+                                $hasPub = 1;
+                                break;
+                              }
+                            }
+
+                            if($hasPub==1){ ?>
+                              <h4>Recent Publications:</h4>
+                          <?php 
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][13]==1){
+                          ?>
+                          <div class="publicationArea">
+                          <table style="width:100%; margin-left: 25px;">
+                          <tr>
+                              <th class="paperThumb" width="15%">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                              </th>
+                              <th width="85%" style="padding-left: 25px;"> 
+                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                                  <i><?php echo $csv[$i][1] ?></i><br/>
+                                  <?php echo $csv[$i][2] ?><br/>
+                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/pdf.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/movieIco.png" height="19"></a>
+                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/github2.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                              </th>
+                          </tr>
+                          </table>
+                          </div>
+                          <?php
+                              }                
+                            }
+                          }
+                          ?> 
+                      </div> 
+                    </div> 
+                     
                     <div class="personBorder"></div>                 
                 </div>
             </div>
@@ -131,7 +233,51 @@ include 'header.php';
 
                         <a href="https://scholar.google.com.vn/citations?hl=en&user=H_BL5agAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
+                      <div class="personPub">
+                          <?PHP
+                            
+                            $hasPub = 0;
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][14]==1){
+                                $hasPub = 1;
+                                break;
+                              }
+                            }
+
+                           if($hasPub==1){ ?>
+                              <h4>Recent Publications:</h4>
+                          <?php 
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][14]==1){
+                          ?>
+                          <div class="publicationArea">
+                          <table style="width:100%; margin-left: 25px;">
+                          <tr>
+                              <th class="paperThumb" width="15%">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                              </th>
+                              <th width="85%" style="padding-left: 25px;"> 
+                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                                  <i><?php echo $csv[$i][1] ?></i><br/>
+                                  <?php echo $csv[$i][2] ?><br/>
+                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/pdf.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/movieIco.png" height="19"></a>
+                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/github2.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                              </th>
+                          </tr>
+                          </table>
+                          </div>
+                          <?php
+                              }                
+                            }
+                          }
+                          ?> 
+                      </div> 
                     </div>   
+
                     <div class="personBorder"></div>                 
                 </div>
             </div>
@@ -160,6 +306,49 @@ include 'header.php';
 
                         <a href="https://scholar.google.com/citations?user=nm9qB7kAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
+                      <div class="personPub">
+                         <?PHP
+                            
+                            $hasPub = 0;
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][15]==1){
+                                $hasPub = 1;
+                                break;
+                              }
+                            }
+
+                           if($hasPub==1){ ?>
+                              <h4>Recent Publications:</h4>
+                          <?php 
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][15]==1){
+                          ?>
+                          <div class="publicationArea">
+                          <table style="width:100%; margin-left: 25px;">
+                          <tr>
+                              <th class="paperThumb" width="15%">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                              </th>
+                              <th width="85%" style="padding-left: 25px;"> 
+                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                                  <i><?php echo $csv[$i][1] ?></i><br/>
+                                  <?php echo $csv[$i][2] ?><br/>
+                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/pdf.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/movieIco.png" height="19"></a>
+                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/github2.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                              </th>
+                          </tr>
+                          </table>
+                          </div>
+                          <?php
+                              }                
+                            }
+                          }
+                          ?> 
+                      </div> 
                     </div>
                      <div class="personBorder"></div>
                     
@@ -190,6 +379,49 @@ include 'header.php';
 
                         <a href="https://scholar.google.com/citations?user=jWJAhKoAAAAJ&hl=en"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
+                      <div class="personPub">
+                          <?PHP
+                            
+                            $hasPub = 0;
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][16]==1){
+                                $hasPub = 1;
+                                break;
+                              }
+                            }
+
+                           if($hasPub==1){ ?>
+                              <h4>Recent Publications:</h4>
+                          <?php 
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][16]==1){
+                          ?>
+                          <div class="publicationArea">
+                          <table style="width:100%; margin-left: 25px;">
+                          <tr>
+                              <th class="paperThumb" width="15%">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                              </th>
+                              <th width="85%" style="padding-left: 25px;"> 
+                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                                  <i><?php echo $csv[$i][1] ?></i><br/>
+                                  <?php echo $csv[$i][2] ?><br/>
+                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/pdf.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/movieIco.png" height="19"></a>
+                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/github2.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                              </th>
+                          </tr>
+                          </table>
+                          </div>
+                          <?php
+                              }                
+                            }
+                          }
+                          ?> 
+                      </div> 
                     </div>    
                     <div class="personBorder"></div>                
                 </div>
