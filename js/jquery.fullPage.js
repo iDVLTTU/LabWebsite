@@ -199,8 +199,6 @@
         var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
         var container = $(this);
         var windowsHeight = $window.height();
-        console.log(windowsHeight);
-
         var isResizing = false;
         var isWindowFocused = true;
         var lastScrolledDestiny;
@@ -463,7 +461,7 @@
                     $(this).find(TABLE_CELL_SEL).css('height', getTableHeight($(this)) + 'px');
                 }
 
-                $(this).css('height',  'auto');
+                $(this).css('height', windowsHeight + 'px');
 
                 //resizing the scrolling divs
                 if(options.scrollOverflow){
@@ -752,7 +750,7 @@
             }
             startingSection = $(SECTION_ACTIVE_SEL);
 
-            section.css('height', 'auto');
+            section.css('height', windowsHeight + 'px');
 
             if(options.paddingTop){
                 section.css('padding-top', options.paddingTop);

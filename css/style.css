@@ -645,7 +645,13 @@ ul#images li {
 .images.imgFive:hover ~ .infoArea #amitPub{
   display: block;
 }
-
+.images.imgOne:hover ~ .infoArea .personBorder,
+.images.imgTwo:hover ~ .infoArea .personBorder,
+.images.imgThree:hover ~ .infoArea .personBorder,
+.images.imgFour:hover ~ .infoArea .personBorder,
+.images.imgFive:hover ~ .infoArea .personBorder {
+  display: none;
+}
 
 /*.images.imgOne:hover ~ .infoArea #infOne,
 .images.imgOne:hover ~ .infoArea #tommyPub,
@@ -1101,7 +1107,7 @@ img:hover{
     border-image: none;
     width: 100%;
     /*min-height: 1200px;*/
-    height: 73vh;
+    height: 76vh;
 }
 .paperDes img{
   width: 100%;
@@ -1127,10 +1133,10 @@ img:hover{
   box-shadow: 3px 3px 5px -2px #000; 
 }
 .publicationArea .button {
-    background-color: #555;
     border: 1px #666;
     border-radius: 3px;
-    color: white;
+    color: #000;
+    font-weight: bold;
     padding: 0px 5px 0 5px;
     text-align: center;
     text-decoration: none;
@@ -1143,6 +1149,10 @@ img:hover{
 }
 .personPub h4{
   padding-left: 30px;
+}
+.researchFoot footer{
+  width: 100%;
+  bottom: 10px;
 }
 
 

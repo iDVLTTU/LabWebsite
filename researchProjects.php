@@ -148,8 +148,8 @@ or brightness could reveal the threefold increase in Lyme disease cases centered
     <div  align="middle" style="margin-top: 20px"> <img src="images/projectFigures/Matrix2.png"  width=100%></div>
   <left> High-dimensional data are represented by a small subset of variables in the US unemployment rates (left) from  <a href="https://www.bls.gov/"> BLS</a> and in the Asteraceae taxonomy (right) of 2,048 characters.</left>
       </div> -->
-
 </div>
+<div class="researchFoot" style="clear:both;">
 <style>
 #main{
   width: 100%;

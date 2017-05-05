@@ -789,7 +789,6 @@ include 'header.php';
     </table>
 
   <p>For more visualization conferences, click <a href="http://www.wikicfp.com/cfp/call?conference=visualization">here</a></p>
-  <div class="grantsLink">For research grants, click <a href="./grants.php">here</a></div>
 
     </div>
 
