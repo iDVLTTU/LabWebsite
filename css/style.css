@@ -845,6 +845,7 @@ img:hover{
   color: #9e1f1f;
   font-size: 16px;
   margin-bottom: 2px;
+  font-weight: normal;
 }
 .activityList h5{
   color: #000;
@@ -1119,7 +1120,7 @@ img:hover{
 .paperInfo h6{
   text-align: center;
 }
-.publicationArea table tr th, table tr td {
+.publicationArea table tr th, .publicationArea table tr td {
     color: #444;
     padding: 4px 4px;
     /* text-align: left; */
@@ -1154,5 +1155,12 @@ img:hover{
   width: 100%;
   bottom: 10px;
 }
-
+.w3-display-container img{
+  height: 370px;
+}
+.peopleSlider img{
+  height: 500px;
+  width: 900px;
+  margin: auto;
+}
 

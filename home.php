@@ -16,7 +16,7 @@
             </div>
 
             <div class="w3-display-container w3-animate-top mySlides">
-              <img src="https://raw.githubusercontent.com/CreativeCodingLab/BioLinker/master/figures/Figure1.png" style="width:100%">
+              <img src="./images/projects/bioLinker.png" style="width:100%">
               <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
                 <!-- <a href="#"> iDVL Team.</a> -->
                 BioLinker: Bottom-up Exploration of Protein Interaction Networks
@@ -38,7 +38,11 @@
         <br/>
         <p>The interactive Data Visualization Lab is housed at EC 305 within the Department of Computer Science at Texas Tech University. We focus on developing methods and tools for analyzing, visualizing, and interacting with massive, dynamic, and ambiguous data arised from various application domains. Our research explores the novel marriage of human-computer interaction, scientific and information visualization, computer animation, and machine learning. We move beyond traditional computing environments by experiencing interactive visualization techniques on mobile devices as well as within immersive virtual reality environments.</p>
 
-        <p> We are looking for bright and well motivated graduate students to join our group. Successful candidates should have strong background in programming and data analysis. To get involved with the iDVL, please contact <a href="http://www.myweb.ttu.edu/tnhondan/">Tommy Dang</a> at <a href="mailto:tommy.dang@ttu.edu">tommy.dang@ttu.edu</a>.</p>
+        <p style="margin-bottom: -25px;"> We are looking for bright and well motivated graduate students to join our group. Successful candidates should have strong background in programming and data analysis. To get involved with the iDVL, please contact <a href="http://www.myweb.ttu.edu/tnhondan/">Tommy Dang</a> at <a href="mailto:tommy.dang@ttu.edu">tommy.dang@ttu.edu</a><br/>
+           <a href="https://github.com/iDataVisualizationLab" target="_blank"> <img src="images/icons2/github.png" height="18"></a>
+           <a href="https://idv-lab.slack.com/" target="_blank"> <img src="images/icons2/slack.png" height="18"></a>
+        </p>
+
         </div>
 
          <div id="site_content"></div> 
