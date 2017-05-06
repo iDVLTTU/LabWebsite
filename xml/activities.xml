@@ -3,6 +3,15 @@
 <activities>
 
 <activity category="Team">
+<date>Date: May 5, Term final presentation on Research.</date>
+<vinh><b>Vinh's</b> presentation. <a href="./file/Vinh_CS7000.png">View</a></vinh>
+<long><b>Long's</b> presentation. <a href="./file/Long_CS7000.ppt">View</a></long>
+<yasin><b>Yasin's</b> presentation. <a href="./file/Yasin_CS7000.ppt">View</a></yasin>
+<work5/>
+<work6/>
+</activity>
+
+<activity category="Team">
 <date>Date: March 1</date>
 <long><b>Long</b> needs to submit his work to <a href="https://techannounce.ttu.edu/Client/ViewMessage.aspx?MsgId=206458">GLEAM poster contest</a>. Deadline: <b>5pm, April 1</b>
 </long>

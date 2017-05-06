@@ -14,6 +14,8 @@ include 'header.php';
               <ul>
                   <?php
                         $xmls=simplexml_load_file("./xml/activities.xml") or die("Error: Cannot create object");
+                        $i=0;
+                        $count = count($xmls);
                         foreach ($xmls as $xml) { ?>              
                           <?php 
                           echo "<h4>" . $xml->date->asXml() . "</h4>";
@@ -29,9 +31,10 @@ include 'header.php';
                           echo "<li>" . $xml->work5->asXml() . "</li>";
                           if($xml->work5 != "")
                           echo "<li>" . $xml->work6->asXml() . "</li>";
-                         ?>
+                          $i++;
+                         if($i<$count) {?>
                         <div class="activityBorder top_border"></div>
-                  <?php } ?>
+                  <?php } } ?>
               </ul>
           </div>
         </div>
