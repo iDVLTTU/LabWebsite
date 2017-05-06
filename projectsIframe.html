@@ -1,543 +1,358 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Full Page demo</title>
-    <meta name="author" content="Alvaro Trigo Lopez" />
-    <meta name="description" content="fullPage full-screen apple iphone 5c similar website. Reproducing one sigle scrolling site like Apple iPhone." />
-    <meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,apple,iphone5c,iphone5s,iphone,iphone-5c,like,reproduce,similar,how to" />
-    <meta name="Resource-type" content="Document" />
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
-    <style>
+    <title>Scrolling Nav - Start Bootstrap Template</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    body{
-        color: #333;
-        font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    }
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-
-    /* Style for our header texts
-    * --------------------------------------- */
-    h1{
-        font-size: 5em;
-        font-family: arial,helvetica;
-        margin:0;
-        padding:0;
-    }
-    h2{
-        font-size: 2em;
-        margin: 0 0 18px 0;
-        font-family: arial,helvetica;
-    }
-
-
-
-
-    /* Common styles
-    * --------------------------------------- */
-    img{
-        -webkit-transition: all 0.7s ease-out;
-        -moz-transition: all 0.7s ease-out;
-        -o-transition: all 0.7s ease-out;
-        transition: all 0.7s ease-out;
-    }
-    .section ul{
-        width: 80%;
-        margin: auto;
-        margin-bottom: 20px;
-        font-size: 14px;
-        max-width: 1250px;
-    }
-
-    .section ul li{
-        list-style-type: none;
-        background: url(./images/bullet.png) no-repeat;
-        margin: 0 0 0 0;
-        padding: 0 0 4px 17px;
-        line-height: 1.3em;
-    }
-
-
-
-
-    .section p{
-        width: 80%;
-        margin: auto;
-        font-size: 14px;
-        max-width: 1250px;
-    }
-
-    .wrap{
-        width: 100%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    .box{
-        text-align: left;
-        color: #808080;
-        font-size: 1.2em;
-        line-height: 1.6em;
-    }
-
-
-    .section {
-    padding: 10px 0;
-    font-size: 14px;
-    }  
-
-    /* Section 0
-    * --------------------------------------- */
-    #section0{
-        /*padding: 10px 0;*/
-        font-size: 14px;
-    }
-    #section0 img{
-        /*margin: 10px 0 0 0;*/
-    }
-
-
-
-
-    /* Section 1
-    * --------------------------------------- */
-    #section1 img{
-        /*position:absolute;*/
-        left: 40px;
-        top: 100px;
-    }
-
-    #section1 .box{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -192px;
-        margin-left: 89px;
-        width: 395px;
-        z-index: 1;
-    }
-    #section1 .imgsContainer{
-        display: block;
-        position: absolute;
-        z-index: 1;
-        top: 42%;
-        left: 58%;
-        margin-top: -325px;
-        margin-left: -747px;
-        width: 800px;
-        height: 696px;
-    }
-    #section1 img{
-    }
-    /*screen resolutions between 620px and 800px*/
-    @media all and (min-width: 620px) and (max-width: 800px){
-        #section1 .imgsContainer{
-            margin-top: -278px;
-            margin-left: -685px;
-            width: 647px;
-            height: 563px;
-        }
-    }
-
-    /*screen resolutions lower than 620px*/
-    @media all and (max-width: 620px){
-        #section1 .imgsContainer{
-            margin-top: -208px;
-            margin-left: -516px;
-            width: 534px;
-            height: 464px;
-        }
-    }
-    #iphone2{
-        z-index: 10;
-    }
-    #iphone2.active{
-        -webkit-transform: translate3d(-134px, 0px, 0px);
-        -moz-transform: translate3d(-134px, 0px, 0px);
-        -ms-transform:translate3d(-134px, 0px, 0px);
-        transform: translate3d(-134px, 0px, 0px);
-    }
-
-    #iphone3{
-        z-index: 12;
-    }
-    #iphone3.active{
-        -webkit-transform: translate3d(213px, 0px, 0px);
-        -moz-transform: translate3d(213px, 0px, 0px);
-        -ms-transform:translate3d(213px, 0px, 0px);
-        transform: translate3d(213px, 0px, 0px);
-    }
-
-    #iphone4{
-        z-index: 11;
-        left: 140px;
-    }
-
-    #iphone4.active{
-        -webkit-transform: translate3d(548px, 0px, 0px);
-        -moz-transform: translate3d(548px, 0px, 0px);
-        -ms-transform:translate3d(548px, 0px, 0px);
-        transform: translate3d(548px, 0px, 0px);
-    }
-
-
-
-
-    /* Section 2
-    * --------------------------------------- */
-    #section2 img{
-        /*position:absolute;*/
-    }
-    #section2 .imgsContainer,
-    #staticImg .imgsContainer,
-    #section3 .imgsContainer{
-        position: absolute;
-        z-index: 1;
-        left: 50%;
-        display: block;
-        margin-top: -288px;
-        margin-left: -636px;
-        width: 0;
-        height: 0;
-
-        -webkit-transition: all 1.2s ease-in-out;
-        -moz-transition: all 1.2s ease-in-out;
-        -o-transition: all 1.2s ease-in-out;
-        transition: all 1.2s ease-in-out;
-    }
-
-    #section2.moveUp .imgsContainer{
-        top: 50%;
-    }
-
-    #section2.moveDown .imgsContainer,
-    #staticImg .imgsContainer{
-        top: 90%;
-    }
-
-    #section2.active .imgsContainer{
-        top: 50%;
-    }
-
-    #section2 .box{
-        top: 22%;
-        left: 42%;
-        position: absolute;
-        width: 582px;
-    }
-
-    #iphone-yellow{
-        top: -35px;
-        left: -222px;
-    }
-
-    #iphone-red{
-        top: -194px;
-        left: 106px;
-    }
-
-    #iphone-blue{
-        top: 320px;
-        left: 448px;
-    }
-
-    #iphone-green{
-        left: 106px;
-        position:absolute;
-    }
-
-    #staticImg{
-        display: block;
-        position: absolute;
-        z-index: 1;
-        top: 200%;
-        left: 0;
-        width: 100%;
-        min-width: 980px;
-        height: 100%;
-
-        -webkit-transition: all 0.7s ease-out;
-        -moz-transition: all 0.7s ease-out;
-        -o-transition: all 0.7s ease-out;
-        transition: all 0.7s ease-out;
-
-        -webkit-backface-visibility: hidden;
-        -webkit-perspective: 1000;
-    }
-    #staticImg.moveDown{
-    -webkit-transform: translate3d(0, 100%, 0);
-      -ms-transform: translate3d(0, 100%, 0);
-          transform: translate3d(0, 100%, 0);
-    }
-    #staticImg.moveUp{
-
-    -webkit-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-    }
-    #staticImg.moveDown .imgsContainer{
-            top: 50%;
-    }
-    #staticImg.moveDown img{
-        top: 155px;
-    }
-
-    #staticImg.active .imgsContainer{
-        top: 50%;
-    }
-
-
-    #staticImg.active img{
-        top: 487px;
-    }
-
-
-
-
-
-    /* Section 3
-    * --------------------------------------- */
-    #section3 .imgsContainer{
-        top: 50%;
-    }
-
-    #section3 img{
-        top: 155px;
-        left: 455px;
-        /*position: absolute;*/
-    }
-    #section3 .box{
-        text-align: center;
-        margin: 10% 0 0 0;
-    }
-
-    #section3 img{
-
-    }
-
-    /* Overwriting fullPage.js tooltip color
-    * --------------------------------------- */
-    .fp-tooltip{
-        color: #AAA;
-    }
-    #fp-nav span, .fp-slidesNav span{
-        border-color: #AAA;
-    }
-    #fp-nav li .active span, .fp-slidesNav .active span{
-        background: #a83636;
-    }
-
-    .projectImg img{
-        /*height: 75vh;*/
-        width: 60%;
-        max-width: 1500px;
-    }
-    .LargeWid img{
-        width: 90%;
-    }
-    .smallWid img{
-        max-width: 1200px;
-        width: 75%;
-    }
-
-    </style>
-
-    <!--[if IE]>
-        <script type="text/javascript">
-             var console = { log: function() {} };
-        </script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+<style type="text/css">
+    .navbar-nav>li {
+   float: none;
+    background: #000;
+    min-height: 13px;
+    min-width: 13px;
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    }
+    .projectNav ul li {
+    list-style-type: circle;
+    margin: 0 0 12px 0;
+     padding: 0px; 
+    line-height: 1.5em;
+    font-size: 15px;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        background: #9a0606;
+            min-height: 20px;
+    min-width: 20px;
+    border-radius: 15px;
+    margin: 0px 0px 0px -4px;
+    top: -5px;
+    }
+    body{
+        font-size: 15px;
+    }
+    nav {
+        width: 99%;
+    }
+    .nav>li>a {
+    padding: 10px;
+    }
+    img:hover{
+        box-shadow: none;
+    }
+    .navbar-default .navbar-toggle{
+        display: none;
+    }
+    ul li {
+    list-style-type: none;
+    background: url(./images/bullet.png) no-repeat;
+    margin: 0 0 0 0;
+    padding: 0 0 4px 17px;
+    line-height: 1.3em;
+    font-size: 15px;
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+}
+.active a{
+    margin-bottom: 2px;
+}
+ul{
+       max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.content ul{
+         max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.container{
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+}
+#top_border{
+    width: 100%;
+    max-width: 1250px;
+       margin-bottom: 5px;
+       margin: auto;
+}
+#site_content{
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
 
-    <script type="text/javascript" src="./js/jquery.fullPage.js"></script>
+}
+.row {
+    margin-right: -15px;
+    margin-left: -30px;
+}
+b{
+    font-size: 15px;
+}
+.col-lg-12{
+    .?<
+}
+.button {
+    background-color: #a55;
+    border: 1px #666;
+    border-radius: 4px;
+    color: white;
+    padding: 0px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 9px;
+    cursor: pointer;
+    position: relative;
+    bottom: 1px;
+}
+.container{
+    max-width: 1250px;
+    margin: auto;
+}
+p{
+    max-width: 1250px;
+    margin: auto;    
+}
+ul li{
+    max-width: 1250px;
+    margin: auto;
+}
+section{
+    clear: both;
+}
 
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-                'verticalCentered': false,
-                'css3': true,
-                'sectionsColor': ['', '', '', ''],
-                'navigation': true,
-                'navigationPosition': 'right',
-                'navigationTooltips': ['', '','','','','',''],
-
-                'afterLoad': function(anchorLink, index){
-                    if(index == 2){
-                        $('#iphone3, #iphone2, #iphone4').addClass('active');
-                    }
-                },
-
-                'onLeave': function(index, nextIndex, direction){
-                    if (index == 3 && direction == 'down'){
-                        $('.section').eq(index -1).removeClass('moveDown').addClass('moveUp');
-                    }
-                    else if(index == 3 && direction == 'up'){
-                        $('.section').eq(index -1).removeClass('moveUp').addClass('moveDown');
-                    }
-
-                    $('#staticImg').toggleClass('active', (index == 2 && direction == 'down' ) || (index == 4 && direction == 'up'));
-                    $('#staticImg').toggleClass('moveDown', nextIndex == 4);
-                    $('#staticImg').toggleClass('moveUp', index == 4 && direction == 'up');
-                }
-            });
-        });
-    </script>
-
+</style>
 </head>
-<body>
 
-<div id="fullpage">
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 
-    <div class="section moveDown" id="section0">
-     <div class="wrap">
-                    <div><font style="font-family:
-                Helvetica,Arial,sans-serif;"><p><b>Geospatial-temporal visualizations</b></p></font></div>
-           <div style="margin-top: 5px">
-            <left> <p>Related publications: </p>
-            <ul>
-            <li> <b>Tuan Dang</b>, Leland Wilkinson, and Anushka Anand. <i>Stacking Graphic Elements to Avoid Over-Plotting</i>. IEEE Transactions on Visualization AndComputer Graphics 16(6), InfoVis 2010.  <a href="file/Stacking.pdf"> <img src="images/icons2/pdf.png" height="16"></a> <a href="https://www.cs.uic.edu/~tdang/media/Stacking.mp4"> <img src="images/icons2/movie.png" height="16"></a> <a href="BibTeX/Dang2010Stacking.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
-        <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5613442" class="button">DOI</a>
-        </li>
-            </ul>
-            </left>
-          </div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-         
-          <div class="projectImg LargeWid" align="middle" style="margin-top: -20px"> <img src="./images/projectFigures/UFO2.png" style=""  width="120%"></div>
-          <left> <p><b>Visualizing UFO sightings on a 2D map:</b> This project uses data from the National UFO Reporting Center available <a href="http://www.nuforc.org/webreports/ndxloc.html">here</a>. 
-        The goal here is to give the user a higher level view of where different types of sightings occur, and to detect patterns/trends of these sightings over time.</p></left>
-       
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
+            </div>
 
-
-        <br/><br/>
-                      <div class="projectImg" align="middle" style="margin-top: 10px"> <img src="./images/projectFigures/lyme.png"  width="100%"></div>
-          <left><p><b>Visualizing the distribution of Lyme diseases in 3D</b> reported in
-        the U.S. in 2005, 2006, and 2007 by the <a href="https://www.cdc.gov/">CDC</a>. One might argue that a county-level choropleth map would
-        be a suitable presentation. Nevertheless, it would be hard to argue that a county-level choropleth map using hue
-        or brightness could reveal the threefold increase in Lyme disease cases centered around New England vs. the Midwest.</p>
-        </left>
-         </div>
-    </div>
-
-    <div class="section moveDown" id="section1">
-        <div class="wrap">
-         <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;"><p><b>Networks and structures</b></p></font></div>
-
-    <div style="margin-top: 5px">
-    <left> <p>Related publications: </p>
-    <ul>
-        <li><b>Tommy Dang</b>, Paul Murray, Ronak Etemadpour, and Angus Forbes. <i> Visualizing Structure and Connectivity in Complex Hierarchical Datasets</i>. IEEE Transactions on Visualization and Computer Graphics. (<i>in submission</i>)</li>
-        <li> <b>Tommy Dang</b> and Angus Forbes. <i> CactusTree: A Tree Drawing Approach for Hierarchical Edge Bundling</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. </li>         
-        <li><b>Tommy Dang</b>,  Paul Murray, Jillian Aurisano, and Angus Forbes. <i> ReactionFlow: An Interactive Visualization Tool for Causality Analysis in Biological Pathways</i>. BMC Proceedings 9(6), BioVis 2015. 
-          <a href="ReactionFlow/ReactionFlow_BioVis_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
-          <a href="ReactionFlow/video.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="https://github.com/CreativeCodingLab/ReactionFlow"> <img src="images/icons/github.png" height="16"></a>
-          <a href="BibTeX/Dang2015ReactionFlow.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
-          <a href="http://www.ncbi.nlm.nih.gov/pubmed/26361502" class="button">DOI</a>
-          </li>
-        
-    </ul>
-    </left>
-   </div>
-          
-
-    <div  class="projectImg smallWid" align="middle" style="margin-top: -35px"> <img src="./images/projectFigures/HCL.png"  width=90%></div>
-      <left><p>Visualizing hierarchical structures and prey-predator relationships of mammals (left) and birds (right). Each animal is presented as a green leaf node. Red links are prey-predator relationships between them.</p></left>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="projectNav">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="#about"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact2"></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-        <div class="wrap">
-          <br/><br/>
-            <div  class="projectImg" align="middle" style="margin-top: 20px"> <img src="./images/projectFigures/HCLdiseases.png"  width=90%></div>
-            <left><p>Visualizing causal relationships of 20 popular diseases (left) from <a href="http://www.reactome.org/">reactome</a> and HIV life cycle (right): Gradient links indicate causalities between biochemical reactions.</p></left>
-        </div>
-    </div>
+    <!-- Intro Section -->
 
-    <div class="section moveDown" id="section2">
-        <div class="wrap">
-                <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;"><p><b>Dynamic network visualization</b></p></font></div>
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                        <div align=""><b>Geospatial-temporal visualizations</b></div>
+                       <div style="margin-top: 5px">
+                        <div class="containerW" class="containerW"> Related publications: <br>
+                        <ul>
+                        <li> <b>Tuan Dang</b>, Leland Wilkinson, and Anushka Anand. <i>Stacking Graphic Elements to Avoid Over-Plotting</i>. IEEE Transactions on Visualization AndComputer Graphics 16(6), InfoVis 2010.  <a href="file/Stacking.pdf"> <img src="images/icons2/pdf.png" height="16"></a> <a href="https://www.cs.uic.edu/~tdang/media/Stacking.mp4"> <img src="images/icons2/movie.png" height="20"></a> <a href="BibTeX/Dang2010Stacking.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
+                    <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5613442" class="button">DOI</a>
+                    </li>
+                        </ul>
+                        </div>
+                      </div>
 
-    <div style="margin-top: 5px">
-    <left> <p>Related publications: </p>
-    <ul>
-        <li><b>Tommy Dang</b>,  Nick Pendar, and Angus Forbes. <i> TimeArcs: Visualizing Fluctuations in Dynamic Networks</i>. Computer Graphics Forum 35(3), EuroVis 2016. 
-        <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
-        <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-        <a href="https://github.com/CreativeCodingLab/TimeArcs"> <img src="images/icons/github.png" height="16"></a>
-        <a href="BibTeX/Dang2016TimeArcs.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
-        <a href="http://diglib.eg.org/handle/10.1111/cgf12882" class="button">DOI</a>
-        </li>   
-    </ul>
-    </left>
-   </div>    
-   <br/><br/>
-    <div  class="projectImg" align="middle" style="margin-top: -30px"> <img src="images/projectFigures/PoliticalBlogs.png" width=90%></div> <br/>
-  <left><p>Major events from nearly 100,000 political blogs in last 10 years were automatically detected in our visualization: Links connect popular terms appeared in the same blogs.</p></left>
-        </div>
-    </div>
-
-    <div class="section moveDown" id="section3">
-        <div class="wrap">
-             <div align="left"><font style="font-family:
-        Helvetica,Arial,sans-serif;"><p><b>Matrix visualization</b></p></font></div>
-  <div class="content fullPage" style="margin-top: 5px">
-    <left> <p>Related publications: </p>
-    <ul>
-        <li> <b>Tommy Dang</b>, Hong Cui, and Angus Forbes. <i> MultiLayerMatrix: Visualizing Large Taxonomic Datasets</i>. The seventh international EuroVis workshop on Visual Analytics, EuroVA 2016.  
-          <a href="https://www.cs.uic.edu/~tdang/MultiLayerMatrix/MultiLayerMatrix_EuroVA_2016.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
-          <a href="MultiLayerMatrix/video.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="https://github.com/CreativeCodingLab/MultiLayerMatrix"> <img src="images/icons/github.png" height="16"></a>
-          <a href="BibTeX/Dang2016MultiLayerMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
-          <a href="https://diglib.eg.org/handle/10.2312/eurova20161125" class="button">DOI</a>
-        </li>
-        <li> <b>Tommy Dang</b>, Nico Franz, Bertram Lud&#228;scher and Angus Forbes. <i> ProvenanceMatrix: A Visualization Tool for Multi-Taxonomy Alignments</i>. International Workshop on Visualizations and User Interfaces for Ontologies and Linked Data, VOILA 2015. 
-          <a href="ProvenanceMatrix/ProvenanceMatrix_VOILA_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
-          <a href="ProvenanceMatrix/video.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="https://github.com/CreativeCodingLab/ProvenanceMatrix"> <img src="images/icons/github.png" height="16"></a>
-          <a href="BibTeX/Dang2015ProvenanceMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
-          <a href="http://www.bibsonomy.org/bibtex/23a2e7eda5e8580c2bdfdefca6d152a0f/dblp" class="button">DOI</a>
-        </li> 
-        <li> <b>Tommy Dang</b>,  Paul Murray, and Angus Forbes. <i> PathwayMatrix: Visualizing Binary Relationships between Proteins in Biological Pathways</i>. BMC Proceedings 9(6), BioVis 2015. 
-          <a href="PathwayMatrix/PathwayMatrix_BioVis_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
-          <a href="PathwayMatrix/PathwayMatrixBioVis960x540.mp4"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="https://github.com/CreativeCodingLab/PathwayMatrix"> <img src="images/icons/github.png" height="16"></a>
-          <a href="BibTeX/Dang2015PathwayMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
-          <a href="http://www.ncbi.nlm.nih.gov/pubmed/26361499" class="button">DOI</a>
-        </li>
-        <li> <b>Tommy Dang</b>, Anushka Anand, and Leland Wilkinson. <i>TimeSeer: Scagnostics for High-Dimensional Time Series</i>. IEEE Transactions on Visualization and Computer Graphics 19(3), TVCG 2012.  
-          <a href="file/Multi-Scagnostics.pdf"> <img src="images/icons2/pdf.png" height="16"></a>  
-          <a href="media/TimeSeer.mov"> <img src="images/icons2/movie.png" height="16"></a>
-          <a href="BibTeX/Dang2012Timeseer.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
-          <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6200267" class="button">DOI</a>
-        </li>
-    </ul>
-    </left>
-   </div>  
-         
-        <div class="projectImg smallWid" align="middle" style="margin-top: -20px"> <img src="images/projectFigures/Matrix1.png" style="" width="90%" ></div>
-        <left><p>Visualizing the alignment of <a href="http://taxonbytes.org/pathwaymatrix-visualization-software-shows-eulerx-taxonomy-alignment-products-and-ambiguities/"> taxonomic  classifications</a>: Gymnospermae sec. Weakley (2010) vs. RAB (1968)</p></left>
-        </div>
-
-     </div>
-        <div class="section moveDown" id="section4">
-            <div class="wrap">
-            <br/><br/>
-                <div class="projectImg" align="middle" style="margin-top: 20px"> <img src="images/projectFigures/Matrix2.png"  width=90%></div>
-                <left><p> High-dimensional data are represented by a small subset of variables in the US unemployment rates (left) from  <a href="https://www.bls.gov/"> BLS</a> and in the Asteraceae taxonomy (right) of 2,048 characters.</p></left>
-
+                     
+                      <div  align="middle" style="margin-top: -20px"> <img src="images/projectFigures/UFO2.png"  width=100%></div>
+                      <div class="containerW" class="containerW"> <b>Visualizing UFO sightings on a 2D map:</b> This project uses data from the National UFO Reporting Center available <a href="http://www.nuforc.org/webreports/ndxloc.html">here</a>. 
+                    The goal here is to give the user a higher level view of where different types of sightings occur, and to detect patterns/trends of these sightings over time.</div>
+                      <div  align="middle" style="margin-top: 10px"> <img src="images/projectFigures/lyme.png"  width=80%></div>
+                      <div class="containerW" class="containerW"><b>Visualizing the distribution of Lyme diseases in 3D</b> reported in
+                    the U.S. in 2005, 2006, and 2007 by the <a href="https://www.cdc.gov/">CDC</a>. One might argue that a county-level choropleth map would
+                    be a suitable presentation. Nevertheless, it would be hard to argue that a county-level choropleth map using hue
+                    or brightness could reveal the threefold increase in Lyme disease cases centered around New England vs. the Midwest.
+                    </div>
+                </div>
             </div>
         </div>
-  
+    </section>
 
-</div>
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div id="site_content"></div> 
+        <div id="top_border"></div> 
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                        
+
+                        <div align="left"><b>Networks and structures</b></div>
+
+                        <div style="margin-top: 5px">
+                        <div class="containerW" class="containerW"> Related publications: <br>
+                        <ul>
+                            <li><b>Tommy Dang</b>, Paul Murray, Ronak Etemadpour, and Angus Forbes. <i> Visualizing Structure and Connectivity in Complex Hierarchical Datasets</i>. IEEE Transactions on Visualization and Computer Graphics. (<i>in submission</i>)</li>
+                            <li> <b>Tommy Dang</b> and Angus Forbes. <i> CactusTree: A Tree Drawing Approach for Hierarchical Edge Bundling</i>. Proceedings of the 10th IEEE Pacific Visualization Symposium, PacificVis 2017. </li>         
+                            <li><b>Tommy Dang</b>,  Paul Murray, Jillian Aurisano, and Angus Forbes. <i> ReactionFlow: An Interactive Visualization Tool for Causality Analysis in Biological Pathways</i>. BMC Proceedings 9(6), BioVis 2015. 
+                              <a href="ReactionFlow/ReactionFlow_BioVis_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
+                              <a href="ReactionFlow/video.mp4"> <img src="images/icons2/movie.png" height="20"></a>
+                              <a href="https://github.com/CreativeCodingLab/ReactionFlow"> <img src="images/icons/github.png" height="16"></a>
+                              <a href="BibTeX/Dang2015ReactionFlow.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
+                              <a href="http://www.ncbi.nlm.nih.gov/pubmed/26361502" class="button">DOI</a>
+                              </li>
+                            
+                        </ul>
+                        </div>
+                       </div>
+                              
+
+                        <div  align="middle" style="margin-top: -35px"> <img src="images/projectFigures/HCL.png"  width=100%></div>
+                      <div class="containerW" class="containerW">Visualizing hierarchical structures and prey-predator relationships of mammals (left) and birds (right). Each animal is presented as a green leaf node. Red links are prey-predator relationships between them.</div>
+                      
+                      <div  align="middle" style="margin-top: 20px"> <img src="images/projectFigures/HCLdiseases.png"  width=90%></div>
+                      <div class="containerW" class="containerW">Visualizing causal relationships of 20 popular diseases (left) from <a href="http://www.reactome.org/">reactome</a> and HIV life cycle (right): Gradient links indicate causalities between biochemical reactions.</div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+                         <div id="site_content"></div> 
+                        <div id="top_border"></div> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                        <div align="left"><b>Dynamic network visualization</b></div>
+
+                        <div style="margin-top: 5px">
+                        <div class="containerW" class="containerW"> Related publications: <br>
+                        <ul>
+                            <li><b>Tommy Dang</b>,  Nick Pendar, and Angus Forbes. <i> TimeArcs: Visualizing Fluctuations in Dynamic Networks</i>. Computer Graphics Forum 35(3), EuroVis 2016.
+                            <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
+                            <a href="https://www.cs.uic.edu/~tdang/TimeArcs/EuroVis2016/TimeArcs_Dang_EuroVis2016.mp4"> <img src="images/icons2/movie.png" height="20"></a>
+                            <a href="https://github.com/CreativeCodingLab/TimeArcs"> <img src="images/icons/github.png" height="16"></a>
+                            <a href="BibTeX/Dang2016TimeArcs.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
+                            <a href="http://diglib.eg.org/handle/10.1111/cgf12882" class="button">DOI</a><br/> <br/> 
+                            </li>   
+                        </ul>
+                        </div>
+                       </div>    
+
+                        <div align="middle" style="margin-top: -30px"> <img src="images/projectFigures/PoliticalBlogs.png"  width=95%></div>
+                      <div class="containerW" class="containerW">Major events from nearly 100,000 political blogs in last 10 years were automatically detected in our visualization: Links connect popular terms appeared in the same blogs.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact2" class="contact-section">
+                        <div id="site_content"></div> 
+                    <div id="top_border"></div> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                      <div align="left"><b>Matrix visualization</b></div>
+                  <div class="content fullPage" style="margin-top: 5px">
+                    <div class="containerW" class="containerW"> Related publications: <br>
+                    <ul>
+                        <li> <b>Tommy Dang</b>, Hong Cui, and Angus Forbes. <i> MultiLayerMatrix: Visualizing Large Taxonomic Datasets</i>. The seventh international EuroVis workshop on Visual Analytics, EuroVA 2016.  
+                          <a href="https://www.cs.uic.edu/~tdang/MultiLayerMatrix/MultiLayerMatrix_EuroVA_2016.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
+                          <a href="MultiLayerMatrix/video.mp4"> <img src="images/icons2/movie.png" height="20"></a>
+                          <a href="https://github.com/CreativeCodingLab/MultiLayerMatrix"> <img src="images/icons/github.png" height="16"></a>
+                          <a href="BibTeX/Dang2016MultiLayerMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
+                          <a href="https://diglib.eg.org/handle/10.2312/eurova20161125" class="button">DOI</a>
+                        </li>
+                        <li> <b>Tommy Dang</b>, Nico Franz, Bertram Lud&#228;scher and Angus Forbes. <i> ProvenanceMatrix: A Visualization Tool for Multi-Taxonomy Alignments</i>. International Workshop on Visualizations and User Interfaces for Ontologies and Linked Data, VOILA 2015. 
+                          <a href="ProvenanceMatrix/ProvenanceMatrix_VOILA_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
+                          <a href="ProvenanceMatrix/video.mp4"> <img src="images/icons2/movie.png" height="20"></a>
+                          <a href="https://github.com/CreativeCodingLab/ProvenanceMatrix"> <img src="images/icons/github.png" height="16"></a>
+                          <a href="BibTeX/Dang2015ProvenanceMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
+                          <a href="http://www.bibsonomy.org/bibtex/23a2e7eda5e8580c2bdfdefca6d152a0f/dblp" class="button">DOI</a>
+                        </li> 
+                        <li> <b>Tommy Dang</b>,  Paul Murray, and Angus Forbes. <i> PathwayMatrix: Visualizing Binary Relationships between Proteins in Biological Pathways</i>. BMC Proceedings 9(6), BioVis 2015. 
+                          <a href="PathwayMatrix/PathwayMatrix_BioVis_2015.pdf"> <img src="images/icons2/pdf.png" height="16"></a>
+                          <a href="PathwayMatrix/PathwayMatrixBioVis960x540.mp4"> <img src="images/icons2/movie.png" height="20"></a>
+                          <a href="https://github.com/CreativeCodingLab/PathwayMatrix"> <img src="images/icons/github.png" height="16"></a>
+                          <a href="BibTeX/Dang2015PathwayMatrix.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
+                          <a href="http://www.ncbi.nlm.nih.gov/pubmed/26361499" class="button">DOI</a>
+                        </li>
+                        <li> <b>Tommy Dang</b>, Anushka Anand, and Leland Wilkinson. <i>TimeSeer: Scagnostics for High-Dimensional Time Series</i>. IEEE Transactions on Visualization and Computer Graphics 19(3), TVCG 2012.  
+                          <a href="file/Multi-Scagnostics.pdf"> <img src="images/icons2/pdf.png" height="16"></a>  
+                          <a href="media/TimeSeer.mov"> <img src="images/icons2/movie.png" height="20"></a>
+                          <a href="BibTeX/Dang2012Timeseer.txt"> <img src="images/icons2/bibtex.png" height="16"></a> 
+                          <a href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6200267" class="button">DOI</a>
+                        </li>
+                    </ul>
+                    </div>
+                   </div>  
+                         
+                    <div align="middle" style="margin-top: -20px"> <img src="images/projectFigures/Matrix1.png"  width=90%></div>
+                   <div class="containerW" class="containerW">Visualizing the alignment of <a href="http://taxonbytes.org/pathwaymatrix-visualization-software-shows-eulerx-taxonomy-alignment-products-and-ambiguities/"> taxonomic classifications</a>: Gymnospermae sec. Weakley (2010) vs. RAB (1968)</div>
+                    <div  align="middle" style="margin-top: 20px"> <img src="images/projectFigures/Matrix2.png"  width=100%></div>
+                  <div class="containerW" class="containerW"> High-dimensional data are represented by a small subset of variables in the US unemployment rates (left) from  <a href="https://www.bls.gov/"> BLS</a> and in the Asteraceae taxonomy (right) of 2,048 characters.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>
