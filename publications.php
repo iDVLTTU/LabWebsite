@@ -15,12 +15,7 @@ include 'header.php';
         </ul>
       <h4>IN SUBMISSION</h4>
         <ul>
-          <!--<li>Tommy Dang and Angus Forbes. Submitted to IEEE Transactions on Visualization and Computer Graphics.</li>-->
-          <!-- <li>Tommy Dang and Long Nguyen. Submitted a short paper to EnvirVis 2017 on Feb 17. </li> -->
-          <!-- <li>Vinh Nguyen and Tommy Dang. Submitted a short paper to EuroVis 2017 on Feb 17. </li> -->
-          <!-- <li>Vinh Nguyen and Tommy Dang. Submitted a paper to VISUAL 2017 on Feb 27. </li> -->
           <li>Vinh Nguyen, Md. Yasin Kabir, and Tommy Dang. Submitted a paper to VINCI 2017 on April 28.</li><br>
-          <li>Vinh Nguyen and Tommy Dang. Submitted a paper to IEEE Vis (VAST) on March 31.</li><br>
           <li>Tommy Dang, Md. Yasin Kabir, Vinh Nguyen, and Fang Jin. Submitted a paper to IEEE Vis (VAST) on March 31.</li><br>
 
         </ul>
