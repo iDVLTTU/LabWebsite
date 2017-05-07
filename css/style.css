@@ -1163,4 +1163,6 @@ img:hover{
   width: 900px;
   margin: auto;
 }
-
+.publicationPage h4{
+  font-weight: normal;
+}
