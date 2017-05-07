@@ -4,37 +4,9 @@
 <?php include 'newsSidebar.php' ?>
       
       <div class="content contentBox"> 
-
-          <div class="w3-content w3-display-container">
-          
-            <div class="w3-display-container w3-animate-bottom mySlides">
-              <img src="./images/projects/eduAvatar.jpg" style="width:100%">
-              <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-                <!-- <a href="#"> iDVL Team.</a> -->
-                Teaching Foreign Language Pronunciation through Educational Avatars
-              </div>
-            </div>
-
-            <div class="w3-display-container w3-animate-top mySlides">
-              <img src="./images/projects/bioLinker.png" style="width:100%">
-              <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-                <!-- <a href="#"> iDVL Team.</a> -->
-                BioLinker: Bottom-up Exploration of Protein Interaction Networks
-              </div>
-            </div>
-
-            <div class="w3-display-container w3-animate-bottom mySlides">
-              <img src="./images/projects/cancerLinker.png" style="width:100%">
-              <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-                CancerLinker:  Explorations of Cancer Study Network
-              </div>
-            </div>
-
-            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-          </div>
-
-        
+         <div class="homeSlide">
+              <iframe src="./homeSlide.html" width="750px"></iframe>
+         </div>           
         <br/>
         <p>The interactive Data Visualization Lab is housed at EC 305 within the Department of Computer Science at Texas Tech University. We focus on developing methods and tools for analyzing, visualizing, and interacting with massive, dynamic, and ambiguous data arised from various application domains. Our research explores the novel marriage of human-computer interaction, scientific and information visualization, computer animation, and machine learning. We move beyond traditional computing environments by experiencing interactive visualization techniques on mobile devices as well as within immersive virtual reality environments.</p>
 
