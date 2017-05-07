@@ -38,7 +38,7 @@ include 'header.php';
             </div>
         </div>
 
-        <div class="personImgBorder" style="margin-bottom: 5px;"></div> 
+        <div class="personImgBorder" style="margin-bottom: 5px; margin-top: -3px;"></div> 
 
         <div class="infoArea content fullPage">
          

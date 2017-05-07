@@ -207,7 +207,7 @@ nav {
   width: 1000px;
   overflow: hidden;
   margin: 0 auto 0 auto;
-  padding: 0 0 15px 0;
+  padding: 0 0 0px 0;
   border-bottom: 1px solid #AFABAB;   
 } 
 
@@ -1108,7 +1108,7 @@ img:hover{
     border-image: none;
     width: 100%;
     /*min-height: 1200px;*/
-    height: 78vh;
+    height: 79vh;
 }
 .paperDes img{
   width: 100%;
