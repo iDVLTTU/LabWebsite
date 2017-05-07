@@ -117,7 +117,7 @@ include 'header.php';
                                   <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons2/pdf.png" height="18"></a>
                                   <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons2/movie.png" height="19"></a>
                                   <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="14"></a> 
                                   <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
                               </th>
                           </tr>
@@ -191,7 +191,7 @@ include 'header.php';
                                   <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons2/pdf.png" height="18"></a>
                                   <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons2/movie.png" height="19"></a>
                                   <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="14"></a> 
                                   <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
                               </th>
                           </tr>
@@ -264,7 +264,7 @@ include 'header.php';
                                   <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons2/pdf.png" height="18"></a>
                                   <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons2/movie.png" height="19"></a>
                                   <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="14"></a> 
                                   <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
                               </th>
                           </tr>
@@ -337,7 +337,7 @@ include 'header.php';
                                   <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons2/pdf.png" height="18"></a>
                                   <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons2/movie.png" height="19"></a>
                                   <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="14"></a> 
                                   <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
                               </th>
                           </tr>
@@ -410,7 +410,7 @@ include 'header.php';
                                   <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons2/pdf.png" height="18"></a>
                                   <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons2/movie.png" height="19"></a>
                                   <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="18"></a> 
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons2/bibtex.png" height="14"></a> 
                                   <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
                               </th>
                           </tr>

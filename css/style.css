@@ -1148,6 +1148,10 @@ img:hover{
     bottom: 4px;
     line-height: 18px;
 }
+.publicationArea .button:hover{
+  color: #fff;
+  background: #000;
+}
 .personPub h4{
   padding-left: 30px;
 }
