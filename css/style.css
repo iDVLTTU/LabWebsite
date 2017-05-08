@@ -27,7 +27,7 @@ article, aside, figure, footer, header, hgroup, nav, section {
 body { 
   font: normal .80em arial, sans-serif;
   background: #fff url(../images/pattern.png) repeat;
-  color: #444;
+  color: #000;
 }
 
 p { 
@@ -630,6 +630,9 @@ ul#images li {
 #amitPub{
   display: none;
 }
+#nazanynPub{
+  display: none;
+}
 .images:hover ~ .infoArea > div {
   display: none;
 }
@@ -642,14 +645,17 @@ ul#images li {
 .images.imgFour:hover ~ .infoArea #infFour,
 .images.imgFour:hover ~ .infoArea #yasinPub,
 .images.imgFive:hover ~ .infoArea #infFive,
-.images.imgFive:hover ~ .infoArea #amitPub{
+.images.imgFive:hover ~ .infoArea #nazanynPub,
+.images.imgSix:hover ~ .infoArea #infSix,
+.images.imgSix:hover ~ .infoArea #amitPub{
   display: block;
 }
 .images.imgOne:hover ~ .infoArea .personBorder,
 .images.imgTwo:hover ~ .infoArea .personBorder,
 .images.imgThree:hover ~ .infoArea .personBorder,
 .images.imgFour:hover ~ .infoArea .personBorder,
-.images.imgFive:hover ~ .infoArea .personBorder {
+.images.imgFive:hover ~ .infoArea .personBorder,
+.images.imgSix:hover ~ .infoArea .personBorder {
   display: none;
 }
 
@@ -1048,7 +1054,7 @@ img:hover{
   line-height: 1.7em;
 }
 .supportedResearch li{
-  font-size: 15px;
+  font-size: 14px;
 }
 .supportedResearch p{
   font-size: 15px;
@@ -1121,7 +1127,6 @@ img:hover{
   text-align: center;
 }
 .publicationArea table tr th, .publicationArea table tr td {
-    color: #444;
     padding: 4px 4px;
     /* text-align: left; */
     font-size: 14px;

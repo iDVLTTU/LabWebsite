@@ -5,7 +5,7 @@
 	<news category="website">
 		<headline>Research proposal awarded!</headline>
 		<date>April 3rd, 2017</date>
-		<sortNews>SGIR awarded the proposal of <b>Tommy's team</b>.</sortNews>
+		<sortNews>SGIR awarded the proposal of <b>Dr. Dang</b>'s team.</sortNews>
 		<fullNews>
 		<div class="news">
 			 <p><b>Dr. Tommy Dang</b> has been awarded for round 2 of SGIR for the proposal: <i>Teaching Foreign Language Pronunciation through Educational Avatars</i> in the colaboration with:</p>
@@ -33,7 +33,7 @@
 	<news category="website">
 		<headline>EnvirVis paper accepted!</headline>
 		<date>March 28th, 2017</date>
-		<sortNews><b>Long</b> get his first paper accepted.</sortNews>
+		<sortNews><b>Long</b> gets  his first paper accepted</sortNews>
 		<fullNews><div class="news">
 			The <a target="_blank" href="http://www.informatik.uni-leipzig.de/~envirvis2017/">Visualization in Environmental Sciences 2017 (EnvirVis 2017)</a> accepted the paper of <b>Tommy Dang</b> and <b>Long Hoang Nguyen</b>  to present at the conference on June 12-13, 2017 in Barcelona, Spain.
 
@@ -141,7 +141,7 @@
 <news category="website">
 <headline>iDVL website launched</headline>
 <date>January 25th, 2017</date>
-<sortNews>The iDVL website has been launched.</sortNews>
+<sortNews>Lab website has been launched</sortNews>
 <fullNews>The website for iDVL: interactive Data Visualization Lab has been lunched.</fullNews>
 </news>
 

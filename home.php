@@ -30,7 +30,7 @@
                  Cell phone: &nbsp; (+1) 806-319-3156  <br> 
               Fax number: (+1) 806-742-3519</td>
               <td width="200px">
-              <p style="text-align: left; margin-bottom: -15px; margin-left: 8px;">iDVL @:</p>
+              <!-- <p style="text-align: left; margin-bottom: -15px; margin-left: 8px;">iDVL @:</p> -->
               <a href="https://github.com/iDataVisualizationLab" target="_blank"> <img src="images/icons/github.png" height="20" style="margin-right: 20px;"></a>
            <a href="https://idv-lab.slack.com/" target="_blank"> <img src="images/icons/slack.png" height="20"></a> </td>
           </tr>
