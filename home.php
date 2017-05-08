@@ -10,9 +10,7 @@
         <br/>
         <p>The interactive Data Visualization Lab is housed at EC 305 within the Department of Computer Science at Texas Tech University. We focus on developing methods and tools for analyzing, visualizing, and interacting with massive, dynamic, and ambiguous data arised from various application domains. Our research explores the novel marriage of human-computer interaction, scientific and information visualization, computer animation, and machine learning. We move beyond traditional computing environments by experiencing interactive visualization techniques on mobile devices as well as within immersive virtual reality environments.</p>
 
-        <p style="margin-bottom: -25px;"> We are looking for bright and well motivated graduate students to join our group. Successful candidates should have strong background in programming and data analysis. To get involved with the iDVL, please contact <a href="http://www.myweb.ttu.edu/tnhondan/">Tommy Dang</a> at <a href="mailto:tommy.dang@ttu.edu">tommy.dang@ttu.edu</a><br/>
-           <a href="https://github.com/iDataVisualizationLab" target="_blank"> <img src="images/icons2/github.png" height="18"></a>
-           <a href="https://idv-lab.slack.com/" target="_blank"> <img src="images/icons2/slack.png" height="18"></a>
+        <p style="margin-bottom: -10px;"> We are looking for bright and well motivated graduate students to join our group. Successful candidates should have strong background in programming and data analysis. To get involved with the iDVL, please contact <a href="http://www.myweb.ttu.edu/tnhondan/">Tommy Dang</a> at <a href="mailto:tommy.dang@ttu.edu">tommy.dang@ttu.edu</a><br/>
         </p>
 
         </div>
@@ -31,6 +29,9 @@
             <td> Lab phone: &nbsp; (+1) 806-742-2477  <br>
                  Cell phone: &nbsp; (+1) 806-319-3156  <br> 
               Fax number: (+1) 806-742-3519</td>
+              <td>
+              <a href="https://github.com/iDataVisualizationLab" target="_blank"> <img src="images/icons/github.png" height="24"></a>
+           <a href="https://idv-lab.slack.com/" target="_blank"> <img src="images/icons/slack.png" height="24"></a> </td>
           </tr>
          </table>
         

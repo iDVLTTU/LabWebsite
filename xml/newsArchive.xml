@@ -18,7 +18,7 @@
 
 			<div class="img-area">
 					<div class="img-middle">
-						<img src="./images/projects/eduAvatar.png"></img>
+						<img src="https://github.com/iDataVisualizationLab/webFiles/raw/master/labWeb/images/projects/eduAvatar.png"></img>
 					</div>
 					<div style="clear:both;"></div>
 			</div>
@@ -69,7 +69,8 @@
 <headline>Two posters accepted!</headline>
 <date>March 1st, 2017</date>
 <sortNews>Congratulations to <b>Vinh</b> and <b>Long</b> for their two accepted posters.</sortNews>
-<fullNews><div class="news">
+<fullNews>
+	<div class="news">
 	The <a target="_blank" href="http://www.depts.ttu.edu/gradschool/current/PosterCompetition2017.php">16th Annual Graduate Student Research Poster Competition</a> accepted and invited <b>Vinh The Nguyen</b> and <b>Long Hoang Nguyen</b> to present their posters.
 	The title and abstract of the posters are as following:
 	<br/>
@@ -87,7 +88,7 @@
 	For more information about the project please visit <a target="_blank" href="https://github.com/iDataVisualizationLab/CancerNetwork">Project github repository</a><br/><br/>
 	<div class="img-area">
 		<div class="img-middle">
-			<img src="./images/posters/vinh/poster.png"></img> 
+			<img src="https://raw.githubusercontent.com/iDataVisualizationLab/webFiles/master/labWeb/images/posters/vinh/poster.png"></img> 
 		</div>
 		<div style="clear:both;"></div>
 		<br/>
@@ -126,12 +127,11 @@
 	For more information about the project please visit <a target="_blank" href="https://github.com/iDataVisualizationLab/SaturatedThickness">Project github repository</a><br/><br/>
 	<div class="img-area">
 		<div class="img-left">
-			<img src="./images/posters/long/contour-map.png"></img> 
+			<img src="https://raw.githubusercontent.com/iDataVisualizationLab/webFiles/master/labWeb/images/posters/long/contour-map.png"></img> 
 		</div>
 		<div class="img-right">
-			<img src="./images/posters/long/horizon.png"></img>
+			<img src="https://raw.githubusercontent.com/iDataVisualizationLab/webFiles/master/labWeb/images/posters/long/horizon.png"></img>
 		</div>
-		<div style="clear:both;"></div>
 		<br/>
 	</div>
 </div>
