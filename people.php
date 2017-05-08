@@ -149,7 +149,7 @@ include 'header.php';
                       </p>
                       <p class="personLinks">
 
-                          <a href="file/vinh.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Vinh Nguyen CV"/></a> &nbsp; 
+                          <a href="https://github.com/iDataVisualizationLab/web/raw/master/file/vinh.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Vinh Nguyen CV"/></a> &nbsp; 
 
             
                         <a href="http://myweb.ttu.edu/vinhtngu"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Vinh Nguyen"/></a> &nbsp; 
@@ -225,7 +225,7 @@ include 'header.php';
                         <a href="http://cse.tlu.edu.vn/Portals/0/Longnh_CV_en_tlu.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Long Hoang CV"/></a> &nbsp; 
           
 
-                        <a href="http://myweb.ttu.edu/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Long Hoang Nguyen"/></a> &nbsp; 
+                        <a href="http://www.myweb.ttu.edu/longhngu/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Long Hoang Nguyen"/></a> &nbsp; 
   
                         <a href="https://www.linkedin.com/in/hoang-long-nguyen-9713676"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
@@ -368,7 +368,7 @@ include 'header.php';
                       </p>
                       <p class="personLinks">
 
-                         <a href="file/Amit_resume.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
+                         <a href="https://github.com/iDataVisualizationLab/web/raw/master/file/Amit_resume.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
 
 
                         <a href="http://myweb.ttu.edu/apardesh/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Amitsingh Pardeshi"/></a> &nbsp; 

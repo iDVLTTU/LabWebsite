@@ -51,13 +51,13 @@
 			In this paper, we introduce STOAViz, a visual analytics tool for analyzing the saturated thickness of the Ogallala aquifer.The saturated thicknesses are monitored by sensors integrated on wells distributed on a vast geographic area. Our analytics application also captures the trends and patterns (such as average/standard deviation over time, sudden increase/decrease of saturated thicknesses) of water on individual well and group of wells based on their geographic locations. To highlight the usefulness and effectiveness of STOAViz, we demonstrate it on the Southern High Plains Aquifer of Texas. The work was developed using feedback from experts at the water resource center at a university. Moreover, our technique can be applied on any geographic areas where wells and their measurements are available.
 			<br/>
 			<br/>
-			Click here to read the paper: <a href="./images/papers/long/STOAViz/Saturated_EnvirVis2017.pdf">STOAViz</a>
+			Click here to read the paper: <a href="https://github.com/iDataVisualizationLab/SaturatedThickness/raw/master/files/STOAViz.pdf">STOAViz</a>
 			<br/>
 			For more information about the project please visit <a target="_blank" href="https://github.com/iDataVisualizationLab/SaturatedThickness">Project github repository</a><br/><br/>
 
 			<div class="img-area">
 				<div class="img-middle">
-					<img src="./images/papers/long/STOAViz/stages.png"></img>
+					<img src="https://github.com/iDataVisualizationLab/SaturatedThickness/raw/master/files/stages.png"></img>
 				</div>
 				<div style="clear:both;"></div>
 				<br/>
