@@ -5,7 +5,7 @@
 	<news category="website">
 		<headline>Research proposal awarded!</headline>
 		<date>April 3rd, 2017</date>
-		<sortNews>SGIR awarded the proposal of <b>Dr. Tommy Dang</b>.</sortNews>
+		<sortNews>SGIR awarded the proposal of <b>Tommy's team</b>.</sortNews>
 		<fullNews>
 		<div class="news">
 			 <p><b>Dr. Tommy Dang</b> has been awarded for round 2 of SGIR for the proposal: <i>Teaching Foreign Language Pronunciation through Educational Avatars</i> in the colaboration with:</p>
@@ -68,7 +68,7 @@
 <news category="website">
 <headline>Two posters accepted!</headline>
 <date>March 1st, 2017</date>
-<sortNews>Congratulations to <b>Vinh</b> and <b>Long</b> for their two accepted posters.</sortNews>
+<sortNews>Congratulations to <b>Vinh</b> and <b>Long</b></sortNews>
 <fullNews>
 	<div class="news">
 	The <a target="_blank" href="http://www.depts.ttu.edu/gradschool/current/PosterCompetition2017.php">16th Annual Graduate Student Research Poster Competition</a> accepted and invited <b>Vinh The Nguyen</b> and <b>Long Hoang Nguyen</b> to present their posters.
@@ -141,8 +141,8 @@
 <news category="website">
 <headline>iDVL website launched</headline>
 <date>January 25th, 2017</date>
-<sortNews>The website for the iDVL has beed launched.</sortNews>
-<fullNews>The website for iDVL: interactive Data Visualization Lab has beed lunched.</fullNews>
+<sortNews>The iDVL website has been launched.</sortNews>
+<fullNews>The website for iDVL: interactive Data Visualization Lab has been lunched.</fullNews>
 </news>
 
 

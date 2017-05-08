@@ -20,18 +20,19 @@
 
 
         <b>Adress:</b>
-        <table cellpadding="1" cellspacing="1" align="center" width="75%"> <br>   
+        <table cellpadding="1" cellspacing="1" align="center" width="100%"> <br>   
           <tr align="center">
-            <td> Room EC 305 in Department of Computer Science <br/>
+            <td width="500px"> Room EC 305 in Department of Computer Science <br/>
           Whitacre College of Engineering, Texas Tech University <br/>
           Box 43104, Lubbock, TX 79409-3104. 
           </td>
-            <td> Lab phone: &nbsp; (+1) 806-742-2477  <br>
+            <td width="350px"> Lab phone: &nbsp; (+1) 806-742-2477  <br>
                  Cell phone: &nbsp; (+1) 806-319-3156  <br> 
               Fax number: (+1) 806-742-3519</td>
-              <td>
-              <a href="https://github.com/iDataVisualizationLab" target="_blank"> <img src="images/icons/github.png" height="24"></a>
-           <a href="https://idv-lab.slack.com/" target="_blank"> <img src="images/icons/slack.png" height="24"></a> </td>
+              <td width="200px">
+              <p style="text-align: left; margin-bottom: -15px; margin-left: 8px;">iDVL @:</p>
+              <a href="https://github.com/iDataVisualizationLab" target="_blank"> <img src="images/icons/github.png" height="20" style="margin-right: 20px;"></a>
+           <a href="https://idv-lab.slack.com/" target="_blank"> <img src="images/icons/slack.png" height="20"></a> </td>
           </tr>
          </table>
         

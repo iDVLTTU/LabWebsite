@@ -64,7 +64,7 @@ include 'header.php';
             <table style="width:100%; margin-left: 20px;">
             <tr>
                 <th class="paperThumb" width="15%">
-                    <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                    <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
                 </th>
                 <th width="85%" style="padding-left: 25px;"> 
                     <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
