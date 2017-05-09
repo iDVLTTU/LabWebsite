@@ -2,6 +2,99 @@
 
 <newsArchive>
 
+		<news category="website">
+		<headline>Two papers accepted!</headline>
+		<date>May 6th, 2017</date>
+		<sortNews>Congratulations to <b>Long</b> and <b>Vinh</b></sortNews>
+		<fullNews>
+		<div class="news">
+		The <a target="_blank" href="https://www.iaria.org/conferences2017/VISUAL17.html">The Second International Conference on Applications and Systems of Visual Paradigms, VISUAL 2017</a> accepted the papers of <b>Long Hoang Nguyen</b> and <b>Vinh The Nguyen</b>.
+		The title and abstract of the posters are as following:
+		<br/>
+		<br/>
+
+		<h3>CA Study on 3D Surface Graph Representations</h3>
+
+		<h6>Long Hoang Nuyen<br/>
+		Computer Science Department, Texas Tech University, Texas, USA</h6>
+
+		<b>ABSTRACT</b>
+		<br/>
+					Surface graphs have been used in many application
+			domains to represent three dimensional (3D) data. Another
+			approach to represent 3D data is making projections onto
+			two dimensional graphs. This approach will result in multiple
+			displays, which is time-consuming in switching between different
+			screens for different perspective. In this work, we study the
+			performance of 3D version of popular two dimensional (2D)
+			visualization techniques for time series: horizon graph, small
+			multiples, and simple line graph. We explore discrimination
+			tasks with respect to each visualization technique that requires
+			simultaneous representations. We demonstrate our study by
+			visualizing saturated thickness of the Ogallala aquifer - the
+			Southern High Plains Aquifer of Texas in multiple years. For
+			the evaluation, we design comparison and discrimination tasks
+			and automatically record result performed by a group of students
+			at a university. Our results show that 3D small multiples perform
+			well with stable accuracy over multiple number of occurrences.
+			On the other hand, shared-space visualization within single
+			3D coordinate system is more efficient with small number of
+			simultaneous graphs. 3D horizon graph loses its competence in
+			3D coordinate system with lowest accuracy comparing to other
+			techniques. Our demonstration of 3D spatial temporal is also
+			presented on the Southern High Plains Aquifer of Texas from
+			2010 to 2016.
+		<br/><br/>
+		For more information about the project please visit <a target="_blank" href="https://github.com/iDataVisualizationLab/horizon-3d">Project github repository</a><br/><br/>
+		<div class="img-area">
+			<div class="img-middle">
+				<img src="https://raw.githubusercontent.com/iDataVisualizationLab/horizon-3d/master/files/small-multiple-graph.png"></img> 
+			</div>
+			<div style="clear:both;"></div>
+			<br/>
+		</div>
+		
+
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		<h3>UFO-Tracker: Visualizing UFO sightings</h3>
+
+		<h6>Vinh The Nguyen and Tommy Dang<br/>
+		Computer Science Department, Texas Tech University, Texas, USA</h6>
+
+		<b>ABSTRACT</b>
+		<br/>
+					Visualizing and analyzing geospatial and temporal
+		observations are common tasks for many application domains. In
+		this paper, we introduce UFO Tracker, a visual analytics tool for
+		analyzing unidentified flying object sightings from the National
+		UFO Reporting Center. The goal here is to give the user a
+		higher level view of where different types of sightings occur, to
+		investigate whether sightings are increasing or decreasing over
+		time, and to discover the connections between different events
+		which might happen at different geographic areas. Multiple
+		visualization and data mining techniques are combined to make
+		sense the increasingly large UFO reports which get updated
+		hourly. Our initial application targets UFO sighting reports.
+		However, we believe our approach has wider applications in other
+		research domains, such as analyzing text corpus obtained from
+		social media.
+		<br/><br/>
+		For more information about the project please visit <a target="_blank" href="https://github.com/iDataVisualizationLab/UFO">Project github repository</a><br/><br/>
+		<div class="img-area">
+			<div class="img-middle">
+				<img src="https://raw.githubusercontent.com/iDataVisualizationLab/UFO/master/images/maingit.png"></img> 
+			</div>
+			<br/>
+		</div>
+	</div>
+	</fullNews>
+	</news>
+
+
 	<news category="website">
 		<headline>Research proposal awarded!</headline>
 		<date>April 3rd, 2017</date>

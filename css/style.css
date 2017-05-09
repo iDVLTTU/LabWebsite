@@ -1200,8 +1200,13 @@ img:hover{
   width: 100%;
   text-align: center;
 }
+.cFaculty{
+  width: 163px;
+  height: 15px;
+  float: left;
+}
 .currentMembers{
-  width: 760px;
+  width: 607px;
   background: #999;
   height: 15px;
   float: left;
@@ -1209,7 +1214,7 @@ img:hover{
   color: #fff;
 }
 .oldMembers{
-  width: 230px;
+  width: 212px;
   background: #bbb;
   height: 15px;
   float: right;

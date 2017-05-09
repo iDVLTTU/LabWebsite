@@ -239,7 +239,7 @@ The Presidents' Collaborative Research Initiative provides up to $50,000 per awa
               title="NSWC Crane is interested in funding research of advanced 3D Visualization renderings from dynamic (moving) platforms. This proposed research is to assess techniques currently utilized in a static environment and determine approaches to utilize several moving platforms in creating the 3D visualization of the scene.">Hover to see abstract
           </td>
           <td align="left" style="padding:5px;">19 Apr 2017</td>
-          <td align="left" style="padding:5px;">Submitted</td>
+          <td align="left" style="padding:5px;">S</td>
         </tr>
 
       <tr bgcolor="#bdb">

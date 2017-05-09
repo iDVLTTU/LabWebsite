@@ -6,7 +6,7 @@ include 'header.php';
  <div id="site_content" class= "fullPage">
        <div id="top_border"></div>
 
-        <div class="images imgOne tommy hovereffect">
+        <div class="images imgOne tommy hovereffect" style="margin-right: 10px;">
             <img src="images/people/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
             <div class="overlay">
                 <h3>Tommy Dang</h3>
@@ -36,13 +36,14 @@ include 'header.php';
                 <h3>Nazanin</h3>
             </div>
         </div>
-        <div class="images imgSix amit hovereffect" style="opacity: .3;">
+        <div class="images imgSix amit hovereffect" style="opacity: .2; margin-left: 10px;">
             <img src="images/people/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi">
             <div class="overlay">
                 <h3>Amitsingh</h3>
             </div>
         </div>
         <div class="members">
+          <div class="cFaculty"></div>
           <div class="currentMembers">Current students</div>
           <div class="oldMembers">Old students</div>
         </div>
@@ -374,16 +375,16 @@ include 'header.php';
                       </p>
                       <p class="personLinks">
 
-                         <a href="./file/Nazanyn.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
+                         <a href="./file/Nazanyn.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Nazanin CV"/></a> &nbsp; 
 
 
-                        <a href=""> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Amitsingh Pardeshi"/></a> &nbsp; 
+                        <a style="opacity: .2;"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Nazanin Tabatabaei"/></a> &nbsp; 
   
-                        <a href=""> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+                        <a style="opacity: .2;"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
-                        <a href=""> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
+                        <a style="opacity: .2;"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <a href=""> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+                        <a style="opacity: .2;"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
                       </p> 
                       <div class="personPub" id="nazanynPub">
                           <?PHP
@@ -434,7 +435,7 @@ include 'header.php';
             </div>
 
 
-            <div id="infSix">
+            <div id="infSix" style="opacity: .2;"" >
                 <div  id="amit" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
@@ -510,41 +511,6 @@ include 'header.php';
               <iframe src="./peopleSlide.html" width="750px"></iframe>
          </div> 
 
-   <!--   <div class="w3-content w3-display-container peopleSlider">
-          <div class="w3-display-container mySlides">
-            <img src="./images/pics/people2017May.JPG" style="width:100%">
-            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-              iDVL team on May 2017.
-            </div>
-          </div>
-
-          <div class="w3-display-container mySlides">
-            <img src="./images/pics/people2017Jan.png" style="width:100%">
-            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-              Team members of iDVL on January 2017.
-            </div>
-          </div>
-
-          <div class="w3-display-container mySlides">
-            <img src="./images/pics/beforeiDVL.jpg" style="width:100%">
-            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-              The iDVL lab on October 2016.
-            </div>
-          </div>
-
-          <div class="w3-display-container mySlides">
-            <img src="./images/pics/people2017Jan.png" style="width:100%">
-            <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-              2nd Image
-            </div>
-          </div> 
-
-          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
-
-          </div>
-
- -->
         </div>
     </div>
 
