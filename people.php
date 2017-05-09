@@ -6,7 +6,6 @@ include 'header.php';
  <div id="site_content" class= "fullPage">
        <div id="top_border"></div>
 
-       
         <div class="images imgOne tommy hovereffect">
             <img src="images/people/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
             <div class="overlay">
@@ -43,7 +42,10 @@ include 'header.php';
                 <h3>Amitsingh</h3>
             </div>
         </div>
-
+        <div class="members">
+          <div class="currentMembers">Current members</div>
+          <div class="oldMembers">Old members</div>
+        </div>
         <div class="personImgBorder" style="margin-bottom: 5px; margin-top: -3px;"></div> 
 
         <div class="infoArea content fullPage">
@@ -113,7 +115,7 @@ include 'header.php';
                           <table style="width:100%; margin-left: 25px;">
                           <tr>
                               <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
                               </th>
                               <th width="85%" style="padding-left: 25px;"> 
                                   <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
@@ -188,7 +190,7 @@ include 'header.php';
                           <table style="width:100%; margin-left: 25px;">
                           <tr>
                               <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
                               </th>
                               <th width="85%" style="padding-left: 25px;"> 
                                   <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
@@ -261,7 +263,7 @@ include 'header.php';
                           <table style="width:100%; margin-left: 25px;">
                           <tr>
                               <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
                               </th>
                               <th width="85%" style="padding-left: 25px;"> 
                                   <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
@@ -334,7 +336,7 @@ include 'header.php';
                           <table style="width:100%; margin-left: 25px;">
                           <tr>
                               <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
                               </th>
                               <th width="85%" style="padding-left: 25px;"> 
                                   <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
@@ -404,7 +406,7 @@ include 'header.php';
                           <table style="width:100%; margin-left: 25px;">
                           <tr>
                               <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
                               </th>
                               <th width="85%" style="padding-left: 25px;"> 
                                   <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
@@ -477,7 +479,7 @@ include 'header.php';
                           <table style="width:100%; margin-left: 25px;">
                           <tr>
                               <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
                               </th>
                               <th width="85%" style="padding-left: 25px;"> 
                                   <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>

@@ -1196,3 +1196,29 @@ img:hover{
     height: 500px;
     margin: auto;
 }
+.members{
+  width: 100%;
+  text-align: center;
+}
+.currentMembers{
+  width: 760px;
+  background: #999;
+  height: 15px;
+  float: left;
+  padding: 2px;
+  color: #fff;
+}
+.oldMembers{
+  width: 230px;
+  background: #bbb;
+  height: 15px;
+  float: right;
+  padding: 2px;
+
+}
+
+
+
+
+
+
