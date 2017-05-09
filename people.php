@@ -36,16 +36,16 @@ include 'header.php';
                 <h3>Nazanin</h3>
             </div>
         </div>
-        <div class="images imgSix amit hovereffect" style="opacity: .2; margin-left: 10px;">
+        <div class="images imgSix amit hovereffect" style="opacity: .6; margin-left: 10px;">
             <img src="images/people/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi">
             <div class="overlay">
                 <h3>Amitsingh</h3>
             </div>
         </div>
         <div class="members">
-          <div class="cFaculty"></div>
+          <div class="cFaculty">Director</div>
           <div class="currentMembers">Current students</div>
-          <div class="oldMembers">Old students</div>
+          <div class="oldMembers">Passed students</div>
         </div>
         <div class="personImgBorder" style="margin-bottom: 5px; margin-top: -3px;"></div> 
 
@@ -140,9 +140,13 @@ include 'header.php';
                           ?> 
                       </div>
                     </div>   
+                    <br/><br/>
                     <div class="personBorder"></div>                 
                 </div>
             </div>
+
+                <div class="currentMembers curStd">Current students</div>
+                <div class="personBorder" style="clear: both;"></div>   
 
             <div id="infTwo">
                  <div  id="vinh" class="person">
@@ -429,13 +433,14 @@ include 'header.php';
                           }
                           ?> 
                       </div> 
-                    </div>    
+                    </div>  
+
                     <div class="personBorder"></div>                
                 </div>
             </div>
-
-
-            <div id="infSix" style="opacity: .2;"" >
+                <div class="currentMembers curStd">Passed students</div>
+                <div class="personBorder" style="clear: both;"></div>   
+            <div id="infSix" style="opacity: .6;"" >
                 <div  id="amit" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">

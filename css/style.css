@@ -894,7 +894,7 @@ img:hover{
 }
 .sidebar h4{
   line-height: 16px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
 }
 .sidebar h5{
@@ -1201,12 +1201,16 @@ img:hover{
   text-align: center;
 }
 .cFaculty{
-  width: 163px;
+  width: 148px;
   height: 15px;
   float: left;
+  background: #999;
+  padding: 2px;
+  margin-right: 10px;
+  color: #fff;
 }
 .currentMembers{
-  width: 607px;
+  width: 608px;
   background: #999;
   height: 15px;
   float: left;
@@ -1215,13 +1219,18 @@ img:hover{
 }
 .oldMembers{
   width: 212px;
-  background: #bbb;
+  background: #999;
   height: 15px;
   float: right;
   padding: 2px;
+  color: #fff;
 
 }
-
+.curStd{
+  width: 100%;
+  margin-top: -12px;
+  margin-bottom: 1px;
+}
 
 
 
