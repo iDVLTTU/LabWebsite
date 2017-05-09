@@ -45,7 +45,7 @@ include 'header.php';
         <div class="members">
           <div class="cFaculty">Director</div>
           <div class="currentMembers">Current students</div>
-          <div class="oldMembers">Passed students</div>
+          <div class="oldMembers">Past students</div>
         </div>
         <div class="personImgBorder" style="margin-bottom: 5px; margin-top: -3px;"></div> 
 
@@ -438,7 +438,7 @@ include 'header.php';
                     <div class="personBorder"></div>                
                 </div>
             </div>
-                <div class="currentMembers curStd">Passed students</div>
+                <div class="currentMembers curStd">Past students</div>
                 <div class="personBorder" style="clear: both;"></div>   
             <div id="infSix" style="opacity: .6;"" >
                 <div  id="amit" class="person">
