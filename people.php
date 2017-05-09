@@ -43,8 +43,8 @@ include 'header.php';
             </div>
         </div>
         <div class="members">
-          <div class="currentMembers">Current members</div>
-          <div class="oldMembers">Old members</div>
+          <div class="currentMembers">Current students</div>
+          <div class="oldMembers">Old students</div>
         </div>
         <div class="personImgBorder" style="margin-bottom: 5px; margin-top: -3px;"></div> 
 

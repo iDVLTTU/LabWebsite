@@ -20,6 +20,7 @@ include 'header.php';
       <td> <b>Citizenship or Residency</b> </td>
       <td> <b>Abstract</b></td>
       <td> <b>Deadline</b></td>
+      <td> <b>Status</b></td>
     </tr>
 
 
@@ -36,6 +37,7 @@ include 'header.php';
           Key Area No. 3: A human-factors based taxonomy of visualization and interaction in AR.">Hover to see abstract
       </td>
       <td align="left" style="padding:5px;">09 Mar 2018</td>
+       <td align="left" style="padding:5px;"></td>
     </tr>
 
     <tr bgcolor="#bdb">
@@ -59,6 +61,7 @@ include 'header.php';
           (4) Education and Workforce Development.">Hover to see abstract
       </td>
       <td align="left" style="padding:5px;">06 Mar 2018</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
     <tr bgcolor="#bbd">
@@ -72,6 +75,7 @@ include 'header.php';
 Our goal is to identify and strengthen long-term collaborative relationships with faculty working on problems that will impact how future generations use technology. Google Faculty Research Awards are structured as seed funding (up to $150,000 USD) to support one graduate student for one year and are awarded as an unrestricted gift. The award is highly competitive - only 15% of applicants receive funding - and each proposal goes through a rigorous Google-wide review process.">Hover to see abstract
       </td>
       <td align="left" style="padding:5px;">30 Sep 2017</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
     <tr bgcolor="#bdb">
@@ -85,6 +89,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
                 ">Hover to see abstract
       </td>
       <td align="left" style="padding:5px;">18 Sep 2017</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
      <tr bgcolor="#bbd">
@@ -95,6 +100,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;">United States</td>
       <td align="left" style="padding:5px;" title="The Advances in Biological Informatics (ABI) program seeks to encourage new approaches to the analysis and dissemination of biological knowledge for the benefit of both the scientific community and the broader public. The ABI program is especially interested in the development of informatics tools and resources that have the potential to advance- or transform- research in biology supported by the Directorate for Biological Sciences at the National Science Foundation.  The ABI program accepts three major types of proposals: Innovation awards that seek to pioneer new approaches to the application of informatics to biological problems, Development awards that seek to provide robust cyberinfrastructure that will enable transformative biological research, and Sustaining awards that seek to support ongoing operations and maintenance of existing cyberinfrastructure that is critical for continued advancement of priority biological research.">Hover to see abstract</td>
       <td align="left" style="padding:5px;">08 Sep 2017</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504952">CISE Research Initiation Initiative  (CRII)</a></td>
@@ -104,6 +110,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;">United States</td>
       <td align="left" style="padding:5px;" title="With the goal of encouraging research independence immediately upon obtaining one's first academic position after receipt of the PhD, the Directorate for Computer and Information Science and Engineering (CISE) will award grants to initiate the course of one's independent research. Understanding the critical role of establishing that independence early in one's career, it is expected that funds will be used to support untenured faculty or research scientists (or equivalent) in their first three years in a primary academic position after the PhD, but not more than a total of five years after completion of their PhD. One may not yet have received any other grants or contracts in the Principal Investigator (PI) role from any department, agency, or institution of the federal government, including from the CAREER program or any other program, post-PhD, regardless of the size of the grant or contract, with certain exceptions noted below. Serving as co-PI, Senior Personnel, Postdoctoral Fellow, or other Fellow does not count against this eligibility rule. Grants, contracts, or gifts from private companies or foundations; state, local, or tribal governments; or universities do not count against this eligibility rule.">Hover to see abstract</td>
       <td align="left" style="padding:5px;">09 Aug 2017</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
      <tr bgcolor="#bbd">
@@ -114,6 +121,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;">United States</td>
       <td align="left" style="padding:5px;" title="ITEST is a program that promotes PreK-12 student interests and capacities to participate in the science, technology, engineering, and mathematics (STEM) and information and communications technology (ICT) workforce of the future. To achieve this objective, ITEST supports the development, implementation, and selective spread of innovative strategies for engaging students in experiences that: (1) increase student awareness of STEM and ICT careers; (2) motivate students to pursue the education necessary to participate in those careers; and/or (3) provide students with technology-rich experiences that develop their knowledge of related content and skills (including critical thinking skills) needed for entering the STEM workforce. ITEST projects may adopt an interdisciplinary focus on multiple STEM domains, focus on a single domain, or focus on one or more sub-disciplines within a domain. ITEST projects must involve students, and may also include teachers. The ITEST program is especially interested in broadening participation of students from traditionally underrepresented groups in STEM fields and related education and workforce domains. Projects that actively engage business and industry partners to better ensure that PreK-12 experiences foster the knowledge and skill-sets needed for emerging STEM-related occupations are strongly encouraged. ITEST supports two project types: Strategies projects and SPrEaD (Successful Project Expansion and Dissemination) projects. Strategies projects support the design, implementation, and testing of innovative educational experiences that support the objectives of the ITEST program. SPrEaD projects support the wider and broader testing and dissemination of promising strategies to generate evidence and greater understanding of contextual factors that operate to enhance, moderate, or constrain anticipated project impacts. All ITEST projects may include activities designed to inform judgments regarding the feasibility of implementing strategies in typical learning environments associated with formal classrooms, out-of-school settings, or combinations of such environments. The ITEST program also invites proposals for an ITEST Resource Center to provide technical assistance to projects and provide assistance with the outreach activities of the ITEST program.">Hover to see abstract</td>
       <td align="left" style="padding:5px;">09 Aug 2017</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
     <tr bgcolor="#bdb">
@@ -124,6 +132,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
           <td align="left" style="padding:5px;">United States</td>
           <td align="left" style="padding:5px;" title="This AFRI Challenge Area focuses on multidisciplinary systems approaches, which integrate new technologies and strategic management that solve water availability and quality challenges in food production systems. The long-term goal of this program is to sustainably increase agricultural productivity and availability of safe and nutritious food while significantly reducing water use and preserving water quality. The projects are expected to transform how abundant, safe, and nutritious food is produced, processed, distributed, and consumed within the limits of available water from traditional and non-traditional sources. Applications are invited from eligible entities to submit integrated Research, Education and/or Extension projects in two specific grant types: Coordinated Agricultural Projects (CAP) and Strengthening (Food and Agricultural Science Enhancement) CAP grants — see Water for Food Production Systems RFA for details.">Hover to see abstract</td>
           <td align="left" style="padding:5px;">02 Aug 2017</td>
+          <td align="left" style="padding:5px;"></td>
     </tr>
 
     <tr bgcolor="#bbd">
@@ -136,6 +145,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
           title="The Department of Defense (DoD) announces the Fiscal Year 2018 Defense University Research Instrumentation Program (DURIP). DURIP is designed to improve the capabilities of accredited United States (U.S.) institutions of higher education to conduct research and to educate scientists and engineers in areas important to national defense, by providing funds for the acquisition of research equipment or instrumentation. For-profit organizations are not eligible for DURIP funding. We refer to eligible institutions of higher education as universities in the rest of this announcement. DURIP is part of the University Research Initiative (URI).">Hover to see abstract      
       </td>
       <td align="left" style="padding:5px;">07 July 2017</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
  <tr bgcolor="#bdb">
@@ -150,6 +160,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
 The efforts supported by this solicitation do not overlap with, but are complementary to, EarthCube, a partnership between the Geosciences Directorate (GEO) and the Office of Cyberinfrasrtructure (OCI) to build an integrated geosciences-wide cyberinfrastructure (http://www.nsf.gov/pubs/2011/nsf11065/nsf11065.jsp).  The goal of EarthCube is to transform the conduct of research in the geosciences by supporting community-created cyberinfrastructure that integrates knowledge management across the geosciences.  The Geoinformatics solicitation will support efforts to create the underlying knowledge base and utilities that will be integrated, over time, through EarthCube.  Projects submitted to the Geoinformatics solicitation should be proposed using modern software techniques and standards that facilitate eventual integration into a geoscience-wide knowledge system.">Hover to see abstract      
           </td>
           <td align="left" style="padding:5px;">03 July 2017</td>
+          <td align="left" style="padding:5px;"></td>
   </tr>
 
     <tr bgcolor="#bbd">
@@ -166,6 +177,7 @@ The efforts supported by this solicitation do not overlap with, but are compleme
           Through a special partnership, the Institute of Museum and Library Services (IMLS) anticipates providing additional funding to this program to encourage innovative collaborations between museum or library professionals and humanities professionals to advance preservation of, access to, use of, and engagement with digital collections and services. Through this partnership, IMLS and NEH may jointly fund some DHAG projects that involve collaborations with museums and/or libraries.">Hover to see abstract      
           </td>
           <td align="left" style="padding:5px;">06 June 2017</td>
+          <td align="left" style="padding:5px;"></td>
         </tr>
 
   <tr bgcolor="#bdb">
@@ -180,6 +192,7 @@ The efforts supported by this solicitation do not overlap with, but are compleme
             ">Hover to see abstract      
       </td>
       <td align="left" style="padding:5px;">26 May 2017</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
     <tr bgcolor="#bbd">
@@ -194,6 +207,7 @@ The efforts supported by this solicitation do not overlap with, but are compleme
 The Presidents' Collaborative Research Initiative provides up to $50,000 per award to develop collaborative projects involving faculty from at least two of the three participating TTUS institutions. Up to 4 awards will be made. The goal and expectation is that the institutional support for each collaborative research grant will lead to submission of a competitive proposal to a major federal funding agency within 18 months.">Hover to see abstract      
       </td>
       <td align="left" style="padding:5px;">LOI: 15 May 2017 <br/> Application: 16 June 2017 </td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
     
     <tr bgcolor="#bdb">
@@ -212,6 +226,7 @@ The Presidents' Collaborative Research Initiative provides up to $50,000 per awa
           National Institute of Mental Health (NIMH) ">Hover to see abstract      
       </td>
       <td align="left" style="padding:5px;">07 May 2017</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
     <tr bgcolor="#bbd">
@@ -224,6 +239,7 @@ The Presidents' Collaborative Research Initiative provides up to $50,000 per awa
               title="NSWC Crane is interested in funding research of advanced 3D Visualization renderings from dynamic (moving) platforms. This proposed research is to assess techniques currently utilized in a static environment and determine approaches to utilize several moving platforms in creating the 3D visualization of the scene.">Hover to see abstract
           </td>
           <td align="left" style="padding:5px;">19 Apr 2017</td>
+          <td align="left" style="padding:5px;">Submitted</td>
         </tr>
 
       <tr bgcolor="#bdb">
@@ -236,6 +252,7 @@ The Presidents' Collaborative Research Initiative provides up to $50,000 per awa
               title="Supports applications for innovative mathematical or computational research projects addressing questions that will advance our knowledge in any aspect of cancer. Areas of interest include data analysis of cellular pathways, microarrays, cellular imaging, cancer imaging or genomic, proteomic, and metabolomic databases; descriptive mathematical models of cancer, as well as mechanistic models of cellular processes and interactions and use of artificial intelligence approaches to build new tools for mining cancer research and treatment databases.">Hover to see abstract
           </td>
           <td align="left" style="padding:5px;">Mar 15 - Jun 8, 2017</td>
+          <td align="left" style="padding:5px;"></td>
       </tr>
 
     <tr bgcolor="#bbd">
@@ -253,6 +270,7 @@ The Presidents' Collaborative Research Initiative provides up to $50,000 per awa
 
       Fellows are makers and doers passionate about the open internet. They may bring specialities in data visualization, design, development, storytelling, research or policy analysis. While they may not have previous experience with internet advocacy, policy or activism, they are comfortable performing as technologists, experimenters and curious contributors to the open internet movement.">Hover to see abstract</td>
       <td align="left" style="padding:5px;">20 Mar 2017 <br/>Anticipated</td>
+      <td align="left" style="padding:5px;"></td>
     </tr>
 
     </table>
