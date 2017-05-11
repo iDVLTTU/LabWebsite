@@ -102,7 +102,23 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;">08 Sep 2017</td>
       <td align="left" style="padding:5px;"></td>
     </tr>
-    <tr bgcolor="#bdb">
+
+      <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">Research Experiences for Undergraduates  (REU)</a></td>
+      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+      <td align="left" style="padding:5px;">Unrestricted</td>
+      <td align="left" style="padding:5px;" 
+          title="The Research Experiences for Undergraduates (REU) program supports active research participation by undergraduate students in any of the areas of research funded by the National Science Foundation. REU projects involve students in meaningful ways in ongoing research programs or in research projects specifically designed for the REU program. This solicitation features two mechanisms for support of student research: (1) REU Sites are based on independent proposals to initiate and conduct projects that engage a number of students in research. REU Sites may be based in a single discipline or academic department or may offer interdisciplinary or multi-department research opportunities with a coherent intellectual theme. Proposals with an international dimension are welcome. (2) REU Supplements may be included as a component of proposals for new or renewal NSF grants or cooperative agreements or may be requested for ongoing NSF-funded research projects.
+
+            ">Hover to see abstract      
+      </td>
+      <td align="left" style="padding:5px;">23 Aug 2017</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504952">CISE Research Initiation Initiative  (CRII)</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504952">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -113,7 +129,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-     <tr bgcolor="#bbd">
+     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5467&org=NSF&sel_org=NSF&from=fund">Innovative Technology Experiences for <br/>Students and Teachers  (ITEST)</a></td>
       <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5467&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -124,7 +140,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
           <td align="left" style="padding:5px;"><a href="https://nifa.usda.gov/funding-opportunity/agriculture-and-food-research-initiative-water-food-production-systems-challenge">Agriculture and Food Research Initiative</a></td>
           <td align="left" style="padding:5px;"><a href="https://nifa.usda.gov/">NIFA</a></td>
           <td align="left" style="padding:5px;">Total $34,000,000</td>
@@ -135,7 +151,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
           <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292128">Fiscal Year 2018 Defense University <br/>Research Instrumentation Program (DURIP)</a></td>
       <td align="left" style="padding:5px;"><a href="http://www.wpafb.af.mil/Welcome/Fact-Sheets/Display/Article/842050">AFOSR</a></td>
       <td align="left" style="padding:5px;">Upper  $1,500,000  <br/> Lower  $50,000</td>
@@ -148,7 +164,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
- <tr bgcolor="#bdb">
+ <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503447&org=NSF&sel_org=NSF&from=fund">Geoinformatics  (GI)</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503447&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -163,7 +179,7 @@ The efforts supported by this solicitation do not overlap with, but are compleme
           <td align="left" style="padding:5px;"></td>
   </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://www.neh.gov/grants/odh/digital-humanities-advancement-grants">Digital Humanities Advancement Grants</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.neh.gov/grants/odh/digital-humanities-advancement-grants">NEH</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -180,20 +196,6 @@ The efforts supported by this solicitation do not overlap with, but are compleme
           <td align="left" style="padding:5px;"></td>
         </tr>
 
-  <tr bgcolor="#bdb">
-      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">Research Experiences for Undergraduates  (REU)</a></td>
-      <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
-      <td align="left" style="padding:5px;">Unspecified</td>
-      <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
-      <td align="left" style="padding:5px;">Unrestricted</td>
-      <td align="left" style="padding:5px;" 
-          title="The Research Experiences for Undergraduates (REU) program supports active research participation by undergraduate students in any of the areas of research funded by the National Science Foundation. REU projects involve students in meaningful ways in ongoing research programs or in research projects specifically designed for the REU program. This solicitation features two mechanisms for support of student research: (1) REU Sites are based on independent proposals to initiate and conduct projects that engage a number of students in research. REU Sites may be based in a single discipline or academic department or may offer interdisciplinary or multi-department research opportunities with a coherent intellectual theme. Proposals with an international dimension are welcome. (2) REU Supplements may be included as a component of proposals for new or renewal NSF grants or cooperative agreements or may be requested for ongoing NSF-funded research projects.
-
-            ">Hover to see abstract      
-      </td>
-      <td align="left" style="padding:5px;">26 May 2017</td>
-      <td align="left" style="padding:5px;"></td>
-    </tr>
 
     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://www.depts.ttu.edu/vpr/award-ops/collaborative-research.php">Presidents' Collaborative Research Initiative</a></td>
