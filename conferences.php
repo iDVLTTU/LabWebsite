@@ -22,15 +22,6 @@ include 'header.php';
       <td> <b>Poster</b></td>
     </tr>
 
-    <tr bgcolor="#bdb">
-      <td align="left" style="padding:5px;"><a href="http://www.ivapp.visigrapp.org/?y=2018">IVAPP 2018</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Jan 27-29</td>
-      <td align="left" style="padding:5px;">Madeira, Portugal</td>
-      <td align="left" style="padding:5px;">Jul 31</td>
-      <td align="left" style="padding:5px;">Oct 20</td>
-      <td align="left" style="padding:5px;"></td>
-    </tr>
 
     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://www.imaging.org/Site/IST/Conferences/EI_2017/Conference/C_VDA.aspx?WebsiteKey=6d978a6f-475d-46cc-bcf2-7a9e3d5f8f82&hkey=5e3927ba-0e0e-45ca-b83c-ad367e6b0df2&New_ContentCollectionOrganizerCommon=1">VDA 2018</a></td>
@@ -43,7 +34,36 @@ include 'header.php';
     </tr>
 
 
+    <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="http://www.ivapp.visigrapp.org/?y=2018">IVAPP 2018</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Jan 27-29</td>
+      <td align="left" style="padding:5px;">Madeira, Portugal</td>
+      <td align="left" style="padding:5px;">Jul 31</td>
+      <td align="left" style="padding:5px;">Oct 20</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
 
+     <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="https://vadl2017.github.io/">VADL 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Oct 01-02</td>
+      <td align="left" style="padding:5px;">Phoenix, AZ.</td>
+      <td align="left" style="padding:5px;">Jul 21</td>
+      <td align="left" style="padding:5px;">Aug 04</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+
+
+     <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="http://voila2017.visualdataweb.org/">Viola 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Oct 21-22</td>
+      <td align="left" style="padding:5px;">Vienna, Austria</td>
+      <td align="left" style="padding:5px;">Abstract: Jul 14 <br/>Submission: Jul 21</td>
+      <td align="left" style="padding:5px;">Aug 24</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
 
     <tr bgcolor="#caa">
       <td align="left" style="padding:5px;"><a href="http://vizsec.org/vizsec2017/#cfp">VizSec</a></td>
