@@ -1,4 +1,5 @@
 # iDVL website
-Lab website: https://idatavisualizationlab.github.io/web/
+Lab website: http://www.myweb.ttu.edu/tnhondan/iDVL/index.php
+https://idatavisualizationlab.github.io/web/
 
 http://lo-th.github.io/olympe/
