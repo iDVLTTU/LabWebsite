@@ -65,6 +65,28 @@ include 'header.php';
       <td align="left" style="padding:5px;"></td>
     </tr>
 
+     <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=64484&copyownerid=99603">VAMrE 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Oct 09</td>
+      <td align="left" style="padding:5px;">Nantes (France)</td>
+      <td align="left" style="padding:5px;">Jul 03</td>
+      <td align="left" style="padding:5px;">Aug 07</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+
+
+     <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=57057&copyownerid=87854">VRST 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Nov 8-10</td>
+      <td align="left" style="padding:5px;">Gothenburg, Sweden</td>
+      <td align="left" style="padding:5px;">Jun 30</td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+
+
     <tr bgcolor="#caa">
       <td align="left" style="padding:5px;"><a href="http://vizsec.org/vizsec2017/#cfp">VizSec</a></td>
       <td align="left" style="padding:5px;"></td>
