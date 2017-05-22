@@ -192,7 +192,7 @@ include 'header.php';
         </tr>
 
 
-     <tr bgcolor="#bbd">
+     <tr bgcolor="#bdb">
           <td align="left" style="padding:5px;"><a href="https://sa2017.siggraph.org/submitters">SIGGRAPH Asia 2017</a></td>
           <td align="left" style="padding:5px;"></td>
           <td align="left" style="padding:5px;">Nov 27-30</td>
@@ -202,7 +202,7 @@ include 'header.php';
           <td align="left" style="padding:5px;">Aug 15</td>
         </tr>
 
-        <tr bgcolor="#bdb">
+        <tr bgcolor="#bbd">
           <td align="left" style="padding:5px;"><a href="http://www.bdva.net/">BDVA 2017</a></td>
           <td align="left" style="padding:5px;"></td>
           <td align="left" style="padding:5px;">Nov 7-10</td>
@@ -213,7 +213,7 @@ include 'header.php';
         </tr>
 
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
           <td align="left" style="padding:5px;"><a href="https://gd2017.ccis.northeastern.edu/">GD 2017</a></td>
           <td align="left" style="padding:5px;">Graph Drawing</td>
           <td align="left" style="padding:5px;">Sep 25-27</td>
@@ -222,6 +222,16 @@ include 'header.php';
           <td align="left" style="padding:5px;">Jul 28<br></td>
           <td align="left" style="padding:5px;">Aug 17</td>
         </tr>
+    
+     <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://voila2017.visualdataweb.org/">SIGSPATIAL 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Nov 07-10</td>
+      <td align="left" style="padding:5px;">Vienna, Austria</td>
+      <td align="left" style="padding:5px;">Abstract: Jun 06 <br/>Submission: Jun 13</td>
+      <td align="left" style="padding:5px;">Aug 27</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
 
      <tr bgcolor="#bdb">
           <td align="left" style="padding:5px;"><a href="http://poloclub.gatech.edu/idea2017/">KDD 2017 Workshop</a></td>

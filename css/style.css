@@ -1231,8 +1231,12 @@ img:hover{
   margin-top: -12px;
   margin-bottom: 1px;
 }
-
-
+.hovereffect{
+  height: auto;
+}
+.hovereffect :hover{
+  
+}
 
 
 
