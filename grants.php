@@ -24,7 +24,7 @@ include 'header.php';
     </tr>
 
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -40,7 +40,7 @@ include 'header.php';
        <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/163089">Innovations at the Nexus of Food, Energy and Water Systems</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505241&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
@@ -64,7 +64,7 @@ include 'header.php';
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://research.googleblog.com/2017/02/google-research-awards-2016.html">Google Research Awards</a></td>
       <td align="left" style="padding:5px;"><a href="https://research.google.com/research-outreach.html#/research-outreach/faculty-engagement/faculty-research-awards">Google</a></td>
       <td align="left" style="padding:5px;">Upper $150,000</td>
@@ -78,7 +78,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#bdb">
+    <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505264">Big Data Regional Innovation Hubs: Establishing <br/>Spokes to Advance Big Data Applications (BD Spokes)</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505264">NSF</a></td>
       <td align="left" style="padding:5px;">Upper  $1,000,000</td>
@@ -92,7 +92,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-     <tr bgcolor="#bbd">
+     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/68670">Advances in Biological Informatics</a></td>
       <td align="left" style="padding:5px;"><a href="">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -103,7 +103,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-      <tr bgcolor="#bdb">
+      <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">Research Experiences for Undergraduates  (REU)</a></td>
       <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5517&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -118,7 +118,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504952">CISE Research Initiation Initiative  (CRII)</a></td>
       <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=504952">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -129,7 +129,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-     <tr bgcolor="#bdb">
+     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5467&org=NSF&sel_org=NSF&from=fund">Innovative Technology Experiences for <br/>Students and Teachers  (ITEST)</a></td>
       <td align="left" style="padding:5px;"><a href="https://nsf.gov/funding/pgm_summ.jsp?pims_id=5467&org=NSF&sel_org=NSF&from=fund">NSF</a></td>
       <td align="left" style="padding:5px;">Unspecified</td>
@@ -140,7 +140,7 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#bbd">
+    <tr bgcolor="#bdb">
           <td align="left" style="padding:5px;"><a href="https://nifa.usda.gov/funding-opportunity/agriculture-and-food-research-initiative-water-food-production-systems-challenge">Agriculture and Food Research Initiative</a></td>
           <td align="left" style="padding:5px;"><a href="https://nifa.usda.gov/">NIFA</a></td>
           <td align="left" style="padding:5px;">Total $34,000,000</td>
@@ -150,6 +150,21 @@ Our goal is to identify and strengthen long-term collaborative relationships wit
           <td align="left" style="padding:5px;">02 Aug 2017</td>
           <td align="left" style="padding:5px;"></td>
     </tr>
+    <tr bgcolor="#bbd">
+          <td align="left" style="padding:5px;"><a href="https://www.arl.army.mil/www/pages/8/2018-MURI-N00014-17-S-F006.pdf">
+Multidisciplinary University Research Initiatives (MURI) Program</a></td>
+          <td align="left" style="padding:5px;"><a href="https://www.arl.army.mil/www/pages/8/2018-MURI-N00014-17-S-F006.pdf">Army.mil</a></td>
+          <td align="left" style="padding:5px;">Total $170M</td>
+          <td align="left" style="padding:5px;">Institutions of Higher Ed</td>
+          <td align="left" style="padding:5px;">United States</td>
+          <td align="left" style="padding:5px;" title="The MURI program supports basic research in science and engineering at U.S. institutions of higher
+education (hereafter referred to as universities) that is of potential interest to DoD. The program is
+focused on multidisciplinary research efforts where more than one traditional discipline interacts to
+provide rapid advances in scientific areas of interest to the DoD.">Hover to see abstract</td>
+          <td align="left" style="padding:5px;">White paper: 17 July <br>Proposal: 01 Nov 2017</td>
+          <td align="left" style="padding:5px;"></td>
+    </tr>
+
 
     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=292128">Fiscal Year 2018 Defense University <br/>Research Instrumentation Program (DURIP)</a></td>
