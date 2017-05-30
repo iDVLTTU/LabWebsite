@@ -323,7 +323,15 @@ include 'header.php';
       <td align="left" style="padding:5px;">Mar 13</td>
     </tr>
 
-
+<tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="http://www.graphicslink.co.uk/IV2017/">IV2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">July 23-27</td>
+      <td align="left" style="padding:5px;">London, UK</td>
+      <td align="left" style="padding:5px;">Mar 31 2017</td>
+      <td align="left" style="padding:5px;">Apr 30 2017<br></td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
 
     <tr bgcolor="#88d">
       <td align="left" style="padding:5px;"><a href="http://www.vis.uni-stuttgart.de/egpgv/egpgv2017/">EGPGV '17</a></td>
@@ -334,6 +342,8 @@ include 'header.php';
       <td align="left" style="padding:5px;">Apr 21</td>
       <td align="left" style="padding:5px;">Mar 25 (short)</td>
     </tr>
+
+
 
     <tr bgcolor="#88d">
       <td align="left" style="padding:5px;"><a href="http://www.informatik.uni-leipzig.de/~envirvis2017/">EuroVA 2017</a></td>
