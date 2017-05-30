@@ -284,6 +284,8 @@ The Presidents' Collaborative Research Initiative provides up to $50,000 per awa
           <td align="left" style="padding:5px;"></td>
       </tr>
 
+
+
     <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/169222">Ford-Mozilla Open Web Fellow Program</a></td>
       <td align="left" style="padding:5px;"><a href="https://advocacy.mozilla.org/en-US/open-web-fellows/overview">Mozilla</a></td>
@@ -299,6 +301,42 @@ The Presidents' Collaborative Research Initiative provides up to $50,000 per awa
 
       Fellows are makers and doers passionate about the open internet. They may bring specialities in data visualization, design, development, storytelling, research or policy analysis. While they may not have previous experience with internet advocacy, policy or activism, they are comfortable performing as technologists, experimenters and curious contributors to the open internet movement.">Hover to see abstract</td>
       <td align="left" style="padding:5px;">20 Mar 2017 <br/>Anticipated</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+  <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/pubs/2016/nsf16527/nsf16527.htm">STEM + Computing Partnerships (STEM+C)</a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/pubs/2016/nsf16527/nsf16527.htm">NSF</a></td>
+      <td align="left" style="padding:5px;">Total $47,000,000</td>
+      <td align="left" style="padding:5px;">No restriction</td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;" title="The STEM+Computing Partnerships program seeks to significantly enhance the learning and teaching of science, technology, engineering, mathematics (STEM), and computing by K-12 students and teachers through research on, and development of, courses, curriculum, course materials, pedagogies, instructional strategies, models, or pedagogical environments that innovatively integrate computing into one or more other STEM disciplines, or integrate STEM content into the teaching and learning of computing. In addition, STEM+C seeks to build capacity in K-12 computing education with foundational research and focused teacher preparation. Projects in the STEM+C program should build on research in STEM education and prior research and development efforts that provide theoretical and empirical justification for proposed projects. Pre-service and in-service teachers who participate in STEM+C projects are expected to enhance their understanding and teaching of STEM and computing content, practices, and skills.">Hover to see abstract</td>
+      <td align="left" style="padding:5px;">14 Mar 2017</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+
+      <tr bgcolor="#bdb">
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/pubs/2017/nsf17525/nsf17525.htm">
+Computer Science for All (CS for All: RPP) </a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/pubs/2017/nsf17525/nsf17525.htm">NSF</a></td>
+      <td align="left" style="padding:5px;">Total $20,000,000</td>
+      <td align="left" style="padding:5px;">No restriction</td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;" title="This program aims to provide all U.S. students the opportunity to participate in computer science (CS) and computational thinking (CT) education in their schools at the K-12 levels. With this solicitation, the National Science Foundation (NSF) focuses on researcher-practitioner partnerships (RPPs) that foster the research and development needed to bring CS/CT to all schools. Specifically, this solicitation aims to provide high school teachers with the preparation, professional development (PD) and ongoing support that they need to teach rigorous computer science courses, and K-8 teachers with the instructional materials and preparation they need to integrate CS/CT into their teaching.">Hover to see abstract</td>
+      <td align="left" style="padding:5px;">28 Feb 2017</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+
+
+    <tr bgcolor="#bbd">
+      <td align="left" style="padding:5px;"><a href="https://www.depts.ttu.edu/vpr/funding/sgir.php">Seed Grant for Interdisciplinary Research</a></td>
+      <td align="left" style="padding:5px;"><a href="https://www.depts.ttu.edu/vpr/funding/sgir.php">TTU</a></td>
+      <td align="left" style="padding:5px;">Upper  $150,000<br/> Lower  $50,000</td>
+      <td align="left" style="padding:5px;">Faculties or Investigators</td>
+      <td align="left" style="padding:5px;">Unspecified</td>
+      <td align="left" style="padding:5px;" title="The Seed Grants for Interdisciplinary Research (SGIR) was designed to promote interdisciplinary research and scholarly activities among tenure and tenure-track faculty. In addition to attracting federal funding that would support collaborations the SGIR prmoted research that included the arts, education, humanities and/or social sciences.
+
+The SGIR provided $1,200,000 in total funding to 10 awardees in during two rounds in 2016 and 2017. Over 100 proposals were received which included budgets from $50,000 to $150,000 and were competitively reviewed by their peers.">Hover to see abstract</td>
+      <td align="left" style="padding:5px;">22 Dec 2016</td>
       <td align="left" style="padding:5px;"></td>
     </tr>
 
