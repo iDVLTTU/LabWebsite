@@ -25,6 +25,33 @@ include 'header.php';
 
 
     <tr bgcolor="#bdb">
+        <td align="left" style="padding:5px;"><a href="https://www.federalregister.gov/documents/2017/05/24/2017-10663/applications-for-new-awards-educational-technology-media-and-materials-for-individuals-with">Digital Learning Environments To Improve Results for Children With Disabilities</a></td>
+        <td align="left" style="padding:5px;"><a href="">Federal Register</a></td>
+        <td align="left" style="padding:5px;">Below  $1,000,000</td>
+        <td align="left" style="padding:5px;">Academic, Public Agencies</td>
+
+        <td align="left" style="padding:5px;">United States</td>
+        <td align="left" style="padding:5px;"
+            title="The purposes of the Educational Technology, Media, and Materials for Individuals with Disabilities Program are to: (1) Improve results for students with disabilities by promoting the development, demonstration, and use of technology; (2) support educational activities designed to be of educational value in the classroom for students with disabilities; (3) provide support for captioning and video description that is appropriate for use in the classroom; and (4) provide accessible educational materials to students with disabilities in a timely manner.">Hover to see abstract
+        </td>
+        <td align="left" style="padding:5px;">10 Jul 2017</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+    <tr bgcolor="#bbd">
+        <td align="left" style="padding:5px;"><a href="http://www.beckman-foundation.org/programs/beckman-young-investigators-program-information">Beckman Young Investigators Program Information<</a></td>
+        <td align="left" style="padding:5px;"><a href="">beckman-foundation</a></td>
+        <td align="left" style="padding:5px;">Below  $225,000</td>
+        <td align="left" style="padding:5px;">Academic Institution <br/> New Faculty/New Investigator</td>
+        <td align="left" style="padding:5px;">United States</td>
+        <td align="left" style="padding:5px;"
+            title="The Beckman Young Investigator (BYI) Program provides research support to the most promising young faculty members in the early stages of their academic careers in the chemical and life sciences, particularly to foster the invention of methods, instruments and materials that will open up new avenues of research in science.">Hover to see abstract
+        </td>
+        <td align="left" style="padding:5px;">14 Aug 2017</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+    <tr bgcolor="#bdb">
       <td align="left" style="padding:5px;"><a href="http://pivot.cos.com/funding_opps/171458">Immersive Sciences for Training, Education,<br/> Mission Rehearsal, and Operations</a></td>
       <td align="left" style="padding:5px;"><a href="">DOD</a></td>
       <td align="left" style="padding:5px;">Upper  $3,000,000</td>
