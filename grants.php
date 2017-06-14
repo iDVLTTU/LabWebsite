@@ -23,6 +23,19 @@ include 'header.php';
       <td> <b>Status</b></td>
     </tr>
 
+    <tr bgcolor="#bbd">
+        <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=294449">Young Investigator Program (YIP)<</a></td>
+        <td align="left" style="padding:5px;"><a href="">Office of Naval Research (ONR)</a></td>
+        <td align="left" style="padding:5px;">$170,000 per year for three (3) years</td>
+        <td align="left" style="padding:5px;"> U.S. Institutions of Higher Education<br/>US citizen <br/>first or second year full-time tenure-track</td>
+        <td align="left" style="padding:5px;">United States</td>
+        <td align="left" style="padding:5px;"
+            title="The Office of Naval Research (ONR) is interested in receiving proposals for its Young Investigator Program (YIP). ONR's Young Investigator Program (YIP) seeks to identify and support academic scientists and engineers who are in their first or second full-time tenure-track or tenure-track-equivalent academic appointment, have begun their first appointment on or after 31 December 2012, and who show exceptional promise for doing creative research. The objectives of this program are to attract outstanding faculty members of Institutions of Higher Education (hereafter also called 'universities') to the Department of the Navy's Science and Technology (S&T) research program, to support their research, and to encourage their teaching and research careers. Proposals addressing research areas (as described in the ONR Science and Technology Department section of ONR's website at www.onr.navy.mil) which are of interest to ONR program officers will be considered">Hover to see abstract
+        </td>
+        <td align="left" style="padding:5px;">15 Sep 2017</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
 
     <tr bgcolor="#bdb">
         <td align="left" style="padding:5px;"><a href="https://www.federalregister.gov/documents/2017/05/24/2017-10663/applications-for-new-awards-educational-technology-media-and-materials-for-individuals-with">Digital Learning Environments To Improve Results for Children With Disabilities</a></td>
