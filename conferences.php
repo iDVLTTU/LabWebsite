@@ -22,6 +22,16 @@ include 'header.php';
       <td> <b>Poster</b></td>
     </tr>
 
+    <tr bgcolor="#bbd">
+        <td align="left" style="padding:5px;"><a href="http://vis4dh.dbvis.de/">Visualization for the Digital Humanities</a></td>
+        <td align="left" style="padding:5px;"></td>
+        <td align="left" style="padding:5px;">October, 2017</td>
+        <td align="left" style="padding:5px;"> Phoenix, Arizona, USA</td>
+        <td align="left" style="padding:5px;">Jul 21, 2017</td>
+        <td align="left" style="padding:5px;">Aug 11, 2017</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
     <tr bgcolor="#bdb">
         <td align="left" style="padding:5px;"><a href="http://immersiveanalytics.net/">Immersive Analytics 2017</a></td>
         <td align="left" style="padding:5px;"></td>
