@@ -23,6 +23,20 @@ include 'header.php';
       <td> <b>Status</b></td>
     </tr>
 
+    <tr bgcolor="#bdb">
+        <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/pubs/2017/nsf17522/nsf17522.htm">NSF INCLUDES</a></td>
+        <td align="left" style="padding:5px;"><a href="">NFS</a></td>
+        <td align="left" style="padding:5px;">Up to  $300,000</td>
+        <td align="left" style="padding:5px;">Identified in NSF Proposal & Award Policies & Procedures Guide (PAPPG)</td>
+
+        <td align="left" style="padding:5px;">United States</td>
+        <td align="left" style="padding:5px;"
+            title="Inclusion across the Nation of Communities of Learners of Underrepresented Discoverers in Engineering and Science (NSF INCLUDES) is a comprehensive national initiative designed to enhance U.S. leadership in science, technology, engineering and mathematics (STEM) discoveries and innovations focused on NSF's commitment to diversity, inclusion, and broadening participation in these fields. NSF INCLUDES supports efforts to create networked relationships among organizations whose goals include developing talent from all sectors of society to build the STEM workforce. This initiative seeks to improve collaborative efforts aimed at enhancing the preparation, increasing the participation, and ensuring the contributions of individuals from groups that have traditionally been underrepresented and underserved in the STEM enterprise: women, persons with disabilities, African Americans/Blacks, Hispanic Americans, American Indians, Alaska Natives, Native Hawaiians, Native Pacific Islanders, and persons from economically disadvantaged backgrounds. Significant advancement in the inclusion of these groups will result in a new generation of STEM talent and leadership to secure our nation’s future and long-term economic competitiveness.">Hover to see abstract
+        </td>
+        <td align="left" style="padding:5px;">14 Feb 2017</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
     <tr bgcolor="#bbd">
         <td align="left" style="padding:5px;"><a href="https://www.grants.gov/web/grants/view-opportunity.html?oppId=294449">Young Investigator Program (YIP)<</a></td>
         <td align="left" style="padding:5px;"><a href="">Office of Naval Research (ONR)</a></td>

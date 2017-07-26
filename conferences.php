@@ -22,6 +22,16 @@ include 'header.php';
       <td> <b>Poster</b></td>
     </tr>
 
+    <tr bgcolor="#bdb">
+        <td align="left" style="padding:5px;"><a href="http://ieeevr.org/2018/contribute/papers.html">IEEE VR 2018</a></td>
+        <td align="left" style="padding:5px;"></td>
+        <td align="left" style="padding:5px;">March, 2018</td>
+        <td align="left" style="padding:5px;">Reutlingen, Germany</td>
+        <td align="left" style="padding:5px;">Sep 04, 2017</td>
+        <td align="left" style="padding:5px;">Nov 08, 2017</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
     <tr bgcolor="#bbd">
         <td align="left" style="padding:5px;"><a href="http://vis4dh.dbvis.de/">Visualization for the Digital Humanities</a></td>
         <td align="left" style="padding:5px;"></td>
