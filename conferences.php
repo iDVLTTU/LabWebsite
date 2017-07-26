@@ -52,6 +52,7 @@ include 'header.php';
         <td align="left" style="padding:5px;"></td>
     </tr>
 
+
     <tr bgcolor="#bbd">
       <td align="left" style="padding:5px;"><a href="http://www.imaging.org/Site/IST/Conferences/EI_2017/Conference/C_VDA.aspx?WebsiteKey=6d978a6f-475d-46cc-bcf2-7a9e3d5f8f82&hkey=5e3927ba-0e0e-45ca-b83c-ad367e6b0df2&New_ContentCollectionOrganizerCommon=1">VDA 2018</a></td>
       <td align="left" style="padding:5px;"></td>
@@ -73,15 +74,6 @@ include 'header.php';
       <td align="left" style="padding:5px;"></td>
     </tr>
 
-     <tr bgcolor="#bbd">
-      <td align="left" style="padding:5px;"><a href="https://vadl2017.github.io/">VADL 2017</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">Oct 01-02</td>
-      <td align="left" style="padding:5px;">Phoenix, AZ.</td>
-      <td align="left" style="padding:5px;">Jul 21</td>
-      <td align="left" style="padding:5px;">Aug 04</td>
-      <td align="left" style="padding:5px;"></td>
-    </tr>
 
 
      <tr bgcolor="#bdb">
@@ -116,15 +108,7 @@ include 'header.php';
     </tr>
 
 
-    <tr bgcolor="#caa">
-      <td align="left" style="padding:5px;"><a href="http://vizsec.org/vizsec2017/#cfp">VizSec</a></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;"></td>
-      <td align="left" style="padding:5px;">VIS </td>
-      <td align="left" style="padding:5px;">Aug 8</td>
-      <td align="left" style="padding:5px;">Sep 5 <br></td>
-      <td align="left" style="padding:5px;">Sep 19 </td>
-    </tr>
+
 
     <tr bgcolor="#caa">
       <td align="left" style="padding:5px;"><a href="https://www.dkrz.de/SciVis/">SciVis Challenge</a></td>
@@ -135,6 +119,47 @@ include 'header.php';
       <td align="left" style="padding:5px;">Aug 31 <br></td>
       <td align="left" style="padding:5px;"> </td>
     </tr>
+     <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="https://vadl2017.github.io/">VADL 2017</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">Oct 01-02</td>
+      <td align="left" style="padding:5px;">Phoenix, AZ.</td>
+      <td align="left" style="padding:5px;">Jul 21</td>
+      <td align="left" style="padding:5px;">Aug 04</td>
+      <td align="left" style="padding:5px;"></td>
+    </tr>
+
+     <tr bgcolor="#caa">
+        <td align="left" style="padding:5px;"><a href="http://vis4dh.dbvis.de/">Visualization for the Digital Humanities</a></td>
+        <td align="left" style="padding:5px;"></td>
+        <td align="left" style="padding:5px;">October</td>
+        <td align="left" style="padding:5px;"> Phoenix, Arizona, USA</td>
+        <td align="left" style="padding:5px;"><b>Jul 21</b></td>
+        <td align="left" style="padding:5px;">Aug 11</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+    <tr bgcolor="#caa">
+        <td align="left" style="padding:5px;"><a href="http://immersiveanalytics.net/">Immersive Analytics 2017</a></td>
+        <td align="left" style="padding:5px;"></td>
+        <td align="left" style="padding:5px;">October</td>
+        <td align="left" style="padding:5px;">Phoenix, USA</td>
+        <td align="left" style="padding:5px;">Jul 21</td>
+        <td align="left" style="padding:5px;">Aug 16</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+    <tr bgcolor="#caa">
+      <td align="left" style="padding:5px;"><a href="http://vizsec.org/vizsec2017/#cfp">VizSec</a></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;"></td>
+      <td align="left" style="padding:5px;">VIS </td>
+      <td align="left" style="padding:5px;">Jul 18</td>
+      <td align="left" style="padding:5px;">Aug 15 <br></td>
+      <td align="left" style="padding:5px;">Aug 29 </td>
+    </tr>
+
+
     <tr bgcolor="#caa">
       <td align="left" style="padding:5px;"><a href="http://www.vacommunity.org/VAST+Challenge+2017">VAST Challenge</a></td>
       <td align="left" style="padding:5px;"></td>
@@ -151,7 +176,7 @@ include 'header.php';
       <td align="left" style="padding:5px;">Data Science</td>
       <td align="left" style="padding:5px;">Oct 1</td>
       <td align="left" style="padding:5px;">VIS </td>
-      <td align="left" style="padding:5px;">Jul 14</td>
+      <td align="left" style="padding:5px;"><b>Jul 14</b></td>
       <td align="left" style="padding:5px;">Aug 11 <br></td>
       <td align="left" style="padding:5px;"> </td>
     </tr>

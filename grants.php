@@ -27,7 +27,7 @@ include 'header.php';
         <td align="left" style="padding:5px;"><a href="https://www.nsf.gov/pubs/2017/nsf17522/nsf17522.htm">NSF INCLUDES</a></td>
         <td align="left" style="padding:5px;"><a href="">NFS</a></td>
         <td align="left" style="padding:5px;">Up to  $300,000</td>
-        <td align="left" style="padding:5px;">Identified in NSF Proposal & Award Policies & Procedures Guide (PAPPG)</td>
+        <td align="left" style="padding:5px;">Academic, Public Agencies</td>
 
         <td align="left" style="padding:5px;">United States</td>
         <td align="left" style="padding:5px;"
