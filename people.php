@@ -18,30 +18,19 @@ include 'header.php';
                 <h3>Vinh Nguyen</h3>
             </div>
         </div>
-        <div class="images imgThree long hovereffect">
+        <div class="images imgThree long hovereffect" style="opacity: .6; margin-left: 100px;">
             <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
             <div class="overlay">
                 <h3>Long Hoang</h3>
             </div>
         </div>
-        <div class="images imgFour yasin hovereffect">
+        <div class="images imgFour yasin hovereffect" style="opacity: .6; margin-left: 0px;">
             <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
             <div class="overlay">
                 <h3>Yasin Kabir</h3>
             </div>
         </div>
-        <div class="images imgFive nazanyn hovereffect">
-            <img src="images/people/nazanyn.png" width="auto" height="auto" alt="Nazanin Tabatabaei">
-            <div class="overlay">
-                <h3>Nazanin</h3>
-            </div>
-        </div>
-        <div class="images imgSix amit hovereffect" style="opacity: .6; margin-left: 10px;">
-            <img src="images/people/amit.jpg" width="auto" height="auto" alt="Amitsingh Pardeshi">
-            <div class="overlay">
-                <h3>Amitsingh</h3>
-            </div>
-        </div>
+        
         <div class="members">
           <div class="cFaculty">Director</div>
           <div class="currentMembers">Current students</div>
@@ -50,7 +39,6 @@ include 'header.php';
         <div class="personImgBorder" style="margin-bottom: 5px; margin-top: -3px;"></div> 
 
         <div class="infoArea content fullPage">
-         
             <div id="infOne"> 
                 <div  id="tommy" class="person">
                     <div class="personImg"></div>
@@ -145,8 +133,6 @@ include 'header.php';
                 </div>
             </div>
 
-                <div class="currentMembers curStd">Current students</div>
-                <div class="personBorder" style="clear: both;"></div>   
 
             <div id="infTwo">
                  <div  id="vinh" class="person">
@@ -218,12 +204,13 @@ include 'header.php';
                           ?> 
                       </div> 
                     </div> 
-                     
+                     <br>
+            
                     <div class="personBorder"></div>                 
                 </div>
             </div>
 
-            <div id="infThree">
+            <div id="infThree" style="opacity: .6;" >
                  <div  id="long" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
@@ -296,7 +283,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="infFour">
+            <div id="infFour" style="opacity: .6;" >
                 <div  id="yasin" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
@@ -368,149 +355,8 @@ include 'header.php';
                     
                 </div>
             </div>
-            <div id="infFive">
-                <div  id="nazanyn" class="person">
-                    <div class="personImg"></div>
-                    <div class="personInfo">
-                      <h3>Nazanin Tabatabaei, <span class="designation">MS Student</span></h3>
-                      <p class="shortInfo">
-                        Nazanin completed her bachelor's degree in Architecture at University of Tehran, Iran in 2014. She received her master's degree in Digital Design and Fabrication at Texas Tech University in 2017. She has recently started her MS in computer science at the same time that she is working on her PhD in Land-use,Planning,Management and Design. Her great passion in computer animation, digital art and game design influenced her to join  iDVL lab in 2017.
-
-                      </p>
-                      <p class="personLinks">
-
-                         <a href="./file/Nazanyn.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Nazanin CV"/></a> &nbsp; 
-
-
-                        <a style="opacity: .2;"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Nazanin Tabatabaei"/></a> &nbsp; 
-  
-                        <a style="opacity: .2;"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
-  
-                        <a style="opacity: .2;"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
-
-                        <a style="opacity: .2;"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
-                      </p> 
-                      <div class="personPub" id="nazanynPub">
-                          <?PHP
-                            
-                            $hasPub = 0;
-                            for($i=1;$i<$len1;$i++){
-                              if($csv[$i][16]==1){
-                                $hasPub = 1;
-                                break;
-                              }
-                            }
-
-                           if($hasPub==1){ ?>
-                              <br/><h4>Recent Publications:</h4>
-                          <?php 
-                            for($i=1;$i<$len1;$i++){
-                              if($csv[$i][16]==1){
-                          ?>
-                          <div class="publicationArea">
-                          <table style="width:100%; margin-left: 25px;">
-                          <tr>
-                              <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
-                              </th>
-                              <th width="85%" style="padding-left: 25px;"> 
-                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
-                                  <i><?php echo $csv[$i][1] ?></i><br/>
-                                  <?php echo $csv[$i][2] ?><br/>
-                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
-                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons/pdf.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons/movie.png" height="19"></a>
-                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons/bibtex.png" height="13"></a> 
-                                  
-                              </th>
-                          </tr>
-                          </table>
-                          </div>
-                          <?php
-                              }                
-                            }
-                          }
-                          ?> 
-                      </div> 
-                    </div>  
-
-                    <div class="personBorder"></div>                
-                </div>
-            </div>
-                <div class="currentMembers curStd">Past students</div>
-                <div class="personBorder" style="clear: both;"></div>   
-            <div id="infSix" style="opacity: .6;"" >
-                <div  id="amit" class="person">
-                    <div class="personImg"></div>
-                    <div class="personInfo">
-                      <h3>Amitsingh Pardeshi, <span class="designation">MS Student</span></h3>
-                      <p class="shortInfo">
-                        Amit completed Bachelor degree in Computer Engineering at Mumbai University in 2009. 
-                        After the bachelors, he had been working for a few software firms (such as Mastek PVT. LTD and Ignitiv Technologies PVT. LTD) in India as a software engineer before joining iDVL as a Master student. 
-                        He has interests in learning data visualization and big data processing related technologies.
-
-                      </p>
-                      <p class="personLinks">
-
-                         <a href="https://github.com/iDataVisualizationLab/web/raw/master/file/Amit_resume.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Amitsingh CV"/></a> &nbsp; 
-
-
-                        <a href="http://myweb.ttu.edu/apardesh/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Amitsingh Pardeshi"/></a> &nbsp; 
-  
-                        <a href="https://www.linkedin.com/in/amit-pardesi-95340277"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
-  
-                        <a href="https://github.com/pardeshiamitsingh"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
-
-                        <a href="https://scholar.google.com/citations?user=jWJAhKoAAAAJ&hl=en"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
-                      </p> 
-                      <div class="personPub" id="amitPub">
-                          <?PHP
-                            
-                            $hasPub = 0;
-                            for($i=1;$i<$len1;$i++){
-                              if($csv[$i][17]==1){
-                                $hasPub = 1;
-                                break;
-                              }
-                            }
-
-                           if($hasPub==1){ ?>
-                              <br/><h4>Recent Publications:</h4>
-                          <?php 
-                            for($i=1;$i<$len1;$i++){
-                              if($csv[$i][17]==1){
-                          ?>
-                          <div class="publicationArea">
-                          <table style="width:100%; margin-left: 25px;">
-                          <tr>
-                              <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
-                              </th>
-                              <th width="85%" style="padding-left: 25px;"> 
-                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
-                                  <i><?php echo $csv[$i][1] ?></i><br/>
-                                  <?php echo $csv[$i][2] ?><br/>
-                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
-                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons/pdf.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons/movie.png" height="19"></a>
-                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons/bibtex.png" height="13"></a> 
-                                  
-                              </th>
-                          </tr>
-                          </table>
-                          </div>
-                          <?php
-                              }                
-                            }
-                          }
-                          ?> 
-                      </div> 
-                    </div>    
-                    <div class="personBorder"></div>                
-                </div>
-            </div>
+            
+           
 
          <div class="peopleSlide">
               <iframe src="./peopleSlide.html" width="750px"></iframe>

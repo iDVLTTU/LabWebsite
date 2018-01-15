@@ -13,7 +13,7 @@ include 'header.php';
        <li>Sonia Baee, Tommy Dang, and Md. Yasin Kabir. Submitting a paper to VAHC 2017 on May 31.</li><br>
             <li>Vinh Nguyen and Tommy Dang. Submitting a paper to GLBIO 2017 on March 13.</li><br> 
         </ul>-->
-      <h4>IN SUBMISSION</h4>
+      <!--<h4>IN SUBMISSION</h4>
         <ul>
           <li>Vinh Nguyen and Tommy Dang. VDS 2017.</li><br>
           <li>Vinh Nguyen and Tommy Dang. VAMrE 2017.</li><br>
@@ -21,8 +21,7 @@ include 'header.php';
           <li>Tommy Dang, Paul Murray, and Angus Forbes. VOILA 2017.</li><br>
         </ul>
 
-          <div class="Border"></div> 
-          <h4>PAPERS</h4>
+          <div class="Border"></div> -->
            <!-- <ul>
 
                 <?php
