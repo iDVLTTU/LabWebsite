@@ -547,7 +547,6 @@ ul#nav li a:hover, ul#nav li a:focus, ul#nav li.selected a, ul#nav li.selected a
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px; 
   color: #fff;
     text-shadow: 1px 1px #000;
-   }
 }
 
 
@@ -641,13 +640,15 @@ ul#images li {
 .images.imgTwo:hover ~ .infoArea #infTwo,
 .images.imgTwo:hover ~ .infoArea #vinhPub,
 .images.imgThree:hover ~ .infoArea #infThree,
-.images.imgThree:hover ~ .infoArea #longPub,
+.images.imgThree:hover ~ .infoArea #vungPub,
 .images.imgFour:hover ~ .infoArea #infFour,
-.images.imgFour:hover ~ .infoArea #yasinPub,
+.images.imgFour:hover ~ .infoArea #longPub,
 .images.imgFive:hover ~ .infoArea #infFive,
-.images.imgFive:hover ~ .infoArea #nazanynPub,
+.images.imgFive:hover ~ .infoArea #yasinPub,
 .images.imgSix:hover ~ .infoArea #infSix,
-.images.imgSix:hover ~ .infoArea #amitPub{
+.images.imgSix:hover ~ .infoArea #nazanynPub,
+.images.imgSeven:hover ~ .infoArea #infSeven,
+.images.imgSeven:hover ~ .infoArea #amitPub{
   display: block;
 }
 .images.imgOne:hover ~ .infoArea .personBorder,
@@ -655,7 +656,8 @@ ul#images li {
 .images.imgThree:hover ~ .infoArea .personBorder,
 .images.imgFour:hover ~ .infoArea .personBorder,
 .images.imgFive:hover ~ .infoArea .personBorder,
-.images.imgSix:hover ~ .infoArea .personBorder {
+.images.imgSix:hover ~ .infoArea .personBorder,
+.images.imgSeven:hover ~ .infoArea .personBorder {
   display: none;
 }
 
@@ -1210,7 +1212,7 @@ img:hover{
   color: #fff;
 }
 .currentMembers{
-  width: 238px;
+  width: 302px;
   background: #999;
   height: 15px;
   float: left;
@@ -1218,7 +1220,7 @@ img:hover{
   color: #fff;
 }
 .oldMembers{
-  width: 580px;
+  width: 518px;
   background: #999;
   height: 15px;
   float: right;

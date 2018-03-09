@@ -18,13 +18,19 @@ include 'header.php';
                 <h3>Vinh Nguyen</h3>
             </div>
         </div>
-        <div class="images imgThree long hovereffect" style="opacity: .6; margin-left: 100px;">
+        <div class="images imgThree vung hovereffect">
+            <img src="images/people/vung.jpg" width="auto" height="auto" alt="Vung Pham">
+            <div class="overlay">
+                <h3>Vung Pham</h3>
+            </div>
+        </div>
+        <div class="images imgFour long hovereffect" style="opacity: .6; margin-left: 100px;">
             <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
             <div class="overlay">
                 <h3>Long Hoang</h3>
             </div>
         </div>
-        <div class="images imgFour yasin hovereffect" style="opacity: .6; margin-left: 0px;">
+        <div class="images imgFive yasin hovereffect" style="opacity: .6; margin-left: 0px;">
             <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
             <div class="overlay">
                 <h3>Yasin Kabir</h3>
@@ -209,8 +215,42 @@ include 'header.php';
                     <div class="personBorder"></div>                 
                 </div>
             </div>
+            <div id="infThree">
+                 <div  id="vung" class="person">
+                    <div class="personImg"></div>
+                    <div class="personInfo">
+                      <h3>Pham Van Vung, <span class="designation">Ph.D. Student</span></h3>
+                      <p class="shortInfo">
+                      Vung received his Bachelor of Science in Information Technologies from President University (Indonesia) in 2005 and became a lecturer at President University for one and a half years. He then took his Master of Science in Computer Systems Engineering at Politecnico di Milano and completed it in 2010. After his Master degree, he became a lecturer at FPT University (Vietnam) from 2010 until 2018. He has a great interest in data analytics and data visualization and so he decided to take his PhD in Computer Science at TTU and work at the IDV Lab to strengthen his research skills and his knowledge in these fields.
+                      </p>
+                      <p class="personLinks">
 
-            <div id="infThree" style="opacity: .6;" >
+                          <a href="file/vung.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Vinh Nguyen CV"/></a> &nbsp; 
+
+            
+                        <a href="http://www.myweb.ttu.edu/tnhondan/iDVL/index.php"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Vung Pham"/></a> &nbsp; 
+  
+                        <a href="https://www.linkedin.com/in/phamvanvung/"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+  
+                        <a href="https://github.com/phamvanvung"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
+
+                        <a href="https://scholar.google.com.vn/citations?hl=en&user=QMpiK3UAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+
+                        <a href="https://www.youtube.com/channel/UCTiix4xPlgA8DmlUYPIL0eA"> <img src="images/icons/youtubelogo.png" height="26"  padding="0" alt="Youtube channel"/></a> &nbsp; 
+                        
+                      </p> 
+                      <div class="personPub" id="vungPub">
+                          <p></p>
+                      </div> 
+                    </div> 
+                     <br>
+            
+                    <div class="personBorder"></div>                 
+                </div>
+            </div>
+
+
+            <div id="infFour" style="opacity: .6;" >
                  <div  id="long" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
@@ -283,7 +323,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="infFour" style="opacity: .6;" >
+            <div id="infFive" style="opacity: .6;" >
                 <div  id="yasin" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
