@@ -14,7 +14,7 @@ include 'header.php';
         
     <tr align="center" bgcolor="#777">
       <td style="padding:5px;"> <b>Conference</b> </td>
-      <td> <b>Acceptance rate</td>
+      <td> <b>Acceptance</td>
       <td> <b>When</b> </td>
       <td> Where</b> </td>
       <td> <b>Deadline</b></td>
@@ -22,35 +22,146 @@ include 'header.php';
       <td> <b>Poster</b></td>
     </tr>
 
-  
-  <tr bgcolor="#bdb">
-        <td align="left" style="padding:5px;"><a href="http://bigvis2018.imis.athena-innovation.gr/">BigVis 2018</a></td>
-        <td align="left" style="padding:5px;"></td>
-        <td align="left" style="padding:5px;">March 26, 2018</td>
-        <td align="left" style="padding:5px;">Vienna, Austria</td>
-        <td align="left" style="padding:5px;">Dec 25, 2017</td>
-        <td align="left" style="padding:5px;">Jan 22, 2018</td>
+
+
+
+    <tr bgcolor="#dbb">
+        <td align="left" style="padding:5px;"><a href="http://research.cbs.chula.ac.th/pvis2019/call_for_participation.aspx">PacificVis </a></td>
+        <td align="left" style="padding:5px;">10 pages</td>
+        <td align="left" style="padding:5px;">Apr 23-26,</td>
+        <td align="left" style="padding:5px;">Bangkok, Thailand</td>
+        <td align="left" style="padding:5px;">Sep 28</td>
+        <td align="left" style="padding:5px;">Nov 30</td>
+        <td align="left" style="padding:5px;">Sep 2</td>
+    </tr>
+
+    <tr bgcolor="#bdb">
+        <td align="left" style="padding:5px;"><a href="http://cci.drexel.edu/bigdata/bigdata2018/CallPapers.html">IEEE Big Data 2018 </a></td>
+        <td align="left" style="padding:5px;">10 pages</td>
+        <td align="left" style="padding:5px;">Dec 10-13</td>
+        <td align="left" style="padding:5px;">Seattle, WA, USA</td>
+        <td align="left" style="padding:5px;">Aug 19</td>
+        <td align="left" style="padding:5px;">Oct 16</td>
+        <td align="left" style="padding:5px;">Nov 10</td>
+    </tr>
+
+
+
+    <tr bgcolor="#bbd">
+        <td align="left" style="padding:5px;"><a href="http://aivr.asia.edu.tw/2018/">AI VR </a></td>
+        <td align="left" style="padding:5px;">8/4/2 pages</td>
+        <td align="left" style="padding:5px;">Dec 10-12</td>
+        <td align="left" style="padding:5px;">TaiChung, Taiwan</td>
+        <td align="left" style="padding:5px;">Aug 17</td>
+        <td align="left" style="padding:5px;">Oct 1</td>
+        <td align="left" style="padding:5px;">Sep 2</td>
+    </tr>
+
+    <tr bgcolor="#bdb">
+        <td align="left" style="padding:5px;"><a href="https://sc18.supercomputing.org/submit/showcases-submissions/">SC Showcase </a></td>
+        <td align="left" style="padding:5px;">6 + video</td>
+        <td align="left" style="padding:5px;">Nov 11-16</td>
+        <td align="left" style="padding:5px;">Dallas, TX</td>
+        <td align="left" style="padding:5px;">July 31</td>
+        <td align="left" style="padding:5px;">Sep 15</td>
         <td align="left" style="padding:5px;"></td>
     </tr>
 
-    <tr bgcolor="#88d">
-      <td align="left" style="padding:5px;"><a href="http://eurovis2017.virvig.es/">EuroVis 2017</a></td>
-      <td align="left" style="padding:5px;">50/183 in 2016</td>
-      <td align="left" style="padding:5px;">June 12-16 </td>
-      <td align="left" style="padding:5px;">Barcelona </td>
-      <td align="left" style="padding:5px;">Dec 5 (Dec 12)</td>
-      <td align="left" style="padding:5px;">Fed 15 <br></td>
-      <td align="left" style="padding:5px;">Fed 27 (Short)</td>
+	 <tr bgcolor="#caa">
+        <td align="left" style="padding:5px;"><a href="http://vizsec.org/vizsec2018/#cfp">VizSec 2018 </a></td>
+        <td align="left" style="padding:5px;">4/8 pages</td>
+        <td align="left" style="padding:5px;">Oct 22</td>
+        <td align="left" style="padding:5px;">Berlin, Germany</td>
+        <td align="left" style="padding:5px;">Jul 22</td>
+        <td align="left" style="padding:5px;">Aug 15</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr><tr bgcolor="#caa">
+        <td align="left" style="padding:5px;"><a href="http://www.visualdatascience.org/2018/index.html">VDS 2018 </a></td>
+        <td align="left" style="padding:5px;">8 pages</td>
+        <td align="left" style="padding:5px;">Oct 21</td>
+        <td align="left" style="padding:5px;">Berlin, Germany</td>
+        <td align="left" style="padding:5px;">Jul 16</td>
+        <td align="left" style="padding:5px;">Aug 24</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+   
+
+    <tr bgcolor="#bdb">
+        <td align="left" style="padding:5px;"><a href="http://bdva.net/2018/">BDVA 2018 </a></td>
+        <td align="left" style="padding:5px;">4-9 pages + 2</td>
+        <td align="left" style="padding:5px;">Oct 17-19</td>
+        <td align="left" style="padding:5px;">Konstanz, Germany</td>
+        <td align="left" style="padding:5px;">Jun 17</td>
+        <td align="left" style="padding:5px;">Aug 26</td>
+        <td align="left" style="padding:5px;"></td>
     </tr>
 
-     <tr bgcolor="#bdb">
-      <td align="left" style="padding:5px;"><a href="http://pacificvis.snu.ac.kr/">PacificVis 2017</a></td>
-      <td align="left" style="padding:5px;">30/97 in 2016</td>
-      <td align="left" style="padding:5px;">Apr 18-21 </td>
-      <td align="left" style="padding:5px;">Seoul, Korea </td>
-      <td align="left" style="padding:5px;">Oct 5</td>
-      <td align="left" style="padding:5px;">Nov 26 <br></td>
-      <td align="left" style="padding:5px;">Dec 13 (Short) </td>
+	<tr bgcolor="#bbd">
+        <td align="left" style="padding:5px;"><a href="http://dccg.upc.edu/gd2018/">GD 2018 </a></td>
+        <td align="left" style="padding:5px;">8 pages</td>
+        <td align="left" style="padding:5px;">Sep 26-28</td>
+        <td align="left" style="padding:5px;">Barcelona</td>
+        <td align="left" style="padding:5px;">Jun 10</td>
+        <td align="left" style="padding:5px;">Jul 20</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+    <tr bgcolor="#bdb">
+            <td align="left" style="padding:5px;"><a href="http://voila2018.visualdataweb.org">VOILA 2018 </a></td>
+            <td align="left" style="padding:5px;">8-12 pages</td>
+            <td align="left" style="padding:5px;">Oct 8, 2018</td>
+            <td align="left" style="padding:5px;">Monterey, CA, USA</td>
+            <td align="left" style="padding:5px;">May 25</td>
+            <td align="left" style="padding:5px;">June 27</td>
+            <td align="left" style="padding:5px;"></td>
+        </tr>
+	<tr bgcolor="#bbd">
+        <td align="left" style="padding:5px;"><a href="http://www.msc-les.org/conf/vare2018/index.html">VARE 2018: VR AR in Eduacation </a></td>
+        <td align="left" style="padding:5px;">? pages</td>
+        <td align="left" style="padding:5px;">Sep 17-19</td>
+        <td align="left" style="padding:5px;">Budapest, Hungary</td>
+        <td align="left" style="padding:5px;">Apr 15</td>
+        <td align="left" style="padding:5px;">May 15</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+	<tr bgcolor="#bbd">
+        <td align="left" style="padding:5px;"><a href="http://www.msc-les.org/conf/mas2018/tracks/VirtualAugmentedReality.html">MAS 2018, Workshop on VR and AR</a></td>
+        <td align="left" style="padding:5px;">10 pages</td>
+        <td align="left" style="padding:5px;">Sep 17-19</td>
+        <td align="left" style="padding:5px;">Budapest, Hungary</td>
+        <td align="left" style="padding:5px;">Apr 15</td>
+        <td align="left" style="padding:5px;">May 15</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+	<tr bgcolor="#bbb">
+        <td align="left" style="padding:5px;"><a href="http://vinci-conf.org/">VINCI 18  </a></td>
+        <td align="left" style="padding:5px;">8 pages</td>
+        <td align="left" style="padding:5px;">13-15 Aug</td>
+        <td align="left" style="padding:5px;">Växjö, Sweden</td>
+        <td align="left" style="padding:5px;">Apr 20, 2018</td>
+        <td align="left" style="padding:5px;">May 28, 2018</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+	<tr bgcolor="#bdb">
+        <td align="left" style="padding:5px;"><a href="https://americancse.org/events/csce2018/conferences/msv18">CSCE'18  </a></td>
+        <td align="left" style="padding:5px;">7 pages</td>
+        <td align="left" style="padding:5px;">Jul 30 - Aug 2</td>
+        <td align="left" style="padding:5px;">Las Vegas</td>
+        <td align="left" style="padding:5px;">Mar 30, 2018</td>
+        <td align="left" style="padding:5px;">Apr 15, 2018</td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+	<tr bgcolor="#bbb">
+        <td align="left" style="padding:5px;"><a href="http://www.wscg.eu/">WSCG 2018 </a></td>
+        <td align="left" style="padding:5px;">21,1%</td>
+        <td align="left" style="padding:5px;">May 28-Jun 1</td>
+        <td align="left" style="padding:5px;">Plzen, Czech </td>
+        <td align="left" style="padding:5px;">Mar 20, 2018</td>
+        <td align="left" style="padding:5px;">Apr 20, 2018</td>
+        <td align="left" style="padding:5px;"></td>
     </tr>
 
 

@@ -2,7 +2,37 @@
 
 <newsArchive>
 
-		
+
+
+	<news category="website">
+		<headline>RA proposal awarded</headline>
+		<date>March 5th, 2018</date>
+		<sortNews><b>Dr. Dang</b> received a RA award from The Whitacre College of Engineering.</sortNews>
+		<fullNews>
+			<div class="news">
+				<center><h2>RA Proposal for Big Data Visualization in Water Resources</h2></center>
+				According to the National Ground Water Association report in 2016, we extract around 982 km<sup>3</sup> of water per year from the ground. Therefore, monitoring ground water, sustaining aquifer capability, and analyzing its changes are highly desirable by decision makers. This proposal requests for one RA to work on big data visualization in water resources.
+				This research is an on-going collaboration between the department of <a href="http://www.depts.ttu.edu/cs/">Computer Science</a> and <a href="http://www.depts.ttu.edu/waterresources/"> Water Resources Center</a> in the department of <a href="http://www.depts.ttu.edu/ceweb/"> Civil Engineering</a>.
+				<div class="img-area">
+					<div class="img-middle">
+						<img src="images/figures/disasterSimulation.JPG"></img>
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+				<p>With this support, the student is aimed to target both research domains (water and big data visualization) in the College strategic growth initiative .</p>
+				<ul>
+					<li>In the first phase, the student will focus on developing visual analytics platforms to capture the trends/patterns, and to support analyzing the water usages in the Southern High Plains Aquifer of Texas.</li>
+					<li>In the second phase, he will build virtual simulations that support risk analyses and disaster evacuation.</li>
+				</ul>
+
+				<br></br>
+				<br></br>
+				<h3>The Whitacre College of Engineering Proposal Call</h3>
+
+				The Whitacre College of Engineering has a limited number of research assistantships as part of the Presidents strategic growth initiative.  These assistantships are $29K/year for up to four years and are to support research in the areas of energy, water, transportation, engineers in medicine, big data/data visualization and nanotechnology.
+			</div>
+		</fullNews>
+	</news>
 
 
 	<news category="website">
