@@ -268,7 +268,7 @@ include 'header.php';
                       </p>
                       <p class="personLinks">
 
-                        <a href="file/huyen.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Huyen Nguyen CV"/></a> &nbsp; 
+                        <a href="file/Huyen.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Huyen Nguyen CV"/></a> &nbsp; 
                        
                         <a href="http://www.myweb.ttu.edu/tnhondan/iDVL/index.php"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Huyen Nguyen"/></a> &nbsp; 
   
@@ -276,7 +276,7 @@ include 'header.php';
   
                         <a href="https://github.com/nnhuyen"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <!-- <a href="https://scholar.google.com.vn/..."> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp;  -->
+                        <a href="https://scholar.google.com.vn/citations?hl=en&user=tsrO-ZgAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp;
 
                                               
                       </p> 
