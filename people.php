@@ -24,13 +24,19 @@ include 'header.php';
                 <h3>Vung Pham</h3>
             </div>
         </div>
-        <div class="images imgFour long hovereffect" style="opacity: .6; margin-left: 100px;">
+        <div class="images imgFour huyen hovereffect">
+            <img src="images/people/huyen.jpg" width="auto" height="auto" alt="Huyen Nguyen">
+            <div class="overlay">
+                <h3>Huyen Nguyen</h3>
+            </div>
+        </div>
+        <div class="images imgFive long hovereffect" style="opacity: .6; margin-left: 100px;">
             <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
             <div class="overlay">
                 <h3>Long Hoang</h3>
             </div>
         </div>
-        <div class="images imgFive yasin hovereffect" style="opacity: .6; margin-left: 0px;">
+        <div class="images imgSix yasin hovereffect" style="opacity: .6; margin-left: 0px;">
             <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
             <div class="overlay">
                 <h3>Yasin Kabir</h3>
@@ -249,8 +255,42 @@ include 'header.php';
                 </div>
             </div>
 
+            <div id="infFour">
+                 <div  id="huyen" class="person">
+                    <div class="personImg"></div>
+                    <div class="personInfo">
+                      <h3>Huyen Ngoc Nguyen, <span class="designation">Ph.D. Student</span></h3>
+                      <p class="shortInfo">
+                       Huyen earned her Bachelor's Degree in Information Systems at Hanoi University of Science and Technology (Vietnam) 
+                       in 2018. She worked as a student member at the Lab of Data Science and completed her final thesis in computer vision. 
+                       Her research interests are in computer animation, machine learning and computer vision, most recently focusing on 
+                       the application of deep learning on multi-label image classification and object detection.
+                      </p>
+                      <p class="personLinks">
 
-            <div id="infFour" style="opacity: .6;" >
+                        <a href="file/Huyen.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Huyen Nguyen CV"/></a> &nbsp; 
+                       
+                        <a href="http://www.myweb.ttu.edu/tnhondan/iDVL/index.php"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Huyen Nguyen"/></a> &nbsp; 
+  
+                        <a href="https://www.linkedin.com/in/nnhuyen/"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+  
+                        <a href="https://github.com/nnhuyen"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
+
+                        <a href="https://scholar.google.com.vn/citations?hl=en&user=tsrO-ZgAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp;
+
+                                              
+                      </p> 
+                      <div class="personPub" id="huyenPub">
+                          <p></p>
+                      </div> 
+                    </div> 
+                     <br>
+            
+                    <div class="personBorder"></div>                 
+                </div>
+            </div>
+
+            <div id="infFive" style="opacity: .6;" >
                  <div  id="long" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
@@ -323,7 +363,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="infFive" style="opacity: .6;" >
+            <div id="infSix" style="opacity: .6;" >
                 <div  id="yasin" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
