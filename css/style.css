@@ -1212,7 +1212,7 @@ img:hover{
   color: #fff;
 }
 .currentMembers{
-  width: 302px;
+  width: 455px;
   background: #999;
   height: 15px;
   float: left;
@@ -1220,7 +1220,7 @@ img:hover{
   color: #fff;
 }
 .oldMembers{
-  width: 518px;
+  width: 365px;
   background: #999;
   height: 15px;
   float: right;
