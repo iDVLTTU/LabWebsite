@@ -68,8 +68,8 @@ var links=[];
 var nodes2=[];
 var links2=[];
 
-var startDate = new Date("4/1/2018");
-var endtDate = new Date("1/1/2019");
+var startDate = new Date("5/1/2018");
+var endtDate = new Date("12/1/2019");
 var today = new Date();
 
 function getCategoty(str){
