@@ -30,7 +30,7 @@ include 'header.php';
                 <h3>Huyen Nguyen</h3>
             </div>
         </div>
-        <div class="images imgFive long hovereffect" style="opacity: .6; margin-left: 100px;">
+        <div class="images imgFive long hovereffect" style="opacity: .6; margin-left: 38px;">
             <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
             <div class="overlay">
                 <h3>Long Hoang</h3>
