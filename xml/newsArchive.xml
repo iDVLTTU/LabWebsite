@@ -2,7 +2,23 @@
 
 <newsArchive>
 
+	<news category="website">
+		<headline>VAST Challenge 2018 Award</headline>
+		<date>August 15th, 2018</date>
+		<sortNews><b>Vung Pham</b> received Mini-Challenge 2 Award within his first 3 months joining iDVL.</sortNews>
+		<fullNews>
+			<div class="news">
+				<center><h2><b>Vung Pham</b> received Mini-Challenge 2 Award: Strong Support for Exploratory Analysis</h2></center>
+				<a href="http://www.vacommunity.org/VAST+Challenge+2018"> The Visual Analytics Science and Technology (VAST) Challenge </a> is an annual contest with the goal of advancing the field of visual analytics through competition. The VAST Challenge is designed to help researchers understand how their software would be used in a novel analytic task and determine if their data transformations, visualizations, and interactions would be beneficial for particular analytic tasks. VAST Challenge problems provide researchers with realistic tasks and data sets for evaluating their software, as well as an opportunity to advance the field by solving more complex problems.
 
+				
+				<embed src="https://idatavisualizationlab.github.io/VAST2018/videos/TTU-Pham-MC2.mp4" width="100%" height="456px" allowfullscreen="true" />
+
+				Vung's Mini-Challenge 2 report can be found <a href="https://idatavisualizationlab.github.io/VAST2018/mc2/index.htm"> here</a>, <a href="https://idatavisualizationlab.github.io/VAST2018/heatmap.html"> Web demo</a>,
+
+			</div>
+		</fullNews>
+	</news>
 
 	<news category="website">
 		<headline>RA proposal awarded</headline>

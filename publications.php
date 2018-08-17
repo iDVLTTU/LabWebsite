@@ -58,31 +58,31 @@ include 'header.php';
               $csv = readCSV($csvFile);
               $len1 = count($csv);
               $len2 = count($csv[0]);
-              for($i=1;$i<$len1;$i++){
-            ?>
-            <div class="publicationArea">
-            <table style="width:100%; margin-left: 20px;">
-            <tr>
-                <th class="paperThumb" width="15%">
-                    <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
-                </th>
-                <th width="85%" style="padding-left: 25px;"> 
-                    <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
-                    <i><?php echo $csv[$i][1] ?></i><br/>
-                    <?php echo $csv[$i][2] ?><br/>
-                    <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
-                    <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons/pdf.png" height="18"></a>
-                    <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons/movie.png" height="19"></a>
-                    <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>
-                    <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
-                    <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons/bibtex.png" height="13"></a> 
-                    
-                </th>
-            </tr>
-            </table>
-            </div>
-            <?php                
-              }
+          for($i=1;$i<$len1;$i++){
+              ?>
+              <div class="publicationArea">
+              <table style="width:100%; margin-left: 20px;">
+              <tr>
+                  <th class="paperThumb" width="15%">
+                      <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
+                  </th>
+                  <th width="85%" style="padding-left: 25px;"> 
+                      <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                      <i><?php echo $csv[$i][1] ?></i><br/>
+                      <?php echo $csv[$i][2] ?><br/>
+                      <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                      <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons/pdf.png" height="18"></a>
+                      <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons/movie.png" height="19"></a>
+                      <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>
+                      <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                      <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons/bibtex.png" height="13"></a> 
+                      
+                  </th>
+              </tr>
+              </table>
+              </div>
+              <?php                
+          }
             ?>  
               <br/>
             <p>For papers before 2017, please visit <a href="http://www.myweb.ttu.edu/tnhondan/publications.html">director's website</a>.</p>        
