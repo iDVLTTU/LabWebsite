@@ -319,7 +319,7 @@ include 'header.php';
 
                         <a href="file/Huyen.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Huyen Nguyen CV"/></a> &nbsp; 
                        
-                        <a href="http://www.myweb.ttu.edu/tnhondan/iDVL/index.php"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Huyen Nguyen"/></a> &nbsp; 
+                        <a href="http://www.myweb.ttu.edu/huyenngu"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Huyen Nguyen"/></a> &nbsp; 
   
                         <a href="https://www.linkedin.com/in/nnhuyen/"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
