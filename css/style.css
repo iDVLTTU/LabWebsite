@@ -626,12 +626,13 @@ ul#images li {
 #yasinPub{
   display: none;
 }
-#amitPub{
+#vungPub{
   display: none;
 }
 #nazanynPub{
   display: none;
 }
+
 .images:hover ~ .infoArea > div {
   display: none;
 }

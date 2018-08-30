@@ -231,7 +231,7 @@ include 'header.php';
                       </p>
                       <p class="personLinks">
 
-                          <a href="file/vung.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Vinh Nguyen CV"/></a> &nbsp; 
+                          <a href="file/vung.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="CV"/></a> &nbsp; 
 
             
                         <a href="http://www.myweb.ttu.edu/tnhondan/iDVL/index.php"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Vung Pham"/></a> &nbsp; 
@@ -245,8 +245,48 @@ include 'header.php';
                         <a href="https://www.youtube.com/channel/UCTiix4xPlgA8DmlUYPIL0eA"> <img src="images/icons/youtubelogo.png" height="26"  padding="0" alt="Youtube channel"/></a> &nbsp; 
                         
                       </p> 
-                      <div class="personPub" id="vungPub">
-                          <p></p>
+                     <div class="personPub" id="vungPub">
+                          <?PHP
+                            
+                            $hasPub = 0;
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][16]==1){
+                                $hasPub = 1;
+                                break;
+                              }
+                            }
+
+                            if($hasPub==1){ ?>
+                              <br/><h4>Recent Publications:</h4>
+                          <?php 
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][16]==1){
+                          ?>
+                          <div class="publicationArea">
+                          <table style="width:100%; margin-left: 25px;">
+                          <tr>
+                              <th class="paperThumb" width="15%">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
+                              </th>
+                              <th width="85%" style="padding-left: 25px;"> 
+                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                                  <i><?php echo $csv[$i][1] ?></i><br/>
+                                  <?php echo $csv[$i][2] ?><br/>
+                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons/pdf.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons/movie.png" height="19"></a>
+                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons/bibtex.png" height="13"></a> 
+                                  
+                              </th>
+                          </tr>
+                          </table>
+                          </div>
+                          <?php
+                              }                
+                            }
+                          }
+                          ?> 
                       </div> 
                     </div> 
                      <br>
