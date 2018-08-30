@@ -611,6 +611,10 @@ ul#images li {
 .images {
   display: inline-block;
 }
+img.resize {
+  max-width:136px;
+  max-height:auto;
+}
 .images:hover{
 
 }
@@ -632,6 +636,9 @@ ul#images li {
 #nazanynPub{
   display: none;
 }
+#nganPub{
+  display: none;
+}
 
 .images:hover ~ .infoArea > div {
   display: none;
@@ -643,13 +650,13 @@ ul#images li {
 .images.imgThree:hover ~ .infoArea #infThree,
 .images.imgThree:hover ~ .infoArea #vungPub,
 .images.imgFour:hover ~ .infoArea #infFour,
-.images.imgFour:hover ~ .infoArea #longPub,
+.images.imgFour:hover ~ .infoArea #huyenPub,
 .images.imgFive:hover ~ .infoArea #infFive,
-.images.imgFive:hover ~ .infoArea #yasinPub,
+.images.imgFive:hover ~ .infoArea #nganPub,
 .images.imgSix:hover ~ .infoArea #infSix,
-.images.imgSix:hover ~ .infoArea #nazanynPub,
+.images.imgSix:hover ~ .infoArea #longPub,
 .images.imgSeven:hover ~ .infoArea #infSeven,
-.images.imgSeven:hover ~ .infoArea #amitPub{
+.images.imgSeven:hover ~ .infoArea #yasinPub{
   display: block;
 }
 .images.imgOne:hover ~ .infoArea .personBorder,
@@ -765,7 +772,7 @@ img:hover{
   transform: translate(460px, -100px) rotate(180deg);
   -webkit-transition: all 0.2s 0.4s ease-in-out;
   transition: all 0.2s 0.4s ease-in-out;
-  width: 150px;
+  width: 136px;
   height: 23px;
   padding-top: 5px;
 
@@ -1199,21 +1206,64 @@ img:hover{
     height: 500px;
     margin: auto;
 }
+/*
+.members{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+
+}
+.cFaculty{
+  flex-grow: 1;
+  padding: 5px;
+
+  background: #999;
+  color: #fff;
+
+}
+.currentMembers{
+  flex-grow: 2;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 5px;
+  background: #999;
+  flex-wrap: wrap;
+  color: #fff;
+
+}
+
+.boder.currentMembers{
+  flex-grow: 2;
+  padding: 5px;
+  flex-wrap: wrap;
+
+}
+.oldMembers{
+  flex-grow: 1;
+  background: #999;
+  padding: 5px;
+  flex-wrap: wrap;
+  color: #fff;
+
+}*/
 .members{
   width: 100%;
   text-align: center;
 }
 .cFaculty{
-  width: 148px;
+  width: 132px;
   height: 15px;
   float: left;
   background: #999;
   padding: 2px;
-  margin-right: 10px;
+  margin-right: 16px;
   color: #fff;
 }
 .currentMembers{
-  width: 455px;
+  width: 553px;
   background: #999;
   height: 15px;
   float: left;
@@ -1221,7 +1271,7 @@ img:hover{
   color: #fff;
 }
 .oldMembers{
-  width: 365px;
+  width: 274px;
   background: #999;
   height: 15px;
   float: right;

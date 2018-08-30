@@ -6,49 +6,58 @@ include 'header.php';
  <div id="site_content" class= "fullPage">
        <div id="top_border"></div>
 
-        <div class="images imgOne tommy hovereffect" style="margin-right: 10px;">
-            <img src="images/people/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
-            <div class="overlay">
-                <h3>Tommy Dang</h3>
-            </div>
-        </div>
-        <div class="images imgTwo vinh hovereffect">
-            <img src="images/people/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen">
-            <div class="overlay">
-                <h3>Vinh Nguyen</h3>
-            </div>
-        </div>
-        <div class="images imgThree vung hovereffect">
-            <img src="images/people/vung.jpg" width="auto" height="auto" alt="Vung Pham">
-            <div class="overlay">
-                <h3>Vung Pham</h3>
-            </div>
-        </div>
-        <div class="images imgFour huyen hovereffect">
-            <img src="images/people/huyen.jpg" width="auto" height="auto" alt="Huyen Nguyen">
-            <div class="overlay">
-                <h3>Huyen Nguyen</h3>
-            </div>
-        </div>
-        <div class="images imgFive long hovereffect" style="opacity: .6; margin-left: 38px;">
-            <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
-            <div class="overlay">
-                <h3>Long Hoang</h3>
-            </div>
-        </div>
-        <div class="images imgSix yasin hovereffect" style="opacity: .6; margin-left: 0px;">
-            <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
-            <div class="overlay">
-                <h3>Yasin Kabir</h3>
-            </div>
-        </div>
-        
+              <div class="images imgOne tommy hovereffect" style="margin-right: 13px;">
+                  <img src="images/people/tommy.jpg" width="auto" height="auto" alt="Tommy Dang" class="resize">
+                  <div class="overlay">
+                      <h3>Tommy Dang</h3>
+                  </div>
+              </div>
+
+
+              <div class="images imgTwo vinh hovereffect">
+                  <img src="images/people/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen" class="resize">
+                  <div class="overlay">
+                      <h3>Vinh Nguyen</h3>
+                  </div>
+              </div>
+              <div class="images imgThree vung hovereffect">
+                  <img src="images/people/vung.jpg" width="auto" height="auto" alt="Vung Pham" class="resize">
+                  <div class="overlay">
+                      <h3>Vung Pham</h3>
+                  </div>
+              </div>
+              <div class="images imgFour huyen hovereffect">
+                  <img src="images/people/huyen.jpg" width="auto" height="auto" alt="Huyen Nguyen" class="resize">
+                  <div class="overlay">
+                      <h3>Huyen Nguyen</h3>
+                  </div>
+              </div>
+              <div class="images imgFive ngan hovereffect">
+                  <img src="images/people/ngan.png" width="auto" height="auto" alt="Ngan Nguyen" class="resize">
+                  <div class="overlay">
+                      <h3>Ngan Nguyen</h3>
+                  </div>
+              </div>
+              <div class="images imgSix long hovereffect" style="opacity: .6; margin-left: 12px;">
+                  <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen" class="resize">
+                  <div class="overlay">
+                      <h3>Long Hoang</h3>
+                  </div>
+              </div>
+              <div class="images imgSeven yasin hovereffect" style="opacity: .6; margin-left: 0px;">
+                  <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir" class="resize">
+                  <div class="overlay">
+                      <h3>Yasin Kabir</h3>
+                  </div>
+              </div>
+
+
         <div class="members">
           <div class="cFaculty">Director</div>
           <div class="currentMembers">Current students</div>
           <div class="oldMembers">Past students</div>
         </div>
-        <div class="personImgBorder" style="margin-bottom: 5px; margin-top: -3px;"></div> 
+        <div class="personImgBorder" style="margin-bottom: 5px; margin-top: 25px;"></div> 
 
         <div class="infoArea content fullPage">
             <div id="infOne"> 
@@ -330,7 +339,40 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="infFive" style="opacity: .6;" >
+            <div id="infFive">
+                 <div  id="ngan" class="person">
+                    <div class="personImg"></div>
+                    <div class="personInfo">
+                      <h3>Ngan Vuong Thuy Nguyen, <span class="designation">Ph.D. Student</span></h3>
+                      <p class="shortInfo">
+                       Ngan earned her Bachelor's Degree in Physics and Engineering Physics at University of Science, VNU-HCM (Vietnam) in 2014. In 2016, she took her Master of Science in Applied Physics at VNU-HCM. From 2015 to 2018, she worked as Teaching Assitant at Department of Physics and Computer Science at VNU-HCM. 
+                       Her research interests are in simulation, signal processing (ECG and EEG), IoT and user interface most recently focusing on the application of pattern recognization on EEG.
+                      </p>
+                      <p class="personLinks">
+
+                        <a href="file/Ngan.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Ngan Nguyen CV"/></a> &nbsp; 
+                       
+                        <a href="http://www.myweb.ttu.edu/ngu00336/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Ngan Nguyen"/></a> &nbsp; 
+  
+                        <a href="https://www.linkedin.com/in/ngan-nguyen-6a0246128/"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+  
+                        <a href="https://github.com/nvtNgan"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
+
+                        <a href="https://scholar.google.com.vn/citations?hl=vi&user=yRClsxgAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp;
+
+                                              
+                      </p> 
+                      <div class="personPub" id="nganPub">
+                          <p></p>
+                      </div> 
+                    </div> 
+                     <br>
+            
+                    <div class="personBorder"></div>                 
+                </div>
+            </div>
+
+            <div id="infSix" style="opacity: .6;" >
                  <div  id="long" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
@@ -403,7 +445,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="infSix" style="opacity: .6;" >
+            <div id="infSeven" style="opacity: .6;" >
                 <div  id="yasin" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
