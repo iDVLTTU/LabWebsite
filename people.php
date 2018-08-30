@@ -243,7 +243,7 @@ include 'header.php';
                           <a href="file/vung.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="CV"/></a> &nbsp; 
 
             
-                        <a href="http://www.myweb.ttu.edu/tnhondan/iDVL/index.php"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Vung Pham"/></a> &nbsp; 
+                        <a href="http://www.myweb.ttu.edu/vunpham"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Vung Pham"/></a> &nbsp; 
   
                         <a href="https://www.linkedin.com/in/phamvanvung/"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
   
