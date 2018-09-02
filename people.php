@@ -6,37 +6,58 @@ include 'header.php';
  <div id="site_content" class= "fullPage">
        <div id="top_border"></div>
 
-        <div class="images imgOne tommy hovereffect" style="margin-right: 10px;">
-            <img src="images/people/tommy.jpg" width="auto" height="auto" alt="Tommy Dang">
-            <div class="overlay">
-                <h3>Tommy Dang</h3>
-            </div>
-        </div>
-        <div class="images imgTwo vinh hovereffect">
-            <img src="images/people/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen">
-            <div class="overlay">
-                <h3>Vinh Nguyen</h3>
-            </div>
-        </div>
-        <div class="images imgThree long hovereffect" style="opacity: .6; margin-left: 100px;">
-            <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen">
-            <div class="overlay">
-                <h3>Long Hoang</h3>
-            </div>
-        </div>
-        <div class="images imgFour yasin hovereffect" style="opacity: .6; margin-left: 0px;">
-            <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir">
-            <div class="overlay">
-                <h3>Yasin Kabir</h3>
-            </div>
-        </div>
-        
+              <div class="images imgOne tommy hovereffect" style="margin-right: 13px;">
+                  <img src="images/people/tommy.jpg" width="auto" height="auto" alt="Tommy Dang" class="resize">
+                  <div class="overlay">
+                      <h3>Tommy Dang</h3>
+                  </div>
+              </div>
+
+
+              <div class="images imgTwo vinh hovereffect">
+                  <img src="images/people/vinh.jpg" width="auto" height="auto" alt="Vinh Nguyen" class="resize">
+                  <div class="overlay">
+                      <h3>Vinh Nguyen</h3>
+                  </div>
+              </div>
+              <div class="images imgThree vung hovereffect">
+                  <img src="images/people/vung.jpg" width="auto" height="auto" alt="Vung Pham" class="resize">
+                  <div class="overlay">
+                      <h3>Vung Pham</h3>
+                  </div>
+              </div>
+              <div class="images imgFour huyen hovereffect">
+                  <img src="images/people/huyen.jpg" width="auto" height="auto" alt="Huyen Nguyen" class="resize">
+                  <div class="overlay">
+                      <h3>Huyen Nguyen</h3>
+                  </div>
+              </div>
+              <div class="images imgFive ngan hovereffect">
+                  <img src="images/people/ngan.png" width="auto" height="auto" alt="Ngan Nguyen" class="resize">
+                  <div class="overlay">
+                      <h3>Ngan Nguyen</h3>
+                  </div>
+              </div>
+              <div class="images imgSix long hovereffect" style="opacity: .6; margin-left: 12px;">
+                  <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen" class="resize">
+                  <div class="overlay">
+                      <h3>Long Hoang</h3>
+                  </div>
+              </div>
+              <div class="images imgSeven yasin hovereffect" style="opacity: .6; margin-left: 0px;">
+                  <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir" class="resize">
+                  <div class="overlay">
+                      <h3>Yasin Kabir</h3>
+                  </div>
+              </div>
+
+
         <div class="members">
           <div class="cFaculty">Director</div>
           <div class="currentMembers">Current students</div>
           <div class="oldMembers">Past students</div>
         </div>
-        <div class="personImgBorder" style="margin-bottom: 5px; margin-top: -3px;"></div> 
+        <div class="personImgBorder" style="margin-bottom: 5px; margin-top: 25px;"></div> 
 
         <div class="infoArea content fullPage">
             <div id="infOne"> 
@@ -209,8 +230,149 @@ include 'header.php';
                     <div class="personBorder"></div>                 
                 </div>
             </div>
+            <div id="infThree">
+                 <div  id="vung" class="person">
+                    <div class="personImg"></div>
+                    <div class="personInfo">
+                      <h3>Pham Van Vung, <span class="designation">Ph.D. Student</span></h3>
+                      <p class="shortInfo">
+                      Vung received his Bachelor of Science in Information Technologies from President University (Indonesia) in 2005 and became a lecturer at President University for one and a half years. He then took his Master of Science in Computer Systems Engineering at Politecnico di Milano and completed it in 2010. After his Master degree, he became a lecturer at FPT University (Vietnam) from 2010 until 2018. He has a great interest in data analytics and data visualization and so he decided to take his PhD in Computer Science at TTU and work at the IDV Lab to strengthen his research skills and his knowledge in these fields.
+                      </p>
+                      <p class="personLinks">
 
-            <div id="infThree" style="opacity: .6;" >
+                          <a href="file/vung.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="CV"/></a> &nbsp; 
+
+            
+                        <a href="http://www.myweb.ttu.edu/vunpham"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Vung Pham"/></a> &nbsp; 
+  
+                        <a href="https://www.linkedin.com/in/phamvanvung/"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+  
+                        <a href="https://github.com/phamvanvung"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
+
+                        <a href="https://scholar.google.com.vn/citations?hl=en&user=QMpiK3UAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+
+                        <a href="https://www.youtube.com/channel/UCTiix4xPlgA8DmlUYPIL0eA"> <img src="images/icons/youtubelogo.png" height="26"  padding="0" alt="Youtube channel"/></a> &nbsp; 
+                        
+                      </p> 
+                     <div class="personPub" id="vungPub">
+                          <?PHP
+                            
+                            $hasPub = 0;
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][16]==1){
+                                $hasPub = 1;
+                                break;
+                              }
+                            }
+
+                            if($hasPub==1){ ?>
+                              <br/><h4>Recent Publications:</h4>
+                          <?php 
+                            for($i=1;$i<$len1;$i++){
+                              if($csv[$i][16]==1){
+                          ?>
+                          <div class="publicationArea">
+                          <table style="width:100%; margin-left: 25px;">
+                          <tr>
+                              <th class="paperThumb" width="15%">
+                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
+                              </th>
+                              <th width="85%" style="padding-left: 25px;"> 
+                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
+                                  <i><?php echo $csv[$i][1] ?></i><br/>
+                                  <?php echo $csv[$i][2] ?><br/>
+                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
+                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons/pdf.png" height="18"></a>
+                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons/movie.png" height="19"></a>
+                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
+                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons/bibtex.png" height="13"></a> 
+                                  
+                              </th>
+                          </tr>
+                          </table>
+                          </div>
+                          <?php
+                              }                
+                            }
+                          }
+                          ?> 
+                      </div> 
+                    </div> 
+                     <br>
+            
+                    <div class="personBorder"></div>                 
+                </div>
+            </div>
+
+            <div id="infFour">
+                 <div  id="huyen" class="person">
+                    <div class="personImg"></div>
+                    <div class="personInfo">
+                      <h3>Huyen Ngoc Nguyen, <span class="designation">Ph.D. Student</span></h3>
+                      <p class="shortInfo">
+                       Huyen earned her Bachelor's Degree in Information Systems at Hanoi University of Science and Technology (Vietnam) 
+                       in 2018. She worked as a student member at the Lab of Data Science and completed her final thesis in computer vision. 
+                       Her research interests are in computer animation, machine learning and computer vision, most recently focusing on 
+                       the application of deep learning on multi-label image classification and object detection.
+                      </p>
+                      <p class="personLinks">
+
+                        <a href="file/Huyen.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Huyen Nguyen CV"/></a> &nbsp; 
+                       
+                        <a href="http://www.myweb.ttu.edu/huyenngu"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Huyen Nguyen"/></a> &nbsp; 
+  
+                        <a href="https://www.linkedin.com/in/nnhuyen/"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+  
+                        <a href="https://github.com/nnhuyen"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
+
+                        <a href="https://scholar.google.com.vn/citations?hl=en&user=tsrO-ZgAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp;
+
+                                              
+                      </p> 
+                      <div class="personPub" id="huyenPub">
+                          <p></p>
+                      </div> 
+                    </div> 
+                     <br>
+            
+                    <div class="personBorder"></div>                 
+                </div>
+            </div>
+
+            <div id="infFive">
+                 <div  id="ngan" class="person">
+                    <div class="personImg"></div>
+                    <div class="personInfo">
+                      <h3>Ngan Vuong Thuy Nguyen, <span class="designation">Ph.D. Student</span></h3>
+                      <p class="shortInfo">
+                       Ngan earned her Bachelor's Degree in Physics and Engineering Physics at University of Science, VNU-HCM (Vietnam) in 2014. In 2016, she took her Master of Science in Applied Physics at VNU-HCM. From 2015 to 2018, she worked as Teaching Assitant at Department of Physics and Computer Science at VNU-HCM. 
+                       Her research interests are in simulation, signal processing (ECG and EEG), IoT and user interface most recently focusing on the application of pattern recognization on EEG.
+                      </p>
+                      <p class="personLinks">
+
+                        <a href="file/Ngan.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Ngan Nguyen CV"/></a> &nbsp; 
+                       
+                        <a href="http://www.myweb.ttu.edu/ngu00336/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Ngan Nguyen"/></a> &nbsp; 
+  
+                        <a href="https://www.linkedin.com/in/ngan-nguyen-6a0246128/"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+  
+                        <a href="https://github.com/nvtNgan"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
+
+                        <a href="https://scholar.google.com.vn/citations?hl=vi&user=yRClsxgAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp;
+
+                                              
+                      </p> 
+                      <div class="personPub" id="nganPub">
+                          <p></p>
+                      </div> 
+                    </div> 
+                     <br>
+            
+                    <div class="personBorder"></div>                 
+                </div>
+            </div>
+
+            <div id="infSix" style="opacity: .6;" >
                  <div  id="long" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
@@ -283,7 +445,7 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="infFour" style="opacity: .6;" >
+            <div id="infSeven" style="opacity: .6;" >
                 <div  id="yasin" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
