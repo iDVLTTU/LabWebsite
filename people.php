@@ -38,25 +38,20 @@ include 'header.php';
                       <h3>Ngan Nguyen</h3>
                   </div>
               </div>
-              <div class="images imgSix long hovereffect" style="opacity: .6; margin-left: 12px;">
-                  <img src="images/people/long.jpg" width="auto" height="auto" alt="Long Hoang Nguyen" class="resize">
+ 	            <div class="images imgSix nhat hovereffect">
+                  <img src="images/people/nhat.jpg" width="auto" height="auto" alt="Nhat Le" class="resize">
                   <div class="overlay">
-                      <h3>Long Hoang</h3>
+                      <h3>Nhat Le</h3>
                   </div>
               </div>
-              <div class="images imgSeven yasin hovereffect" style="opacity: .6; margin-left: 0px;">
-                  <img src="images/people/yasin.jpg" width="auto" height="auto" alt="Md. Yasin Kabir" class="resize">
-                  <div class="overlay">
-                      <h3>Yasin Kabir</h3>
-                  </div>
-              </div>
+              
 
 
         <div class="members">
           <div class="cFaculty">Director</div>
           <div class="currentMembers">Current students</div>
-          <div class="oldMembers">Past students</div>
         </div>
+
         <div class="personImgBorder" style="margin-bottom: 5px; margin-top: 25px;"></div> 
 
         <div class="infoArea content fullPage">
@@ -372,152 +367,40 @@ include 'header.php';
                 </div>
             </div>
 
-            <div id="infSix" style="opacity: .6;" >
-                 <div  id="long" class="person">
+            <div id="infSix">
+                 <div  id="nhat" class="person">
                     <div class="personImg"></div>
                     <div class="personInfo">
-                      <h3>Long Hoang Nguyen, <span class="designation">Ph.D. Student</span></h3>
+                      <h3>Nhat Le, <span class="designation">M.S Student</span></h3>
                       <p class="shortInfo">
-                       Long received his Bachelor degree in Information Technology at the President Univeristy (Indonesia) in 2005 
-                       and then his Master degree in Computer Science at Politecnico di Milano, Italy in 2009. 
-                       He had worked over 10 years in software industry in different countries (such as Singapore, Vietname, and Italy) before decided to join iDVL in Jan 2017 for his PhD degree.
-                       He had a great interest in data visualization and visual analytics since it helps non-technical people to read and understand insights of large data easily.
+                       Nhat got his Bachelor degree in Embedded System at Da Nang University of Technology, DUT (Vietnam) in 2015 and then his Master degree in Electrical Engineering at Texas Tech University, Lubbock, TX in 2018. Currently, his primary interest research is Music Visualization and Music Information Retrieval. 
+                       
                       </p>
                       <p class="personLinks">
 
-                        <a href="http://cse.tlu.edu.vn/Portals/0/Longnh_CV_en_tlu.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Long Hoang CV"/></a> &nbsp; 
+        
           
-
-                        <a href="http://www.myweb.ttu.edu/longhngu/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Long Hoang Nguyen"/></a> &nbsp; 
+                        <a href="file/nhat.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Nhat Le CV"/></a> &nbsp;
+                        <a href="http://www.myweb.ttu.edu/hoangnle/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Nhat Le"/></a> &nbsp; 
   
-                        <a href="https://www.linkedin.com/in/hoang-long-nguyen-9713676"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
+                         
   
-                        <a href="https://github.com/litpuvn"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
+                        <a href="https://github.com/nhatmusic"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
 
-                        <a href="https://scholar.google.com.vn/citations?hl=en&user=H_BL5agAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
+                        
                       </p> 
-                      <div class="personPub" id="longPub">
-                          <?PHP
-                            
-                            $hasPub = 0;
-                            for($i=1;$i<$len1;$i++){
-                              if($csv[$i][14]==1){
-                                $hasPub = 1;
-                                break;
-                              }
-                            }
-
-                           if($hasPub==1){ ?>
-                              <br/><h4>Recent Publications:</h4>
-                          <?php 
-                            for($i=1;$i<$len1;$i++){
-                              if($csv[$i][14]==1){
-                          ?>
-                          <div class="publicationArea">
-                          <table style="width:100%; margin-left: 25px;">
-                          <tr>
-                              <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
-                              </th>
-                              <th width="85%" style="padding-left: 25px;"> 
-                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
-                                  <i><?php echo $csv[$i][1] ?></i><br/>
-                                  <?php echo $csv[$i][2] ?><br/>
-                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
-                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons/pdf.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons/movie.png" height="19"></a>
-                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons/bibtex.png" height="13"></a> 
-                                  
-                              </th>
-                          </tr>
-                          </table>
-                          </div>
-                          <?php
-                              }                
-                            }
-                          }
-                          ?> 
+                      <div class="personPub" id="nganPub">
+                          <p></p>
                       </div> 
-                    </div>   
-
+                    </div> 
+                     <br>
+            
                     <div class="personBorder"></div>                 
                 </div>
             </div>
 
-            <div id="infSeven" style="opacity: .6;" >
-                <div  id="yasin" class="person">
-                    <div class="personImg"></div>
-                    <div class="personInfo">
-                      <h3>Md. Yasin Kabir, <span class="designation">Ph.D. Student</span></h3>
-                      <p class="shortInfo">
-                        
-                          Yasin completed his Bachelor degree in Computer Science and Telecommunication engineering (Bangladesh) in 2014. 
-                          After that, he had worked as a lecturer and assistant director at Cyber Center in Noakhali Science and Technology University.
-                          He has a great passion in big data visualization and so in 2017, decided to join iDVL and  pursue his PhD degree at Texas Tech University.  
-                      </p>
-                      <p class="personLinks">
-
-                        <a href="http://www.mykabir.info/cv/Resume_Yasin_kabir.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Yasin Kabir CV"/></a> &nbsp; 
-
-
-                        <a href="http://www.myweb.ttu.edu/mdykabir"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Md. Yasin Kabir"/></a> &nbsp; 
-  
-                        <a href="https://www.linkedin.com/in/yasin-kabir-b1879184"> <img src="images/icons/Linked.png" height="22"  alt="Linked profile"/></a> &nbsp; 
-  
-                        <a href="https://github.com/mykabir/"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
-
-                        <a href="https://scholar.google.com/citations?user=nm9qB7kAAAAJ"> <img src="images/icons/GoogleScholar.png" height="26"  padding="0" alt="Google Scholar"/></a> &nbsp; 
-                      </p> 
-                      <div class="personPub" id="yasinPub">
-                         <?PHP
-                            
-                            $hasPub = 0;
-                            for($i=1;$i<$len1;$i++){
-                              if($csv[$i][15]==1){
-                                $hasPub = 1;
-                                break;
-                              }
-                            }
-
-                           if($hasPub==1){ ?>
-                              <br/><h4>Recent Publications:</h4>
-                          <?php 
-                            for($i=1;$i<$len1;$i++){
-                              if($csv[$i][15]==1){
-                          ?>
-                          <div class="publicationArea">
-                          <table style="width:100%; margin-left: 25px;">
-                          <tr>
-                              <th class="paperThumb" width="15%">
-                                  <?php echo '<img src="' .$csv[$i][11].'"'?> width="200" height="100">
-                              </th>
-                              <th width="85%" style="padding-left: 25px;"> 
-                                  <font color="#e78ac3">[<?php echo $csv[$i][0] ?>]</font>
-                                  <i><?php echo $csv[$i][1] ?></i><br/>
-                                  <?php echo $csv[$i][2] ?><br/>
-                                  <?php echo $csv[$i][3] ?>, <?php echo '<a href="' .$csv[$i][5].'">'; echo $csv[$i][4] ?></a>.<br/>
-                                  <?php echo '<a href="' .$csv[$i][6].'">'?> <img src="images/icons/pdf.png" height="18"></a>
-                                  <?php echo '<a href="' .$csv[$i][7].'">'?> <img src="images/icons/movie.png" height="19"></a>
-                                  <?php echo '<a href="' .$csv[$i][8].'">'?> <img src="images/icons/github.png" height="18"></a>                                  <?php echo '<a href="' .$csv[$i][10].'"'?>  class="button">DOI</a>
-                                  <?php echo '<a href="' .$csv[$i][9].'">'?> <img src="images/icons/bibtex.png" height="13"></a> 
-                                  
-                              </th>
-                          </tr>
-                          </table>
-                          </div>
-                          <?php
-                              }                
-                            }
-                          }
-                          ?> 
-                      </div> 
-                    </div>
-                     <div class="personBorder"></div>
-                    
-                </div>
-            </div>
             
+                      
            
 
          <div class="peopleSlide">

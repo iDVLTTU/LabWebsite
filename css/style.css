@@ -1263,20 +1263,14 @@ img:hover{
   color: #fff;
 }
 .currentMembers{
-  width: 553px;
+  width: 692px;
   background: #999;
   height: 15px;
   float: left;
   padding: 2px;
   color: #fff;
 }
-.oldMembers{
-  width: 274px;
-  background: #999;
-  height: 15px;
-  float: right;
-  padding: 2px;
-  color: #fff;
+
 
 }
 .curStd{
