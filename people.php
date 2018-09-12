@@ -377,19 +377,11 @@ include 'header.php';
                        
                       </p>
                       <p class="personLinks">
-
-        
-          
                         <a href="file/nhat.pdf"> <img src="images/icons/cv.gif" height="32" padding="0" alt="Nhat Le CV"/></a> &nbsp;
                         <a href="http://www.myweb.ttu.edu/hoangnle/"> <img src="images/icons/webico.png" height="22" padding="0" alt="Website of Nhat Le"/></a> &nbsp; 
-  
-                         
-  
-                        <a href="https://github.com/nhatmusic"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp; 
-
-                        
+                        <a href="https://github.com/nhatmusic"> <img src="images/icons/github.png" height="22" alt="Github" /></a> &nbsp;   
                       </p> 
-                      <div class="personPub" id="nganPub">
+                      <div class="personPub" id="nhatPub">
                           <p></p>
                       </div> 
                     </div> 
