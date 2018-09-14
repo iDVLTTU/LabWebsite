@@ -38,7 +38,7 @@ include 'header.php';
                       <h3>Ngan Nguyen</h3>
                   </div>
               </div>
- 	            <div class="images imgSix nhat hovereffect">
+ 	            <div class="images imgSix nhat hovereffect" style="margin-left: 10px;">
                   <img src="images/people/nhat.jpg" width="auto" height="auto" alt="Nhat Le" class="resize">
                   <div class="overlay">
                       <h3>Nhat Le</h3>
@@ -50,6 +50,7 @@ include 'header.php';
         <div class="members">
           <div class="cFaculty">Director</div>
           <div class="currentMembers">Current students</div>
+          <div class="MsStudent">MS students</div>
         </div>
 
         <div class="personImgBorder" style="margin-bottom: 5px; margin-top: 25px;"></div> 

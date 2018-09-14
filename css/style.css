@@ -1263,14 +1263,21 @@ img:hover{
   color: #fff;
 }
 .currentMembers{
-  width: 692px;
+  width: 553px;
   background: #999;
   height: 15px;
   float: left;
   padding: 2px;
   color: #fff;
 }
-
+.MsStudent {
+    width: 274px;
+    background: #999;
+    height: 15px;
+    float: right;
+    padding: 2px;
+    color: #fff;
+}
 
 }
 .curStd{
