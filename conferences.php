@@ -23,6 +23,19 @@ include 'header.php';
     </tr>
 
 
+
+    <tr bgcolor="#efe">
+        <td align="left" style="padding:5px;"><a href="https://github.com/iDataVisualizationLab/webFiles/blob/master/labWeb/files/EES-TI-Visual_Data_Exploration.pdf">Environmental Earth Sciences
+                                                                                                                                                                      </a></td>
+        <td align="left" style="padding:5px;">Special Issue on </td>
+        <td align="left" style="padding:5px;">Visual Data Exploration</td>
+        <td align="left" style="padding:5px;"> </td>
+        <td align="left" style="padding:5px;">Nov 30</td>
+        <td align="left" style="padding:5px;"></td>
+        <td align="left" style="padding:5px;"></td>
+    </tr>
+
+
      <tr bgcolor="#efe">
         <td align="left" style="padding:5px;"><a href="https://iui.acm.org/2019/call_for_papers.html">24rd ACM IUI 2019  </a></td>
         <td align="left" style="padding:5px;">4-10 pages</td>
