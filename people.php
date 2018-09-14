@@ -49,8 +49,8 @@ include 'header.php';
 
         <div class="members">
           <div class="cFaculty">Director</div>
-          <div class="currentMembers">Current students</div>
-          <div class="MsStudent">MS students</div>
+          <div class="currentMembers">Current PhD students</div>
+          <div class="MsStudent">Current MS students</div>
         </div>
 
         <div class="personImgBorder" style="margin-bottom: 5px; margin-top: 25px;"></div> 
